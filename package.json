@@ -1,0 +1,25 @@
+{
+  "name": "it4c.dev",
+  "version": "1.0.0",
+  "description": "The IT4C.dev website",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IT4Change/IT4C.dev.git"
+  },
+  "author": "Ulf Gebhardt",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/IT4Change/IT4C.dev/issues"
+  },
+  "homepage": "https://github.com/IT4Change/IT4C.dev#readme",
+  "devDependencies": {
+    "vuepress": "^1.9.7",
+    "vuepress-theme-book": "^0.0.9"
+  }
+}
