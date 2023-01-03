@@ -23,6 +23,7 @@ module.exports = {
     'period-in-list-item': true,
     '@textlint-rule/no-unmatched-pair': true,
     'no-zero-width-spaces': true,
+    'doubled-spaces': true,
   },
   filters: {
     comments: true,
