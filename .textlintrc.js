@@ -22,6 +22,7 @@ module.exports = {
     'textlint-rule-no-empty-element': true,
     'period-in-list-item': true,
     '@textlint-rule/no-unmatched-pair': true,
+    'no-zero-width-spaces': true,
   },
   filters: {
     comments: true,
