@@ -11,6 +11,8 @@ Darüber hinaus soll die Seite auch denjenigen dienen, die keine Website oder ei
 
 Fokus sollte auf Github liegen (Repos, Profile etc)
 
+Hauptsprachen: English
+
 ## Content
 - Vorstellung / IT4C
 - History
@@ -36,10 +38,12 @@ Personen werden bebildert, deren Schwerpunkt in Prosa beschrieben, der Techstack
 - Ocelot
 - Democracy
 - Gradido
-- busFaktor() e.V.
 
 Projekte werden bebildert, der Techstack aufgeführt, sowie beteiligte Personen aus dem Team.
 Idealerweise würden diese Daten von github kommen (später)
+
+## Organisationen
+- busFaktor() e.V.
 
 ## Design
 Da wir keine Designer im Team haben sollten wir ein vorgefertigtes Design benutzen, dass hübsch genug aussieht um unseren Content professionell zu transportieren.
