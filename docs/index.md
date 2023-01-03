@@ -3,7 +3,9 @@
 # IT4C Website
 
 - [x] Find a web address
+<!-- textlint-disable no-todo -->
 - [ ] Find a Logo
+<!-- textlint-enable no-todo -->
 
 Ziel ist es eine Website zur Präsentation an potentielle Auftraggeber oder deren Fachpersonal aufzeigen zu können.
 

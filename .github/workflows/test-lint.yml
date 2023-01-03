@@ -1,0 +1,17 @@
+name: build test CI
+
+on: push
+
+jobs:
+  build-test:
+    name: Build Test
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: npm-install
+        run: npm install
+      
+      - name: npm-lint
+        run: npm run lint
