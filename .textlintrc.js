@@ -24,6 +24,10 @@ module.exports = {
     '@textlint-rule/no-unmatched-pair': true,
     'no-zero-width-spaces': true,
     'doubled-spaces': true,
+    'common-misspellings': {
+      // Misspellings to be ignored (case-insensitive)
+      ignore: [],
+    },
   },
   filters: {
     comments: true,
