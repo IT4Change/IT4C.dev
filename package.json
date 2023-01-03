@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
+    "build:workflow": "vuepress build docs",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -18,6 +18,6 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         TARGET_REPO: username/repo
         TARGET_BRANCH: master
-        BUILD_SCRIPT: npm install && npm run build
+        BUILD_SCRIPT: npm install && npm run build:workflow
         BUILD_DIR: docs/.vuepress/dist
         CNAME: https://www.it4c.dev
