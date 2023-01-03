@@ -1,6 +1,10 @@
 name: Build and Deploy
-branch: master
-on: [push]
+
+on:
+  push:
+    branches:
+      - master
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
