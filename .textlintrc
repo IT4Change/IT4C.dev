@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "no-todo": true
+  },
+  "filters": {
+        "comments": true
+  }
+}
