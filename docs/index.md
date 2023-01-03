@@ -47,7 +47,9 @@ Projekte werden bebildert, der Techstack aufgeführt, sowie beteiligte Personen 
 Idealerweise würden diese Daten von github kommen (später)
 
 ## Organisationen
+<!-- textlint-disable period-in-list-item -->
 - busFaktor() e.V.
+<!-- textlint-enable period-in-list-item -->
 
 ## Design
 Da wir keine Designer im Team haben sollten wir ein vorgefertigtes Design benutzen, dass hübsch genug aussieht um unseren Content professionell zu transportieren.

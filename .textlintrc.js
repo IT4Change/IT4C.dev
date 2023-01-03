@@ -20,6 +20,7 @@ module.exports = {
     },
     'no-empty-section': true,
     'textlint-rule-no-empty-element': true,
+    'period-in-list-item': true,
   },
   filters: {
     comments: true,
