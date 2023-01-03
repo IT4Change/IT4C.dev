@@ -1,6 +1,6 @@
 # IT4C.dev
 
-This repository contains the https://IT4C.dev Website utilizing `vuepress` to generate it.
+This repository contains the https://www.it4c.dev Website utilizing `vuepress` to generate it.
 
 ## Software requirements
 
@@ -32,4 +32,12 @@ Bring up a development environment with hot reloading which can be reached under
 
 ```
 npm run dev
+```
+
+### Test
+
+Run the tests to ensure things are all working as expected
+
+```
+npm test
 ```

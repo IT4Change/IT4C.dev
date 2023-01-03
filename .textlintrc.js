@@ -7,6 +7,17 @@ module.exports = {
     'max-comma': {
       max : 4,
     },
+    'no-dead-link': {
+      checkRelative: true,
+      baseURI: null,
+      ignore: ['http://localhost*'],
+      preferGET: [],
+      ignoreRedirects: false,
+      retry: 3,
+      userAgent: 'textlint-rule-no-dead-link/1.0',
+      maxRetryTime: 10,
+      maxRetryAfterTime: 90
+    }
   },
   filters: {
     comments: true,
