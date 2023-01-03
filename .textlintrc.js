@@ -19,6 +19,7 @@ module.exports = {
       maxRetryAfterTime: 90
     },
     'no-empty-section': true,
+    'textlint-rule-no-empty-element': true,
   },
   filters: {
     comments: true,
