@@ -21,6 +21,7 @@ module.exports = {
     'no-empty-section': true,
     'textlint-rule-no-empty-element': true,
     'period-in-list-item': true,
+    '@textlint-rule/no-unmatched-pair': true,
   },
   filters: {
     comments: true,
