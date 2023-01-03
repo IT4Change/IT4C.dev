@@ -17,7 +17,8 @@ module.exports = {
       userAgent: 'textlint-rule-no-dead-link/1.0',
       maxRetryTime: 10,
       maxRetryAfterTime: 90
-    }
+    },
+    'no-empty-section': true,
   },
   filters: {
     comments: true,
