@@ -16,7 +16,7 @@ jobs:
       uses: jenkey2011/vuepress-deploy@v1.8.1
       env:
         ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-        TARGET_REPO: IT4Change/IT4C.dev.github.io
+        TARGET_REPO: IT4Change/IT4Change.github.io
         TARGET_BRANCH: master
         BUILD_SCRIPT: npm install && npm run build:workflow
         BUILD_DIR: docs/.vuepress/dist
