@@ -28,6 +28,10 @@ module.exports = {
       // Misspellings to be ignored (case-insensitive)
       ignore: [],
     },
+    'write-good': {
+      passive: false,
+      thereIs: false
+    },
   },
   filters: {
     comments: true,

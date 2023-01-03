@@ -33,6 +33,7 @@
     "textlint-rule-no-todo": "^2.0.1",
     "textlint-rule-no-zero-width-spaces": "^1.0.1",
     "textlint-rule-period-in-list-item": "^0.3.3",
+    "textlint-rule-write-good": "^2.0.0",
     "vuepress": "^1.9.7",
     "vuepress-theme-book": "^0.0.9"
   }

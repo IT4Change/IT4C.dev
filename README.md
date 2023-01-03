@@ -36,7 +36,7 @@ npm run dev
 
 ### Test
 
-Run the tests to ensure things are all working as expected
+Run the tests to ensure everything is working as expected
 
 ```
 npm test
