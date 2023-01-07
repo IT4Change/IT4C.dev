@@ -1,12 +1,12 @@
 # IT4C
 
-**IT Team for Change**, in short **IT4C**, is a software developer team building software together. Our focus are out-of-the-box projects and disruptive civil tech in order to contribute to the inevitable change of our society.
+**IT Team for Change**, in short **IT4C**, is a software developer team building software together. Our focus are out-of-the-box projects and disruptive civil tech to contribute to the inevitable change of our society.
 
-We believe in a working process that has just the right amount of authority to make sensible decisions and coordinate us to reach our goals. The leadership may shift between team members based on expertise and availability. Furthermore we believe that everyone who loves doing his job is more effective then when being forced to. Therefore we make sure every member has a maximum of freedom to choose how to work.
+We believe in a working process that has the right amount of authority to make sensible decisions and coordinate us to reach our goals. The leadership may shift between team members based on expertise and availability. Furthermore we believe that everyone who loves doing his job is more effective then when being forced to. We make sure every member has a the freedom to choose how to work.
 
 Naturally we are a remote team spread throughout Europe (sometimes even further). The core of the team works together as of 2019 - see [history](./history.md). Our common denominator besides our love for social projects and the computer technology is the German language, even tho most of the professional work is done in English.
 
-One of our principles to make projects resilient to unmaintainability is to spread knowledge within the team and recruit new members willing to learn how we do things. We live the agile process with short release cycles and weekly feedback loops to ensure our software actually fulfills the needs of our contractors and users.
+One of our principles to make projects resilient to unmaintainability is to spread knowledge within the team and recruit new members willing to learn how we do software development. We live the agile process with short release cycles and weekly feedback loops to ensure our software actually fulfills the needs of our contractors and users.
 
 ## Projects
 
