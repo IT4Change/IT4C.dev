@@ -4,11 +4,6 @@ IT Team for Change website
 
 # IT4C Website
 
-- [x] Find a web address
-<!-- textlint-disable no-todo -->
-- [ ] Find a Logo
-<!-- textlint-enable no-todo -->
-
 Ziel ist es eine Website zur Präsentation an potentielle Auftraggeber oder deren Fachpersonal aufzeigen zu können.
 
 Darüber hinaus soll die Seite auch denjenigen dienen, die keine Website oder eine veraltete Website haben sich zu präsentieren.
