@@ -5,14 +5,14 @@ This repository contains the https://www.it4c.dev Website utilizing `vuepress` t
 ## Software requirements
 
 This package requires:
-- nodejs
-- npm
+- [nodejs](https://github.com/nodejs/node)
+- [npm](https://github.com/npm/cli)
 
 ## Techstack
 
 This package uses:
-- vuepress
-- vuepress-theme-book
+- [vuepress](https://github.com/vuejs/vuepress)
+- [vuepress-theme-book](https://github.com/cyrilf/vuepress-theme-book)
 
 
 ## Usage
