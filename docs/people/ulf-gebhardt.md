@@ -64,9 +64,7 @@ Ulf travels by foot to get away from the computer form time to time
 
 Ulf has worked with the following technology
 
-### Programming languages
-
-The list is ordered by exposure level from the most to the least
+### Computer languages
 
 - Javascript
 - PHP
@@ -77,39 +75,57 @@ The list is ordered by exposure level from the most to the least
 - Basic
 - Autoit
 - Lua
-
-### Databases
-
-The list is ordered by exposure level from the most to the least
-
-- MySQL (including optimization)
-- PostgreSQL (including optimization)
-- Neo4J
-- MongoDB
+- SQL
+- Cypher
+- HTML
+- CSS
+- SCSS
 
 ### Frameworks & Technologies
 
-For javascript:
+#### For Javascript:
 - Node.js
 - React & ReactNative
 - Mongoose
 - Express
 - Apollo
 
-For PHP:
+#### For PHP
 - SYSTEM
 - Joomla!
 - Laravel 5
 
-Web basics:
+#### Web basics
 - HTML5
 - CSS
 - Bootstrap
 - SEO
 
-Cluster:
+#### Cluster
 - Docker
 - Kubernetes
+
+#### Linux
+- Arch
+- Debian
+- Manjaro
+- Ubuntu
+
+#### Webserver
+- Apache2
+- Nginx
+- Express
+
+#### Tools
+- Gogs Server
+- Teamspeak 3 Server
+- Mailserver (Postfix + Dovecot)
+
+#### Database
+- Mysql/MariaDB (including optimization)
+- Postgresql (including optimization)
+- Neo4J
+- MongoDB
 
 ### Development
 
@@ -122,22 +138,3 @@ Cluster:
 - Kanaban
 - Zenhub
 - Agile Development
-
-### Server technologies
-
-- Linux
-  - Arch
-  - Debian
-  - Manjaro
-  - Ubuntu
-- Webserver
-  - Apache2
-  - Nginx
-  - Express
-- Tools  
-  - Gogs Server
-  - Teamspeak 3 Server
-  - Mailserver (Postfix + Dovecot)
-- Database
-  - Mysql server
-  - Postgresql server
