@@ -1,66 +1,37 @@
 # IT4C
 
-IT Team for Change website
+**IT Team for Change**, in short **IT4C**, is a software developer team building software together. Our focus are out-of-the-box projects and disruptive civil tech to contribute to the inevitable change of our society.
 
-# IT4C Website
+We believe in a working process that has the right amount of authority to make sensible decisions and coordinate us to reach our goals. The leadership may shift between team members based on expertise and availability. Furthermore we believe that everyone who loves doing his job is more effective then when being forced to. We make sure every member has the upmost possible freedom how to work.
 
-- [x] Find a web address
-<!-- textlint-disable no-todo -->
-- [ ] Find a Logo
-<!-- textlint-enable no-todo -->
+Naturally we are a remote team spread throughout Europe (sometimes even further). The core of the team works together as of 2019 - see [history](./history.md). Our common denominator besides our love for social projects and the computer technology is the German language, even tho most of the professional work is done in English.
 
-Ziel ist es eine Website zur Präsentation an potentielle Auftraggeber oder deren Fachpersonal aufzeigen zu können.
+One of our principles to make projects resilient to unmaintainability is to spread knowledge within the team and recruit new members willing to learn how we do software development. We live the agile process with short release cycles and weekly feedback loops to ensure our software actually fulfills the needs of our contractors and users.
 
-Darüber hinaus soll die Seite auch denjenigen dienen, die keine Website oder eine veraltete Website haben sich zu präsentieren.
+## Projects
 
-Fokus sollte auf Github liegen (Repos, Profile etc)
+In the following we list some projects we are proud of:
 
-Hauptsprachen: English
+- Yunite.me <!--[Yunite.me](./projects/yunite.me.md)-->
+- [Gradido](./projects/gradido.md)
+- Ocelot.social <!-- [Ocelot.social](./projects/ocelot.social.md) -->
+- Human-Connection <!-- [Human-Connection](./projects/human-connection.md)-->
+- Democracy-Deutschland <!-- [Democracy-Deutschland](./projects/democracy-deutschland.md) -->
 
-## Content
-- Vorstellung / IT4C
-- History
-- Projekte
-- Personen
-- Kontakt
+## Members and collaborators
 
-## Personen
-- Alex
-- Wolle
-- Moriz
-- Ulf
-- Mahula
-- Claus-Peter
-- Hardi
-- Hannes
+Since we constantly try to recruit new members this list is not complete.
 
-Personen werden bebildert, deren Schwerpunkt in Prosa beschrieben, der Techstack aufgeführt
+- Alex <!--[Alex](./people/alex-friedland.md)-->
+- Wolle <!--[Wolle](./people/wolfgang-huss.md))-->
+- Moriz <!--[Moriz](./people/moriz-wahl.md))-->
+- [Ulf Gebhardt](./people/ulf-gebhardt.md)
+- Mahula <!--[Mahula](./people/mathias-.md))-->
+- Claus-Peter <!--[Claus-Peter](./people/claus-peter-huebner.md))-->
+- Hardi <!--[Hardi](./people/chrisopher-.md))-->
+- Hannes <!--[Hannes](./people/hannes-heine.md))-->
 
-## Projekte
-- Human-Connection(Ocelot)
-- Yunite(Ocelot)
-- Ocelot
-- Democracy
-- Gradido
-
-Projekte werden bebildert, der Techstack aufgeführt, sowie beteiligte Personen aus dem Team.
-Idealerweise würden diese Daten von github kommen (später)
-
-## Organisationen
+<!-- ## Organisationen -->
 <!-- textlint-disable period-in-list-item -->
-- busFaktor() e.V.
+<!-- - busFaktor() e.V. -->
 <!-- textlint-enable period-in-list-item -->
-
-## Design
-Da wir keine Designer im Team haben sollten wir ein vorgefertigtes Design benutzen, dass hübsch genug aussieht um unseren Content professionell zu transportieren.
-- vorschlag: https://www.npmjs.com/package/vuepress-theme-book
-
-## Technology der Website
-- vue.js, da wir das verwenden - vorschlag vuepress
-- must be editable on github
-- must be using simple formats like markdown
-- must be deployable on github pages
-- must be 100% static
-
-## Weiterführend
-- newsletter

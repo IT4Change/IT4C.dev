@@ -1,46 +1,49 @@
 module.exports = {
   title: 'IT Team for Change',
-  description: 'IT Team for Change',
-  theme: "book",
+  description: 'IT4C.dev introduces the IT Team for Change, applied Philosophy and Projects.',
+  head: [
+    ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1'}]
+  ],
+  theme: 'book',
   themeConfig: {
     nav: [
-        { text: "IT4C", link: "/" },
-        { text: "Contact", link: "/contact" },
+        { text: 'IT4C', link: '/' },
+        { text: 'Contact', link: '/contact' },
         {
-          text: "Github",
+          text: 'Github',
           link:
-            "https://github.com/IT4Change"
+            'https://github.com/IT4Change'
         },
       ],
       sidebar: {
-        "/": [
+        '/': [
           {
-            title: "",
+            title: '',
             collapsable: false,
             sidebarDepth: 0,
             children: [
-                ["/", "IT4C"],
-                ["/history", "History"],
-                ["/contact", "Contact"]
+                ['/', 'IT4C'],
+                ['/history', 'History'],
+                ['/contact', 'Contact']
             ]
           },
           {
-            title: "Projects",
+            title: 'Projects',
             collapsable: false,
             children: [
-              ["/projects/gradido", "Gradido"],
-              //["/extras/contributing", "Contributing ✨"],
-              //["/extras/license", "License 📚"]
+              ['/projects/gradido', 'Gradido'],
+              //['/extras/contributing', 'Contributing ✨'],
+              //['/extras/license', 'License 📚']
             ]
           },
           {
-            title: "People",
+            title: 'People',
             collapsable: false,
             children: [
-              ["/people/ulf-gebhardt", "Ulf Gebhardt"],
-              // ["/random/website", "Websites using this theme 👌"],
-              // ["/random/emoji", "Emoji 😃"],
-              // ["/random/lorem", "Lorem Ipsum 🌟"]
+              ['/people/ulf-gebhardt', 'Ulf Gebhardt'],
+              // ['/random/website', 'Websites using this theme 👌'],
+              // ['/random/emoji', 'Emoji 😃'],
+              // ['/random/lorem', 'Lorem Ipsum 🌟']
             ]
           },
         ]
