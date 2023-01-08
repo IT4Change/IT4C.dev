@@ -5,8 +5,15 @@ module.exports = {
   head: [
     ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1'}]
   ],
-  theme: 'book',
+  theme: 'vuepress-theme-book',
   themeConfig: {
+    // logo: "/logo.png",
+    searchPlaceholder: "Search...",
+    lastUpdated: "Last Updated",
+    docsRepo: "https://github.com/IT4Change/IT4C.dev/",
+    docsDir: "docs",
+    editLinks: true,
+    editLinkText: 'Edit this page on Github',
     nav: [
       { text: 'IT4C', link: '/' },
       { text: 'Contact', link: '/contact' },
