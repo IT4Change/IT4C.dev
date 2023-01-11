@@ -45,7 +45,7 @@ The following list should give an overview about Ulf’s life:
 | 2017 | 2019 | Development, planning and implementation of the [App „DEMOCRACY“](https://www.democracy-deutschland.de) |
 | 2019 |      | Team coordination & planning for [Human-Connection](https://github.com/Human-Connection/Human-Connection) |
 | 2020 | now  | Software development & operation for [Ocelot.social](https://github.com/ocelot-Social-Community/Ocelot-Social/) and [wir.social](https://wir.social/login) |
-| 2021 | now  | Software development & Team coordination for [Gradido](https://github.com/gradido/gradido/) |
+| 2021 | now  | Software development & Team coordination for [Gradido](../projects/gradido.md) |
 | 2022 | now  | Software development for [yunite.me](https://yunite.org/)
 
 ## Travels
