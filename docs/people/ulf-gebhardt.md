@@ -62,79 +62,86 @@ Ulf travels by foot to get away from the computer form time to time
 
 ## Techstack
 
-Ulf has worked with the following technology
+here is a quick overview over the computer languages, frameworks and technologies Ulf is acquainted in:
 
 ### Computer languages
 
-- Javascript
-- PHP
-- C++
-- Python
-- Java
-- Pascal
-- Basic
-- Autoit
-- Lua
-- SQL
-- Cypher
-- HTML
-- CSS
-- SCSS
+Ulf has worked with the following Programming languages:
+
+- [Javascript](https://www.javascript.com/)
+- [PHP](https://www.php.net/)
+- [C++](https://en.wikipedia.org/wiki/C%2B%2B)
+- [Python](https://www.python.org/)
+- [Java](https://www.java.com/)
+- [Pascal](https://en.wikipedia.org/wiki/Pascal_(programming_language))
+- [BASIC](https://en.wikipedia.org/wiki/BASIC)
+- [Autoit](https://www.autoitscript.com/)
+- [Lua](https://www.lua.org/)
+- [SQL](https://en.wikipedia.org/wiki/SQL)
+- [Cypher](https://opencypher.org/)
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [SASS](https://en.wikipedia.org/wiki/Sass_(stylesheet_language))
 
 ### Frameworks & Technologies
 
+As IT grows more complex it’s important with which frameworks is familiar. The following represents an incomplete list of Ulf’s framework and technology knowledge:
+
 #### For Javascript:
-- Node.js
-- React & ReactNative
-- Mongoose
-- Express
-- Apollo
+- [Node](https://github.com/nodejs/node)
+- [Vue](https://vuejs.org/)
+- [React](https://reactjs.org/) & [ReactNative](https://reactnative.dev/)
+- [Mongoose](https://mongoosejs.com/)
+- [Express](https://expressjs.com/)
+- [Apollo](https://www.apollographql.com/docs/apollo-server/)
+- [pm2](https://pm2.io/)
 
 #### For PHP
-- SYSTEM
-- Joomla!
-- Laravel 5
+- [SYSTEM](https://github.com/webcraftmedia/system)
+- [Joomla!](https://www.joomla.org/)
+- [Wordpress](https://wordpress.org/)
+- [Laravel](https://laravel.com/)
 
 #### Web basics
-- HTML5
-- CSS
-- Bootstrap
-- SEO
+- [HTML](https://en.wikipedia.org/wiki/HTML)
+- [CSS](https://en.wikipedia.org/wiki/CSS)
+- [Bootstrap](https://getbootstrap.com/)
+- [SEO](https://en.wikipedia.org/wiki/Search_engine_optimization)
 
 #### Cluster
-- Docker
-- Kubernetes
+- [Docker](https://www.docker.com/)
+- [Kubernetes](https://kubernetes.io/)
 
 #### Linux
-- Arch
-- Debian
-- Manjaro
-- Ubuntu
+- [Arch](https://archlinux.org/)
+- [Debian](https://www.debian.org/)
+- [Manjaro](https://manjaro.org/)
+- [Ubuntu](https://ubuntu.com/)
 
 #### Webserver
-- Apache2
-- Nginx
-- Express
+- [Apache](https://httpd.apache.org/)
+- [nginx](https://nginx.org/en/)
+- [Express](https://expressjs.com/)
 
 #### Tools
-- Gogs Server
-- Teamspeak 3 Server
-- Mailserver (Postfix + Dovecot)
+- [Gogs](https://gogs.io/)
+- [Teamspeak 3 Server](https://teamspeak.com/)
+- Mailserver ([Postfix](https://www.postfix.org/) + [Dovecot](https://www.dovecot.org/))
 
 #### Database
-- Mysql/MariaDB (including optimization)
-- Postgresql (including optimization)
-- Neo4J
-- MongoDB
+- [Mysql](https://www.mysql.com/)/[MariaDB](https://mariadb.org/) (including optimization)
+- [PostgreSQL](https://www.postgresql.org/) (including optimization)
+- [Neo4J](https://neo4j.com/)
+- [MongoDB](https://www.mongodb.com/)
 
 ### Development
 
-- Git
+- [Git](https://git-scm.com/)
   - Pullrequest-review-workflow
-  - Github
-  - Gitlab
-  - Gogs
-  - Github Workflows
-- Kanaban
-- Zenhub
-- Agile Development
+  - [Github](https://github.com/)
+  - [Gitlab](https://about.gitlab.com/)
+  - [Gogs](https://gogs.io/)
+  - [Github Workflows](https://docs.github.com/en/rest/actions/workflows)
+- [Kanaban](https://en.wikipedia.org/wiki/Kanban)
+- [Zenhub](https://www.zenhub.com/)
+- [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
