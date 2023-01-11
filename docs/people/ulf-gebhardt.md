@@ -16,7 +16,7 @@ Ulf can fulfill the following roles:
 - Scrum Master
 - Softwarearchitekt
 - Backend Developer
-- Strategist & Planner
+- Project Manager
 - Design-Eye
 - Database planning and optimization
 - Competence assessment
