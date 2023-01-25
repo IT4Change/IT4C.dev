@@ -23,6 +23,10 @@ And with a hands-on mentality, he can also contribute to other areas or quickly 
 
 ## Spoken languages
 
+
+- German (native speaker)
+- English (business fluent)
+
 ## Education & Projects
 
 ## Fields of other commitments and interests
