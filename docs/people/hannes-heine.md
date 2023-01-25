@@ -6,13 +6,13 @@
 
 I was born in germany and raised in france, so I speak both languages fluently.
 
-As child except for my interest for sports I always excelled in sciences. In 10th grade I came across coding, it was so exiting I had the impression that I could do magic on a small device. It captivated me so much that after the graduation in 2008 (baccalauréat) I studied for 3 years in the beautiful city of Toulouse, in the fields of mathematics, mechanics and informatics.
+As child except for my interest for sports I always excelled in sciences. In 10th grade I came across coding, the starting time was so exiting I had the impression that I could do magic on a small device. It captivated me so much that after the graduation in 2008 (baccalauréat) I studied for 3 years in the beautiful city of Toulouse, in the fields of mathematics, mechanics and informatics.
 
 After that I moved back to germany in the city were I was born Hamburg. Their I worked for two different programming companies (White Paper Media ltd. and MSP AG) until 2017 were I made myself a freelancer.
 
 As freelancer I worked on different projects: For the DeutscheSee were I supported them for the shop development, Human Connection were I helped to translate from german to french, Gradido were I do tasks from backend to frontend, and I setup small Shopware shops.
 
-In my free time I like to play video games, do some reiki and all kind of sports. I travel between south france and a bit in germany.
+In my free time I like to play video games, do some reiki and all kind of sports. I travel in between south france and germany.
 
 You can find me on [Github](https://github.com/elweyn)
 
