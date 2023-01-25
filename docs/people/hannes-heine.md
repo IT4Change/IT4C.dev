@@ -12,7 +12,7 @@ After that I moved back to germany in the city were I was born Hamburg. Their I 
 
 As freelancer I worked on different projects: For the DeutscheSee were I supported them for the shop development, Human Connection were I helped to translate from german to french, Gradido were I do tasks from backend to frontend, and I setup small Shopware shops.
 
-In my free time I like to play video games, do some reiki and all kind of sports. I travel in between south france and germany.
+In my free time I like to play video games, do some reiki and all kind of sports. I travel in south france and germany.
 
 You can find me on [Github](https://github.com/elweyn)
 
