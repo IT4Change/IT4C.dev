@@ -4,7 +4,7 @@
 
 Mathias stems from a background of DIY crafting and love for language and patterns.
 Branching into the IT world, his idea is to spread the knowledge about the possibilities of contemporary tool, reduce uninformed scepticism about them, and to empower anybody interested to get hold of them and use them to their benefits.
-And in particular in sotware development he found his place in its quality assurance.
+And in particular in software development he found his place in its quality assurance.
 
 
 ## Role
@@ -21,8 +21,8 @@ In the following fields Mathias can contribute with expertise:
   - Manual testing
   - exploratory testing
 - DevOps
-- Design-Eye
 - Frontend development
+- Design-Eye
 
 And with a hands-on mentality, he can also contribute to other areas or quickly familiarise himself with them in order to get an ongoing project to work.
 
@@ -45,3 +45,7 @@ And with a hands-on mentality, he can also contribute to other areas or quickly 
 ### Computer languages
 
 ### Frameworks & Technologies
+
+### Profiles
+
+[Github](https://github.com/mahula
