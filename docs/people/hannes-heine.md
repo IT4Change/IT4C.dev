@@ -1,5 +1,7 @@
 # Hannes Heine
+
 ## Presentation
+
 ![Hannes Heine](~@images/portrait/hannes-heine.jpg)
 
 I was born in germany and raised in france, so I speak both languages fluently.
