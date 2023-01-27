@@ -5,7 +5,8 @@ module.exports = {
   head: [
     ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1'}]
   ],
-  theme: 'vuepress-theme-book',
+  // theme: 'vuepress-theme-book',
+  theme: 'book',
   themeConfig: {
     // logo: "/logo.png",
     searchPlaceholder: "Search...",
@@ -49,6 +50,7 @@ module.exports = {
           collapsable: false,
           children: [
             ['/people/ulf-gebhardt', 'Ulf Gebhardt'],
+            ['/people/mathias-lenz', 'Mathias Lenz'],
             // ['/random/website', 'Websites using this theme 👌'],
             // ['/random/emoji', 'Emoji 😃'],
             // ['/random/lorem', 'Lorem Ipsum 🌟']

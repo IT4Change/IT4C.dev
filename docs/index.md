@@ -27,7 +27,7 @@ Since we constantly try to recruit new members this list is not complete.
 - Wolle <!--[Wolle](./people/wolfgang-huss.md))-->
 - Moriz <!--[Moriz](./people/moriz-wahl.md))-->
 - [Ulf Gebhardt](./people/ulf-gebhardt.md)
-- Mahula <!--[Mahula](./people/mathias-.md))-->
+- [Mathias Lenz](./people/mathias-lenz.md)
 - Claus-Peter <!--[Claus-Peter](./people/claus-peter-huebner.md))-->
 - Hardi <!--[Hardi](./people/chrisopher-.md))-->
 - Hannes <!--[Hannes](./people/hannes-heine.md))-->
