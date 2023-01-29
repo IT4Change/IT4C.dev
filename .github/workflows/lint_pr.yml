@@ -1,4 +1,4 @@
-name: "gradido lint pull request CI"
+name: "lint pull request CI"
 
 on:
   #pull_request:
