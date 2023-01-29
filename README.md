@@ -13,7 +13,7 @@ This package requires:
 This package uses:
 - [vuepress](https://github.com/vuejs/vuepress)
 - [vuepress-theme-book](https://github.com/cyrilf/vuepress-theme-book)
-
+- [vuepress-deploy](https://github.com/jenkey2011/vuepress-deploy)
 
 ## Usage
 
@@ -41,3 +41,9 @@ Run the tests to ensure everything is working as expected
 ```
 npm test
 ```
+
+## How it works
+
+This repository utilizes `vuepress-deploy` to automatically deploy the current master branch to github pages.
+
+![repo-architecture](./docs/images/docs/architecture.png)
