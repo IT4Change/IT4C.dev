@@ -2,7 +2,7 @@
 
 ![Ulf Gebhardt](~@images/portrait/ulf-gebhardt.jpg)
 
-Ulf is a software developer through and through. He started to program when he was 12 and kept going with it. He knows about the possibilities soft- and hardware has to offer and is the person to turn to when it’s time to include a new library or <!-- textlint-disable write-good --> implement<!-- textlint-enable write-good --> an algorithm. He is known to use the "Holzhammer-Methode" (brute-force approach) when it comes to solve conflicts within the team.
+Ulf is a software developer through and through. He started to program when he was 12 and kept going with it. He knows about the possibilities software and hardware have to offer and is the person to turn to when it’s time to include a new library or <!-- textlint-disable write-good --> implement<!-- textlint-enable write-good --> an algorithm. He is known to use the "Holzhammer-Methode" (brute-force approach) when it comes to solve conflicts within the team.
 
 In his free time he programs as every good programmer does and travels the world by foot when it’s time to leave the screen for a while.
 
@@ -68,7 +68,7 @@ here is a quick overview over the computer languages, frameworks and technologie
 
 ### Computer languages
 
-Ulf has worked with the following Programming languages:
+Ulf has worked with the following programming languages:
 
 - [Javascript](https://www.javascript.com/)
 - [PHP](https://www.php.net/)
@@ -87,7 +87,7 @@ Ulf has worked with the following Programming languages:
 
 ### Frameworks & Technologies
 
-As IT grows more complex it’s important with which frameworks is familiar. The following represents an incomplete list of Ulf’s framework and technology knowledge:
+As IT grows more complex it’s important which frameworks one is familiar with. The following represents an incomplete list of Ulf’s framework and technology knowledge:
 
 #### For Javascript:
 - [Node](https://github.com/nodejs/node)
@@ -144,6 +144,6 @@ As IT grows more complex it’s important with which frameworks is familiar. The
   - [Gitlab](https://about.gitlab.com/)
   - [Gogs](https://gogs.io/)
   - [Github Workflows](https://docs.github.com/en/rest/actions/workflows)
-- [Kanaban](https://en.wikipedia.org/wiki/Kanban)
+- [Kanban](https://en.wikipedia.org/wiki/Kanban)
 - [Zenhub](https://www.zenhub.com/)
 - [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
