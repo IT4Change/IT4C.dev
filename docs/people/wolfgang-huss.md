@@ -1,3 +1,4 @@
+<!-- textlint-disable write-good -->
 # Wolfgang Huß
 
 ![Bild – Wolfgang Huß](~@images/portrait/Wolfgang_Huss.jpeg)
@@ -151,3 +152,4 @@ I have many other interests and am socially involved:
   - Philosophy of nature, philosophy of life<!-- Naturphilosophie, Lebensphilosophie -->
     - [Tension Game of Life](http://www.nsosp.org/de/Spannungsspiel-des-Lebens/)
     - [Natural Philosophy Yoga](http://www.nsosp.org/de/Naturphilosophie-Yoga/)
+<!-- textlint-enable write-good -->
