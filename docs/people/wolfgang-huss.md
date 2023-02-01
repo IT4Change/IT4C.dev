@@ -22,7 +22,7 @@ Also my iPhone App [FaceYourFace](https://apps.apple.com/de/app/faceyourface/id1
 
 <!-- Schließlich habe ich mich derzeit von der Entwicklung von Anwendungssoftware auf Desktop-Computern mehr in Richtung von Web-Anwendungen für Internet-Browser orientiert (Frontend).
 Dies schließt die Entwicklung von Server-Programmen (Backend) und den Einsatz von Datenbanken sowie auch die Server-Administration mit ein und kann ebenso das Projektmanagement und die Entwicklungsleitung umfassen, wie beim [ocelot.social Projekt](https://github.com/Ocelot-Social-Community). -->
-Finally, I have currently moved away from application software development for desktop computers more towards web applications for internet browsers (frontend).
+Currently I have moved away from application software development for desktop computers more towards web applications for internet browsers (frontend).
 This includes the development of server applications (backend) and the use of databases as well as server administration and can also include project management and development management, as with the [ocelot.social project](https://github.com/Ocelot-Social-Community).
 
 <!-- Einer der Gründe dafür war, gerne im Team zu arbeiten, und mit agilen Methoden Software zu entwickeln. -->
