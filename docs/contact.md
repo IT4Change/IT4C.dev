@@ -10,7 +10,7 @@ We accept inquiries in German and English language.
 
 If you consider to work with us as developer please make sure to provide resources like your Github Profile or CV.
 
-Also if you do not have a great Github Profil or you <!-- textlint-disable write-good -->just<!-- textlint-enable write-good --> finished university, feel free to contact us if you are interested in working in a professional developer environment. We will help you get educated in modern workflows, technologies and the inner workings of a remote team. <!-- textlint-disable write-good -->Just<!-- textlint-enable write-good --> make sure that you do IT out of love and not necessity.
+Also if you do not have a great Github Profile or you <!-- textlint-disable write-good -->just<!-- textlint-enable write-good --> finished university, feel free to contact us if you are interested in working in a professional developer environment. We will help you get educated in modern workflows, technologies and the inner workings of a remote team. <!-- textlint-disable write-good -->Just<!-- textlint-enable write-good --> make sure that you do IT out of love and not necessity.
 
 You can also join our [Telegram Channel](https://t.me/+A3XAurSG9ws3NjE6) to get in touch.
 
