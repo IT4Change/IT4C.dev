@@ -105,12 +105,13 @@ Based on a degree in computational linguistics, Mathias found interest and contr
 ## Further commitments and interests
 
 Besides computer technology there are commitments and interests in
-- deleicious and healthy food and cooking
-- music - fine patterns and lyrics
-- human connections
-- literature
-- time exchange
-- connecting the dots
+
+- Deleicious and healthy food and cooking
+- Msic - fine patterns and lyrics
+- Human connections
+- Literature
+- Time exchange
+- Connecting the dots
 
 
 ## Spoken languages
