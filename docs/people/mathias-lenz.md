@@ -47,7 +47,7 @@ Based on a degree in computational linguistics, Mathias found interest and contr
   - Manual testing
   - Exploratory testing
 - Translations for OSS projects
-- Contribution to open source gaming 3D multiplayer enginge
+- Contribution to open source gaming 3D multiplayer engine
   - Porting from Java to C++ and patching
   - Setting up and maintaining build systems for Unix operating systems
   - Patching
