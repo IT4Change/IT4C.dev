@@ -59,8 +59,8 @@ Based on a degree in computational linguistics, Mathias found interest and contr
 
 - [Test-driven development](https://en.wikipedia.org/wiki/Test-driven_development)
 - [Behavior-driven development/testing](https://www.bddtesting.com/)
-- testing by concept and plan
-- exploratoy testing (based on intuition and experience)
+- Testing by concept and plan
+- Exploratoy testing (based on intuition and experience)
 
 
 ### Test automation
