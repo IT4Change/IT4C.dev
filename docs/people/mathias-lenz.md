@@ -4,9 +4,9 @@
 
 Rooted in DIY crafting and interest in language, patterns, and human connections.
 In school years first self taught steps where made towards computer systems and programming.
-While studying computational linguistics Mathias branched out into different areas of the computer technology realm.<br />
+While studying computational linguistics Mathias branched out into different areas of the computer technology realm.  
 His motivation is to spread the knowledge and hands-on possibilities of contemporary tools, reduce scepticism about them, and empower anybody interested to get hold of them and use them to their own benefits.
-And in particular in software development´s facette of quality assurance he found his profession.
+And in particular in software development's facette of quality assurance he found his profession.
 
 
 ## Role
@@ -65,7 +65,7 @@ Based on a degree in computational linguistics, Mathias found interest and contr
 
 ### Test automation
 
-- [Probot Framework](https://robotframework.org/)
+- [Robot Framework](https://robotframework.org/)
 - [Playwright](https://playwright.dev/)
 - [Cypress](https://www.cypress.io/)
 - [Selenium](https://www.selenium.dev/)
@@ -107,7 +107,7 @@ Based on a degree in computational linguistics, Mathias found interest and contr
 Besides computer technology there are commitments and interests in
 
 - Deleicious and healthy food and cooking
-- Msic - fine patterns and lyrics
+- Music - rhythms and lyrics
 - Human connections
 - Literature
 - Time exchange
@@ -120,6 +120,6 @@ Besides computer technology there are commitments and interests in
 - English (business fluent)
 
 
-### Profiles
+### Profile
 
-[Github](https://github.com/mahula)
+[GitHub](https://github.com/mahula)
