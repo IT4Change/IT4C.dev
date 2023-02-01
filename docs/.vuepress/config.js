@@ -5,8 +5,7 @@ module.exports = {
   head: [
     ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1'}]
   ],
-  // theme: 'vuepress-theme-book',
-  theme: 'book',
+  theme: 'vuepress-theme-book',
   themeConfig: {
     // logo: "/logo.png",
     searchPlaceholder: "Search...",
