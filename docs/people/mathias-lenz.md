@@ -39,7 +39,7 @@ Based on a degree in computational linguistics, Mathias found interest and contr
   - Agile testing
   - Frontend development
   - Translations
-- Contributing to multiple eHealth projects while working for web agencies
+- Contributing to eHealth projects while working for web agencies
   - Testing concept
   - Conception and test planning
   - Test automation
