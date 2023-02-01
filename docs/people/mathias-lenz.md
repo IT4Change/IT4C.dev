@@ -17,7 +17,7 @@ In these fields Mathias can contribute with expertise:
   - Test automation
   - Test conception
   - Test design
-  - Consulting regarding test strategies and tools
+  - Consulting on test strategies and tools
   - Setup of test environments
   - Agile testing
   - Manual testing
@@ -26,7 +26,7 @@ In these fields Mathias can contribute with expertise:
 - Frontend development
 - Design-Eye
 
-And with a hands-on mentality, he can also contribute to other areas and quickly familiarise himself with new approaches and tools in order to get an idea or project to work.
+And with a hands-on mentality, he can also contribute to other areas and familiarise himself with new approaches and tools to get an idea or project to work.
 
 
 ## Expertise & Projects
@@ -39,7 +39,7 @@ Based on a degree in computational linguistics, Mathias found interest and contr
   - Agile testing
   - Frontend development
   - Translations
-- Contributing to several complex eHealth projects while working for web agencies
+- Contributing to multiple eHealth projects while working for web agencies
   - Testing concept
   - Conception and test planning
   - Test automation
