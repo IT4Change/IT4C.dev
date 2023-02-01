@@ -33,24 +33,24 @@ And with a hands-on mentality, he can also contribute to other areas and quickly
 
 Based on a degree in computational linguistics, Mathias found interest and contributed to different fields and projects.
 
-- supporting the [Gradido software project](../projects/gradido.md)
-  - test automation
-  - testing concept
-  - agile testing
-  - frontend development
-  - translations
-- contributing to several complex eHealth projects while working for web agencies
-  - testing concept
-  - conception and test planning
-  - test automation
-  - agile testing
-  - manual testing
-  - exploratory testing
-- translations for OSS projects
-- contribution to open source gaming 3D multiplayer enginge
-  - porting from Java to C++ and patching
-  - setting up and maintaining build systems for Unix operating systems
-  - patching
+- Supporting the [Gradido software project](../projects/gradido.md)
+  - Test automation
+  - Testing concept
+  - Agile testing
+  - Frontend development
+  - Translations
+- Contributing to several complex eHealth projects while working for web agencies
+  - Testing concept
+  - Conception and test planning
+  - Test automation
+  - Agile testing
+  - Manual testing
+  - Exploratory testing
+- Translations for OSS projects
+- Contribution to open source gaming 3D multiplayer enginge
+  - Porting from Java to C++ and patching
+  - Setting up and maintaining build systems for Unix operating systems
+  - Patching
 
 
 ## Approaches & tools
