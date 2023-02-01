@@ -4,26 +4,42 @@
 
 ![Hannes Heine](~@images/portrait/hannes-heine.jpg)
 
-I was born in germany and raised in france, so I speak both languages fluently.
+I was born in Germany and raised in France, so I speak both languages fluently. In my free time I like to play video games, do Reiki and all kind of sports.
+As child except for my interest for sports I always excelled in sciences. In 10th grade I came across coding, the starting time was so exiting I had the impression that I could do magic on a small device. It captivated me so much that after my graduation in 2008 (baccalauréat), I studied for 3 years in the beautiful city of Toulouse (mathematics, mechanics and informatics).
+After that I moved back to Germany in the city were I was born Hamburg.
 
-As child except for my interest for sports I always excelled in sciences. In 10th grade I came across coding, the starting time was so exiting I had the impression that I could do magic on a small device. It captivated me so much that after the graduation in 2008 (baccalauréat) I studied for 3 years in the beautiful city of Toulouse, in the fields of mathematics, mechanics and informatics.
+## Work
 
-After that I moved back to germany in the city were I was born Hamburg. Their I worked for two different programming companies (White Paper Media ltd. and MSP AG) until 2017 were I made myself a freelancer.
+### Hired jobs
 
-As freelancer I worked on different projects: For the DeutscheSee were I supported them for the shop development, Human Connection were I helped to translate from german to french, Gradido were I do tasks from backend to frontend, and I setup small Shopware shops.
+- White Paper Media ltd. now known as [OktoPOS](https://www.oktopos.com/en/#!) and [OktoCareer](https://www.oktocareer.com/en/home)
 
-In my free time I like to play video games, do some reiki and all kind of sports. I travel in south france and germany.
+> My role was a software engineer, my tasks was mainly to work on the OkotoPOS project with allot of data transfer from an application to another and a little bit of Frontend (Java, JUnit, jersey, hibernate, etc.).
+
+- [MSP AG](https://www.mspag.com/en)
+
+> Their my role was a software engineer. I helped to plan and develope import and export of data for different clients in the Censhare backend (Java, JaxRS, XPATH, XSLT, XLIFF, JavaPOI, etc.).
+
+### Freelance projects
+
+- [DeutscheSee Online Shop](https://www.deutschesee.de/shop/): 
+> My tasks their were to help on their Shopware shop (PHP, Laravel, ...) development and on their own application (AngularJS) that was used by their manufactures to send back the correct weight of the sold product.
+- Human Connection: 
+> I helped them to translate from german to french.
+- Gradido: 
+> I do tasks from backend (GraphQL, TypeScript, TypeORM, ...) to frontend (VueJS, Bootstrap, ...).
+- Setup of different small Shopware shops and CMS sites. 
+> (Hosting, Configuration, ...)
 
 You can find me on [Github](https://github.com/elweyn)
 
 ## Role
 
-- Backend Developer
 - DevOps
-- Softwarearchitekt
+- Backend Developer
+- Software & Database architect
 - Scrum Master
 - Design-Eye
-- Database planning and optimization
 
 ## Spoken languages
 
@@ -42,17 +58,20 @@ In my software years I had allot of different languages listed behind are the on
 - [Express](https://expressjs.com/)
 - [Apollo](https://www.apollographql.com/docs/apollo-server/)
 - [Angular](https://angular.io/)
+- [GraphQL](https://graphql.org/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [TypeORM](https://typeorm.io/)
 
 ### For Java
 
 - [JAX-RS](https://www.oracle.com/technical-resources/articles/java/jax-rs.html)
 - [Apache POI](https://poi.apache.org/)
-- JavaPOS
-- JDBC
+- [JavaPOS](https://en.wikipedia.org/wiki/JavaPOS)
+- [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity)
 
 ### For PHP
 
-- [shopware](https://www.shopware.com/)
+- [Shopware](https://www.shopware.com/)
 - [Wordpress](https://wordpress.org/)
 
 ### Web basics
@@ -60,7 +79,9 @@ In my software years I had allot of different languages listed behind are the on
 - [HTML](https://en.wikipedia.org/wiki/HTML)
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [Bootstrap](https://getbootstrap.com/)
-- XSLT
+- [XSLT](https://en.wikipedia.org/wiki/XSLT)
+- [XPath](https://en.wikipedia.org/wiki/XPath)
+- [XLIFF](https://en.wikipedia.org/wiki/XLIFF)
 
 ### Webserver
 
