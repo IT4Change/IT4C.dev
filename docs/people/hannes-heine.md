@@ -22,13 +22,20 @@ After that I moved back to Germany in the city were I was born Hamburg.
 
 ### Freelance projects
 
-- [DeutscheSee Online Shop](https://www.deutschesee.de/shop/): 
+- [DeutscheSee Online Shop](https://www.deutschesee.de/shop/)
+
 > My tasks their were to help on their Shopware shop (PHP, Laravel, ...) development and on their own application (AngularJS) that was used by their manufactures to send back the correct weight of the sold product.
-- Human Connection: 
+
+- Human Connection
+
 > I helped them to translate from german to french.
-- Gradido: 
+
+- Gradido
+
 > I do tasks from backend (GraphQL, TypeScript, TypeORM, ...) to frontend (VueJS, Bootstrap, ...).
-- Setup of different small Shopware shops and CMS sites. 
+
+- Setup of different small Shopware shops and CMS sites.
+
 > (Hosting, Configuration, ...)
 
 You can find me on [Github](https://github.com/elweyn)
