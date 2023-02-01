@@ -106,7 +106,7 @@ Based on a degree in computational linguistics, Mathias found interest and contr
 
 Besides computer technology there are commitments and interests in
 
-- Deleicious and healthy food and cooking
+- Delicious and healthy food and cooking
 - Music - rhythms and lyrics
 - Human connections
 - Literature
