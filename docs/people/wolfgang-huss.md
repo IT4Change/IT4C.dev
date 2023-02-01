@@ -31,7 +31,8 @@ One of the reasons was to enjoy working in a team, and to develop software using
 <!-- Und nicht zu letzt war ich 12 Jahre Inhaber einer „kleinen“ Werbeagentur (8 Mitarbeiter) in der wir Logos, Prospekte, Kataloge erstellt und als Schauwerbegestalter für die Anfertigung von Schildern, Ladenbeschriftungen, Messetafeln und vielem anderen tätig waren.
 Dabei kamen die gängigen Grafikprogramme zum Einsatz.  
 Dies kommt mir heute auch bei der programmierung zu gute. -->
-And not at least, for 12 years I was the owner of a "small" advertising agency (8 employees) in which we created logos, designs, brochures, catalogs and worked as a signmaker for the production of signs, store signs, exhibition boards and much more.
+And not at least, for 12 years I was the owner of a "small" advertising agency (8 employees) in which we created logos, designs, brochures, catalogs etc.
+Additionally we worked as signmakers for the production of signs, store signs, exhibition boards and much more.
 In the process, the usual graphics programs were used.  
 Today, I also benefit from this in programming.
 
@@ -102,7 +103,7 @@ I developed and contributed to different projects:
 - [Cypress](https://www.cypress.io/)
 - [Cucumber](https://cucumber.io/)
 
-### Development Enviroments
+### Development Environments
 
 - [VSCode](https://code.visualstudio.com/)
 - [Xcode](https://apps.apple.com/de/app/xcode/id497799835?mt=12)
