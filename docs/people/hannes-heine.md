@@ -24,7 +24,7 @@ After that I moved back to Germany in the city were I was born Hamburg.
 
 - [DeutscheSee Online Shop](https://www.deutschesee.de/shop/)
 
-> My tasks their were to help on their Shopware shop (PHP, Laravel, ...) development and on their own application (AngularJS) that was used by their manufactures to send back the correct weight of the sold product.
+> My tasks their were to help on their Shopware shop (PHP, Laravel, etc.) development and on their own application (AngularJS) that was used by their manufactures to send back the correct weight of the sold product.
 
 - Human Connection
 
@@ -32,11 +32,11 @@ After that I moved back to Germany in the city were I was born Hamburg.
 
 - Gradido
 
-> I do tasks from backend (GraphQL, TypeScript, TypeORM, ...) to frontend (VueJS, Bootstrap, ...).
+> I do tasks from backend (GraphQL, TypeScript, TypeORM, etc.) to frontend (VueJS, Bootstrap, etc.).
 
 - Setup of different small Shopware shops and CMS sites
 
-> (Hosting, Configuration, ...)
+> (Hosting, Configuration, etc.)
 
 You can find me on [Github](https://github.com/elweyn)
 
