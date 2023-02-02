@@ -1,5 +1,3 @@
-/*textlint-disable max-comma*/
-
 # Hannes Heine
 
 ## Presentation
@@ -34,7 +32,7 @@ After that I moved back to Germany in the city were I was born Hamburg.
 
 - Human Connection
 
-> I helped them to translate from german to french.
+> I helped them to translate from German to French.
 
 - Gradido
 
