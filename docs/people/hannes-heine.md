@@ -14,11 +14,11 @@ After that I moved back to Germany in the city were I was born Hamburg.
 
 - White Paper Media ltd. now known as [OktoPOS](https://www.oktopos.com/en/#!) and [OktoCareer](https://www.oktocareer.com/en/home)
 
-> My role was a software engineer, my tasks was mainly to work on the OkotoPOS project with allot of data transfer from an application to another and a little bit of Frontend (Java, JUnit, jersey, hibernate, etc.).
+> My role was a software engineer, my tasks was mainly to work on the OkotoPOS project with allot of data transfer from an application to another and a little bit of Frontend <!-- textlint-disable max-comma -->(Java, JUnit, jersey, hibernate, etc.)<!-- textlint-enable max-comma -->.
 
 - [MSP AG](https://www.mspag.com/en)
 
-> Their my role was a software engineer. I helped to plan and develope import and export of data for different clients in the Censhare backend (Java, JaxRS, XPATH, XSLT, XLIFF, JavaPOI, etc.).
+> Their my role was a software engineer. I helped to plan and develope import and export of data for different clients in the Censhare backend <!-- textlint-disable max-comma -->(Java, JaxRS, XPATH, XSLT, XLIFF, JavaPOI, etc.)<!-- textlint-enable max-comma -->.
 
 ### Freelance projects
 
@@ -32,7 +32,7 @@ After that I moved back to Germany in the city were I was born Hamburg.
 
 - Gradido
 
-> I do tasks from backend (GraphQL, TypeScript, TypeORM, etc.) to frontend (VueJS, Bootstrap, etc.).
+> I do tasks from backend <!-- textlint-disable max-comma -->(GraphQL, TypeScript, TypeORM, etc.)<!-- textlint-enable max-comma --> to frontend <!-- textlint-disable max-comma -->(VueJS, Bootstrap, etc.)<!-- textlint-enable max-comma -->.
 
 - Setup of different small Shopware shops and CMS sites
 
