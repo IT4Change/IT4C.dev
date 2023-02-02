@@ -6,7 +6,7 @@
 <!-- Seit meinem 14. Lebensjahr, also seit Anfang 1983, beschäftige ich mich nun schon mit Programmierung.
 Dabei bin ich durch einige Phasen interessanter technologischer Veränderungen gegangen.
 Diese erlernte ich Überwiegend autodidaktisch und in Pairing-Sessions. -->
-Since I was 14 years old, i.e. since the beginning of 1983, I have been involved in programming.
+Since I was 14 years old, that is since the beginning of 1983, I have been involved in programming.
 I have gone through several phases of interesting technological changes.
 I learned these mainly self-taught and in pairing sessions.
 
