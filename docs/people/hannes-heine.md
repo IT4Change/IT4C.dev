@@ -1,3 +1,5 @@
+/*textlint-disable max-comma*/
+
 # Hannes Heine
 
 ## Presentation
@@ -14,11 +16,15 @@ After that I moved back to Germany in the city were I was born Hamburg.
 
 - White Paper Media ltd. now known as [OktoPOS](https://www.oktopos.com/en/#!) and [OktoCareer](https://www.oktocareer.com/en/home)
 
+<!-- textlint-disable -->
 > My role was a software engineer, my tasks was mainly to work on the OkotoPOS project with allot of data transfer from an application to another and a little bit of Frontend (Java, JUnit, jersey, hibernate, etc.).
+<!-- textlint-enable -->
 
 - [MSP AG](https://www.mspag.com/en)
 
+<!-- textlint-disable -->
 > Their my role was a software engineer. I helped to plan and develope import and export of data for different clients in the Censhare backend (Java, JaxRS, XPATH, XSLT, XLIFF, JavaPOI, etc.).
+<!-- textlint-enable -->
 
 ### Freelance projects
 
@@ -32,9 +38,11 @@ After that I moved back to Germany in the city were I was born Hamburg.
 
 - Gradido
 
+<!-- textlint-disable -->
 > I do tasks from backend (GraphQL, TypeScript, TypeORM, ...) to frontend (VueJS, Bootstrap, ...).
+<!-- textlint-enable -->
 
-- Setup of different small Shopware shops and CMS sites.
+- Setup of different small Shopware shops and CMS sites
 
 > (Hosting, Configuration, ...)
 
