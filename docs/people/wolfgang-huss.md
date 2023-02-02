@@ -42,14 +42,16 @@ Today, I also benefit from this in programming.
 - Frontend developer
 - Backend developer
 - DevOps
+  - GitHub
   - GitHub Actions
-- UI (user interface)
+  - Server adminitration
 - Testing
   - Setup of test environments
   - Agile testing
   - Manual testing
 - Design
   - Corporate design
+  - UI (user interface)
 
 ## Expertise & Projects
 
@@ -59,14 +61,8 @@ I developed and contributed to different projects:
   - Frontend development
   - Backend development
   - DevOps
-    - GitHub
-    - Server adminitration
-      - Kubernetes
   - UI (user interface)
   - Testing
-    - Setup of test environments
-    - Agile testing
-    - Manual testing
 - Employee at [Gradido software project](../projects/gradido.md)
   - Frontend development
   - Backend development
@@ -129,7 +125,7 @@ I developed and contributed to different projects:
 
 ## Profile
 
-- [Github](https://github.com/tirokk)
+- [GitHub](https://github.com/tirokk)
 
 ## Further Interests and Commitments
 
