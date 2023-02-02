@@ -6,7 +6,7 @@ Rooted in DIY crafting and interest in language, patterns, and human connections
 In school years first self taught steps where made towards computer systems and programming.
 While studying computational linguistics Mathias branched out into different areas of the computer technology realm.  
 His motivation is to spread the knowledge and hands-on possibilities of contemporary tools, reduce scepticism about them, and empower anybody interested to get hold of them and use them to their own benefits.
-And in particular in software development's facette of quality assurance he found his profession.
+And in particular in software <!-- textlint-disable write-good --> development's <!-- textlint-enable write-good --> facette of quality assurance he found his profession.
 
 
 ## Role
