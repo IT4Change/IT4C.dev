@@ -45,7 +45,7 @@ Today, I also benefit from this in programming.
 - Backend developer
 - DevOps
   - Git and GitHub code development
-  - Server adminitration
+  - Server administration
 - Tester
   - Setup of test environments
   - Agile testing
