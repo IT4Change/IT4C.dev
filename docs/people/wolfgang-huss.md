@@ -38,18 +38,19 @@ Today, I also benefit from this in programming.
 
 ## Roles
 
+- Project and development manager
+  - Agile methods
 - Desktop application developer
 - Frontend developer
 - Backend developer
 - DevOps
-  - GitHub
-  - GitHub Actions
+  - Git and GitHub code development
   - Server adminitration
-- Testing
+- Tester
   - Setup of test environments
   - Agile testing
   - Manual testing
-- Design
+- Designer
   - Corporate design
   - UI (user interface)
 
@@ -88,10 +89,10 @@ I developed and contributed to different projects:
 
 ### DevOps & Server Administration
 
-- [Kubernetes](https://kubernetes.io/)
-- [Docker](https://www.docker.com)
 - [GitHub](https://github.com/)
 - [GitHub Actions](https://github.com/features/actions/)
+- [Docker](https://www.docker.com)
+- [Kubernetes](https://kubernetes.io/)
 
 ### Testing
 
