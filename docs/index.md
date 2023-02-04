@@ -23,7 +23,7 @@ In the following we list some projects we are proud of:
 
 Since we constantly try to recruit new members this list is not complete.
 
-- Alex <!--[Alex](./people/alex-friedland.md)-->
+- Alex [Alex](./people/alexander-friedland.md)
 - [Wolfgang Huß](./people/wolfgang-huss.md)
 - Moriz <!--[Moriz](./people/moriz-wahl.md))-->
 - [Ulf Gebhardt](./people/ulf-gebhardt.md)
