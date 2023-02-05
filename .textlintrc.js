@@ -32,6 +32,7 @@ module.exports = {
       passive: false,
       thereIs: false
     },
+    'apostrophe': true,
   },
   filters: {
     comments: true,
