@@ -4,14 +4,11 @@
 ![Bild – Wolfgang Huß](~@images/portrait/Wolfgang_Huss.jpeg)
 
 <!-- Seit meinem 14. Lebensjahr, also seit Anfang 1983, beschäftige ich mich nun schon mit Programmierung.
-Dabei bin ich durch einige Phasen interessanter technologischer Veränderungen gegangen.
-Diese erlernte ich Überwiegend autodidaktisch und in Pairing-Sessions. -->
+Dabei bin ich durch mehrere Phasen interessanter technologischer Veränderungen gegangen und habe die neuen Technologien hauptsächlich autodidaktisch und in Pairing-Sitzungen erlernt. -->
 Since I was 14 years old, that is since the beginning of 1983, I have been involved in programming.
-I have gone through several phases of interesting technological changes.
-I learned these mainly self-taught and in pairing sessions.
+In the process, I have gone through several phases of interesting technological change, learning the new technologies mainly self-taught and in pairing sessions.
 
-<!-- Programmieren ist wie eine interaktive Geschichte erzählen, die dazu oft noch gestalterisch visuelle Komponenten trägt.
-Mir gefällt besonders die künstlerisch strukturelle Ästetik, wenn ich komplexe Projekte in faszinierenden Programmiersprachen umsetze. -->
+<!-- Programmieren ist wie das Erzählen einer interaktiven Geschichte, die oft auch eine gestalterisch visuelle Komponente hat. Mir gefällt besonders die künstlerisch strukturelle Ästetik, wenn ich komplexe Projekte in faszinierenden Programmiersprachen umsetze. -->
 Programming is like telling an interactive story, which often has visual components as well.
 I particularly enjoy the artistic structural aesthetics when implementing complex projects in fascinating programming languages.
 
@@ -68,9 +65,9 @@ I developed and contributed to different projects:
   - Frontend development
   - Backend development
   - Server setup
-- Owner of iOS [FaceYourFace](https://apps.apple.com/de/app/faceyourface/id1137963659) App
+- Owner of [FaceYourFace](https://apps.apple.com/de/app/faceyourface/id1137963659) App for iOS
   - Developer
-- Owner of Windows `Pjannto RIP` App
+- Owner of `Pjannto RIP` App for Windows
   - Developer
 
 ## Approaches & Tools
