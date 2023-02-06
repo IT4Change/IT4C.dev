@@ -8,7 +8,8 @@ Dabei bin ich durch mehrere Phasen interessanter technologischer Veränderungen 
 Since I was 14 years old, that is since the beginning of 1983, I have been involved in programming.
 In the process, I have gone through several phases of interesting technological change, learning the new technologies mainly self-taught and in pairing sessions.
 
-<!-- Programmieren ist wie das Erzählen einer interaktiven Geschichte, die oft auch eine gestalterisch visuelle Komponente hat. Mir gefällt besonders die künstlerisch strukturelle Ästetik, wenn ich komplexe Projekte in faszinierenden Programmiersprachen umsetze. -->
+<!-- Programmieren ist wie das Erzählen einer interaktiven Geschichte, die oft auch eine gestalterisch visuelle Komponente hat.
+Mir gefällt besonders die künstlerisch strukturelle Ästetik, wenn ich komplexe Projekte in faszinierenden Programmiersprachen umsetze. -->
 Programming is like telling an interactive story, which often has visual components as well.
 I particularly enjoy the artistic structural aesthetics when implementing complex projects in fascinating programming languages.
 
