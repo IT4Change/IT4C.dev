@@ -6,7 +6,7 @@
 <!-- Seit meinem 14. Lebensjahr, also seit Anfang 1983, beschäftige ich mich nun schon mit Programmierung.
 Dabei bin ich durch einige Phasen interessanter technologischer Veränderungen gegangen.
 Diese erlernte ich Überwiegend autodidaktisch und in Pairing-Sessions. -->
-Since I was 14 years old, i.e. since the beginning of 1983, I have been involved in programming.
+Since I was 14 years old, that is since the beginning of 1983, I have been involved in programming.
 I have gone through several phases of interesting technological changes.
 I learned these mainly self-taught and in pairing sessions.
 
@@ -38,18 +38,21 @@ Today, I also benefit from this in programming.
 
 ## Roles
 
+- Project and development manager
+  - Agile methods
 - Desktop application developer
 - Frontend developer
 - Backend developer
 - DevOps
-  - GitHub Actions
-- UI (user interface)
-- Testing
+  - Git and GitHub code development
+  - Server administration
+- Tester
   - Setup of test environments
   - Agile testing
   - Manual testing
-- Design
+- Designer
   - Corporate design
+  - UI (user interface)
 
 ## Expertise & Projects
 
@@ -59,14 +62,8 @@ I developed and contributed to different projects:
   - Frontend development
   - Backend development
   - DevOps
-    - GitHub
-    - Server adminitration
-      - Kubernetes
   - UI (user interface)
   - Testing
-    - Setup of test environments
-    - Agile testing
-    - Manual testing
 - Employee at [Gradido software project](../projects/gradido.md)
   - Frontend development
   - Backend development
@@ -92,10 +89,10 @@ I developed and contributed to different projects:
 
 ### DevOps & Server Administration
 
-- [Kubernetes](https://kubernetes.io/)
-- [Docker](https://www.docker.com)
 - [GitHub](https://github.com/)
 - [GitHub Actions](https://github.com/features/actions/)
+- [Docker](https://www.docker.com)
+- [Kubernetes](https://kubernetes.io/)
 
 ### Testing
 
@@ -129,7 +126,7 @@ I developed and contributed to different projects:
 
 ## Profile
 
-- [Github](https://github.com/tirokk)
+- [GitHub](https://github.com/tirokk)
 
 ## Further Interests and Commitments
 
