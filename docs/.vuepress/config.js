@@ -51,9 +51,6 @@ module.exports = {
             ['/people/alexander-friedland', 'Alexander Friedland'],
             ['/people/ulf-gebhardt', 'Ulf Gebhardt'],
             ['/people/wolfgang-huss', 'Wolfgang Huß'],
-            // ['/random/website', 'Websites using this theme 👌'],
-            // ['/random/emoji', 'Emoji 😃'],
-            // ['/random/lorem', 'Lorem Ipsum 🌟']
           ]
         },
       ]
