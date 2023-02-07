@@ -5,7 +5,7 @@
 
 <!-- Seit 1999 bin ich Webentwickler. Ein Studium habe ich nicht, ich bin Quereinsteiger und habe mir alles selber beigebracht.
 Javascript ist meine Stärke. Ich kann Frontend mäßig alles basteln was gewünscht wird. Ich habe bei sehr vielen Projekten mitgemacht.  -->
-Since 1999 I am a web developer. I don't have a degree, I'm a career changer and taught myself everything.
+Since 1999 I am a web developer. I don’t have a degree, I’m a career changer and taught myself everything.
 Javascript is my strength. I can build anything you want on the frontend. I have participated in a great many projects. 
 
 ## Roles
