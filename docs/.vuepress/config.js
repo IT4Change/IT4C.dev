@@ -48,8 +48,10 @@ module.exports = {
           title: 'People',
           collapsable: false,
           children: [
+
             ['/people/ulf-gebhardt', 'Ulf Gebhardt'],
             ['/people/wolfgang-huss', 'Wolfgang Huß'],
+            ['/people/alexander-friedland.md', 'Alexander Friedland'],
             // ['/random/website', 'Websites using this theme 👌'],
             // ['/random/emoji', 'Emoji 😃'],
             // ['/random/lorem', 'Lorem Ipsum 🌟']
