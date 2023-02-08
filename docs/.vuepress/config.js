@@ -50,6 +50,7 @@ module.exports = {
           children: [
             ['/people/ulf-gebhardt', 'Ulf Gebhardt'],
             ['/people/wolfgang-huss', 'Wolfgang Huß'],
+            ['/people/mathias-lenz', 'Mathias Lenz'],
             // ['/random/website', 'Websites using this theme 👌'],
             // ['/random/emoji', 'Emoji 😃'],
             // ['/random/lorem', 'Lorem Ipsum 🌟']
