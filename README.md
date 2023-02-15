@@ -5,7 +5,7 @@ This repository contains the https://www.it4c.dev Website utilizing `vuepress` t
 ## Software requirements
 
 This package requires:
-- [nodejs](https://github.com/nodejs/node)
+- [nodejs 17+](https://github.com/nodejs/node)
 - [npm](https://github.com/npm/cli)
 
 ## Techstack
@@ -19,18 +19,27 @@ This package uses:
 
 How to use this package
 
+### Install
+To get started the required packages must be installed.
+
+```sh
+npm install
+```
+
+Also make sure you have the correct `nodejs` version referenced above to ensure everything works as intended.
+
 ### Build
 
 Build the static files of the website which then can be found under `docs/.vuepress/dist/`.
-```
+```sh
 npm run build
 ```
 
 ### Dev
 
-Bring up a development environment with hot reloading which can be reached under http://localhost:8080/
+Bring up a development environment with hot reloading which can be reached under [http://localhost:8080/](http://localhost:8080/)
 
-```
+```sh
 npm run dev
 ```
 
@@ -38,7 +47,7 @@ npm run dev
 
 Run the tests to ensure everything is working as expected
 
-```
+```sh
 npm test
 ```
 
