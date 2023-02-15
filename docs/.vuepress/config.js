@@ -53,6 +53,7 @@ module.exports = {
             ['/people/mathias-lenz', 'Mathias Lenz'],
             ['/people/ulf-gebhardt', 'Ulf Gebhardt'],
             ['/people/wolfgang-huss', 'Wolfgang Huß'],
+            ['/people/moriz-wahl', 'Moriz Wahl'],
           ]
         },
       ]

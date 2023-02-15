@@ -28,7 +28,7 @@ Since we constantly try to recruit new members this list is not complete.
 - [Mathias Lenz](./people/mathias-lenz.md)
 - [Ulf Gebhardt](./people/ulf-gebhardt.md)
 - [Wolfgang Huß](./people/wolfgang-huss.md)
-- Moriz <!--[Moriz](./people/moriz-wahl.md))-->
+- [Moriz Wahl](./people/moriz-wahl.md)
 - Claus-Peter <!--[Claus-Peter](./people/claus-peter-huebner.md))-->
 - Hardi <!--[Hardi](./people/chrisopher-.md))-->
 
