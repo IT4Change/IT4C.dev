@@ -36,6 +36,7 @@
     "textlint-rule-period-in-list-item": "^0.3.3",
     "textlint-rule-write-good": "^2.0.0",
     "vuepress": "^1.9.7",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
     "vuepress-theme-book": "^0.0.9"
   }
 }
