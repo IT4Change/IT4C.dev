@@ -49,6 +49,7 @@ module.exports = {
           collapsable: false,
           children: [
             ['/people/alexander-friedland', 'Alexander Friedland'],
+            ['/people/hannes-heine', 'Hannes Heine'],
             ['/people/mathias-lenz', 'Mathias Lenz'],
             ['/people/ulf-gebhardt', 'Ulf Gebhardt'],
             ['/people/wolfgang-huss', 'Wolfgang Huß'],
