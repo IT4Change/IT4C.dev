@@ -5,7 +5,7 @@
 ![Hannes Heine](~@images/portrait/hannes-heine.jpg)
 
 I was born in Germany and raised in France, so I speak both languages fluently. In my free time I like to play video games, do Reiki and all kind of sports.
-As child except for my interest for sports I always excelled in sciences. In 10th grade I came across coding, the starting time was so exiting I had the impression that I could do magic on a small device. It captivated me so much that after my graduation in 2008 (baccalauréat), I studied for 3 years in the beautiful city of Toulouse (mathematics, mechanics and informatics).
+As child, except for my interest for sports, I always excelled in sciences. In 10th grade I came across coding, the starting time was so exiting, I had the impression that I could do magic on a small device. It captivated me so much that after my graduation in 2008 (baccalauréat), I studied for 3 years in the beautiful city of Toulouse (mathematics, mechanics and informatics).
 After that I moved back to Germany in the city were I was born - Hamburg.
 
 ## Work
