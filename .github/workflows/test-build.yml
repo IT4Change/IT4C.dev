@@ -14,4 +14,4 @@ jobs:
         run: npm install
       
       - name: npm-build
-        run: npm run build:workflow
+        run: npm run build
