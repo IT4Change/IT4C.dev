@@ -59,6 +59,7 @@ module.exports = {
       ]
     },
   },
+  plugins: ['fulltext-search'],
   configureWebpack: {
     resolve: {
       alias: {
