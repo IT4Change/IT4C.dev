@@ -6,7 +6,7 @@ It all began ~2017, when [Alex](people/alexander-friedland.md), who made the ini
 
 ## Human Connection
 
-Most of us met again 2019 at Human Connection. This time all as developers to <!-- textlint-disable write-good-->implement<!-- textlint-enable write-good --> the envisioned social network. [Wolle](people/wolfgang-huss.md) was first, followed by [Alex](people/alexander-friedland.md) and [Ulf](people/ulf-gebhardt.md). While Ulf left for DEMOCRACY again, Hannes volunteered and Moriz joined the Team, till the project ended 2020 as Human Connection and was transformed into Ocelot.social.
+Most of us met again 2019 at Human Connection. This time all as developers to <!-- textlint-disable write-good-->implement<!-- textlint-enable write-good --> the envisioned social network. [Wolle](people/wolfgang-huss.md) was first, followed by [Alex](people/alexander-friedland.md) and [Ulf](people/ulf-gebhardt.md). While Ulf left for DEMOCRACY again, Hannes volunteered and Moriz joined the Team, till the project ended 2020 as Human Connection and was transformed into *ocelot.social*.
 
 ## Ocelot.social - end of Human Connection
 
