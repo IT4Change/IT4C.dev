@@ -24,13 +24,13 @@ In the following we list some projects we are proud of:
 Since we constantly try to recruit new members this list is not complete.
 
 - [Alexander Friedland](./people/alexander-friedland.md)
+- [Hannes Heine](./people/hannes-heine.md)
 - [Mathias Lenz](./people/mathias-lenz.md)
+- [Moriz Wahl](./people/moriz-wahl.md)
 - [Ulf Gebhardt](./people/ulf-gebhardt.md)
 - [Wolfgang Huß](./people/wolfgang-huss.md)
-- Moriz <!--[Moriz](./people/moriz-wahl.md))-->
 - Claus-Peter <!--[Claus-Peter](./people/claus-peter-huebner.md))-->
 - Hardi <!--[Hardi](./people/chrisopher-.md))-->
-- Hannes <!--[Hannes](./people/hannes-heine.md))-->
 
 <!-- ## Organisationen -->
 <!-- textlint-disable period-in-list-item -->
