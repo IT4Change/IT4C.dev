@@ -27,4 +27,4 @@ With the end of the year 2022 the financial situation within the Gradido project
 
 ## IT4C
 
-With the start of 2023 the IT4C brand name and [website](https://www.it4c.dev) was established to allow the whole team to present themselves and the team as a whole.
+With the start of 2023 the IT4C brand name and [website](https://www.it4c.dev) was established to allow the team members to present themselves and the team as a whole.
