@@ -20,9 +20,9 @@
 | Q3 2024  |             |             |             |
 | Q4 2024  |             |             |             |
 
-p = Planung,  x = Entwicklung, 0 = Einführung
+    p = Planung,  x = Entwicklung, 0 = Einführung
 
-The open source software Ocelot is used in the following projects:
+The open source software **Ocelot** is used in the following projects:
 - [Yunite](https://yunite.me)
 - [wir.social](https://wir.social)
 
@@ -44,9 +44,9 @@ The open source software Ocelot is used in the following projects:
 | Q3 2024  |            |                |           |
 | Q4 2024  |            |                |           |
 
-p = Planung, x = Entwicklung, 0 = Einführung
+    p = Planung, x = Entwicklung, 0 = Einführung
 
-The open source software Gradido is used in the following projects:
+The open source software **Gradido** is used in the following projects:
 - [Gradido Akademie](https://gdd.gradido.net/login)
 
 
