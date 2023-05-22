@@ -1,40 +1,35 @@
 {
-  "name": "it4c.dev",
-  "version": "1.0.0",
-  "description": "The IT4C.dev website",
-  "main": "index.js",
+  "name": "vite-vue-vuetify-js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
-    "test": "textlint \"*.md\" \"docs/**/*.md\""
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
+    "format": "prettier .  --write"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/IT4Change/IT4C.dev.git"
+  "dependencies": {
+    "axios": "^1.3.3",
+    "babel-eslint": "^10.1.0",
+    "marked-vue": "^1.2.3",
+    "vue": "^3.2.45",
+    "vue-axios": "^3.5.2",
+    "vue-router": "^4.0.13",
+    "vuex": "^4.0.2"
   },
-  "author": "Ulf Gebhardt",
-  "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/IT4Change/IT4C.dev/issues"
-  },
-  "homepage": "https://github.com/IT4Change/IT4C.dev#readme",
   "devDependencies": {
-    "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.9",
-    "textlint": "^13.3.0",
-    "textlint-filter-rule-comments": "^1.2.2",
-    "textlint-rule-apostrophe": "^2.0.0",
-    "textlint-rule-common-misspellings": "^1.0.1",
-    "textlint-rule-doubled-spaces": "^1.0.1",
-    "textlint-rule-max-comma": "^2.0.2",
-    "textlint-rule-no-dead-link": "^5.1.2",
-    "textlint-rule-no-empty-element": "^0.3.1",
-    "textlint-rule-no-empty-section": "^1.1.0",
-    "textlint-rule-no-start-duplicated-conjunction": "^2.0.2",
-    "textlint-rule-no-todo": "^2.0.1",
-    "textlint-rule-no-zero-width-spaces": "^1.0.1",
-    "textlint-rule-period-in-list-item": "^1.0.1",
-    "textlint-rule-write-good": "^2.0.0",
-    "vuepress": "^1.9.8",
-    "vuepress-theme-book": "^0.0.9"
+    "@mdi/font": "^7.1.96",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^8.34.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.9.0",
+    "prettier": "^2.8.4",
+    "sass": "^1.62.1",
+    "vite": "^4.1.0",
+    "vite-plugin-md": "^0.21.5",
+    "vuetify": "^3.1.4"
   }
 }
