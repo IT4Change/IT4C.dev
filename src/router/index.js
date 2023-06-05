@@ -2,8 +2,8 @@ import { createWebHistory, createRouter } from 'vue-router'
 import StartPage from '@/components/StartPage.vue'
 import ManiFesto from '@/components/ManiFesto.vue'
 import RulesPage from '@/components/RulesPage.vue'
-import OcelotPage from '@/components/OcelotPage.vue'
-import GradidoPage from '@/components/GradidoPage.vue'
+import README from '@/components/README.vue'
+import SupportPage from '@/components/SupportPage.vue'
 
 const routes = [
     {
@@ -22,12 +22,13 @@ const routes = [
         component: RulesPage,
     },
     {
-        path: '/ocelot',
-        component: OcelotPage,
+        path: '/readme',
+        component: README,
     },
     {
-        path: '/gradido',
-        component: GradidoPage,
+        path: '/support',
+        name: 'SupportPage',
+        component: SupportPage,
     },
 ]
 

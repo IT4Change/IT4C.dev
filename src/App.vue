@@ -20,31 +20,69 @@
                     <div>{{ subtitle }}</div>
                 </template>
             </v-list>
-            <v-list>
-                <v-list-group value="Admin">
+            <v-list class="mt-4">
+                <v-list-group value="Gradido Wallet">
                     <template #activator="{ props }">
-                        <v-list-item v-bind="props" title="ocelot"></v-list-item>
+                        <v-list-item v-bind="props" title="Gradido Wallet"  prepend-avatar="/image/gdd-logo.png"  subtitle="Zeittauscheinheit"></v-list-item>
                     </template>
 
                     <v-list-item
-                        v-for="([title, icon, to], i) in gradido"
+                        v-for="([title, logo, to], i) in gradido"
+                        :key="i"
+                        :title="title"
+                        :prepend-avatar="logo"
+                        :value="title"
+                        active-class="text-h5"
+                        to="/readme"
+                        @click="loadGitHubReadme(to)"
+                       
+                    ></v-list-item>
+                </v-list-group>
+            </v-list>
+            <v-divider></v-divider>
+            <v-list class="mt-4 mb-4">
+                <v-list-group value="Ocelot">
+                    <template #activator="{ props }">
+                        <v-list-item v-bind="props" title="Ocelot"  prepend-avatar="/image/ocelot-logo.png"  subtitle="Social Network"></v-list-item>
+                    </template>
+
+                    <v-list-item
+                        v-for="([title, logo, link], i) in ocelot"
+                        :key="i"
+                        :title="title"
+                        :prepend-avatar="logo"
+                        :value="title"
+                        to="/readme"
+                        @click="loadGitHubReadme(link)"
+                    ></v-list-item>
+                </v-list-group>
+            </v-list>
+            <v-divider></v-divider>
+            <v-list class="mt-4 mb-4">
+                <v-list-group value="Ocelot">
+                    <template #activator="{ props }">
+                        <v-list-item v-bind="props" title="Kleinanzeigen"  prepend-icon="mdi-account-convert"  subtitle="suche & biete"></v-list-item>
+                    </template>
+
+                    <v-list-item
+                        v-for="([title, icon, link], i) in kleinanzeigenmarkt"
                         :key="i"
                         :title="title"
                         :prepend-icon="icon"
                         :value="title"
-                        :to="to"
+                        to="/readme"
+                        @click="loadGitHubReadme(link)"
                     ></v-list-item>
                 </v-list-group>
             </v-list>
-            <!-- <template #append>
+            <template #append>
                 <div class="pa-2">
-                    <v-img height="100" src="/image/logo.png" class="mt-8" />
-                    <v-btn block prepend-icon="mdi-github"> IT4C Organisation </v-btn>
+                    <v-btn block prepend-icon="mdi-currency-eur" append-icon="mdi-bitcoin" to="/support">Unterstützen</v-btn>
                 </div>
-            </template> -->
+            </template>
         </v-navigation-drawer>
         <v-main class="my-5 mx-5">
-            <router-view class="main" :gradido-r="gradidoR" :ocelot-r="ocelotR"></router-view>
+            <router-view class="main" :gradido-r="gradidoR" :ocelot-r="ocelotR" :README_MD="README_MD"></router-view>
         </v-main>
     </v-app>
 </template>
@@ -55,77 +93,74 @@ import { defineComponent } from 'vue'
 export default defineComponent({
     data() {
         return {
+            window,
             drawer: true,
             ocelotR: [],
             gradidoR: [],
+            README_MD:'',
             items: [
-                { type: 'subheader', title: 'IT4C' },
                 {
                     prependAvatar: '/image/logo.png',
                     title: 'Wellcome',
-                    subtitle: 'IT4C Team',
+                    subtitle: 'by IT4C',
                     to: '/',
                 },
-                { type: 'divider', inset: true },
+            
                 {
                     prependAvatar: '/image/logo.png',
                     title: 'Manifest',
-                    subtitle: 'IT4C Team',
+                    subtitle: 'O Position',
                     to: '/manifesto',
                 },
-                { type: 'divider', inset: true },
+        
                 {
                     prependAvatar: '/image/logo.png',
-                    title: 'Regeln & Workflow',
-                    subtitle: 'IT4C Team',
+                    title: 'Regeln',
+                    subtitle: '& Workflow',
                     to: '/rules',
                 },
-                { type: 'divider', inset: true },
+      
                 { type: 'subheader', title: 'OS Projekte' },
-                {
-                    prependAvatar: '/image/ocelot-logo.png',
-                    title: 'Ocelot',
-                    subtitle: 'Social Network',
-                    to: 'ocelot',
-                },
-                {
-                    prependAvatar: '/image/gdd-logo.png',
-                    title: 'GDD Wallet',
-                    subtitle: 'Zeittauscheinheit',
-                    to: 'gradido',
-                },
+             
                 { type: 'divider', inset: true },
-                { type: 'subheader', title: 'OS Projekte WIP' },
-                {
-                    prependAvatar: '/image/logo.png',
-                    title: 'Kleinanzeigen',
-                    subtitle: 'suchen & bieten',
-                },
             ],
             gradido: [
-                ['admin', 'mdi-plus-outline', '/gradido-admin'],
-                ['backend', 'mdi-plus-outline'],
-                ['database', 'mdi-plus-outline'],
-                ['dht-node', 'mdi-plus-outline'],
-                ['docu', 'mdi-plus-outline'],
-                ['e2e-tests', 'mdi-plus-outline'],
-                ['federation', 'mdi-plus-outline'],
-                ['frontend', 'mdi-plus-outline'],
-                ['mariadb', 'mdi-plus-outline'],
+                ['start', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/README.md'],
+                ['admin', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/admin/README.md'],
+                ['backend', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/backend/README.md'],
+                ['database', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/database/README.md'],
+                ['dht-node', '/image/gdd-logo.png', ''],
+                ['docu', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/docu/README.md'],
+                ['e2e-tests', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/e2e-tests/README.md'],
+                ['federation', '/image/gdd-logo.png', ''],
+                ['frontend', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/frontend/README.md'],
+                ['support', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/support/README.md'],
+                ['deployment', '/image/gdd-logo.png', 'https://raw.githubusercontent.com/gradido/gradido/master/deployment/bare_metal/setup.md'],
             ],
+            ocelot: [
+                ['start', '/image/ocelot-logo.png', 'https://raw.githubusercontent.com/Ocelot-Social-Community/Ocelot-Social/master/README.md'],
+                ['backend', '/image/ocelot-logo.png', 'https://raw.githubusercontent.com/Ocelot-Social-Community/Ocelot-Social/master/backend/README.md'],
+                ['cypress', '/image/ocelot-logo.png', 'https://raw.githubusercontent.com/Ocelot-Social-Community/Ocelot-Social/master/cypress/README.md'],
+                ['deployment', '/image/ocelot-logo.png', 'https://raw.githubusercontent.com/Ocelot-Social-Community/Ocelot-Social/master/deployment/README.md'],
+                ['neo4j', '/image/ocelot-logo.png', 'https://raw.githubusercontent.com/Ocelot-Social-Community/Ocelot-Social/master/neo4j/README.md'],
+                ['webapp', '/image/ocelot-logo.png', 'https://raw.githubusercontent.com/Ocelot-Social-Community/Ocelot-Social/master/README.md'],
+            ],
+            kleinanzeigenmarkt: [
+                ['start', 'mdi-account-convert', 'https://raw.githubusercontent.com/ZGD-Dresden/kleinanzeigenmarkt/master/README.md'],
+            ],
+         
         }
     },
     created() {
         this.ocelotRelases()
         this.gradidoRelases()
-        this.ocelotReadmes()
     },
     methods: {
         gradidoRelases() {
             axios
                 .get('https://api.github.com/repos/gradido/gradido/releases?per_page=5')
                 .then((response) => {
-                    console.log('gradidoRelases', response.data)
+                    // console.log('gradidoRelases', response.data)
                     this.gradidoR = response.data
                 })
                 .catch((err) => {
@@ -137,7 +172,7 @@ export default defineComponent({
             axios
                 .get('https://api.github.com/repos/Ocelot-Social-Community/Ocelot-Social/releases?per_page=5')
                 .then((response) => {
-                    console.log('ocelotRelases', response.data)
+                    // console.log('ocelotRelases', response.data)
                     this.ocelotR = response.data
                 })
                 .catch((err) => {
@@ -145,17 +180,25 @@ export default defineComponent({
                 })
             // .finally(() => console.error(`this.loading = false`))
         },
-        ocelotReadmes() {
+        loadGitHubReadme(link) {
+            console.log('loadGitHubReadme', `'${link}'`)
             axios
-                .get('https://github.com/Ocelot-Social-Community/Ocelot-Social/blob/master/README.md', {
-                    headers: { 'Access-Control-Allow-Origin': '*' },
+                .get(link, {
+                        // headers: { 'Access-Control-Allow-Origin': '*' },
                 })
                 .then((response) => {
-                    console.log('ocelotReadmes: ', response.data)
-                    // this.ocelot_r = response.data
+                    console.log('loadGitHubReadme response: ', response.data)
+                    this.README_MD = response.data
+
+            //         const content = response.data.content;
+            // const decodedContent = window.atob(content); // Base64 decoding
+            // const readmeText = window.decodeURIComponent(decodedContent);
+            // console.log('loadGitHubReadme response: ', readmeText);
+            // this.README_MD = readmeText;
                 })
                 .catch((err) => {
                     console.error(err)
+                    this.README_MD = err.message
                 })
             // .finally(() => console.error(`this.loading = false`))
         },

@@ -10,13 +10,9 @@ import vuetify from './plugins/vuetify'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 
-import { marked } from 'marked'
-import markedVue from 'marked-vue'
-
 const app = createApp(App)
 app.use(vuetify)
 app.use(router)
 app.use(store)
 app.use(VueAxios, axios)
-app.use(markedVue, marked)
 app.mount('#app')
