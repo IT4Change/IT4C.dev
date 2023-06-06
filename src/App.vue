@@ -75,6 +75,11 @@
                     ></v-list-item>
                 </v-list-group>
             </v-list>
+            <v-divider></v-divider>
+            <v-divider></v-divider>
+
+            <v-list-item title="Medien"  prepend-icon="mdi-video" subtitle="Tutorial" to="/medien"></v-list-item>
+
             <template #append>
                 <div class="pa-2">
                     <v-btn block prepend-icon="mdi-currency-eur" append-icon="mdi-bitcoin" to="/support">Unterstützen</v-btn>

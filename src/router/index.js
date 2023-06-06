@@ -4,6 +4,7 @@ import ManiFesto from '@/components/ManiFesto.vue'
 import RulesPage from '@/components/RulesPage.vue'
 import README from '@/components/README.vue'
 import SupportPage from '@/components/SupportPage.vue'
+import MedienPage from '@/components/MedienPage.vue'
 
 const routes = [
     {
@@ -29,6 +30,12 @@ const routes = [
         path: '/support',
         name: 'SupportPage',
         component: SupportPage,
+    },
+    ,
+    {
+        path: '/medien',
+        name: 'MedienPage',
+        component: MedienPage,
     },
 ]
 
