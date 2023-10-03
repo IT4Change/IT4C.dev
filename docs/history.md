@@ -19,11 +19,7 @@ When Ulf went on a trip to Italy [Wolle](people/wolfgang-huss.md) could <!-- tex
 
 ## Yunite.me
 
-During 2022 the Yunite-Team approached the team to get a new social network going based on ocelot-social. The new network was release on 01.11.2022 under the name yunite.me. 
-
-## Trouble at Gradido
-
-With the end of the year 2022 the financial situation within the Gradido project became more dire, which lead to reduced hours for the team and [Wolle](people/wolfgang-huss.md) becoming a volunteer rather then a paid contributor.
+During 2022 the Yunite-Team approached the team to get a new social network going based on ocelot-social. The new network was release on 01.11.2022 under the name yunite.me.
 
 ## IT4C
 
