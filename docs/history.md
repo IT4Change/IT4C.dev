@@ -14,7 +14,7 @@ In the last quater of 2020 Human Connection was ended as a project and the sourc
 
 ## Gradido
 
-In 2021 most of the team joined the Gradido project. As always our scout [Alex](people/alexander-friedland.md) was first, followed by [Ulf](people/ulf-gebhardt.md), who was residing in Norway at the time. Soon after Moriz joined up and Hannes came on board in Summer 2021.
+In 2021 most of the team joined the [Gradido](https://github.com/gradido/gradido) project. As always our scout [Alex](people/alexander-friedland.md) was first, followed by [Ulf](people/ulf-gebhardt.md), who was residing in Norway at the time. Soon after Moriz joined up and Hannes came on board in Summer 2021.
 When Ulf went on a trip to Italy [Wolle](people/wolfgang-huss.md) could <!-- textlint-disable write-good-->finally<!-- textlint-enable write-good --> be convinced to join, soon followed by [Mathias](people/mathias-lenz.md).
 
 ## Yunite.me
