@@ -4,14 +4,14 @@
 SCRIPT_PATH=$(realpath $0)
 SCRIPT_DIR=$(dirname $SCRIPT_PATH)
 PROJECT_ROOT=$SCRIPT_DIR/../..
-DEPLOY_DIR=$i
+DEPLOY_DIR=$1
 BUILD_DIR=$PROJECT_ROOT/docs/.vuepress/dist
 
 # assuming you are already on the right branch
 git pull -ff
 
 GIT_REF=$(git rev-parse --short HEAD)
-DEPLOY_DIR_REF=$1-$GIT_REF
+DEPLOY_DIR_REF=$DEPLOY_DIR-$GIT_REF
 
 # Parameter is a proper directory?
 if [ -d "$DEPLOY_DIR_REF" ]; then
@@ -24,5 +24,6 @@ rm -R $BUILD_DIR
 npm run build
 
 # Copy files and Sym link
+mkdir $DEPLOY_DIR_REF/
 cp $BUILD_DIR/* $DEPLOY_DIR_REF/
 ln -sf $DEPLOY_DIR_REF $DEPLOY_DIR
