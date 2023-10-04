@@ -46,7 +46,7 @@ npm test
 
 You can use the webhook template `webhook.conf.template` and the `deploy.sh` script in `.github/webhooks/` to implement an automatic deployment from a (github) webhook.
 
-For this to work follow these steps (using alpine):
+For this to work follow these steps (using alpine linux):
 ```bash
 apk add webhook
 cp .github/webhooks/hooks.json.template .github/webhooks/hooks.json
