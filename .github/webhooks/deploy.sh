@@ -24,5 +24,5 @@ rm -R $BUILD_DIR
 npm run build
 
 # Copy files and Sym link
-cp $BUILD_DIR $DEPLOY_DIR_REF
+cp $BUILD_DIR/* $DEPLOY_DIR_REF/
 ln -sf $DEPLOY_DIR_REF $DEPLOY_DIR
