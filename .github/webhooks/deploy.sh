@@ -6,6 +6,10 @@ SCRIPT_DIR=$(dirname $SCRIPT_PATH)
 PROJECT_ROOT=$SCRIPT_DIR/../..
 DEPLOY_DIR=$i
 BUILD_DIR=$PROJECT_ROOT/docs/.vuepress/dist
+
+# assuming you are already on the right branch
+git pull -ff
+
 GIT_REF=$(git rev-parse --short HEAD)
 DEPLOY_DIR_REF=$1-$GIT_REF
 
