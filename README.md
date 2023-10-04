@@ -42,6 +42,18 @@ Run the tests to ensure everything is working as expected
 npm test
 ```
 
+## Deploy
+
+You can use the webhook template `webhook.conf.template` and the `deploy.sh` script in `.github/webhooks/` to implement an automatic deployment from a (github) webhook.
+
+To work follow these steps (using alpine):
+```bash
+apk add webhook
+cp .github/webhooks/webhook.conf /etc/webhook.conf
+# adjust content of /etc/webhook.conf accordingly
+systemctl enable webhook
+systemctl start webhook
+```
 ## How it works
 
 This repository utilizes `vuepress-deploy` to automatically deploy the current `master` branch to github pages.
