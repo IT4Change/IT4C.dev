@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # Find current directory & configure paths
 SCRIPT_PATH=$(realpath $0)
