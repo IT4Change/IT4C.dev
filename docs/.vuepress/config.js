@@ -9,7 +9,6 @@ module.exports = {
   themeConfig: {
     // logo: "/logo.png",
     searchPlaceholder: "Search...",
-    lastUpdated: "Last Updated",
     docsRepo: "https://github.com/IT4Change/IT4C.dev/",
     docsDir: "docs",
     nav: [
