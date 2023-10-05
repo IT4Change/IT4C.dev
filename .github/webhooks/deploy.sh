@@ -21,6 +21,7 @@ fi
 # Build the project
 cd $PROJECT_ROOT
 rm -R $BUILD_DIR
+npm install
 npm run build
 
 # Copy files and Sym link
