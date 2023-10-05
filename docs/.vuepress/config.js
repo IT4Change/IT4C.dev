@@ -9,9 +9,10 @@ export default {
   ],
   theme: hopeTheme({
     // logo: "/logo.png",
-    docsRepo: "https://github.com/IT4Change/IT4C.dev/",
+    docsRepo: "https://github.com/IT4Change/IT4C.dev",
+    docsBranch: 'master',
     docsDir: "docs",
-    editLink: false,
+    editLink: true,
     lastUpdated: false,
     contributors: false,
     navbar: [
