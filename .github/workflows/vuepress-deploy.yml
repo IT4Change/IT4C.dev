@@ -25,4 +25,4 @@ jobs:
         TARGET_BRANCH: gh-pages
         BUILD_SCRIPT: npm install && npm run build-node16
         BUILD_DIR: docs/.vuepress/dist
-        CNAME: https://www.it4c.dev
+        # CNAME: https://www.it4c.dev
