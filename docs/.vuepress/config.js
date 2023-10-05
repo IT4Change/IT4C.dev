@@ -1,7 +1,8 @@
 import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { hopeTheme } from 'vuepress-theme-hope'
+import { defineUserConfig } from 'vuepress'
 
-export default {
+export default defineUserConfig({
   title: 'IT Team for Change',
   description: 'IT4C.dev introduces the IT Team for Change, applied Philosophy and Projects.',
   head: [
@@ -75,4 +76,4 @@ export default {
       ],
     }),
   ],
-}
+})
