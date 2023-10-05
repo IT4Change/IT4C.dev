@@ -1,3 +1,4 @@
+import { searchProPlugin } from 'vuepress-plugin-search-pro'
 import { hopeTheme } from 'vuepress-theme-hope'
 
 export default {
@@ -8,7 +9,6 @@ export default {
   ],
   theme: hopeTheme({
     // logo: "/logo.png",
-    searchPlaceholder: "Search...",
     docsRepo: "https://github.com/IT4Change/IT4C.dev/",
     docsDir: "docs",
     editLink: false,
@@ -50,7 +50,7 @@ export default {
         children: [
           '/people/alexander-friedland',
           '/people/hannes-heine',
-          '/people/mathias-lenz',
+          { path: '/people/mathias-lenz', text: 'Mathias Lenz' },
           '/people/moriz-wahl',
           '/people/ulf-gebhardt',
           '/people/wolfgang-huss'
@@ -58,4 +58,20 @@ export default {
       }
     ],
   }),
+  plugins: [
+    searchProPlugin({
+      indexContent: true,
+      autoSuggestions: true,
+      customFields: [
+        {
+          getter: (page) => page.frontmatter.category,
+          formatter: "Category: $content",
+        },
+        {
+          getter: (page) => page.frontmatter.tag,
+          formatter: "Tag: $content",
+        },
+      ],
+    }),
+  ],
 }
