@@ -21,9 +21,10 @@ fi
 # Build the project
 cd $PROJECT_ROOT
 rm -R $BUILD_DIR
+npm install
 npm run build
 
 # Copy files and Sym link
 mkdir $DEPLOY_DIR_REF/
 cp -r $BUILD_DIR/* $DEPLOY_DIR_REF/
-ln -sf $DEPLOY_DIR_REF $DEPLOY_DIR
+ln -sfn $DEPLOY_DIR_REF $DEPLOY_DIR
