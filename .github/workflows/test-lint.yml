@@ -1,6 +1,6 @@
 name: lint test CI
 
-on: pull_request_target
+on: push
 
 jobs:
   build-test:
