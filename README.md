@@ -44,7 +44,7 @@ npm test
 
 ## Deploy
 
-You can use the webhook template `webhook.conf.template` and the `deploy.sh` script in `.github/webhooks/` to implement an automatic deployment from a (github) webhook.
+You can use the webhook template `webhook.conf.template` and the `deploy.sh` script in `.github/webhooks/` for an automatic deployment from a (github) webhook.
 
 For this to work follow these steps (using alpine):
 ```bash
