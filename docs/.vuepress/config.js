@@ -27,7 +27,7 @@ export default defineUserConfig({
     sidebar: [
       {
         text: 'IT4C',
-        path: '/',
+        link: '/',
         collapsible: false,
         children: [
           '/history',
@@ -40,10 +40,10 @@ export default defineUserConfig({
         children: [
           {
             text: 'Gradido Software',
-            path: '/projects/gradido'
+            link: '/projects/gradido'
           },
-          // { path: '/extras/contributing', text: 'Contributing ✨' },
-          // { path: '/extras/license', text: 'License 📚' },
+          // { link: '/extras/contributing', text: 'Contributing ✨' },
+          // { link: '/extras/license', text: 'License 📚' },
         ]
       },
       {
@@ -52,7 +52,7 @@ export default defineUserConfig({
         children: [
           '/people/alexander-friedland',
           '/people/hannes-heine',
-          { path: '/people/mathias-lenz', text: 'Mathias Lenz' },
+          { link: '/people/mathias-lenz', text: 'Mathias Lenz' },
           '/people/moriz-wahl',
           '/people/ulf-gebhardt',
           '/people/wolfgang-huss'
