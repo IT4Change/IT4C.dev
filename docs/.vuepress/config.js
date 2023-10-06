@@ -9,10 +9,10 @@ export default defineUserConfig({
     ['meta', {name: 'viewport', content: 'width=device-width,initial-scale=1'}]
   ],
   theme: hopeTheme({
-    // logo: "/logo.png",
-    docsRepo: "https://github.com/IT4Change/IT4C.dev",
+    logo: '/it4c-logo.jpeg',
+    docsRepo: 'https://github.com/IT4Change/IT4C.dev',
     docsBranch: 'master',
-    docsDir: "docs",
+    docsDir: 'docs',
     editLink: true,
     lastUpdated: false,
     contributors: false,
