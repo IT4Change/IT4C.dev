@@ -18,4 +18,4 @@ You can also join our [Telegram Channel](https://t.me/+A3XAurSG9ws3NjE6) to get 
 
 If you are looking for a developer team and you consider hiring (some of) us, please make sure to also provide a detailed project description, outlining goals, time frame, social impact and wether the project will be open- or closed source.
 
-We will work with you to archive your goals in a sustainable manner. We will make sure knowledge is spread within the team and we will integrate with your existing IT department to ensure scalability.
+We will work with you to achieve your goals in a sustainable manner. We will make sure knowledge is spread within the team and we will integrate with your existing IT department to ensure scalability.

@@ -1,6 +1,6 @@
 # Mathias 
 
-![Mathias](~@images/portrait/ml-portrait.jpg)
+![Mathias](../images/portrait/ml-portrait.jpg)
 
 Rooted in DIY crafting and interest in language, patterns, and human connections.
 In school years first self taught steps where made towards computer systems and programming.

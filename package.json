@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
-    "build:workflow": "vuepress build docs",
+    "build-node16": "vuepress build docs",
     "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
     "test": "textlint \"*.md\" \"docs/**/*.md\""
   },
@@ -21,21 +21,22 @@
   "homepage": "https://github.com/IT4Change/IT4C.dev#readme",
   "devDependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^1.0.9",
-    "textlint": "^12.4.0",
+    "textlint": "^13.3.3",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-apostrophe": "^2.0.0",
     "textlint-rule-common-misspellings": "^1.0.1",
-    "textlint-rule-doubled-spaces": "^1.0.0",
-    "textlint-rule-max-comma": "^2.0.2",
+    "textlint-rule-doubled-spaces": "^1.0.2",
+    "textlint-rule-max-comma": "^3.0.1",
     "textlint-rule-no-dead-link": "^5.1.2",
     "textlint-rule-no-empty-element": "^0.3.1",
     "textlint-rule-no-empty-section": "^1.1.0",
     "textlint-rule-no-start-duplicated-conjunction": "^2.0.2",
     "textlint-rule-no-todo": "^2.0.1",
     "textlint-rule-no-zero-width-spaces": "^1.0.1",
-    "textlint-rule-period-in-list-item": "^0.3.3",
+    "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-write-good": "^2.0.0",
-    "vuepress": "^1.9.7",
-    "vuepress-theme-book": "^0.0.9"
+    "vuepress": "^2.0.0-beta.67",
+    "vuepress-plugin-search-pro": "^2.0.0-beta.237",
+    "vuepress-theme-hope": "^2.0.0-beta.238"
   }
 }
