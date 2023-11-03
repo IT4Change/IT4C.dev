@@ -11,7 +11,7 @@ Most of us met again 2019 at Human Connection. This time all as developers to <!
 ## Ocelot.Social – End of Human Connection
 
 In the last quarter of 2020 Human Connection was ended as a project and the source code was republished under the name [ocelot.social](https://ocelot.social). [Wolle](people/wolfgang-huss.md), [Alex](people/alexander-friedland.md), [Ulf](people/ulf-gebhardt.md) and [Moriz](people/moriz-wahl.html) continued on the project and released [wir.social](https://wir.social) to keep *ocelot.social* alive.
-Let's try out the social network live on [stage.ocelot.social](https://stage.ocelot.social).
+Let’s try out the social network live on [stage.ocelot.social](https://stage.ocelot.social).
 
 ## Gradido
 
