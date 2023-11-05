@@ -1,6 +1,6 @@
 # Ulf Gebhardt
 
-![Ulf Gebhardt](~@images/portrait/ulf-gebhardt.jpg)
+![Ulf Gebhardt](../images/portrait/ulf-gebhardt.jpg)
 
 Ulf is a software developer through and through. He started to program when he was 12 and kept going with it. He knows about the possibilities software and hardware have to offer and is the person to turn to when it’s time to include a new library or <!-- textlint-disable write-good --> implement<!-- textlint-enable write-good --> an algorithm. He is known to use the "Holzhammer-Methode" (brute-force approach) when it comes to solve conflicts within the team.
 

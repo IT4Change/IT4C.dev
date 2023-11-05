@@ -1,6 +1,6 @@
 # Moriz Wahl
 
-![Moriz Wahl](~@images/portrait/moriz-wahl.jpg)
+![Moriz Wahl](../images/portrait/moriz-wahl.jpg)
 
 I was given a ZX81 when I was 8 years old. Since then, my
 fascination for programming has never stopped.
