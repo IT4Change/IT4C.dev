@@ -18,7 +18,7 @@ Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: Musterustid
 Ulf Gebhardt\
 Alsbacher Str. 22\
 64673 Zwingenberg\
-Deutschland\
+Deutschland
 
 ## Haftungsausschluss:
 
