@@ -2,12 +2,12 @@
 
 **Angaben gemäß § 5 TMG**
 
-Ulf Gebhardt  
-Alsbacher Str. 22  
-64673 Zwingenberg  
-Deutschland  
-Telefon: +49 157 8484 1600  
-E-Mail: [info@it4c.dev](mailto:info@it4c.dev)  
+Ulf Gebhardt\
+Alsbacher Str. 22\
+64673 Zwingenberg\
+Deutschland\
+Telefon: +49 157 8484 1600\
+E-Mail: [info@it4c.dev](mailto:info@it4c.dev)\
   
 <!-- Umsatzsteuer-ID:
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: Musterustid.
@@ -15,10 +15,10 @@ Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: Musterustid
 
 **Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:**
 
-Ulf Gebhardt  
-Alsbacher Str. 22  
-64673 Zwingenberg  
-Deutschland  
+Ulf Gebhardt\
+Alsbacher Str. 22\
+64673 Zwingenberg\
+Deutschland\
 
 ## Haftungsausschluss:
 
