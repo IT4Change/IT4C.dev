@@ -7,7 +7,7 @@ Alsbacher Str. 22\
 64673 Zwingenberg\
 Deutschland\
 Telefon: +49 157 8484 1600\
-E-Mail: [info@it4c.dev](mailto:info@it4c.dev)\
+E-Mail: [info@it4c.dev](mailto:info@it4c.dev)
   
 <!-- Umsatzsteuer-ID:
 Umsatzsteuer-Identifikationsnummer gemäß §27a Umsatzsteuergesetz: Musterustid.
