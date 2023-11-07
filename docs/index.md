@@ -13,7 +13,7 @@ One of our principles to make projects resilient to unmaintainability is to spre
 In the following we list some projects we are proud of:
 
 - Yunite.me <!--[Yunite.me](./projects/yunite.me.md)-->
-- [Gradido](./projects/gradido.md)
+- Gradido <!-- [Gradido](./projects/gradido.md) -->
 - wir.social <!-- [wir.social](./projects/wir.social.md)-->
 - Ocelot.social <!-- [Ocelot.social](./projects/ocelot.social.md) -->
 - Human-Connection <!-- [Human-Connection](./projects/human-connection.md)-->
@@ -29,8 +29,6 @@ Since we constantly try to recruit new members this list is not complete.
 - [Moriz Wahl](./people/moriz-wahl.md)
 - [Ulf Gebhardt](./people/ulf-gebhardt.md)
 - [Wolfgang Huß](./people/wolfgang-huss.md)
-- Claus-Peter <!--[Claus-Peter](./people/claus-peter-huebner.md))-->
-- Hardi <!--[Hardi](./people/chrisopher-.md))-->
 
 <!-- ## Organisationen -->
 <!-- textlint-disable period-in-list-item -->

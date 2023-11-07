@@ -2,7 +2,7 @@
 
 Wether you are looking for skilled developers to <!-- textlint-disable write-good -->implement<!-- textlint-enable write-good --> your business idea, you want to scale up your existing team or you are a developer and want to work with us: Get in touch!
 
-You can contact us [via E-Mail](mailto:service@webcraft-media.de) or [mobile phone](tel://+4915784841600).
+You can contact us [via E-Mail](mailto:info@it4c.dev) or [mobile phone](tel://+4915784841600).
 
 We accept inquiries in German and English language.
 
