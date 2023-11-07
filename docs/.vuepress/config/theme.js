@@ -8,6 +8,7 @@ export default hopeTheme({
   editLink: true,
   lastUpdated: false,
   contributors: false,
+  footer: 'CC BY IT4C.dev & Authors. <a href="imprint.html">Imprint</a>.',
   navbar: [
     { text: 'IT4C', link: '/' },
     { text: 'Contact', link: '/contact' },
@@ -49,6 +50,6 @@ export default hopeTheme({
         '/people/ulf-gebhardt',
         '/people/wolfgang-huss'
       ]
-    }
+    },
   ],
 })
