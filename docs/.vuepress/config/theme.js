@@ -26,7 +26,7 @@ export default hopeTheme({
         '/contact'
       ]
     },
-    {
+    /*{
       text: 'Projects',
       collapsible: false,
       children: [
@@ -37,7 +37,7 @@ export default hopeTheme({
         // { link: '/extras/contributing', text: 'Contributing ✨' },
         // { link: '/extras/license', text: 'License 📚' },
       ]
-    },
+    },*/
     {
       text: 'People',
       collapsible: false,
