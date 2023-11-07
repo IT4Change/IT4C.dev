@@ -36,7 +36,7 @@ export default defineUserConfig({
           '/contact'
         ]
       },
-      {
+      /*{
         text: 'Projects',
         collapsible: false,
         children: [
@@ -47,7 +47,7 @@ export default defineUserConfig({
           // { link: '/extras/contributing', text: 'Contributing ✨' },
           // { link: '/extras/license', text: 'License 📚' },
         ]
-      },
+      },*/
       {
         text: 'People',
         collapsible: false,
