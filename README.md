@@ -1,16 +1,18 @@
 # IT4C.dev
 
-This repository contains the https://www.it4c.dev Website utilizing `vuepress` to generate it.
+This repository contains the [Website](https://www.it4c.dev) utilizing `vuepress` to generate it.
 
 ## Software requirements
 
 This package requires:
+
 - [nodejs](https://github.com/nodejs/node)
 - [npm](https://github.com/npm/cli)
 
 ## Techstack
 
 This package uses:
+
 - [vuepress](https://github.com/vuejs/vuepress)
 - [vuepress-theme-book](https://github.com/cyrilf/vuepress-theme-book)
 - [vuepress-deploy](https://github.com/jenkey2011/vuepress-deploy)
@@ -22,15 +24,16 @@ How to use this package
 ### Build
 
 Build the static files of the website which then can be found under `docs/.vuepress/dist/`.
-```
+
+```bash
 npm run build
 ```
 
 ### Dev
 
-Bring up a development environment with hot reloading which can be reached under http://localhost:8080/
+Bring up a development environment with hot reloading which can be reached [under](http://localhost:8080/)
 
-```
+```bash
 npm run dev
 ```
 
@@ -38,7 +41,7 @@ npm run dev
 
 Run the tests to ensure everything is working as expected
 
-```
+```bash
 npm test
 ```
 
@@ -47,6 +50,7 @@ npm test
 You can use the webhook template `webhook.conf.template` and the `deploy.sh` script in `.github/webhooks/` for an automatic deployment from a (github) webhook.
 
 For this to work follow these steps (using alpine):
+
 ```bash
 apk add webhook
 cp .github/webhooks/hooks.json.template .github/webhooks/hooks.json
