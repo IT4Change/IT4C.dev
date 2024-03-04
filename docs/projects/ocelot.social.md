@@ -22,4 +22,10 @@ Ocelot.Social has the following functions:
 
 ## Demo
 
-Try out the application under the following link [Ocelot.Social](https://stage.ocelot.social/)
+Try out the application under the following link [Ocelot.Social](https://stage.ocelot.social/).
+You can login with the following credentials:
+| email | password | role |
+| :--- | :--- | :--- |
+| `user@example.org` | 1234 | user |
+| `moderator@example.org` | 1234 | moderator |
+| `admin@example.org` | 1234 | admin |
