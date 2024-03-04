@@ -16,7 +16,7 @@ Ocelot.Social has the following functions:
   - as articles
   - as events
   - comments
-- Search
+- Search (fulltext)
 - Groups
 - Map
 
