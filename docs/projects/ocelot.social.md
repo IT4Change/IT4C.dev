@@ -1,5 +1,9 @@
 # Ocelot.Social
 
+This project started under the name Human-Connection. The idea of human-connection was to create an alternative social media platform where the user is not the product. So in contradiction to social media platorms like Facebook, Instagram, and so on... The user should have the possibility to have constructive discussion (Pro-Contra), have a possibility to take action if a post made them angry, sad, etc...
+
+For this to work the user should pay for the infrastructure the platform is working on.
+
 After the closing of the Human-Connection network, the developer and the users wanted to continue to work on the idea. We created a not branded project so that it can be deployed for different networks with their own brand.
 
 Ocelot.Social has the following functions:
