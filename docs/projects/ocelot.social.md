@@ -4,7 +4,7 @@ This project started under the name Human-Connection. The idea of human-connecti
 
 For this to work the user should pay for the infrastructure the platform is working on.
 
-After the closing of the Human-Connection network, the developer and the users wanted to continue to work on the idea. We created a not branded project so that it can be deployed for different networks with their own brand.
+After the closing of the Human-Connection network, the developer and the users wanted to continue to work on the idea. We created a not branded project that can be deployed for different networks with their own brand.
 
 Ocelot.Social has the following functions:
 
