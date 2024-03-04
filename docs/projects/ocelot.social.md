@@ -20,6 +20,7 @@ Ocelot.Social has the following functions:
 - Groups
 - Map
 - Moderation
+
 ## Demo
 
 Try out the application under the following link [Ocelot.Social](https://stage.ocelot.social/).
