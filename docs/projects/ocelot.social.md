@@ -1,6 +1,6 @@
 # Ocelot.Social
 
-This project started under the name Human-Connection. The idea of human-connection was to create an alternative social media platform where the user is not the product. In contradiction to social media platorms like Facebook, Instagram, etc... The user should have the possibility to have constructive discussion (Pro-Contra), have a possibility to take action if a post made them angry, sad, etc...
+This project started under the name Human-Connection. The idea of human-connection was to create an alternative social media platform where the user is not the product. In contradiction to social media platforms like Facebook, Instagram, etc... The user should have the possibility to have constructive discussion (Pro-Contra), have a possibility to take action if a post made them angry, sad, etc...
 
 For this to work the user should pay for the infrastructure the platform is working on.
 
