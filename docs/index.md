@@ -15,7 +15,7 @@ In the following we list some projects we are proud of:
 - Yunite.me <!--[Yunite.me](./projects/yunite.me.md)-->
 - Gradido <!-- [Gradido](./projects/gradido.md) -->
 - wir.social <!-- [wir.social](./projects/wir.social.md)-->
-- Ocelot.social <!-- [Ocelot.social](./projects/ocelot.social.md) -->
+- [Ocelot.social](./projects/ocelot.social.md)
 - Human-Connection <!-- [Human-Connection](./projects/human-connection.md)-->
 - Democracy-Deutschland <!-- [Democracy-Deutschland](./projects/democracy-deutschland.md) -->
 
