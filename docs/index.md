@@ -8,9 +8,36 @@ Naturally we are a remote team spread throughout Europe (sometimes even further)
 
 One of our principles to make projects resilient to unmaintainability is to spread knowledge within the team and recruit new members willing to learn how we do software development. We live the agile process with short release cycles and weekly feedback loops to ensure our software actually fulfills the needs of our contractors and users.
 
-## Projects
+## Services
 
-In the following we list some projects we are proud of:
+We propose:
+
+- Hosting
+  - Installation of OpenSource Software
+  - Migration
+  - Maintenance
+  - Backup
+- Consulting
+- Project Management / Conception
+- Development of new Software
+- Development of existing Software
+- QA / Test Automation (Unit Test, End-to-End Test)
+- DevOps
+
+### Software tools
+
+Selfhosted:
+
+- Website (CMS like Drupal, ...)
+- E-Mail Server
+- Timetracking
+- Git instance
+- Social Media platforms (like Ocelot-Social, Hum-Hub, ...)
+- Contact Management
+
+## Projects we worked on
+
+In the following a list of some projects we worked on:
 
 - [DEMOCRACY App](./projects/democracy.app.md)
 - Human-Connection <!-- [Human-Connection](./projects/human-connection.md)-->
