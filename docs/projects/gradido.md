@@ -1,6 +1,6 @@
 # Gradido
 
-## Describe
+## Description
 
 [Gradido](https://www.gradido.net) is a project that wants to create a alternativ currency to the fiat money.
 

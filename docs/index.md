@@ -12,12 +12,14 @@ One of our principles to make projects resilient to unmaintainability is to spre
 
 In the following we list some projects we are proud of:
 
-- Yunite.me <!--[Yunite.me](./projects/yunite.me.md)-->
-- Gradido <!-- [Gradido](./projects/gradido.md) -->
-- wir.social <!-- [wir.social](./projects/wir.social.md)-->
-- [Ocelot.social](./projects/ocelot.social.md)
+- [DEMOCRACY App](./projects/democracy.app.md)
 - Human-Connection <!-- [Human-Connection](./projects/human-connection.md)-->
-- Democracy-Deutschland <!-- [Democracy-Deutschland](./projects/democracy-deutschland.md) -->
+  - [Ocelot.social](./projects/ocelot.social.md)
+  - wir.social <!-- [wir.social](./projects/wir.social.md) -->
+  - sender.fm <!-- [sender.fm](./projects/sender.fm.md) -->
+  - Yunite.me <!--[Yunite.me](./projects/yunite.me.md) -->
+- [Gradido](./projects/gradido.md)
+- DreamMall <!-- [DreamMall](./projects/dreammall.md) -->
 
 ## Members and collaborators
 
