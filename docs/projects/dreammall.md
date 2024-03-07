@@ -7,4 +7,4 @@ DreamMall is an application to connect people and companies, to give them the po
 ## Techstack
 
 The frontend is written with the technologies nodejs, vue, vike, vuetify.
-The backend is set up on node.js, apollo, graphql, prisma.
+The backend is set up on nodejs, apollo, graphql, prisma.
