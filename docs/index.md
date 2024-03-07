@@ -19,7 +19,7 @@ In the following we list some projects we are proud of:
   - sender.fm <!-- [sender.fm](./projects/sender.fm.md) -->
   - Yunite.me <!--[Yunite.me](./projects/yunite.me.md) -->
 - [Gradido](./projects/gradido.md)
-- DreamMall <!-- [DreamMall](./projects/dreammall.md) -->
+- [DreamMall](./projects/dreammall.md)
 
 ## Members and collaborators
 
