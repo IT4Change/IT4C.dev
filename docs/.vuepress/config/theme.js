@@ -44,6 +44,10 @@ export default hopeTheme({
           text: 'Gradido Software',
           link: '/projects/gradido'
         },
+        {
+          text: 'DreamMall.earth',
+          link: '/projects/dreammall'
+        },
         // { link: '/extras/contributing', text: 'Contributing ✨' },
         // { link: '/extras/license', text: 'License 📚' },
       ]
