@@ -15,7 +15,7 @@ This package uses:
 
 - [vuepress](https://github.com/vuejs/vuepress)
 - [vuepress-theme-book](https://github.com/cyrilf/vuepress-theme-book)
-- [vuepress-deploy](https://github.com/jenkey2011/vuepress-deploy)
+- [vuepress-build-and-deploy](https://github.com/IT4Change/vuepress-build-and-deploy)
 
 ## Usage
 
