@@ -8,8 +8,8 @@ jobs:
     permissions: write-all
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
-      - uses: ahmadnassri/action-dependabot-auto-merge@v2
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 #v4.2.2
+      - uses: ahmadnassri/action-dependabot-auto-merge@4b9c6f0185a1c94f18bc293dc050c8c073b4fcc8 #v2.6.6
         with:
           target: minor
           github-token: ${{ secrets.DEPENDABOT_AUTOMERGE_TOKEN }}
