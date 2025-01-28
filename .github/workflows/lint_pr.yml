@@ -1,5 +1,7 @@
 name: "lint pull request CI"
 
+runs-on: ubuntu-22.04
+
 on:
   pull_request_target:
     types:
