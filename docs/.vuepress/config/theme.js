@@ -9,6 +9,7 @@ export default hopeTheme({
   lastUpdated: false,
   contributors: false,
   displayFooter: true,
+  pageInfo: false,
   footer: 'CC BY IT4C.dev & Authors - <a href="/imprint.html">Imprint</a>',
   navbar: [
     { text: 'IT4C', link: '/' },
