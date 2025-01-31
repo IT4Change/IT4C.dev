@@ -7,5 +7,4 @@ export default defineUserConfig({
   ...meta,
   theme,
   bundler: viteBundler({}),
-  pageInfo: false,
 })
