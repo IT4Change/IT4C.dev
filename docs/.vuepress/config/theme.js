@@ -70,4 +70,5 @@ export default hopeTheme({
       indexContent: true
     },
   },
+  pageInfo: false,
 })

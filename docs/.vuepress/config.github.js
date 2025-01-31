@@ -8,4 +8,5 @@ export default defineUserConfig({
   ...meta,
   theme,
   plugins,
+  pageInfo: false,
 })
