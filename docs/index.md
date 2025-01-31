@@ -25,7 +25,7 @@ In the following we list some projects we are proud of:
 
 Since we constantly try to recruit new members this list is not complete.
 
-- [Alexander Friedland](./people/alexander-friedland.md)
+<!-- - [Alexander Friedland](./people/alexander-friedland.md)-->
 - [Hannes Heine](./people/hannes-heine.md)
 - [Mathias Lenz](./people/mathias-lenz.md)
 - [Moriz Wahl](./people/moriz-wahl.md)

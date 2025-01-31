@@ -56,7 +56,7 @@ export default hopeTheme({
       text: 'People',
       collapsible: false,
       children: [
-        '/people/alexander-friedland',
+        // '/people/alexander-friedland',
         '/people/hannes-heine',
         { link: '/people/mathias-lenz', text: 'Mathias Lenz' },
         '/people/moriz-wahl',
