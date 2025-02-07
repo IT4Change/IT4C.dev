@@ -1,5 +1,7 @@
 # IT4C
 
+<Section content="Irgendein Text" />
+
 **IT Team for Change**, in short **IT4C**, is a software developer team building software together. Our focus are out-of-the-box projects and disruptive civil tech to contribute to the inevitable change of our society.
 
 We believe in a working process that has the right amount of authority to make sensible decisions and coordinate us to reach our goals. The leadership may shift between team members based on expertise and availability. Furthermore we believe that everyone who loves doing his job is more effective then when being forced to. We make sure every member has the upmost possible freedom how to work.
@@ -36,3 +38,7 @@ Since we constantly try to recruit new members this list is not complete.
 <!-- textlint-disable period-in-list-item -->
 <!-- - busFaktor() e.V. -->
 <!-- textlint-enable period-in-list-item -->
+
+<script setup>
+import Section from "@Section";
+</script>
