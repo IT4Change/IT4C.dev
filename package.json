@@ -38,5 +38,9 @@
     "textlint-rule-write-good": "^2.0.0",
     "vuepress": "^2.0.0-rc.19",
     "vuepress-theme-hope": "^2.0.0-rc.71"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "^4.0.5",
+    "tailwindcss": "^4.0.5"
   }
 }
