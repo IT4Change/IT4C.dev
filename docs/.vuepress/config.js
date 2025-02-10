@@ -3,12 +3,20 @@ import Imagemin from 'vuepress-plugin-imagemin'
 import { defineUserConfig } from 'vuepress'
 import meta from './config/meta'
 import theme from './config/theme'
+import tailwindcss from '@tailwindcss/vite'
 
 export default defineUserConfig({
   lang: 'de-DE',
   ...meta,
   theme,
-  bundler: viteBundler({}),
+  bundler: viteBundler({
+    viteOptions: {
+      css: ['./styles/main.css'],
+      plugins: [
+        tailwindcss(),
+      ]
+    }
+  }),
   plugins: [
     Imagemin({
       gifsicle: {
@@ -38,5 +46,4 @@ export default defineUserConfig({
       },
     }),
   ],
-
 })
