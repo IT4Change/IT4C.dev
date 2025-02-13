@@ -15,13 +15,11 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    title: String,
-    description: String,
-    image: String,
-    tags: Array
-  }
-}
+<script setup lang="ts">
+defineProps<{
+  title: string
+  description: string
+  image: string
+  tags: string[]
+}>()
 </script>

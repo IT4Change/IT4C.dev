@@ -6,12 +6,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    name: String,
-    role: String,
-    image: String
-  }
-}
+<script setup lang="ts">
+defineProps<{
+  name: string
+  role: string
+  image: string
+}>()
 </script>
