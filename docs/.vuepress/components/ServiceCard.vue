@@ -7,11 +7,9 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    title: String,
-    items: Array
-  }
-}
+<script setup lang="ts">
+defineProps<{
+  title: string
+  items: string[]
+}>()
 </script>

@@ -22,23 +22,18 @@
   </form>
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      form: {
-        name: '',
-        email: '',
-        phone: '',
-        message: ''
-      }
-    }
-  },
-  methods: {
-    handleSubmit() {
-      console.log('Form submitted:', this.form)
-      // Add form submission logic here
-    }
-  }
+<script setup lang="ts">
+import { reactive } from 'vue'
+
+const form = reactive({
+  name: '',
+  email: '',
+  phone: '',
+  message: ''
+})
+
+const handleSubmit = () => {
+  console.log('Form submitted:', form)
+  // Add form submission logic here
 }
 </script>

@@ -10,12 +10,10 @@
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    number: String,
-    title: String,
-    description: String
-  }
-}
+<script setup lang="ts">
+defineProps<{
+  number: string
+  title: string
+  description: string
+}>()
 </script>
