@@ -93,3 +93,7 @@ description="Langfristige Betreuung und Weiterentwicklung"
 # Kontakt
 
 <ContactForm />
+
+<style>
+  @import "tailwindcss";
+</style>
