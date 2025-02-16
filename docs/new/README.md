@@ -1,3 +1,9 @@
+# Software­entwicklung für eine bessere Welt
+
+Wir sind Softwareentwickler, die deine alternative Vision verstehen und umsetzen. Mit technischer Expertise und persönlicher Betreuung unterstützen wir Projekte, die Positives bewirken.
+
+[Projekt Starten]
+
 # Leistungen
 
 <ServiceCard
