@@ -4,27 +4,33 @@ Wir sind Softwareentwickler, die deine alternative Vision verstehen und umsetzen
 
 [Projekt Starten]
 
-# Leistungen
+## Leistungen
 
 <ServiceCard
-title="Frontend"
-:items="['Webentwicklung', 'Mobile Anwendungen', 'Responsive Design', 'Barrierefreiheit']"
+title="Webentwicklung"
+:items="['Frontend', 'Responsive Design', 'Barrierefreiheit', 'Backend']"
 />
 
 <ServiceCard
-title="Backend"
-:items="['Systemarchitektur', 'API-Entwicklung', 'Datenbank-Design', 'Skalierbare Lösungen']"
+title="Hosting"
+:items="['Wordpress', 'Ocelot.social', 'Zugeschnittene Lösungen', 'Nachhaltige Serverinfrastrukturen']"
 />
 
 <ServiceCard
-title="DevOps"
-:items="['Nachhaltige Server-Strukturen', 'Deployment-Automatisierung', 'Performance-Optimierung', 'Monitoring & Security']"
+title="Mobile Anwendungen"
+:items="['Android', 'iOS', 'PWA']"
 />
 
 <ServiceCard
-title="Beratung"
-:items="['Technische Konzeption', 'Agiles Projektmanagement', 'Code-Qualität & Testing', 'Nachhaltigkeitsanalyse']"
+title="Beratung & Betreuung"
+:items="['Systemarchitektur', 'DevOps & Prozessbegleitung', 'Monitoring & Security', 'Technische Konzeption', 'Agiles Projektmanagement', 'Nachhaltigkeitsanalyse']"
 />
+
+<ServiceCard
+title="Software-Entwicklung"
+:items="['API-Entwicklung', 'Datenbank-Design', 'Performance-Optimierung', 'Deployment-Automatisierung', 'Code-Qualität & Testing']"
+/>
+
 
 # Unser Team
 
