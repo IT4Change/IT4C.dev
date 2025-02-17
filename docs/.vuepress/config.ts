@@ -9,7 +9,6 @@ export default defineUserConfig({
   theme,
   bundler: viteBundler({
     viteOptions: {
-      css: ['./styles/main.css'],
       plugins: [
         tailwindcss(),
       ]
