@@ -4,8 +4,8 @@
   "description": "The IT4C.dev website",
   "main": "index.js",
   "scripts": {
-    "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
+    "build": "vuepress build docs",
+    "dev": "vuepress dev docs",
     "test": "textlint \"*.md\" \"docs/**/*.md\""
   },
   "repository": {
