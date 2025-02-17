@@ -32,7 +32,13 @@ title="Software-Entwicklung"
 />
 
 
-# Unser Team
+## Team & Werte
+
+Wir glauben an die Kraft der Technologie für positiven Wandel. Unser diverses Team verbindet technische Expertise mit nachhaltigem Denken und sozialer Verantwortung.
+
+- Agile & transparente Zusammenarbeit
+- Nachhaltige Entwicklungspraktiken
+- Fokus auf langfristige Partnerschaften
 
 <div class="grid md:grid-cols-4 gap-6">
   <TeamMember
