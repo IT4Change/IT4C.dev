@@ -1,24 +1,49 @@
 <template>
   <form class="space-y-4" @submit.prevent="handleSubmit">
     <div>
-      <label class="block text-gray-700 mb-2" for="name">Name</label>
-      <input type="text" id="name" v-model="form.name" class="w-full p-2 border rounded">
+      <input
+          type="text"
+          id="name"
+          v-model="form.name"
+          placeholder="Name"
+          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+      >
     </div>
     <div>
-      <label class="block text-gray-700 mb-2" for="email">E-Mail</label>
-      <input type="email" id="email" v-model="form.email" class="w-full p-2 border rounded">
+      <input
+          type="email"
+          id="email"
+          v-model="form.email"
+          placeholder="E-Mail"
+          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+      >
     </div>
     <div>
-      <label class="block text-gray-700 mb-2" for="phone">Telefon</label>
-      <input type="tel" id="phone" v-model="form.phone" class="w-full p-2 border rounded">
+      <input
+          type="tel"
+          id="phone"
+          v-model="form.phone"
+          placeholder="Telefon"
+          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+      >
     </div>
     <div>
-      <label class="block text-gray-700 mb-2" for="message">Nachricht</label>
-      <textarea id="message" v-model="form.message" rows="4" class="w-full p-2 border rounded"></textarea>
+      <textarea
+          id="message"
+          v-model="form.message"
+          rows="4"
+          placeholder="Ihre Nachricht"
+          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+      ></textarea>
     </div>
-    <button type="submit" class="w-full bg-green-700 text-white py-2 px-4 rounded hover:bg-green-600">
-      Nachricht senden
-    </button>
+    <div class="flex justify-end">
+      <button
+          type="submit"
+          class="bg-green-700 text-white py-2 px-6 rounded-md hover:bg-green-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+      >
+        Nachricht senden
+      </button>
+    </div>
   </form>
 </template>
 
