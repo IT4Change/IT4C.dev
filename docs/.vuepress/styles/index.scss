@@ -1,0 +1,21 @@
+h1, h2 {
+  border-bottom: none;
+  padding-bottom: 2rem;
+  font-weight: bold;
+}
+
+
+.full-width-section {
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  width: 100vw;
+
+  .content-width {
+    max-width: var(--content-width);
+    margin: 0 auto;
+    padding: 0 2.5rem;
+  }
+}
