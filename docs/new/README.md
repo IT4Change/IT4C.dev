@@ -51,28 +51,45 @@ footer: CC BY IT4C.dev & Authors
   <p>Wir glauben an die Kraft der Technologie für positiven Wandel. Unser diverses Team verbindet technische Expertise mit nachhaltigem Denken und sozialer Verantwortung.</p>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
     <TeamMember
-      name="Sarah"
-      role="Frontend, UX"
+      name="Hannes"
+      role="Backend"
+      profileUrl="/people/hannes-heine.html"
       image="/images/portrait/hannes-heine.jpg"
     />
     <TeamMember
-      name="Michael"
-      role="Backend, DevOps"
+      name="Mathias"
+      role="Testing"
+      profileUrl="/people/hannes-heine.html"
       image="/images/portrait/ml-portrait.jpg"
     />
     <TeamMember
-      name="Lea"
-      role="Projektmanagement"
+      name="Max"
+      role="Frontend"
+      profileUrl="/people/moriz-wahl.html"
+      image="/images/portrait/moriz-wahl.jpg"
+    />    
+    <TeamMember
+      name="Moriz"
+      role="Backend"
+      profileUrl="/people/moriz-wahl.html"
+      image="/images/portrait/moriz-wahl.jpg"
+    /> 
+    <TeamMember
+      name="Sebastian"
+      role="Frontend"
+      profileUrl="/people/sebastian-stein.html"
       image="/images/portrait/moriz-wahl.jpg"
     />
     <TeamMember
-      name="Alex"
-      role="Fullstack, Security"
+      name="Ulf"
+      role="Backend, Hosting"
+      profileUrl="/people/ulf-gebhardt.html"
       image="/images/portrait/ulf-gebhardt.jpg"
     />
     <TeamMember
-      name="Alex"
-      role="Fullstack, Security"
+      name="Wolfgang"
+      role="Backend"
+      profileUrl="/people/wolfgang-huss.html"
       image="/images/portrait/Wolfgang_Huss.jpeg"
     />
   </div>
