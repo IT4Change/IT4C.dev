@@ -1,0 +1,29 @@
+{
+  "name": "it4c.dev-backend",
+  "version": "1.0.0",
+  "description": "IT4C.dev backend",
+  "license": "Apache-2.0",
+  "author": "Ulf Gebhardt",
+  "type": "module",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IT4Change/IT4C.dev.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@fastify/type-provider-typebox": "^5.1.0",
+    "@types/nodemailer": "^6.4.17",
+    "fastify": "^5.2.1",
+    "nodemailer": "^6.10.0",
+    "ts-dotenv": "^0.9.1"
+  }
+}
