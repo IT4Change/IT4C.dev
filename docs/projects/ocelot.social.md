@@ -1,34 +1,25 @@
 # Ocelot.Social
 
-## Description
+## Beschreibung
 
-This project started under the name Human-Connection. The idea of human-connection was to create an alternative social media platform where the user is not the product. In contradiction to social media platforms like Facebook, Instagram, etc... The user should have the possibility to have constructive discussion (Pro-Contra), have a possibility to take action if a post made them angry, sad, etc...
+![Ocelot.Social](../images/projects/ocelot-newsfeed.png)
 
-For this to work the user should pay for the infrastructure the platform is working on.
+Dieses Projekt begann unter dem Namen Human Connection.
+Die Idee war, eine Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok zu schaffen, bei der die Nutzer nicht das Produkt sind.
+Nach der Schließung des Netzwerks von Human Connection wurde die Open-Source-Software weiterentwickelt.
 
-After the closing of the Human-Connection network, the developer and the users wanted to continue to work on the idea. We created a not branded project that can be deployed for different networks with their own brand.
+*Ocelot.social* kann durch beliebige Betreiber auf eigenen Servern gehostet, mit eigenem Branding und zu eignen Nutzungsbedingungen angeboten werden.
+Es kann individuell konfiguriert werden und ist skalierbar sowie erweiterbar, .
 
-## Functions
+Teste die [Demoversion](https://ocelot.social/de/get-started/).
 
-- User Accounts
-- User Roles
-- news feed (Posts)
-  - Filter
-- posts
-  - as articles
-  - as events
-  - comments
-- Search (fulltext)
-- Groups
-- Map
-- Moderation
+Mehr Infos auf [ocelot.social](https://ocelot.social/de/) und [GitHub](https://github.com/Ocelot-Social-Community/Ocelot-Social).
 
-## Demo
+## Unser Angebot
 
-Try out the application under the following link [Ocelot.Social](https://stage.ocelot.social/).
-You can login with the following credentials:
-| email | password | role |
-| :--- | :--- | :--- |
-| `user@example.org` | 1234 | user |
-| `moderator@example.org` | 1234 | moderator |
-| `admin@example.org` | 1234 | admin |
+IT-Team-for-Change (IT4C) unterstützt Interessierte und Betreiber mit:
+
+- Beratung
+- Hosting
+- Software-Unterhalt
+- Weiterentwicklung der Software
