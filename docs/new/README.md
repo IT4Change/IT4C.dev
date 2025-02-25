@@ -67,13 +67,13 @@ footer: CC BY IT4C.dev & Authors
       role="Frontend"
       profileUrl="/people/moriz-wahl.html"
       image="/images/portrait/moriz-wahl.jpg"
-    />    
+    />
     <TeamMember
       name="Moriz"
       role="Backend"
       profileUrl="/people/moriz-wahl.html"
       image="/images/portrait/moriz-wahl.jpg"
-    /> 
+    />
     <TeamMember
       name="Sebastian"
       role="Frontend"
@@ -141,4 +141,8 @@ footer: CC BY IT4C.dev & Authors
 
 <style>
   @import "tailwindcss";
+
+  .vp-hero-info-wrapper {
+    height: 100vh;
+  }
 </style>

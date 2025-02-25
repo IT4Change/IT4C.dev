@@ -1,4 +1,5 @@
 import { defineClientConfig } from 'vuepress/client'
+import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 import ServiceCard from './components/ServiceCard.vue'
 import ProcessStep from './components/ProcessStep.vue'
 import ContactForm from './components/ContactForm.vue'
@@ -14,5 +15,8 @@ export default defineClientConfig({
     app.component('ProcessStep', ProcessStep)
     app.component('ProjectCard', ProjectCard)
     app.component('TeamMember', TeamMember)
+  },
+  setup() {
+    setupTransparentNavbar({ type: "homepage" });
   },
 })
