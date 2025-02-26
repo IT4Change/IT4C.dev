@@ -81,7 +81,7 @@ And with a hands-on mentality, he can also contribute to other areas and familia
 - [Javascript](https://www.javascript.com/)
 - [Python](https://www.python.org/)
 - [Ruby](https://www.ruby-lang.org/)
-- [C++](https://de.wikipedia.org/wiki/C%2B%2B
+- [C++](https://de.wikipedia.org/wiki/C%2B%2B)
 - [HTML](https://de.wikipedia.org/wiki/Hypertext_Markup_Language)
 - [CSS](https://de.wikipedia.org/wiki/Cascading_Style_Sheets)
 - [LaTex](https://www.latex-project.org/)
