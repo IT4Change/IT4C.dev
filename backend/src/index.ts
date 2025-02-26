@@ -37,7 +37,7 @@ fastify.post<{Body: Body, Reply: Reply}>('/mail', {schema},  async (request, rep
     to: env.EMAIL_RECEIVER,
     from: `"${request.body.name}" <${request.body.email}>`,
     subject: env.EMAIL_SUBJECT,
-    text: `${request.body.text}${request.body.telephone ? `\n\nTelephone: ${request.body.telephone}` : ''},
+    text: `${request.body.text}${request.body.telephone ? `\n\nTelephone: ${request.body.telephone}` : ''}`,
   })
 
   reply.status(200).send({success: true})
