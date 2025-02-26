@@ -45,7 +45,7 @@ fastify.post<{Body: Body, Reply: Reply}>('/mail', {schema},  async (request, rep
 
 // Run the server!
 try {
-  await fastify.listen({ port: env.PORT })
+  fastify.listen({ port: env.PORT })
 } catch (err) {
   fastify.log.error(err)
   process.exit(1)

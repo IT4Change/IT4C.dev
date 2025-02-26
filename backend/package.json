@@ -4,13 +4,14 @@
   "description": "IT4C.dev backend",
   "license": "Apache-2.0",
   "author": "Ulf Gebhardt",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/IT4Change/IT4C.dev.git"
   },
   "scripts": {
+    "start": "node ./build/index.js",
     "build": "tsc",
     "dev": "tsx src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
