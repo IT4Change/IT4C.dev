@@ -26,8 +26,11 @@ npm install
 npm run build
 
 ## Copy files and Sym link
+echo $DEPLOY_DIR_REF/
 mkdir $DEPLOY_DIR_REF/
+echo "cp"
 cp -r $BUILD_DIR/* $DEPLOY_DIR_REF/
+echo "ln"
 ln -sfn $DEPLOY_DIR_REF $DEPLOY_DIR
 
 # backend
@@ -41,3 +44,5 @@ pm2 delete $BACKEND_SERVICE
 
 npm install
 npm run build
+
+pm2 start 'npm run start' --name $BACKEND_SERVICE
