@@ -26,9 +26,9 @@ npm install
 npm run build
 
 ## Copy files and Sym link
-mkdir "${DEPLOY_DIR_REF}/"
-cp -r $BUILD_DIR/* "${DEPLOY_DIR_REF}/"
-ln -sfn "${DEPLOY_DIR_REF}" $DEPLOY_DIR
+mkdir "\"${DEPLOY_DIR_REF}/\""
+cp -r $BUILD_DIR/* "\"${DEPLOY_DIR_REF}/\""
+ln -sfn "\"${DEPLOY_DIR_REF}\"" $DEPLOY_DIR
 
 # backend
 BACKEND_ROOT=$PROJECT_ROOT/backend
