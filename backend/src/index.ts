@@ -17,7 +17,10 @@ const mailService = Mailer.createTransport({
   args: ["-S 192.168.16.102"] */
   host: "192.168.16.102",
   port: 465,
-  secure: true, // upgrade later with STARTTLS
+  secure: true,
+  tls: { 
+    rejectUnauthorized: false ,
+  },
 })
 
 // Fatify
