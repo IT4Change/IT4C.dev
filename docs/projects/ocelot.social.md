@@ -1,34 +1,34 @@
 # Ocelot.Social
 
-## Description
+## Beschreibung
 
-This project started under the name Human-Connection. The idea of human-connection was to create an alternative social media platform where the user is not the product. In contradiction to social media platforms like Facebook, Instagram, etc... The user should have the possibility to have constructive discussion (Pro-Contra), have a possibility to take action if a post made them angry, sad, etc...
+Dieses Projekt begann unter dem Namen Human-Connection. Die Idee von Human-Connection war es, eine alternative Social-Media-Plattform zu schaffen, bei der der Nutzer nicht das Produkt ist. Im Gegensatz zu Social-Media-Plattformen wie Facebook, Instagram, etc... Der Nutzer sollte die Möglichkeit haben, konstruktive Diskussionen zu führen (Pro-Contra) und Maßnahmen zu ergreifen, wenn ein Beitrag ihn wütend oder traurig gemacht hat usw.
 
-For this to work the user should pay for the infrastructure the platform is working on.
+Damit dies funktioniert, sollte der Nutzer für die Infrastruktur, an der die Plattform arbeitet, bezahlen.
 
-After the closing of the Human-Connection network, the developer and the users wanted to continue to work on the idea. We created a not branded project that can be deployed for different networks with their own brand.
+Nach der Schließung des Human-Connection-Netzwerks wollten der Entwickler und die Nutzer weiter an der Idee arbeiten. Wir haben ein nicht gebrandetes Projekt geschaffen, das für verschiedene Netzwerke mit eigenem Branding eingesetzt werden kann.
 
-## Functions
+## Funktionen
 
-- User Accounts
-- User Roles
-- news feed (Posts)
-  - Filter
-- posts
-  - as articles
-  - as events
-  - comments
-- Search (fulltext)
-- Groups
-- Map
+- Benutzerkonten
+- Benutzerrollen
+- Newsfeed (Beiträge)
+  - Filtern
+- Beiträge
+  - als Artikel
+  - als Ereignisse
+  - Kommentare
+- Suche (Volltext)
+- Gruppen
+- Karte
 - Moderation
 
 ## Demo
 
-Try out the application under the following link [Ocelot.Social](https://stage.ocelot.social/).
-You can login with the following credentials:
-| email | password | role |
+Probiere  die Anwendung unter [Ocelot.Social](https://stage.ocelot.social/) aus.
+Mit den folgenden Anmeldedaten kann man sich anmelden:
+| E-Mail | Passwort | Rolle |
 | :--- | :--- | :--- |
-| `user@example.org` | 1234 | user |
+| `user@example.org` | 1234 | Benutzer |
 | `moderator@example.org` | 1234 | moderator |
 | `admin@example.org` | 1234 | admin |

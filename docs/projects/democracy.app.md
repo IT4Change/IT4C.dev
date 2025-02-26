@@ -1,9 +1,11 @@
 # DEMOCRACY App
 
-## Description
+## Beschreibung
 
-The [DEMOCRACY App](https://www.democracy-deutschland.de/) is an open-source project that gathers from the german parlament the laws and decisions with all their documents. Then gives their users the possibility to vote (accept, reject or withholding) for each decission that the parlament has to make. After the vote the users can see in percentage how much persons have vote accept, reject or withhold.
+Die [DEMOCRACY App] (https://www.democracy-deutschland.de/) ist ein Open-Source-Projekt, das die Gesetze und Beschlüsse des Deutschen Bundestages mit all ihren Dokumenten sammelt. Dann gibt sie ihren Nutzern die Möglichkeit, für jede Entscheidung, die das Parlament zu treffen hat, abzustimmen (annehmen, ablehnen oder zurückhalten). Nach der Abstimmung können die Benutzer in Prozenten sehen, wie viele Personen zugestimmt, abgelehnt oder verweigert haben.
 
 ## Techstack
 
-Backend is written in TypeScript.
+Das Backend ist in TypeScript geschrieben.
+
+Übersetzt mit DeepL.com (kostenlose Version)

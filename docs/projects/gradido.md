@@ -1,20 +1,20 @@
 # Gradido
 
-## Description
+## Beschreibung
 
-[Gradido](https://www.gradido.net) is a project that wants to create a alternativ currency to the fiat money.
+[Gradido](https://www.gradido.net) ist ein Projekt, das eine alternative Währung zum Fiatgeld schaffen will.
 
-For this we helped Bernd Hückstedt to create his idea.
-Alexander Friedland discovered the project and worked as the frontend developer.
-Ulf Gebhardt was the project owner and the dev-op.
-Moriz Wahl was responsible for the backend and the unit tests.
-Hannes Heine worked on the backend and was agile coach.
-Mathias Lenz made the end-to-end test szenarios and the dev-op.
-Wolfgang Huß also worked on the backend.
+Dazu haben wir Bernd Hückstedt bei der Umsetzung seiner Idee geholfen.
+Alexander Friedland entdeckte das Projekt und arbeitete als Frontend-Entwickler.
+Ulf Gebhardt war der Project Owner und der Dev-Op.
+Moriz Wahl war verantwortlich für das Backend und die Unit-Tests.
+Hannes Heine arbeitete am Backend und war agiler Coach.
+Mathias Lenz erstellte die End-to-End-Testszenarien und den Dev-Op.
+Wolfgang Huß hat ebenfalls am Backend gearbeitet.
 
 ## Techstack
 
-The frontend is written in Vue2.
-The backend uses node.js, apollo, graphql.
-The database is on the SQL platform MariaDB.
-The End-to-End tests are written with cypress.
+Das Frontend ist in Vue2 geschrieben.
+Das Backend verwendet NodeJS, Apollo, GraphQL.
+Die Datenbank ist auf der SQL-Plattform MariaDB.
+Die End-to-End Tests sind mit Cypress geschrieben.
