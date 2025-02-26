@@ -13,7 +13,7 @@ export const schema = {
     },
     EMAIL_SUBJECT: {
         type: String,
-        default: '[IT4C] Received EMail from $s'
+        default: '[IT4C] Received EMail from %s'
     },
     PORT: {
         type: Number,
