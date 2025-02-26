@@ -1,21 +1,21 @@
-# Contact
+# Kontakt
 
-Wether you are looking for skilled developers to <!-- textlint-disable write-good -->implement<!-- textlint-enable write-good --> your business idea, you want to scale up your existing team or you are a developer and want to work with us: Get in touch!
+Ob auf der Suche nach erfahrenen Entwicklern, um Ihre Geschäftsidee zu implementieren, oder ein bestehendes Team zu erweitern - oder bei Interesse an Zusammenarbeit: Nimm Kontakt mit uns auf!
 
-You can contact us [via E-Mail](mailto:info@it4c.dev) or [mobile phone](tel://+4915784841600).
+Wir sind per [per E-Mail](mailto:info@it4c.dev) oder [Mobiltelefon](tel://+4915784841600) erreichbar (Deutsch oder Englisch).
 
-We accept inquiries in German and English language.
+## Für Entwickler
 
-## For Developers
+Wenn du als Entwickler mit uns arbeiten möchtest, szeige uns gern dein Github Profil oder einen Lebenslauf.
 
-If you consider to work with us as developer please make sure to provide resources like your Github Profile or CV.
+Auch wenn du kein gutes Github-Profil hast oder gerade dein Studium abgeschlossen hast, kannst du uns gerne kontaktieren, wenn du daran interessiert bist, in einer professionellen Entwicklerumgebung zu arbeiten. Wir helfen dir dabei, dich in moderne Arbeitsabläufe, Technologien und das Innenleben eines Remote-Teams einzuarbeiten. Eswäreschön, wenn du IT aus Hingabe, nit aus der Not heraus machst.
 
-Also if you do not have a great Github Profile or you <!-- textlint-disable write-good -->just<!-- textlint-enable write-good --> finished university, feel free to contact us if you are interested in working in a professional developer environment. We will help you get educated in modern workflows, technologies and the inner workings of a remote team. <!-- textlint-disable write-good -->Just<!-- textlint-enable write-good --> make sure that you do IT out of love and not necessity.
+Auch über unseren [Telegram Kanal](https://t.me/+A3XAurSG9ws3NjE6) kann man mit uns in Kontakt treten.
 
-You can also join our [Telegram Channel](https://t.me/+A3XAurSG9ws3NjE6) to get in touch.
+## Für Klienten
 
-## For Clients
+<!-- textlint-disable max-comma -->
+Wenn Sie auf der Suche nach einem Entwicklerteam sind und (einige) von uns einstellen möchten, stellen Sie bitte sicher, dass Sie auch eine detaillierte Projektbeschreibung liefern, in der Sie die Ziele, den Zeitrahmen, die sozialen Auswirkungen und die Frage, ob das Projekt Open- oder Closed-Source sein wird, beschreiben.
+<!-- textlint-enable max-comma -->
 
-If you are looking for a developer team and you consider hiring (some of) us, please make sure to also provide a detailed project description, outlining goals, time frame, social impact and wether the project will be open- or closed source.
-
-We will work with you to achieve your goals in a sustainable manner. We will make sure knowledge is spread within the team and we will integrate with your existing IT department to ensure scalability.
+Wir werden mit Ihnen zusammenarbeiten, um Ihre Ziele auf nachhaltige Weise zu erreichen. Wir sorgen dafür, dass das Wissen innerhalb des Teams verbreitet wird und integrieren uns in Ihre bestehende IT-Abteilung, um die Skalierbarkeit zu gewährleisten.
