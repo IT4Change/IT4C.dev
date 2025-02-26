@@ -18,6 +18,10 @@ export const schema = {
     PORT: {
         type: Number,
         default: 3000
+    },
+    MAIL_HOST: {
+        type: String,
+        default: 'localhost'
     }
 };
 

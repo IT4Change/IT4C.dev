@@ -11,11 +11,7 @@ FormatRegistry.Set('email', (value) => IsEmail(value))
 
 // Nodemailer
 const mailService = Mailer.createTransport({
-	/* sendmail: true,
-	newline: 'unix',
-	path: '/usr/sbin/sendmail',
-  args: ["-S 192.168.16.102"] */
-  host: "192.168.16.102",
+  host: env.MAIL_HOST,
   port: 465,
   secure: true,
   tls: { 
@@ -43,7 +39,7 @@ const schema = {
 }
 
 fastify.withTypeProvider<TypeBoxTypeProvider>().post('/mail', {schema},  async (request, reply) => {
-  //try {
+  try {
     await mailService.sendMail({
       to: env.EMAIL_RECEIVER,
       from: `"${request.body.name}" <${request.body.email}>`,
@@ -51,9 +47,9 @@ fastify.withTypeProvider<TypeBoxTypeProvider>().post('/mail', {schema},  async (
       text: `${request.body.text}${request.body.telephone ? `\n\nTelephone: ${request.body.telephone}` : ''}`,
     })
     reply.status(200).send({success: true})
-  //} catch (error){
-  //  reply.status(400).send({success: false, error: error as string})
-  //}
+  } catch (error){
+    reply.status(400).send({success: false, error: error as string})
+  }
 })
 
 // Run the server!
