@@ -1,64 +1,64 @@
 # Hannes Heine
 
-## Presentation
+## Präsentation
 
 ![Hannes Heine](../images/portrait/hannes-heine.jpg)
 
-I was born in Germany and raised in France, so I speak both languages fluently. In my free time I like to play video games, do Reiki and all kind of sports.
-As child, except for my interest for sports, I always excelled in sciences. In 10th grade I came across coding, the starting time was so exiting, I had the impression that I could do magic on a small device. It captivated me so much that after my graduation in 2008 (baccalauréat), I studied for 3 years in the beautiful city of Toulouse (mathematics, mechanics and informatics).
-After that I moved back to Germany in the city were I was born - Hamburg.
+Ich bin in Deutschland geboren und in Frankreich aufgewachsen, daher spreche ich beide Sprachen fließend. In meiner Freizeit spiele ich gerne Videospiele, mache Reiki und alle Arten von Sport.
+Als Kind war ich, abgesehen von meinem Interesse für Sport, immer sehr gut in den Naturwissenschaften. In der 10. Klasse stieß ich auf das Programmieren, die Anfangszeit war so aufregend, dass ich den Eindruck hatte, ich könnte mit einem kleinen Gerät zaubern. Das hat mich so sehr begeistert, dass ich nach meinem Abitur 2008 3 Jahre in der schönen Stadt Toulouse studiert habe (Mathematik, Mechanik und Informatik).
+Danach zog ich zurück nach Deutschland in die Stadt, in der ich geboren wurde - Hamburg.
 
-## Work
+## Arbeit
 
-### Hired jobs
+### Hired Jobs
 
-- White Paper Media ltd. now known as [OktoPOS](https://www.oktopos.com/en/#!) and [OktoCareer](https://www.oktocareer.com/en/home)
+- White Paper Media Ltd. jetzt bekannt als [OktoPOS](https://www.oktopos.com/en/#!) und [OktoCareer](https://www.oktocareer.com/en/home)
 
-> My role was a software engineer, my tasks was mainly to work on the OkotoPOS project with allot of data transfer from an application to another and a little bit of Frontend <!-- textlint-disable max-comma -->(Java, JUnit, jersey, hibernate, etc.)<!-- textlint-enable max-comma -->.
+> Meine Rolle war die eines Software-Ingenieurs. Meine Aufgaben waren hauptsächlich die Arbeit am OkotoPOS-Projekt mit viel Datentransfer von einer Anwendung zur anderen und ein wenig Frontend (Java, JUnit, Jersey, hibernate, etc.).
 
 - [MSP AG](https://www.mspag.com/en)
 
-> Their my role was a software engineer. I helped to plan and develope import and export of data for different clients in the Censhare backend <!-- textlint-disable max-comma -->(Java, JaxRS, XPATH, XSLT, XLIFF, JavaPOI, etc.)<!-- textlint-enable max-comma -->.
+> Dort war meine Rolle die eines Software-Ingenieurs. Ich half bei der Planung und Entwicklung des Im- und Exports von Daten für verschiedene Clients im Censhare Backend <!-- textlint-disable max-comma -->(Java, JaxRS, XPATH, XSLT, XLIFF, JavaPOI, etc.)<!-- textlint-enable max-comma -->.
 
-### Freelance projects
+### Freelance Projecte
 
 - [DeutscheSee Online Shop](https://www.deutschesee.de/shop/)
 
-> My tasks their were to help on their Shopware shop (PHP, Laravel, etc.) development and on their own application (AngularJS) that was used by their manufactures to send back the correct weight of the sold product.
+> Meine Aufgaben bestanden darin, bei der Entwicklung des Shopware-Shops (PHP, Laravel, etc.) und der firmeneigenen Anwendung (AngularJS) zu helfen. Diese wird von Herstellern verwendet, um das korrekte Gewicht des verkauften Produkts zurückzugeben.
 
 - Human Connection
 
-> I helped them to translate from German to French.
+> Ich half bei der Übersetzung vom Deutschen ins Französische.
 
 - Gradido
 
-> I do tasks from backend <!-- textlint-disable max-comma -->(GraphQL, TypeScript, TypeORM, etc.)<!-- textlint-enable max-comma --> to frontend <!-- textlint-disable max-comma -->(VueJS, Bootstrap, etc.)<!-- textlint-enable max-comma -->.
+> Ich erledige Aufgaben vom Backend <!-- textlint-disable max-comma -->(GraphQL, TypeScript, TypeORM, etc.) bis zum Frontend (VueJS, Bootstrap, etc.)<!-- textlint-enable max-comma -->.
 
-- Setup of different small Shopware shops and CMS sites
+- Einrichtung von verschiedenen kleinen Shopware-Shops und CMS-Seiten
 
-> (Hosting, Configuration, etc.)
+> (Hosting, Konfiguration, etc.)
 
-You can find me on [Github](https://github.com/elweyn)
+Ich bin [hier](https://github.com/elweyn) auf Github zu finden.
 
-## Role
+## Rolle
 
 - DevOps
-- Backend Developer
-- Software & Database architect
+- Backend-Entwickler
+- Software & Datenbank Architekt
 - Scrum Master
 - Design-Eye
 
-## Spoken languages
+## Gesprochene Sprachen
 
-- French fluently
-- German fluently
-- English written and spoken
+- Französisch fließend
+- Deutsch fließend
+- Englisch in Wort und Schrift
 
-## Coding languages
+## Programmiersprachen und Frameworks
 
-In my software years I had allot of different languages listed behind are the one that I used the most.
+In meiner Zeit als Softwareentwickler habe ich viele verschiedene Sprachen gelernt. Die folgenden sind die, die ich am häufigsten verwendet habe.
 
-### For Javascript
+### Für Javascript
 
 - [Node](https://github.com/nodejs/node)
 - [Vue](https://vuejs.org/)
@@ -69,14 +69,14 @@ In my software years I had allot of different languages listed behind are the on
 - [TypeScript](https://www.typescriptlang.org/)
 - [TypeORM](https://typeorm.io/)
 
-### For Java
+### Für Java
 
 - [JAX-RS](https://www.oracle.com/technical-resources/articles/java/jax-rs.html)
 - [Apache POI](https://poi.apache.org/)
 - [JavaPOS](https://en.wikipedia.org/wiki/JavaPOS)
 - [JDBC](https://en.wikipedia.org/wiki/Java_Database_Connectivity)
 
-### For PHP
+### Für PHP
 
 - [Shopware](https://www.shopware.com/)
 - [Wordpress](https://wordpress.org/)
@@ -96,16 +96,16 @@ In my software years I had allot of different languages listed behind are the on
 - [nginx](https://nginx.org/en/)
 - [Express](https://expressjs.com/)
 
-### Database
+### Datenbank
 
 - [Mysql](https://www.mysql.com/)
 - [MariaDB](https://mariadb.org/)
 - [PostgreSQL](https://www.postgresql.org/)
 - [Oracle](https://www.oracle.com/)
 
-### Development
+### Entwicklung
 
 - [Git](https://git-scm.com/)
 - [Github](https://github.com/)
 - [Kanaban](https://en.wikipedia.org/wiki/Kanban)
-- [Agile software development](https://en.wikipedia.org/wiki/Agile_software_development)
+- [Agile Softwareentwicklung](https://de.wikipedia.org/wiki/Agile_Softwareentwicklung)
