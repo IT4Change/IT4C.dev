@@ -11,10 +11,13 @@ FormatRegistry.Set('email', (value) => IsEmail(value))
 
 // Nodemailer
 const mailService = Mailer.createTransport({
-	sendmail: true,
+	/* sendmail: true,
 	newline: 'unix',
 	path: '/usr/sbin/sendmail',
-  args: ["-S 192.168.16.102"]
+  args: ["-S 192.168.16.102"] */
+  host: "192.168.16.102",
+  port: 465,
+  secure: true, // upgrade later with STARTTLS
 })
 
 // Fatify
