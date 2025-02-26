@@ -4,6 +4,7 @@
 SCRIPT_PATH=$(realpath $0)
 SCRIPT_DIR=$(dirname $SCRIPT_PATH)
 PROJECT_ROOT=$SCRIPT_DIR/../..
+# by default this will create folders in the project root
 DEPLOY_DIR=${1:-test}
 BUILD_DIR=$PROJECT_ROOT/docs/.vuepress/dist
 
