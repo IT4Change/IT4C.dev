@@ -4,7 +4,7 @@
 SCRIPT_PATH=$(realpath $0)
 SCRIPT_DIR=$(dirname $SCRIPT_PATH)
 PROJECT_ROOT=$SCRIPT_DIR/../..
-DEPLOY_DIR=$1
+DEPLOY_DIR=${1:-test}
 BUILD_DIR=$PROJECT_ROOT/docs/.vuepress/dist
 
 # assuming you are already on the right branch
@@ -26,9 +26,9 @@ npm install
 npm run build
 
 ## Copy files and Sym link
-mkdir "\"${DEPLOY_DIR_REF}/\""
-cp -r $BUILD_DIR/* "\"${DEPLOY_DIR_REF}/\""
-ln -sfn "\"${DEPLOY_DIR_REF}\"" $DEPLOY_DIR
+mkdir "$DEPLOY_DIR_REF/"
+cp -r $BUILD_DIR/* "$DEPLOY_DIR_REF/"
+ln -sfn "$DEPLOY_DIR_REF" $DEPLOY_DIR
 
 # backend
 BACKEND_ROOT=$PROJECT_ROOT/backend
