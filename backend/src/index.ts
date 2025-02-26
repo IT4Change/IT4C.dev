@@ -13,7 +13,8 @@ FormatRegistry.Set('email', (value) => IsEmail(value))
 const mailService = Mailer.createTransport({
 	sendmail: true,
 	newline: 'unix',
-	path: '/usr/sbin/sendmail -S 192.168.16.102',
+	path: '/usr/sbin/sendmail',
+  args: ["-S 192.168.16.102"]
 })
 
 // Fatify
