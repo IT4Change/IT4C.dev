@@ -1,8 +1,9 @@
-/* eslint-disable security/detect-unsafe-regex */
 // See: https://github.com/fastify/fastify-type-provider-typebox/issues/84#issuecomment-1560337451
 // -------------------------------------------------------------------------------------------
 // https://github.com/ajv-validator/ajv-formats/blob/master/src/formats.ts
 // -------------------------------------------------------------------------------------------
+
+/* eslint-disable security/detect-unsafe-regex */
 
 const UUID = /^(?:urn:uuid:)?[0-9a-f]{8}-(?:[0-9a-f]{4}-){3}[0-9a-f]{12}$/i;
 const DATE_TIME_SEPARATOR = /t|\s/i;
