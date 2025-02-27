@@ -1,27 +1,27 @@
-# History
+# Historie
 
-This section gives an overview when which person became a member of our team and how IT4C became to be.
+Dieser Abschnitt gibt einen Überblick darüber, wann welche Person ein Mitglied unseres Teams wurde und wie IT4C entstanden ist.
 
-It all began ~2017, when [Alex](people/alexander-friedland.md), who made the initial website for the DEMOCRACY project, met with [Ulf](people/ulf-gebhardt.md) in Karlsruhe to <!-- textlint-disable write-good-->evaluate<!-- textlint-enable write-good --> the state of election methods available in universities at given time. Ulf started to work with DEMOCRACY and when the project had its public appearance [Wolle](people/wolfgang-huss.md) made contact to work with the project as an influencer.
+Alles begann ~2017, als [Alex](people/alexander-friedland.md), der die ursprüngliche Website für das DEMOCRACY-Projekt erstellte, sich mit [Ulf](people/ulf-gebhardt.md) in Karlsruhe traf, um <!-- textlint-disable write-good--> den Stand der zu diesem Zeitpunkt an Universitäten verfügbaren Wahlmethoden zu evaluieren<!-- textlint-enable write-good -->. Ulf begann mit DEMOCRACY zu arbeiten und als das Projekt seinen öffentlichen Auftritt hatte, nahm [Wolle](people/wolfgang-huss.md) Kontakt auf, um als Influencer mit dem Projekt zu arbeiten.
 
 ## Human Connection
 
-Most of us met again 2019 at Human Connection. This time all as developers to <!-- textlint-disable write-good-->implement<!-- textlint-enable write-good --> the envisioned social network. [Wolle](people/wolfgang-huss.md) was first, followed by [Alex](people/alexander-friedland.md) and [Ulf](people/ulf-gebhardt.md). While Ulf left for DEMOCRACY again, [Hannes](people/hannes-heine.html) volunteered and [Moriz](people/moriz-wahl.html) joined the Team, till the project ended 2020 as Human Connection and was transformed into *ocelot.social*.
+Die meisten von uns trafen sich 2019 wieder auf der Human Connection. Diesmal alle als Entwickler, um <!-- textlint-disable write-good-->das angedachte soziale Netzwerk zu implementieren<!-- textlint-enable write-good -->. [Wolle](people/wolfgang-huss.md) war der erste, gefolgt von [Alex](people/alexander-friedland.md) und [Ulf](people/ulf-gebhardt.md). Während Ulf wieder zu DEMOCRACY ging, meldete sich [Hannes](people/hannes-heine.html) freiwillig und [Moriz](people/moriz-wahl.html) stieß zum Team, bis das Projekt 2020 als Human Connection endete und in *ocelot.social* umgewandelt wurde.
 
-## Ocelot.Social – End of Human Connection
+## Ocelot.Social - Ende von Human Connection
 
-In the last quarter of 2020 Human Connection was ended as a project and the source code was republished under the name [ocelot.social](https://ocelot.social). [Wolle](people/wolfgang-huss.md), [Alex](people/alexander-friedland.md), [Ulf](people/ulf-gebhardt.md) and [Moriz](people/moriz-wahl.html) continued on the project and released [wir.social](https://wir.social) to keep *ocelot.social* alive.
-Let’s try out the social network live on [stage.ocelot.social](https://stage.ocelot.social).
+Im letzten Quartal 2020 wurde Human Connection als Projekt beendet und der Quellcode unter dem Namen [ocelot.social](https://ocelot.social) neu veröffentlicht. [Wolle](people/wolfgang-huss.md), [Alex](people/alexander-friedland.md), [Ulf](people/ulf-gebhardt.md) und [Moriz](people/moriz-wahl.html) führten das Projekt weiter und veröffentlichten [wir.social](https://wir.social), um *ocelot.social* am Leben zu erhalten.
+Lasst uns das soziale Netzwerk live auf [stage.ocelot.social](https://stage.ocelot.social) ausprobieren.
 
 ## Gradido
 
-In 2021 most of the team joined the [Gradido](https://github.com/gradido/gradido) project. As always our scout [Alex](people/alexander-friedland.md) was first, followed by [Ulf](people/ulf-gebhardt.md), who was residing in Norway at the time. Soon after [Moriz](people/moriz-wahl.html) joined up and [Hannes](people/hannes-heine.html) came on board in Summer 2021.
-When Ulf went on a trip to Italy [Wolle](people/wolfgang-huss.md) could <!-- textlint-disable write-good-->finally<!-- textlint-enable write-good --> be convinced to join, soon followed by [Mathias](people/mathias-lenz.md).
+Im Jahr 2021 hat sich ein Großteil des Teams dem Projekt [Gradido](https://github.com/gradido/gradido) angeschlossen. Wie immer war unser Scout [Alex](people/alexander-friedland.md) der erste, gefolgt von [Ulf](people/ulf-gebhardt.md), der zu dieser Zeit in Norwegen wohnte. Bald darauf stieß [Moriz](people/moriz-wahl.html) dazu, und im Sommer 2021 kam [Hannes](people/hannes-heine.html) an Bord.
+Als Ulf eine Reise nach Italien antrat, konnte [Wolle](people/wolfgang-huss.md) <!-- textlint-disable write-good--> schließlich<!-- textlint-enable write-good --> überzeugt werden, sich anzuschließen, bald gefolgt von [Mathias](people/mathias-lenz.md).
 
 ## Yunite.me
 
-During 2022 the Yunite-Team approached the team to get a new social network going based on *ocelot.social*. The new network was release on 01.11.2022 under the name [yunite.me](https://yunite.me).
+Im Jahr 2022 trat das Yunite-Team an das Team heran, um ein neues soziales Netzwerk auf Basis von *ocelot.social* auf die Beine zu stellen. Das neue Netzwerk wurde am 01.11.2022 unter dem Namen [yunite.me] veröffentlicht (https://yunite.me).
 
 ## IT4C
 
-With the start of 2023 the IT4C brand name and [website](https://www.it4c.dev) was established to allow the team members to present themselves and the team as a whole.
+Mit Beginn des Jahres 2023 wurde der Markenname IT4C und die [Website] (https://www.it4c.dev) eingerichtet, um es den Teammitgliedern zu ermöglichen, sich selbst und das Team als Ganzes zu präsentieren.

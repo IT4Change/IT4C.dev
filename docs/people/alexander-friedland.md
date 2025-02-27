@@ -3,38 +3,36 @@
 
 ![Bild – Alexander Friedland](https://avatars.githubusercontent.com/u/1324583?s=400&u=6fef4891e73aa4aaddaecfa883303e9e0b2ba53b&v=4)
 
-<!-- Seit 1999 bin ich Webentwickler. Ein Studium habe ich nicht, ich bin Quereinsteiger und habe mir alles selber beigebracht.
-Javascript ist meine Stärke. Ich kann Frontend mäßig alles basteln was gewünscht wird. Ich habe bei sehr vielen Projekten mitgemacht.  -->
-Since 1999 I am a web developer. I don’t have a degree, I’m a career changer and taught myself everything.
-Javascript is my strength. I can build anything you want on the frontend. I have participated in a great many projects. 
+Seit 1999 bin ich Webentwickler. Ein Studium habe ich nicht, ich bin Quereinsteiger und habe mir alles selber beigebracht.
+Javascript ist meine Stärke. Ich kann Frontend mäßig alles basteln was gewünscht wird. Ich habe bei sehr vielen Projekten mitgemacht.
 
-## Roles
+## Rolle
 
-- Desktop application developer
-- Frontend developer
+- Entwickler von Desktop-Anwendungen
+- Frontend-Entwickler
 
-## Expertise & Projects
+## Fachwissen & Projekte
 
-I developed and contributed to different projects:
+Ich habe an verschiedenen Projekten mitgewirkt und entwickelt:
 
-- Programmer for [ocelot.social project](https://github.com/Ocelot-Social-Community)
-  - Frontend development
+- Programmierer für [ocelot.social project](https://github.com/Ocelot-Social-Community)
+  - Frontend-Entwicklung
   - DevOps
     - GitHub
-  - UI (user interface)
-  - Testing
-    - Manual testing
-- Programmer for [Gradido software project](../projects/gradido.md)
-  - Frontend development
+  - UI (Benutzeroberfläche)
+  - Testen
+    - Manuelles Testen
+- Programmierer für [Gradido-Softwareprojekt](../projects/gradido.md)
+  - Frontend-Entwicklung
 
-### Frontend Development
+### Frontend-Entwicklung
 
 - [Javascript](https://www.javascript.com/)
 - [Vue](https://vuejs.org/)
 - [Nuxt](https://nuxtjs.org)
 - [BootstrapVue](https://bootstrap-vue.org/)
 
-### Backend Development
+### Backend-Entwicklung
 
 - [Node](https://nodejs.org/)
 - [Neo4j](https://neo4j.com/)
@@ -52,7 +50,7 @@ I developed and contributed to different projects:
 - [Cypress](https://www.cypress.io/)
 - [Cucumber](https://cucumber.io/)
 
-### Programming & Database & Markup Languages
+### Programmierung, Datenbank & Auszeichnungssprachen
 
 - [Javascript](https://www.javascript.com/)
 - [GraphQL](https://graphql.org)
@@ -61,15 +59,11 @@ I developed and contributed to different projects:
 - [CSS](https://en.wikipedia.org/wiki/CSS)
 - [PostScript](https://en.wikipedia.org/wiki/PostScript)
 
-## Spoken Languages
+## Gesprochene Sprachen
 
 - German (native speaker)
 - English (read and write)
 
-## Profile
+## Profil
 
 - [Github](https://github.com/ogerly)
-
-
- 
-

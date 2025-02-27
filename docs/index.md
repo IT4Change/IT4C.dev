@@ -1,16 +1,16 @@
 # IT4C
 
-**IT Team for Change**, in short **IT4C**, is a software developer team building software together. Our focus are out-of-the-box projects and disruptive civil tech to contribute to the inevitable change of our society.
+**IT Team for Change**, kurz **IT4C**, ist ein Team von Softwareentwicklern, das gemeinsam Software entwickelt. Unser Fokus liegt auf Out-of-the-Box-Projekten und disruptiver Ziviltechnik, um zum unvermeidlichen Wandel unserer Gesellschaft beizutragen.
 
-We believe in a working process that has the right amount of authority to make sensible decisions and coordinate us to reach our goals. The leadership may shift between team members based on expertise and availability. Furthermore we believe that everyone who loves doing his job is more effective then when being forced to. We make sure every member has the upmost possible freedom how to work.
+Wir glauben an einen Arbeitsprozess, der das richtige Maß an Autorität hat, um vernünftige Entscheidungen zu treffen und uns zu koordinieren, damit wir unsere Ziele erreichen. Die Leitung kann je nach Fachwissen und Verfügbarkeit zwischen den Teammitgliedern wechseln. Außerdem glauben wir, dass jeder, der seine Arbeit gerne macht, effektiver ist, als wenn er dazu gezwungen wird. Wir stellen sicher, dass jedes Mitglied die größtmögliche Freiheit hat, wie es arbeiten möchte.
 
-Naturally we are a remote team spread throughout Europe (sometimes even further). The core of the team works together as of 2019 - see [history](./history.md). Our common denominator besides our love for social projects and the computer technology is the German language, even tho most of the professional work is done in English.
+Natürlich sind wir ein Team, das über ganz Europa verteilt ist (manchmal sogar noch weiter). Der Kern des Teams arbeitet seit 2019 zusammen - siehe [history](./history.md). Unser gemeinsamer Nenner neben der Liebe zu sozialen Projekten und der Computertechnologie ist die deutsche Sprache, auch wenn die meiste professionelle Arbeit auf Englisch stattfindet.
 
-One of our principles to make projects resilient to unmaintainability is to spread knowledge within the team and recruit new members willing to learn how we do software development. We live the agile process with short release cycles and weekly feedback loops to ensure our software actually fulfills the needs of our contractors and users.
+Eines unserer Prinzipien, um Projekte nicht unwartbar zu machen, ist die Verbreitung von Wissen innerhalb des Teams und die Rekrutierung neuer Mitglieder, die lernen wollen, wie wir Softwareentwicklung betreiben. Wir leben den agilen Prozess mit kurzen Release-Zyklen und wöchentlichen Feedback-Schleifen, um sicherzustellen, dass unsere Software tatsächlich die Bedürfnisse unserer Auftraggeber und Nutzer erfüllt.
 
-## Projects
+## Projekte
 
-In the following we list some projects we are proud of:
+Einige Projekte auf, auf die wir stolz sind:
 
 - [DEMOCRACY App](./projects/democracy.app.md)
 - Human-Connection <!-- [Human-Connection](./projects/human-connection.md)-->
@@ -21,9 +21,7 @@ In the following we list some projects we are proud of:
 - [Gradido](./projects/gradido.md)
 - [DreamMall](./projects/dreammall.md)
 
-## Members and collaborators
-
-Since we constantly try to recruit new members this list is not complete.
+## Mitglieder und Mitarbeiter
 
 - [Alexander Friedland](./people/alexander-friedland.md)
 - [Hannes Heine](./people/hannes-heine.md)

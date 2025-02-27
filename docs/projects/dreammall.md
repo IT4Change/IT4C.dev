@@ -1,10 +1,10 @@
 # DreamMall.earth
 
-## Describe
+## Beschreiben
 
-DreamMall is an application to connect people and companies, to give them the possibility to create their ideas.
+DreamMall ist eine Anwendung, die Menschen und Unternehmen miteinander verbindet, um ihnen die Möglichkeit zu geben, ihre Ideen zu verwirklichen.
 
 ## Techstack
 
-The frontend is written with the technologies nodejs, vue, vike, vuetify.
-The backend is set up on nodejs, apollo, graphql, prisma.
+Das Frontend ist mit den Technologien NodeJS, Vue, Vike, Vuetify geschrieben.
+Das Backend ist auf NodeJS, Apollo, GraphQL, Prisma aufgesetzt.
