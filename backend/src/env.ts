@@ -4,7 +4,7 @@ import type { EnvType } from "ts-dotenv";
 
 export const schema = {
   NODE_ENV: {
-    type: ["production" as const, "development" as const],
+    type: ["production" as const, "development" as const, "test" as const],
     default: "development",
   },
   EMAIL_RECEIVER: {
