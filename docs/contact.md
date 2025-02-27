@@ -2,13 +2,13 @@
 
 Ob auf der Suche nach erfahrenen Entwicklern, um Ihre Geschäftsidee zu implementieren, oder ein bestehendes Team zu erweitern - oder bei Interesse an Zusammenarbeit: Nimm Kontakt mit uns auf!
 
-Wir sind per [per E-Mail](mailto:info@it4c.dev) oder [Mobiltelefon](tel://+4915784841600) erreichbar (Deutsch oder Englisch).
+Wir sind [per E-Mail](mailto:info@it4c.dev) oder [Mobiltelefon](tel://+4915784841600) erreichbar (Deutsch oder Englisch).
 
 ## Für Entwickler
 
-Wenn du als Entwickler mit uns arbeiten möchtest, szeige uns gern dein Github Profil oder einen Lebenslauf.
+Wenn du als Entwickler mit uns arbeiten möchtest, zeige uns gern dein Github Profil oder einen Lebenslauf.
 
-Auch wenn du kein gutes Github-Profil hast oder gerade dein Studium abgeschlossen hast, kannst du uns gerne kontaktieren, wenn du daran interessiert bist, in einer professionellen Entwicklerumgebung zu arbeiten. Wir helfen dir dabei, dich in moderne Arbeitsabläufe, Technologien und das Innenleben eines Remote-Teams einzuarbeiten. Eswäreschön, wenn du IT aus Hingabe, nit aus der Not heraus machst.
+Auch wenn du kein gutes Github-Profil hast oder gerade dein Studium abgeschlossen hast, kannst du uns gerne kontaktieren, wenn du daran interessiert bist, in einer professionellen Entwicklerumgebung zu arbeiten. Wir helfen dir dabei, dich in moderne Arbeitsabläufe, Technologien und das Innenleben eines Remote-Teams einzuarbeiten. Es wäre schön, wenn du IT aus Hingabe, nicht aus der Not heraus machst.
 
 Auch über unseren [Telegram Kanal](https://t.me/+A3XAurSG9ws3NjE6) kann man mit uns in Kontakt treten.
 
