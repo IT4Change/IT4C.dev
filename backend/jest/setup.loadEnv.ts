@@ -1,3 +1,3 @@
-import { loadEnv } from "../src/env";
+import { loadEnv } from '../src/env'
 
-loadEnv();
+loadEnv()
