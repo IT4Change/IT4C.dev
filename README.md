@@ -83,6 +83,26 @@ vi /etc/nginx/http.d/default.conf
 #     #access_log $LOG_PATH/nginx-access.hooks.log hooks_log;
 #     #error_log $LOG_PATH/nginx-error.backend.hook.log warn;
 # }
+
+# for the backend install pm2
+npm install pm2 -g
+
+# expose the backend service via nginx
+vi /etc/nginx/http.d/default.conf
+# location /api/ {
+#     proxy_http_version 1.1;
+#     proxy_set_header   Upgrade $http_upgrade;
+#     proxy_set_header   Connection 'upgrade';
+#     proxy_set_header   X-Forwarded-For $remote_addr;
+#     proxy_set_header   X-Real-IP  $remote_addr;
+#     proxy_set_header   Host $host;
+#
+#     proxy_pass         http://127.0.0.1:3000/;
+#     proxy_redirect     off;
+#
+#     #access_log $LOG_PATH/nginx-access.api.log hooks_log;
+#     #error_log $LOG_PATH/nginx-error.api.log warn;
+# }
 ```
 
 For the github webhook configure the following:
