@@ -63,5 +63,9 @@
         "statements": 100
       }
     }
+  },
+  "imports": {
+    "#src/*": "./src/*",
+    "#root/*": "./*"
   }
 }
