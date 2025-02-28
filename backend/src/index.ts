@@ -1,10 +1,9 @@
-/* eslint-disable import/first */
-// eslint-disable-next-line import/newline-after-import, import/order
 import { loadEnv, env } from './env'
+import { createServer } from './server'
+
 loadEnv() // Executed synchronously before the rest of your app loads
 
-import { server } from './server'
-
+const server = createServer(env)
 // Run the server!
 try {
   void server.listen({ port: env.PORT })

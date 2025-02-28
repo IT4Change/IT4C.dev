@@ -13,7 +13,7 @@
   "scripts": {
     "start": "node ./build/index.js",
     "build": "tsc",
-    "dev": "tsx watch src/index.ts",
+    "dev": "tsx watch ./src/index.ts",
     "test:unit": "jest",
     "test:lint:eslint": "eslint --ext .ts,.tsx,.js,.jsx,.cjs,.mjs,.json,.yml,.yaml --max-warnings 0 .",
     "update": "npx npm-check-updates"
@@ -53,7 +53,9 @@
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node",
-    "setupFiles": ["./jest/setup.loadEnv.ts"],
+    "setupFiles": [
+      "./jest/setup.loadEnv.ts"
+    ],
     "collectCoverage": true,
     "coverageThreshold": {
       "global": {
@@ -62,7 +64,8 @@
         "lines": 100,
         "statements": 100
       }
-    }
+    },
+    "modulePathIgnorePatterns": ["<rootDir>/build/"]
   },
   "imports": {
     "#src/*": "./src/*",

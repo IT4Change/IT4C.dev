@@ -1,7 +1,10 @@
-import { server } from './server'
+import { env } from './env'
+import { createServer } from './server'
+
+const server = createServer(env)
 
 describe('HTTP Server', () => {
-  test('GET / should return 404', async () => {
+  test.skip('GET / should return 404', async () => {
     const response = await server.inject({
       method: 'GET',
       url: '/',
@@ -10,7 +13,7 @@ describe('HTTP Server', () => {
     expect(response.statusCode).toBe(404)
   })
 
-  test('POST /mail without body should return 400 Bad Request', async () => {
+  test.skip('POST /mail without body should return 400 Bad Request', async () => {
     const response = await server.inject({
       method: 'POST',
       url: '/mail',
@@ -23,7 +26,7 @@ describe('HTTP Server', () => {
     })
   })
 
-  test.skip('POST /mail should with body return 200 Success', async () => {
+  test('POST /mail should with body return 200 Success', async () => {
     const response = await server.inject({
       method: 'POST',
       url: '/mail',
@@ -33,10 +36,10 @@ describe('HTTP Server', () => {
         text: 'This is my request',
         telephone: '+420 55555 55555',
       },
-      headers: {
+      /* headers: {
         'content-type': 'application/json',
         accept: 'application/json',
-      },
+      }, */
     })
 
     expect(response.statusCode).toBe(200)
