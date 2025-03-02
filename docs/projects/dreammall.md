@@ -6,7 +6,12 @@
 
 Das zentrale Element des Projektes ist eine *Sternenkarte*, welche die einzelnen Akteure und Projekte an einen fiktiven Sternenhimmel projiziert. Jeder Nutzer kann in Austausch mit Anderen gehen, in dem er seinen Raum öffnet und andere dazu einläd. Ein Raum ist eine Videokonferenz mit Chatfunktion, Bildschirmfreigabe, gemeinsamen Notizen, Whiteboard, Unterräumen und Vielem mehr.
 
-In der Zukunft sind Projektmanagementwerkzeuge angedacht, die es dem Nutzer vereinfachen seine Projekte zu organisieren und andere daran teilhaben zu lassen.
+Das Projekt befindet sich noch in Entwicklung.
+
+Für die Zukunft sind weitere Features zur Unterstützung der DreamMall Akteure bei Kommunikation und Projektumsetzung angedacht,  z.B. 
+- Projektmanagementwerkzeuge
+- Veranstaltungsverwaltung
+- Suche & Angebot von Projekten und -mitwirkung
 
 Mehr Infos auf [DreamMall.earth](https://dreammall.earth) und [GitHub](https://github.com/dreammall-earth/dreammall.earth).
 
