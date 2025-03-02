@@ -8,7 +8,7 @@ Das zentrale Element des Projektes ist eine *Sternenkarte*, welche die einzelnen
 
 Das Projekt befindet sich noch in Entwicklung.
 
-Für die Zukunft sind weitere Features zur Unterstützung der DreamMall Akteure bei Kommunikation und Projektumsetzung angedacht,  z.B. 
+Für die Zukunft sind weitere Features zur Unterstützung der DreamMall Akteure bei Kommunikation und Projektumsetzung angedacht, z.B. 
 - Projektmanagementwerkzeuge
 - Veranstaltungsverwaltung
 - Suche & Angebot von Projekten und -mitwirkung
