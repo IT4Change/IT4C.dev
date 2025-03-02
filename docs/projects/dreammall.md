@@ -4,7 +4,7 @@
 
 *DreamMall.earth* ist eine Video & Projekt Management Plattform, die als Open-Source-Software für Claudia Siebert und Sabine Laudien entwickelt wird. Das Projekt schafft einen *beweglichen Raum* für Unternehmer und Selbstständige ihre Ideen in die Realität zu tragen und Unterstützung von Gleichgesinnten zu finden.
 
-Das zentrale Element des Projektes ist eine *Sternenkarte*, welche die einzelnen Akteure und Projekte an einen fiktiven Sternenhimmel projiziert. Der Nutzer kann in Austausch mit Anderen gehen, in dem er seinen Raum öffnet und andere dazu einläd. Ein Raum ist eine Videokonferenz mit Chatfunktion & Bildschirmfreigabe.
+Das zentrale Element des Projektes ist eine *Sternenkarte*, welche die einzelnen Akteure und Projekte an einen fiktiven Sternenhimmel projiziert. Jeder Nutzer kann in Austausch mit Anderen gehen, in dem er seinen Raum öffnet und andere dazu einläd. Ein Raum ist eine Videokonferenz mit Chatfunktion, Bildschirmfreigabe, gemeinsamen Notizen, Whiteboard, Unterräumen und Vielem mehr.
 
 In der Zukunft sind Projektmanagementwerkzeuge angedacht, die es dem Nutzer vereinfachen seine Projekte zu organisieren und andere daran teilhaben zu lassen.
 
