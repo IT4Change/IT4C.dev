@@ -145,4 +145,8 @@ footer: CC BY IT4C.dev & Authors
   .vp-hero-info-wrapper {
     height: 100vh;
   }
+
+  .vp-brand {
+    display: flex;
+  }
 </style>
