@@ -65,8 +65,8 @@ footer: CC BY IT4C.dev & Authors
     <TeamMember
       name="Max"
       role="Frontend"
-      profileUrl="/people/moriz-wahl.html"
-      image="/images/portrait/moriz-wahl.jpg"
+      profileUrl="/people/maximilian-harz.html"
+      image="/images/portrait/max.jpg"
     />
     <TeamMember
       name="Moriz"
