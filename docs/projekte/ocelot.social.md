@@ -1,6 +1,6 @@
 # Ocelot.Social
 
-![Ocelot.Social](../images/projekte/ocelot-newsfeed.png)
+![Ocelot.Social](../images/projects/ocelot-newsfeed.png)
 
 Dieses Projekt begann unter dem Namen Human Connection.
 Die Idee war, eine Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok zu schaffen, bei der die Nutzer nicht das Produkt sind.
