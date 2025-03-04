@@ -18,4 +18,4 @@ Auch über unseren [Telegram Kanal](https://t.me/+A3XAurSG9ws3NjE6) kann man mit
 Wenn du auf der Suche nach einem Entwicklerteam bist und unsere Expertise in Anspruch nehmen willst, schicke uns bitte eine detaillierte Projektbeschreibung, in der Ziele, Zeitrahmen, die sozialen Auswirkungen und die Frage, ob das Projekt Open- oder Closed-Source sein soll.
 <!-- textlint-enable max-comma -->
 
-Wir werden mit dir zusammenarbeiten, um die Ziele auf nachhaltige Weise zu erreichen und sorgen dafür,  das Wissen innerhalb des Teams  zu verbreiten und bringen uns gern in deine bestehende IT-Abteilung ein, um die Skalierbarkeit zu gewährleisten.
+Wir werden mit dir zusammen arbeiten, um die Ziele auf nachhaltige Weise zu erreichen und sorgen dafür, das Wissen innerhalb des Teams  zu verbreiten und bringen uns gern in deine bestehende IT-Abteilung ein, um die Skalierbarkeit zu gewährleisten.
