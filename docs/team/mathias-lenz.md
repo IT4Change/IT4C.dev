@@ -25,7 +25,7 @@ And with a hands-on mentality, he can also contribute to other areas and familia
 
 ## Expertise & Projekte
 
-- Unterstützung des [Gradido Projekts](../projects/gradido.md)
+- Unterstützung des [Gradido Projekts](../projekte/gradido.md)
   - Testkonzept
   - Testautomatisierung
   - Agile Testing

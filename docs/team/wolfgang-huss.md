@@ -49,7 +49,7 @@ Ich habe an verschiedenen Projekten mitgewirkt und entwickelt:
   - DevOps
   - UI (Benutzeroberfläche)
   - Testen
-- Mitarbeiter bei [Gradido Software Projekt](../projects/gradido.md)
+- Mitarbeiter bei [Gradido Software Projekt](../projekte/gradido.md)
   - Frontend-Entwicklung
   - Backend-Entwicklung
   - Server-Einrichtung

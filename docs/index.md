@@ -12,23 +12,23 @@ Eines unserer Prinzipien, um Projekte nicht unwartbar zu machen, ist die Verbrei
 
 Einige Projekte, auf die wir stolz sind:
 
-- [DEMOCRACY App](./projects/democracy.app.md)
-- Human-Connection <!-- [Human-Connection](./projects/human-connection.md)-->
-  - [Ocelot.social](./projects/ocelot.social.md)
-  - wir.social <!-- [wir.social](./projects/wir.social.md) -->
-  - sender.fm <!-- [sender.fm](./projects/sender.fm.md) -->
-  - Yunite.me <!--[Yunite.me](./projects/yunite.me.md) -->
-- [Gradido](./projects/gradido.md)
-- [DreamMall](./projects/dreammall.md)
+- [DEMOCRACY App](./projekte/democracy.app.md)
+- Human-Connection <!-- [Human-Connection](./projekte/human-connection.md)-->
+  - [Ocelot.social](./projekte/ocelot.social.md)
+  - wir.social <!-- [wir.social](./projekte/wir.social.md) -->
+  - sender.fm <!-- [sender.fm](./projekte/sender.fm.md) -->
+  - Yunite.me <!--[Yunite.me](./projekte/yunite.me.md) -->
+- [Gradido](./projekte/gradido.md)
+- [DreamMall](./projekte/dreammall.md)
 
 ## Mitglieder und Mitarbeiter
 
-- [Alexander Friedland](./people/alexander-friedland.md)
-- [Hannes Heine](./people/hannes-heine.md)
-- [Mathias Lenz](./people/mathias-lenz.md)
-- [Moriz Wahl](./people/moriz-wahl.md)
-- [Ulf Gebhardt](./people/ulf-gebhardt.md)
-- [Wolfgang Huß](./people/wolfgang-huss.md)
+- [Alexander Friedland](./team/alexander-friedland.md)
+- [Hannes Heine](./team/hannes-heine.md)
+- [Mathias Lenz](./team/mathias-lenz.md)
+- [Moriz Wahl](./team/moriz-wahl.md)
+- [Ulf Gebhardt](./team/ulf-gebhardt.md)
+- [Wolfgang Huß](./team/wolfgang-huss.md)
 
 <!-- ## Organisationen -->
 <!-- textlint-disable period-in-list-item -->

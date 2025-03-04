@@ -47,7 +47,7 @@ Die folgende Liste soll einen Überblick über Ulfs Leben geben:
 | 2020 | jetzt | Softwareentwicklung & Betrieb für [Ocelot.social](https://github.com/ocelot-Social-Community/Ocelot-Social/) und [wir.social](https://wir.social/login) |
 | 2020 | 2021 | Software-Entwicklung für Leratec Solutions in Halden(Norwegen) |
 | 2020 | | Software-Entwicklung für boxeez.com in Halden(Norwegen) |
-| 2021 | jetzt | Softwareentwicklung & Teamkoordination für [Gradido](../projects/gradido.md) |
+| 2021 | jetzt | Softwareentwicklung & Teamkoordination für [Gradido](../projekte/gradido.md) |
 | 2022 | jetzt | Software-Entwicklung für [yunite.me](https://yunite.org/)
 
 ## Travels

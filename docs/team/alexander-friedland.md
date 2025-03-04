@@ -22,7 +22,7 @@ Ich habe an verschiedenen Projekten mitgewirkt und entwickelt:
   - UI (Benutzeroberfläche)
   - Testen
     - Manuelles Testen
-- Programmierer für [Gradido-Softwareprojekt](../projects/gradido.md)
+- Programmierer für [Gradido-Softwareprojekt](../projekte/gradido.md)
   - Frontend-Entwicklung
 
 ### Frontend-Entwicklung

@@ -13,7 +13,7 @@ export default hopeTheme({
   footer: 'CC BY IT4C.dev & Autoren - <a href="/impressum.html">Impressum</a>',
   navbar: [
     { text: 'IT4C', link: '/' },
-    { text: 'Contact', link: '/contact' },
+    { text: 'Kontakt', link: '/kontakt' },
     {
       text: 'Github',
       link: 'https://github.com/IT4Change'
@@ -25,44 +25,42 @@ export default hopeTheme({
       link: '/',
       collapsible: false,
       children: [
-        '/history',
-        '/contact'
+        '/historie',
+        '/kontakt'
       ]
     },
     {
-      text: 'Projects',
+      text: 'Projekte',
       collapsible: false,
       children: [
         {
           text: 'DEMOCRACY App',
-          link: '/projects/democracy.app'
+          link: '/projekte/democracy.app'
         },
         {
           text: 'Ocelot-Social',
-          link: '/projects/ocelot.social'
+          link: '/projekte/ocelot.social'
         },
         {
           text: 'Gradido Software',
-          link: '/projects/gradido'
+          link: '/projekte/gradido'
         },
         {
           text: 'DreamMall.earth',
-          link: '/projects/dreammall'
+          link: '/projekte/dreammall'
         },
-        // { link: '/extras/contributing', text: 'Contributing ✨' },
-        // { link: '/extras/license', text: 'License 📚' },
       ]
     },
     {
-      text: 'People',
+      text: 'Team',
       collapsible: false,
       children: [
-        '/people/alexander-friedland',
-        '/people/hannes-heine',
-        { link: '/people/mathias-lenz', text: 'Mathias Lenz' },
-        '/people/moriz-wahl',
-        '/people/ulf-gebhardt',
-        '/people/wolfgang-huss'
+        '/team/alexander-friedland',
+        '/team/hannes-heine',
+        { link: '/team/mathias-lenz', text: 'Mathias Lenz' },
+        '/team/moriz-wahl',
+        '/team/ulf-gebhardt',
+        '/team/wolfgang-huss'
       ]
     },
   ],
