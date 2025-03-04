@@ -2,7 +2,7 @@
 
 Dieser Abschnitt gibt einen Überblick darüber, wann welche Person ein Mitglied unseres Teams wurde und wie IT4C entstanden ist.
 
-Alles begann ~2017, als [Alex](people/alexander-friedland.md), der die ursprüngliche Website für das DEMOCRACY-Projekt erstellte, sich mit [Ulf](people/ulf-gebhardt.md) in Karlsruhe traf, um <!-- textlint-disable write-good--> den Stand der zu diesem Zeitpunkt an Universitäten verfügbaren Wahlmethoden zu evaluieren<!-- textlint-enable write-good -->. Ulf begann mit DEMOCRACY zu arbeiten und als das Projekt seinen öffentlichen Auftritt hatte, nahm [Wolle](people/wolfgang-huss.md) Kontakt auf, um als Influencer mit dem Projekt zu arbeiten.
+Alles begann ca. 2017, als [Alex](people/alexander-friedland.md), der die ursprüngliche Website für das DEMOCRACY-Projekt erstellte, sich mit [Ulf](people/ulf-gebhardt.md) in Karlsruhe traf, um <!-- textlint-disable write-good--> den Stand der zu diesem Zeitpunkt an Universitäten verfügbaren Wahlmethoden zu evaluieren<!-- textlint-enable write-good -->. Ulf begann mit DEMOCRACY zu arbeiten und als das Projekt seinen öffentlichen Auftritt hatte, nahm [Wolle](people/wolfgang-huss.md) Kontakt auf, um als Influencer mit dem Projekt zu arbeiten.
 
 ## Human Connection
 

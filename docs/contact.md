@@ -1,8 +1,8 @@
 # Kontakt
 
-Ob auf der Suche nach erfahrenen Entwicklern, um Ihre Geschäftsidee zu implementieren, oder ein bestehendes Team zu erweitern - oder bei Interesse an Zusammenarbeit: Nimm Kontakt mit uns auf!
+Ob auf der Suche nach erfahrenen Entwicklern, um deine Geschäftsidee zu implementieren, ein bestehendes Team zu erweitern - oder bei Interesse an Zusammenarbeit: Nimm Kontakt mit uns auf!
 
-Wir sind [per E-Mail](mailto:info@it4c.dev) oder [Mobiltelefon](tel://+4915784841600) erreichbar (Deutsch oder Englisch).
+Wir sind per [E-Mail](mailto:info@it4c.dev) oder [Mobiltelefon](tel://+4915784841600) erreichbar (Deutsch oder Englisch).
 
 ## Für Entwickler
 
@@ -15,7 +15,7 @@ Auch über unseren [Telegram Kanal](https://t.me/+A3XAurSG9ws3NjE6) kann man mit
 ## Für Klienten
 
 <!-- textlint-disable max-comma -->
-Wenn Sie auf der Suche nach einem Entwicklerteam sind und (einige) von uns einstellen möchten, stellen Sie bitte sicher, dass Sie auch eine detaillierte Projektbeschreibung liefern, in der Sie die Ziele, den Zeitrahmen, die sozialen Auswirkungen und die Frage, ob das Projekt Open- oder Closed-Source sein wird, beschreiben.
+Wenn du auf der Suche nach einem Entwicklerteam bist und unsere Expertise in Anspruch nehmen willst, schicke uns bitte eine detaillierte Projektbeschreibung, in der Ziele, Zeitrahmen, die sozialen Auswirkungen und die Frage, ob das Projekt Open- oder Closed-Source sein soll.
 <!-- textlint-enable max-comma -->
 
-Wir werden mit Ihnen zusammenarbeiten, um Ihre Ziele auf nachhaltige Weise zu erreichen. Wir sorgen dafür, dass das Wissen innerhalb des Teams verbreitet wird und integrieren uns in Ihre bestehende IT-Abteilung, um die Skalierbarkeit zu gewährleisten.
+Wir werden mit dir zusammenarbeiten, um die Ziele auf nachhaltige Weise zu erreichen und sorgen dafür,  das Wissen innerhalb des Teams  zu verbreiten und bringen uns gern in deine bestehende IT-Abteilung ein, um die Skalierbarkeit zu gewährleisten.
