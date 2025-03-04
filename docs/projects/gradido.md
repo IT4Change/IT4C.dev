@@ -1,7 +1,5 @@
 # Gradido
 
-## Beschreibung
-
 [Gradido](https://www.gradido.net) ist ein Projekt, das eine alternative Währung zum Fiatgeld schaffen will.
 
 Dazu haben wir Bernd Hückstedt bei der Umsetzung seiner Idee geholfen.
