@@ -20,7 +20,7 @@ Als Ulf eine Reise nach Italien antrat, konnte [Wolle](people/wolfgang-huss.md) 
 
 ## Yunite.me
 
-Im Jahr 2022 trat das Yunite-Team an das Team heran, um ein neues soziales Netzwerk auf Basis von *ocelot.social* auf die Beine zu stellen. Das neue Netzwerk wurde am 01.11.2022 unter dem Namen [yunite.me] veröffentlicht (https://yunite.me).
+Im Jahr 2022 trat das Yunite-Team an das Team heran, um ein neues soziales Netzwerk auf Basis von *ocelot.social* auf die Beine zu stellen. Das neue Netzwerk wurde am 01.11.2022 unter dem Namen [yunite.me](https://yunite.me) veröffentlicht.
 
 ## IT4C
 
