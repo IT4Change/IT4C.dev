@@ -54,7 +54,7 @@ Die folgende Liste soll einen Überblick über Ulfs Leben geben:
 
 Ulf travels by foot to get away from the computer form time to time
 
-| When | Duration   | Description |
+| Wann | Dauer      | Beschreibung |
 |------|------------|-------------|
 | 2020 | 5.5 months | Travel from [Zwingenberg(Bergstraße)](https://duckduckgo.com/?q=Zwingenberg+(Bergstra%C3%9Fe)&ia=web&iaxm=about) to [Halden](https://duckduckgo.com/?q=Halden&ia=web&iaxm=maps) by foot |
 | 2021 | 2 weeks    | Travel from [Halden](https://duckduckgo.com/?q=Halden&ia=web&iaxm=maps) to [Gothenburg](https://duckduckgo.com/?q=Gotenburg&ia=web&iaxm=about) by foot |
