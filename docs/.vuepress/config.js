@@ -4,6 +4,7 @@ import meta from './config/meta'
 import theme from './config/theme'
 
 export default defineUserConfig({
+  lang: 'de-DE',
   ...meta,
   theme,
   bundler: viteBundler({}),
