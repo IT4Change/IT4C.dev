@@ -3,7 +3,6 @@ import * as nodemailer from 'nodemailer'
 
 import { env } from './env'
 import { createServer } from './server'
-import { beforeEach } from 'node:test'
 
 // Mock nodemailer
 jest.mock('nodemailer')
