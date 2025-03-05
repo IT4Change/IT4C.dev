@@ -2,7 +2,7 @@
 
 **IT Team for Change** (IT4C) ist ein Team von Softwareentwicklern, das gemeinsam Software entwickelt. Unser Fokus liegt auf Out-of-the-Box-Projekten und disruptiver Ziviltechnik, um zum unvermeidlichen Wandel unserer Gesellschaft beizutragen.
 
-Wir glauben an einen Arbeitsprozess, der das richtige Maß an Autorität hat, um vernünftige Entscheidungen zu treffen und uns zu koordinieren, damit wir unsere Ziele erreichen. Die Leitung kann je nach Fachwissen und Verfügbarkeit zwischen den Teammitgliedern wechseln. Außerdem glauben wir, dass jeder, der seine Arbeit gerne macht, effektiver ist, als wenn er dazu gezwungen wird. Wir stellen sicher, dass jedes Mitglied die größtmögliche Freiheit hat, wie es arbeiten möchte.
+Wir glauben an einen Arbeitsprozess, der genau das richtige Maß an Autorität hat, um vernünftige Entscheidungen zu treffen, uns zu koordinieren und somit unsere Ziele zu erreichen. Die Leitung kann je nach Fachwissen und Verfügbarkeit zwischen den Teammitgliedern wechseln. Außerdem glauben wir, dass jeder, der seine Arbeit gerne macht, effektiver ist, als wenn er dazu gezwungen wird. Wir stellen sicher, dass jedes Mitglied die größtmögliche Freiheit hat, wie es arbeiten möchte.
 
 Natürlich sind wir ein Team, das über ganz Europa verteilt ist (manchmal sogar noch weiter). Der Kern des Teams arbeitet seit 2019 zusammen - siehe [history](./history.md). Unser gemeinsamer Nenner neben der Liebe zu sozialen Projekten und der Computertechnologie ist die deutsche Sprache, auch wenn die meiste professionelle Arbeit auf Englisch stattfindet.
 
