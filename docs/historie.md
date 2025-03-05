@@ -6,7 +6,7 @@ Alles begann ca. 2017, als [Alex](people/alexander-friedland.md), der die urspr�
 
 ## Human Connection
 
-Die meisten von uns trafen sich 2019 wieder auf der Human Connection. Diesmal alle als Entwickler, um <!-- textlint-disable write-good-->das angedachte soziale Netzwerk zu implementieren<!-- textlint-enable write-good -->. [Wolle](people/wolfgang-huss.md) war der erste, gefolgt von [Alex](people/alexander-friedland.md) und [Ulf](people/ulf-gebhardt.md). Während Ulf wieder zu DEMOCRACY ging, meldete sich [Hannes](people/hannes-heine.html) freiwillig und [Moriz](people/moriz-wahl.html) stieß zum Team, bis das Projekt 2020 als Human Connection endete und in *ocelot.social* umgewandelt wurde.
+Die meisten von uns trafen sich 2019 wieder auf der Human Connection. Diesmal alle als Entwickler, um <!-- textlint-disable write-good-->das angedachte soziale Netzwerk zu implementieren<!-- textlint-enable write-good -->. [Wolle](people/wolfgang-huss.md) war der erste, gefolgt von [Alex](people/alexander-friedland.md) und [Ulf](people/ulf-gebhardt.md). Während Ulf wieder zu DEMOCRACY ging, meldete sich [Hannes](people/hannes-heine.html) freiwillig und [Moriz](people/moriz-wahl.html) stieß zum Team. Das Projekt Human Connection endete 2020 und die entstandene Software wurde fortan unter dem Name *ocelot.social* weiter gepflegt.
 
 ## Ocelot.Social - Ende von Human Connection
 
