@@ -3,6 +3,7 @@ import * as nodemailer from 'nodemailer'
 
 import { env } from './env'
 import { createServer } from './server'
+import { beforeEach } from 'node:test'
 
 // Mock nodemailer
 jest.mock('nodemailer')
@@ -18,8 +19,11 @@ mockCreateTransport.mockReturnValue({
 const server = createServer(env)
 
 describe('HTTP Server', () => {
-  test('GET / should return 404', async () => {
+  beforeEach(() => {
     jest.clearAllMocks()
+  })
+
+  test('GET / should return 404', async () => {
     const response = await server.inject({
       method: 'GET',
       url: '/',
@@ -29,7 +33,6 @@ describe('HTTP Server', () => {
   })
 
   test('POST /mail without body should return 400 Bad Request', async () => {
-    jest.clearAllMocks()
     const response = await server.inject({
       method: 'POST',
       url: '/mail',
@@ -43,7 +46,6 @@ describe('HTTP Server', () => {
   })
 
   test('POST /mail with body should return 200 Success', async () => {
-    jest.clearAllMocks()
     const response = await server.inject({
       method: 'POST',
       url: '/mail',
@@ -68,7 +70,6 @@ describe('HTTP Server', () => {
   })
 
   test('POST /mail without telephone should return 200 Success', async () => {
-    jest.clearAllMocks()
     const response = await server.inject({
       method: 'POST',
       url: '/mail',
@@ -92,7 +93,6 @@ describe('HTTP Server', () => {
   })
 
   test('POST /mail with body and mail delivery failure should return 400', async () => {
-    jest.clearAllMocks()
     mockSendMail.mockImplementationOnce(() => {
       throw new Error('Mail Failure')
     })
