@@ -10,7 +10,7 @@ Danach zog ich zurück nach Deutschland in die Stadt, in der ich geboren wurde -
 
 ## Arbeit
 
-### Hired Jobs
+### Arbeit in Festanstellung
 
 - White Paper Media Ltd. jetzt bekannt als [OktoPOS](https://www.oktopos.com/en/#!) und [OktoCareer](https://www.oktocareer.com/en/home)
 
