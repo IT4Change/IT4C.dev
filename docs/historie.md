@@ -24,4 +24,4 @@ Im Jahr 2022 trat das Yunite-Team an das Team heran, um ein neues soziales Netzw
 
 ## IT4C
 
-Mit Beginn des Jahres 2023 wurde der Markenname IT4C und die [Website] (https://www.it4c.dev) eingerichtet, um es den Teammitgliedern zu ermöglichen, sich selbst und das Team als Ganzes zu präsentieren.
+Mit Beginn des Jahres 2023 wurde IT4C as Name für das Entwicklerkollektiv gefunden und die [Website] (https://www.it4c.dev) eingerichtet, um es den Teammitgliedern zu ermöglichen, sich selbst und das Team als Ganzes zu präsentieren.
