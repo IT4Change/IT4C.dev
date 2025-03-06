@@ -12,7 +12,7 @@ Auch wenn du kein gutes Github-Profil hast oder gerade dein Studium abgeschlosse
 
 Auch über unseren [Telegram Kanal](https://t.me/+A3XAurSG9ws3NjE6) kann man mit uns in Kontakt treten.
 
-## Für Klienten
+## Für Kunden
 
 <!-- textlint-disable max-comma -->
 Wenn du auf der Suche nach einem Entwicklerteam bist und unsere Expertise in Anspruch nehmen willst, schicke uns bitte eine detaillierte Projektbeschreibung, in der Ziele, Zeitrahmen, die sozialen Auswirkungen und die Frage, ob das Projekt Open- oder Closed-Source sein soll.
