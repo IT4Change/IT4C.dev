@@ -50,17 +50,17 @@ Die folgende Liste soll einen Überblick über Ulfs Leben geben:
 | 2021 | jetzt | Softwareentwicklung & Teamkoordination für [Gradido](../projekte/gradido.md) |
 | 2022 | jetzt | Software-Entwicklung für [yunite.me](https://yunite.org/)
 
-## Travels
+## Reisen
 
-Ulf travels by foot to get away from the computer form time to time
+Ulf reist zu Fuß, wenn es mal wieder Zeit ist den Computer eine Weile ausgeschaltet zu lassen.
 
 | Wann | Dauer      | Beschreibung |
 |------|------------|-------------|
-| 2020 | 5.5 months | Travel from [Zwingenberg(Bergstraße)](https://duckduckgo.com/?q=Zwingenberg+(Bergstra%C3%9Fe)&ia=web&iaxm=about) to [Halden](https://duckduckgo.com/?q=Halden&ia=web&iaxm=maps) by foot |
-| 2021 | 2 weeks    | Travel from [Halden](https://duckduckgo.com/?q=Halden&ia=web&iaxm=maps) to [Gothenburg](https://duckduckgo.com/?q=Gotenburg&ia=web&iaxm=about) by foot |
-| 2021 | 4 weeks    | Travel from [Hamburg](https://duckduckgo.com/?q=hamburg&ia=web&iaxm=about) to [Berlin](https://duckduckgo.com/?q=berlin&ia=web&iaxm=about) by foot |
-| 2021 | 1 week     | Travel through [Sächsische Schweiz](https://duckduckgo.com/?q=Saxon+Switzerland+National+Park&ia=web&iaxm=maps) & [Böhmische Schweiz](https://duckduckgo.com/?q=N%C3%A1rodn%C3%AD+park+%C4%8Cesk%C3%A9+%C5%A0v%C3%BDcarsko&ia=web&iaxm=maps) by foot |
-| 2022 | 5 months   | Travel from [Zwingenberg(Bergstraße)](https://duckduckgo.com/?q=Zwingenberg+(Bergstra%C3%9Fe)&ia=web&iaxm=about) to [Portopalo di Capo Passero](https://duckduckgo.com/?q=Portopalo+di+Capo+Passero&ia=web&iaxm=maps) by foot |
+| 2020 | 5,5 Monate | Reise von [Zwingenberg(Bergstraße)](https://duckduckgo.com/?q=Zwingenberg+(Bergstra%C3%9Fe)&ia=web&iaxm=about) nach [Halden](https://duckduckgo.com/?q=Halden&ia=web&iaxm=maps) |
+| 2021 | 2 Wochen    | Reise von [Halden](https://duckduckgo.com/?q=Halden&ia=web&iaxm=maps) nach [Gothenburg](https://duckduckgo.com/?q=Gotenburg&ia=web&iaxm=about) |
+| 2021 | 4 Wochen    | Reise von [Hamburg](https://duckduckgo.com/?q=hamburg&ia=web&iaxm=about) nach [Berlin](https://duckduckgo.com/?q=berlin&ia=web&iaxm=about) |
+| 2021 | 1 Woche     | Reise durch die [Sächsische Schweiz](https://duckduckgo.com/?q=Saxon+Switzerland+National+Park&ia=web&iaxm=maps) & [Böhmische Schweiz](https://duckduckgo.com/?q=N%C3%A1rodn%C3%AD+park+%C4%8Cesk%C3%A9+%C5%A0v%C3%BDcarsko&ia=web&iaxm=maps) |
+| 2022 | 5 Monate   | Reise von [Zwingenberg(Bergstraße)](https://duckduckgo.com/?q=Zwingenberg+(Bergstra%C3%9Fe)&ia=web&iaxm=about) nach [Portopalo di Capo Passero](https://duckduckgo.com/?q=Portopalo+di+Capo+Passero&ia=web&iaxm=maps) |
 
 ## Techstack
 
