@@ -19,4 +19,4 @@ Mehr Infos auf [DreamMall.earth](https://dreammall.earth) und [GitHub](https://g
 
 *DreamMall.earth* basiert auf der *Node.js*-Technologie. Es kommen *Vue*, *Vike*, *Vuetify*, *Apollo*, *GraphQL* und *Prisma* zum Einsatz. Die Video Konferenzen werden mit *BigBlueButton* realisiert.
 
-Für die Konzeptionelle Arbeit an dem Projekt kommt *Figma* zum Einsatz.
+Für die onzeptionelle Arbeit an dem Projekt kommt *Figma* zum Einsatz.
