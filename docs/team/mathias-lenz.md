@@ -20,8 +20,6 @@ Und gerade in der Facette der Qualitätssicherung in derSoftwareentwicklung hat 
 - DevOps
 - Frontend-Entwicklung
 
-And with a hands-on mentality, he can also contribute to other areas and familiarise himself with new approaches and tools to get an idea or project to work.
-
 
 ## Expertise & Projekte
 
