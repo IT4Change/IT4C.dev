@@ -1,7 +1,5 @@
 # Ocelot.Social
 
-## Beschreibung
-
 ![Ocelot.Social](../images/projects/ocelot-newsfeed.png)
 
 Dieses Projekt begann unter dem Namen Human Connection.
