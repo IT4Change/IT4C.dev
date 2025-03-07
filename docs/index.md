@@ -1,36 +1,34 @@
 # IT4C
 
-**IT Team for Change**, in short **IT4C**, is a software developer team building software together. Our focus are out-of-the-box projects and disruptive civil tech to contribute to the inevitable change of our society.
+**IT Team for Change** (IT4C) ist ein Team von Softwareentwicklern, das gemeinsam Software entwickelt. Unser Fokus liegt auf Out-of-the-Box-Projekten und disruptiver Ziviltechnik, um zum unvermeidlichen Wandel unserer Gesellschaft beizutragen.
 
-We believe in a working process that has the right amount of authority to make sensible decisions and coordinate us to reach our goals. The leadership may shift between team members based on expertise and availability. Furthermore we believe that everyone who loves doing his job is more effective then when being forced to. We make sure every member has the upmost possible freedom how to work.
+Wir glauben an einen Arbeitsprozess, der genau das richtige Maß an Autorität hat, um vernünftige Entscheidungen zu treffen, uns zu koordinieren und somit unsere Ziele zu erreichen. Die Leitung kann je nach Fachwissen und Verfügbarkeit zwischen den Teammitgliedern wechseln. Außerdem glauben wir, dass jeder, der seine Arbeit gerne macht, effektiver ist, als wenn er dazu gezwungen wird. Wir stellen sicher, dass jedes Mitglied die größtmögliche Freiheit hat, wie es arbeiten möchte.
 
-Naturally we are a remote team spread throughout Europe (sometimes even further). The core of the team works together as of 2019 - see [history](./history.md). Our common denominator besides our love for social projects and the computer technology is the German language, even tho most of the professional work is done in English.
+Wir sind ein Team, das über ganz Europa verteilt ist und manchmal sogar darüber hinaus. Der Kern des Teams arbeitet seit 2019 zusammen - siehe [Historie](./historie.md). Unser gemeinsamer Nenner neben der Liebe zu sozialen Projekten und der Computertechnologie ist die deutsche Sprache, auch wenn die meiste professionelle Arbeit auf Englisch stattfindet.
 
-One of our principles to make projects resilient to unmaintainability is to spread knowledge within the team and recruit new members willing to learn how we do software development. We live the agile process with short release cycles and weekly feedback loops to ensure our software actually fulfills the needs of our contractors and users.
+Eines unserer Prinzipien, um Projekte nicht unwartbar zu machen, ist die Verbreitung von Wissen innerhalb des Teams und die Rekrutierung neuer Mitglieder, die lernen wollen, wie wir Softwareentwicklung betreiben. Wir leben den agilen Prozess mit kurzen Release-Zyklen und wöchentlichen Feedback-Schleifen, um sicherzustellen, dass unsere Software tatsächlich die Bedürfnisse unserer Auftraggeber und Nutzer erfüllt.
 
-## Projects
+## Projekte
 
-In the following we list some projects we are proud of:
+Einige Projekte, auf die wir stolz sind:
 
-- [DEMOCRACY App](./projects/democracy.app.md)
-- Human-Connection <!-- [Human-Connection](./projects/human-connection.md)-->
-  - [Ocelot.social](./projects/ocelot.social.md)
-  - wir.social <!-- [wir.social](./projects/wir.social.md) -->
-  - sender.fm <!-- [sender.fm](./projects/sender.fm.md) -->
-  - Yunite.me <!--[Yunite.me](./projects/yunite.me.md) -->
-- [Gradido](./projects/gradido.md)
-- [DreamMall](./projects/dreammall.md)
+- [DEMOCRACY App](./projekte/democracy.app.md)
+- Human-Connection <!-- [Human-Connection](./projekte/human-connection.md)-->
+  - [Ocelot.social](./projekte/ocelot.social.md)
+  - wir.social <!-- [wir.social](./projekte/wir.social.md) -->
+  - sender.fm <!-- [sender.fm](./projekte/sender.fm.md) -->
+  - Yunite.me <!--[Yunite.me](./projekte/yunite.me.md) -->
+- [Gradido](./projekte/gradido.md)
+- [DreamMall](./projekte/dreammall.md)
 
-## Members and collaborators
+## Mitglieder und Mitarbeiter
 
-Since we constantly try to recruit new members this list is not complete.
-
-- [Alexander Friedland](./people/alexander-friedland.md)
-- [Hannes Heine](./people/hannes-heine.md)
-- [Mathias Lenz](./people/mathias-lenz.md)
-- [Moriz Wahl](./people/moriz-wahl.md)
-- [Ulf Gebhardt](./people/ulf-gebhardt.md)
-- [Wolfgang Huß](./people/wolfgang-huss.md)
+- [Alexander Friedland](./team/alexander-friedland.md)
+- [Hannes Heine](./team/hannes-heine.md)
+- [Mathias Lenz](./team/mathias-lenz.md)
+- [Moriz Wahl](./team/moriz-wahl.md)
+- [Ulf Gebhardt](./team/ulf-gebhardt.md)
+- [Wolfgang Huß](./team/wolfgang-huss.md)
 
 <!-- ## Organisationen -->
 <!-- textlint-disable period-in-list-item -->
