@@ -5,8 +5,8 @@
 Verwurzelt im DIY Werken und Interesse an Sprache, Mustern und menschlichen Verbindungen.
 Während der Schulzeit unternahm ich erste autodidaktische Schritte in Richtung Computersysteme und Programmierung.
 Während seines Studiums der Computerlinguistik verzweigte sich Mathias in verschiedene Bereiche der Computertechnologie.  
-Seine Motivation ist es, das Wissen und die praktischen Möglichkeiten zeitgemäßer Werkzeuge zu verbreiten, Skepsis gegenüber ihnen abzubauen und jeden Interessierten zu befähigen, sie für sich zu nutzen.
-Und gerade in der Facette der Qualitätssicherung in derSoftwareentwicklung hat er seinen Beruf gefunden.
+Meine Motivation ist es, das Wissen und die praktischen Möglichkeiten zeitgemäßer Werkzeuge zu verbreiten, Skepsis gegenüber ihnen abzubauen und jeden Interessierten zu unterstützen, sie für sich zu nutzen.
+Und besonders die Facette der Qualitätssicherung in der Softwareentwicklung hat mich angesprochen.
 
 
 ## Rolle
@@ -86,8 +86,6 @@ Und gerade in der Facette der Qualitätssicherung in derSoftwareentwicklung hat 
 
 
 ## Weitere Engagements und Interessen
-
-Neben der Computertechnik gibt es Engagements und Interessen in
 
 - Leckeres und gesundes Essen und Kochen
 - Musik - Rhythmen und Liedtexte
