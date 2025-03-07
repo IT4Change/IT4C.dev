@@ -20,7 +20,7 @@ Danach zog ich zurück nach Deutschland in die Stadt, in der ich geboren wurde -
 
 > Dort war meine Rolle die eines Software-Ingenieurs. Ich half bei der Planung und Entwicklung des Im- und Exports von Daten für verschiedene Clients im Censhare Backend <!-- textlint-disable max-comma -->(Java, JaxRS, XPATH, XSLT, XLIFF, JavaPOI, etc.)<!-- textlint-enable max-comma -->.
 
-### Freelance Projecte
+### Freiberufliche Projekte
 
 - [DeutscheSee Online Shop](https://www.deutschesee.de/shop/)
 
