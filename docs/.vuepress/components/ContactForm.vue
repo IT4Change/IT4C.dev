@@ -1,67 +1,94 @@
 <template>
-  <form class="space-y-4" @submit.prevent="handleSubmit">
-    <div v-if="submitSuccess" class="p-3 bg-green-100 text-green-700 rounded-md mb-4">
-      Deine Nachricht wurde erfolgreich gesendet. Vielen Dank!
+  <p class="text-gray-600 mb-8">Wir freuen uns auf Ihre Nachricht. Als Ansprechpartner steht Ihnen <strong>Wolfgang Huss</strong> für Ihre Fragen gerne zur Verfügung.</p>
+
+  <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+    <!-- Left side: Portrait - takes 2/5 of space -->
+    <div class="flex flex-col items-center md:items-start md:self-start md:col-span-2">
+      <img
+          src="/images/portrait/Wolfgang_Huss.jpeg"
+          alt="Wolfgang Huss"
+          class="rounded-lg shadow-md w-full h-auto mb-6"
+      />
     </div>
 
-    <div v-if="submitError" class="p-3 bg-red-100 text-red-700 rounded-md mb-4">
-      {{ submitError }}
-    </div>
+    <!-- Right side: Contact form - takes 3/5 of space -->
+    <div class="md:col-span-3">
+      <h3 class="mb-4">Telefon</h3>
+      <div class="flex-col gap-2 mb-8">
+        <p class="flex items-center">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          </svg>
+          <a href="tel:+491736226091" class="text-green-700 hover:underline">+49 1736226091</a>
+        </p>
+      </div>
 
-    <div>
-      <input
-          type="text"
-          id="name"
-          v-model="form.name"
-          placeholder="Name"
-          required
-          minlength="2"
-          maxlength="35"
-          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-      >
+      <h3 class="mb-4">Nachricht</h3>
+      <form class="space-y-4" @submit.prevent="handleSubmit">
+        <div v-if="submitSuccess" class="p-3 bg-green-100 text-green-700 rounded-md mb-4">
+          Deine Nachricht wurde erfolgreich gesendet. Vielen Dank!
+        </div>
+
+        <div v-if="submitError" class="p-3 bg-red-100 text-red-700 rounded-md mb-4">
+          {{ submitError }}
+        </div>
+
+        <div>
+          <input
+              type="text"
+              id="name"
+              v-model="form.name"
+              placeholder="Name"
+              required
+              minlength="2"
+              maxlength="35"
+              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+          >
+        </div>
+        <div>
+          <input
+              type="email"
+              id="email"
+              v-model="form.email"
+              placeholder="E-Mail"
+              required
+              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+          >
+        </div>
+        <div>
+          <input
+              type="tel"
+              id="phone"
+              v-model="form.phone"
+              placeholder="Telefon"
+              minlength="8"
+              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+          >
+        </div>
+        <div>
+          <textarea
+              id="message"
+              v-model="form.message"
+              rows="4"
+              placeholder="Ihre Nachricht"
+              required
+              minlength="5"
+              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+          ></textarea>
+        </div>
+        <div class="flex justify-end">
+          <button
+              type="submit"
+              :disabled="isSubmitting"
+              class="bg-green-700 text-white py-2 px-6 rounded-md hover:bg-green-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 disabled:bg-green-300 disabled:cursor-not-allowed"
+          >
+            <span v-if="isSubmitting">Wird gesendet...</span>
+            <span v-else>Nachricht senden</span>
+          </button>
+        </div>
+      </form>
     </div>
-    <div>
-      <input
-          type="email"
-          id="email"
-          v-model="form.email"
-          placeholder="E-Mail"
-          required
-          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-      >
-    </div>
-    <div>
-      <input
-          type="tel"
-          id="phone"
-          v-model="form.phone"
-          placeholder="Telefon"
-          minlength="8"
-          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-      >
-    </div>
-    <div>
-      <textarea
-          id="message"
-          v-model="form.message"
-          rows="4"
-          placeholder="Ihre Nachricht"
-          required
-          minlength="5"
-          class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
-      ></textarea>
-    </div>
-    <div class="flex justify-end">
-      <button
-          type="submit"
-          :disabled="isSubmitting"
-          class="bg-green-700 text-white py-2 px-6 rounded-md hover:bg-green-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 disabled:bg-green-300 disabled:cursor-not-allowed"
-      >
-        <span v-if="isSubmitting">Wird gesendet...</span>
-        <span v-else>Nachricht senden</span>
-      </button>
-    </div>
-  </form>
+  </div>
 </template>
 
 <script setup lang="ts">
