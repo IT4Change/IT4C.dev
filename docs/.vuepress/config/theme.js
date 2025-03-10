@@ -59,6 +59,7 @@ export default hopeTheme({
         '/team/alexander-friedland',
         '/team/hannes-heine',
         { link: '/team/mathias-lenz', text: 'Mathias Lenz' },
+        '/team/maximilian-harz',
         '/team/moriz-wahl',
         '/team/ulf-gebhardt',
         '/team/wolfgang-huss'
