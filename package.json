@@ -37,6 +37,7 @@
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-write-good": "^2.0.0",
     "vuepress": "^2.0.0-rc.20",
+    "vuepress-plugin-imagemin": "https://github.com/IT4Change/vuepress-plugin-imagemin.git#transform-all-files-built",
     "vuepress-theme-hope": "^2.0.0-rc.74"
   }
 }
