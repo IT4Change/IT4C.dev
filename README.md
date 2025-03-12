@@ -9,6 +9,12 @@ This package requires:
 - [nodejs](https://github.com/nodejs/node)
 - [npm](https://github.com/npm/cli)
 
+On alpine you need to install the following software to get the `vuepress-plugin-imagemin` properly installed:
+
+```sh
+apk add autoconf libtool automake build-base nasm libpng-dev
+```
+
 ## Techstack
 
 This package uses:
@@ -25,7 +31,7 @@ How to use this package
 
 Build the static files of the website which then can be found under `docs/.vuepress/dist/`.
 
-```bash
+```sh
 npm run build
 ```
 
@@ -33,7 +39,7 @@ npm run build
 
 Bring up a development environment with hot reloading which can be reached [under](http://localhost:8080/)
 
-```bash
+```sh
 npm run dev
 ```
 
@@ -41,7 +47,7 @@ npm run dev
 
 Run the tests to ensure everything is working as expected
 
-```bash
+```sh
 npm test
 ```
 
@@ -51,7 +57,7 @@ You can use the webhook template `webhook.conf.template` and the `deploy.sh` scr
 
 For this to work follow these steps (using alpine):
 
-```bash
+```sh
 apk add webhook
 cp .github/webhooks/hooks.json.template .github/webhooks/hooks.json
 vi .github/webhooks/hooks.json
@@ -82,6 +88,26 @@ vi /etc/nginx/http.d/default.conf
 # 
 #     #access_log $LOG_PATH/nginx-access.hooks.log hooks_log;
 #     #error_log $LOG_PATH/nginx-error.backend.hook.log warn;
+# }
+
+# for the backend install pm2
+npm install pm2 -g
+
+# expose the backend service via nginx
+vi /etc/nginx/http.d/default.conf
+# location /api/ {
+#     proxy_http_version 1.1;
+#     proxy_set_header   Upgrade $http_upgrade;
+#     proxy_set_header   Connection 'upgrade';
+#     proxy_set_header   X-Forwarded-For $remote_addr;
+#     proxy_set_header   X-Real-IP  $remote_addr;
+#     proxy_set_header   Host $host;
+#
+#     proxy_pass         http://127.0.0.1:3000/;
+#     proxy_redirect     off;
+#
+#     #access_log $LOG_PATH/nginx-access.api.log hooks_log;
+#     #error_log $LOG_PATH/nginx-error.api.log warn;
 # }
 ```
 

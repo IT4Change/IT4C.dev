@@ -26,6 +26,7 @@ jobs:
           scopes: |
             content
             workflow
+            backend
             other
           # Configure that a scope must always be provided.
           requireScope: true
