@@ -9,6 +9,12 @@ This package requires:
 - [nodejs](https://github.com/nodejs/node)
 - [npm](https://github.com/npm/cli)
 
+On alpine you need to install the following software to get the `vuepress-plugin-imagemin` properly installed:
+
+```sh
+apk add autoconf libtool automake build-base nasm libpng-dev
+```
+
 ## Techstack
 
 This package uses:
@@ -25,7 +31,7 @@ How to use this package
 
 Build the static files of the website which then can be found under `docs/.vuepress/dist/`.
 
-```bash
+```sh
 npm run build
 ```
 
@@ -33,7 +39,7 @@ npm run build
 
 Bring up a development environment with hot reloading which can be reached [under](http://localhost:8080/)
 
-```bash
+```sh
 npm run dev
 ```
 
@@ -41,7 +47,7 @@ npm run dev
 
 Run the tests to ensure everything is working as expected
 
-```bash
+```sh
 npm test
 ```
 
@@ -51,7 +57,7 @@ You can use the webhook template `webhook.conf.template` and the `deploy.sh` scr
 
 For this to work follow these steps (using alpine):
 
-```bash
+```sh
 apk add webhook
 cp .github/webhooks/hooks.json.template .github/webhooks/hooks.json
 vi .github/webhooks/hooks.json
