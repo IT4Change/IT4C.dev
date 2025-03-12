@@ -61,6 +61,7 @@ export default hopeTheme({
         '/people/hannes-heine',
         { link: '/people/mathias-lenz', text: 'Mathias Lenz' },
         '/people/moriz-wahl',
+        '/people/sebastian-stein',
         '/people/ulf-gebhardt',
         '/people/wolfgang-huss'
       ]

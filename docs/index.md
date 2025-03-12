@@ -29,6 +29,7 @@ Since we constantly try to recruit new members this list is not complete.
 - [Hannes Heine](./people/hannes-heine.md)
 - [Mathias Lenz](./people/mathias-lenz.md)
 - [Moriz Wahl](./people/moriz-wahl.md)
+- [Sebastian Stein](./people/sebastian-stein.md)
 - [Ulf Gebhardt](./people/ulf-gebhardt.md)
 - [Wolfgang Huß](./people/wolfgang-huss.md)
 
