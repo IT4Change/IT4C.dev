@@ -15,7 +15,7 @@ Nach dem Abschluss wurde ich direkt von dem Unternehmen übernommen, bei dem ich
 
 ## Rolle
 
-- Frontend-EntwicklerF
+- Frontend-Entwickler
 - UX-Konzeption
 
 ## Sprachen
