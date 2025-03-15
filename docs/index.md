@@ -121,7 +121,7 @@ layout: BlankLayout
       name="Sebastian"
       role="Frontend"
       profileUrl="/team/sebastian-stein.html"
-      image="/images/portrait/moriz-wahl.jpg"
+      image="/images/portrait/sebastian-stein.jpg"
     />
     <TeamMember
       name="Ulf"
