@@ -22,7 +22,7 @@
   "devDependencies": {
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.20",
-    "@vuepress/plugin-slimsearch": "^2.0.0-rc.82",
+    "@vuepress/plugin-slimsearch": "^2.0.0-rc.83",
     "http-server": "^14.1.1",
     "textlint": "^14.4.2",
     "textlint-filter-rule-comments": "^1.2.2",
