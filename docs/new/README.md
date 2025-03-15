@@ -11,7 +11,7 @@ layout: BlankLayout
   />
 
   <!-- Desktop-Verlauf: von links nach rechts -->
-  <div class="absolute inset-0 bg-gradient-to-r from-[#22596c]/100 via-[#22596c]/80 to-transparent hidden md:block" style="width: 65%;"></div>
+  <div class="absolute inset-0 bg-gradient-to-r from-[#22596c]/100 via-[#22596c]/80 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/80 dark:to-transparent hidden md:block" style="width: 65%;"></div>
 
   <!-- Mobile Bild-Container (mit fester Höhe und Überlauf versteckt) -->
   <div class="w-full h-screen md:hidden relative overflow-hidden">
@@ -25,7 +25,7 @@ layout: BlankLayout
   </div>
 
   <!-- Mobile-Verlauf: von unten nach oben, ragt in Bild hinein -->
-  <div class="absolute left-0 right-0 bottom-0 md:hidden bg-gradient-to-t from-[#22596c]/100 via-[#22596c]/100 via-[#22596c]/90 to-transparent" 
+  <div class="absolute left-0 right-0 bottom-0 md:hidden bg-gradient-to-t from-[#22596c]/100 via-[#22596c]/100 via-[#22596c]/90 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/100 dark:via-[#22596c]/90 dark:to-transparent" 
        style="height: 70vh;">
   </div>
 
@@ -97,43 +97,43 @@ layout: BlankLayout
     <TeamMember
       name="Hannes"
       role="Backend"
-      profileUrl="/people/hannes-heine.html"
+      profileUrl="/team/hannes-heine.html"
       image="/images/portrait/hannes-heine.jpg"
     />
     <TeamMember
       name="Mathias"
       role="Testing"
-      profileUrl="/people/hannes-heine.html"
+      profileUrl="/team/mathias-lenz.html"
       image="/images/portrait/ml-portrait.jpg"
     />
     <TeamMember
       name="Max"
       role="Frontend"
-      profileUrl="/people/maximilian-harz.html"
+      profileUrl="/team/maximilian-harz.html"
       image="/images/portrait/max.jpg"
     />
     <TeamMember
       name="Moriz"
       role="Backend"
-      profileUrl="/people/moriz-wahl.html"
+      profileUrl="/team/moriz-wahl.html"
       image="/images/portrait/moriz-wahl.jpg"
     />
     <TeamMember
       name="Sebastian"
       role="Frontend"
-      profileUrl="/people/sebastian-stein.html"
+      profileUrl="/team/sebastian-stein.html"
       image="/images/portrait/moriz-wahl.jpg"
     />
     <TeamMember
       name="Ulf"
       role="Backend, Hosting"
-      profileUrl="/people/ulf-gebhardt.html"
+      profileUrl="/team/ulf-gebhardt.html"
       image="/images/portrait/ulf-gebhardt.jpg"
     />
     <TeamMember
       name="Wolfgang"
       role="Backend"
-      profileUrl="/people/wolfgang-huss.html"
+      profileUrl="/team/wolfgang-huss.html"
       image="/images/portrait/Wolfgang_Huss.jpeg"
     />
   </div>
@@ -184,10 +184,13 @@ layout: BlankLayout
 </ContentSection>
 
 
-<style lang="scss" scoped>
+<style>
   @import "tailwindcss";
-  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap');
-
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif !important;
+  }
+  
   .font-montserrat {
     font-family: 'Montserrat', sans-serif !important;
   }
@@ -195,7 +198,9 @@ layout: BlankLayout
   .font-sourcesans {
     font-family: 'Source Sans 3', sans-serif !important;
   }
+</style>
 
+<style lang="scss">
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
     

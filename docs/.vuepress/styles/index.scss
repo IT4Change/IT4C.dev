@@ -1,5 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap');
+
 :root {
   --content-width: 1160px;
+
+  --font-family: 'Source Sans 3', sans-serif;
+  --font-family-heading: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family-heading);
 }
 
 h1, h2 {
