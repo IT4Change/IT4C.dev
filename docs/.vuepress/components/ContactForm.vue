@@ -110,7 +110,7 @@ const handleSubmit = async () => {
     isSubmitting.value = true
     submitError.value = ''
 
-    const response = await fetch('/mail', {
+    const response = await fetch('/api/mail', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
@@ -123,6 +123,9 @@ const handleSubmit = async () => {
       })
     })
 
+    if(response.status !== 200){
+      throw new Error('Bei der Kommunikation mit dem Server ist ein Fehler aufgetreten.')
+    }
     const result = await response.json()
 
     if (!response.ok) {
