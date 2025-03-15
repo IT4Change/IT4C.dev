@@ -1,5 +1,5 @@
 <template>
-  <section :class="['full-width-section', backgroundColor]">
+  <section :id="id" :class="[backgroundColor]">
     <div class="content-width">
       <div class="py-16">
         <h1>{{ title }}</h1>
@@ -20,6 +20,10 @@ export default {
     backgroundColor: {
       type: String,
       default: 'bg-transparent'
+    },
+    id: {
+      type: String,
+      default: ''
     }
   }
 }
