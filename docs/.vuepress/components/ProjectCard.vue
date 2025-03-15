@@ -1,5 +1,5 @@
 <template>
-  <div class="border rounded-lg p-6">
+  <div class="border border-gray-300 rounded-lg p-6">
     <img :src="image" :alt="title" class="rounded-lg mb-4 w-full h-48 object-cover">
     <h3 class="text-xl font-semibold mb-2">{{ title }}</h3>
     <p class="text-gray-600 mb-4">{{ description }}</p>
@@ -7,7 +7,7 @@
       <span
           v-for="tag in tags"
           :key="tag"
-          class="px-3 py-1 bg-green-100 text-green-800 rounded-full text-sm"
+          class="tag px-3 py-1 bg-green-100 rounded-full text-sm"
       >
         {{ tag }}
       </span>
@@ -23,3 +23,9 @@ defineProps<{
   tags: string[]
 }>()
 </script>
+
+<style>
+.tag {
+  background: var(--highlight-color-light);
+}
+</style>
