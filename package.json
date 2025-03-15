@@ -20,10 +20,12 @@
   },
   "homepage": "https://github.com/IT4Change/IT4C.dev#readme",
   "devDependencies": {
+    "@tailwindcss/vite": "^4.0.5",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.20",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.82",
     "http-server": "^14.1.1",
+    "tailwindcss": "^4.0.5",
     "textlint": "^14.4.2",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-apostrophe": "^3.0.0",

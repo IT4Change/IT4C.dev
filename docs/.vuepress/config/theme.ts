@@ -22,8 +22,13 @@ export default hopeTheme({
   ],
   sidebar: [
     {
-      text: 'IT4C',
+      text: 'Startseite',
       link: '/',
+      collapsible: false,
+    },
+    {
+      text: 'IT4C',
+      link: '/it4c',
       collapsible: false,
       children: [
         '/historie',
