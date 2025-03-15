@@ -3,19 +3,18 @@ layout: BlankLayout
 ---
 
 <section class="full-width-section h-screen relative">
-  <!-- Desktop Hintergrundbild -->
+  <!-- Desktop background image -->
   <img 
     src="/images/hero-bg-desktop.jpg" 
     alt="Softwareentwicklung für eine bessere Welt" 
     class="w-full h-screen object-cover hidden md:block"
   />
 
-  <!-- Desktop-Verlauf: von links nach rechts -->
+  <!-- Desktop gradient -->
   <div class="absolute inset-0 bg-gradient-to-r from-[#22596c]/100 via-[#22596c]/80 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/80 dark:to-transparent hidden md:block" style="width: 65%;"></div>
 
-  <!-- Mobile Bild-Container (mit fester Höhe und Überlauf versteckt) -->
   <div class="w-full h-screen md:hidden relative overflow-hidden">
-    <!-- Mobile Hintergrundbild mit object-cover und position:absolute -->
+    <!-- Mobile background image -->
     <img
       src="/images/hero-bg-mobile.jpg"
       alt="Softwareentwicklung für eine bessere Welt"
@@ -24,12 +23,12 @@ layout: BlankLayout
     />
   </div>
 
-  <!-- Mobile-Verlauf: von unten nach oben, ragt in Bild hinein -->
+  <!-- Mobile gradient -->
   <div class="absolute left-0 right-0 bottom-0 md:hidden bg-gradient-to-t from-[#22596c]/100 via-[#22596c]/100 via-[#22596c]/90 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/100 dark:via-[#22596c]/90 dark:to-transparent" 
        style="height: 70vh;">
   </div>
 
-  <!-- Gemeinsamer Content-Bereich -->
+  <!-- Content area -->
   <div class="absolute inset-0 flex flex-col md:justify-start md:pt-36 justify-end pb-16">
     <div class="content-width mx-auto px-4 md:px-6">
       <!-- Für Desktop: Normal positioniert mit margin-top -->
