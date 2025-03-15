@@ -141,16 +141,18 @@ layout: BlankLayout
 <ContentSection id="referenzen" title="Referenzen">
   <div class="grid md:grid-cols-2 gap-8">
     <ProjectCard
-      title="Nachhaltigkeits-Portal"
-      description="Vernetzungsplattform für lokale Initiativen mit 50% Energieeinsparung durch optimierte Architektur."
-      image="/projects/sustainability.jpg"
-      :tags="['Webentwicklung', 'API', 'Datenbank']"
+      title="Ocelot.Social"
+      description="Ocelot.social ist eine Open-Source Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok"
+      image="images/projects/ocelot-newsfeed.png"
+      :tags="['Social Media']"
+      href="/projekte/ocelot.social"
     />
     <ProjectCard
-      title="Sharing Economy App"
-      description="Mobile Anwendung für ressourcenschonendes Teilen mit 10.000+ aktiven Nutzern."
-      image="/projects/sharing.jpg"
-      :tags="['Mobile App', 'Backend', 'DevOps']"
+      title="DreamMall.earth"
+      description="DreamMall.earth ist eine Video & Projekt Management Plattform,"
+      image="/images/projects/dreammall.png"
+      :tags="['Video-Konferenz', 'Projekt Management']"
+      href="/projekte/dreammall"
     />
   </div>
 </ContentSection>
