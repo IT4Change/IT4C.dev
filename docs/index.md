@@ -29,7 +29,7 @@ layout: BlankLayout
   </div>
 
   <!-- Content area -->
-  <div class="absolute inset-0 flex flex-col md:justify-start md:pt-36 justify-end pb-16">
+  <div class="absolute inset-0 flex flex-col md:justify-start md:pt-45 justify-end pb-16">
     <div class="content-width mx-auto px-4 md:px-6">
       <!-- Für Desktop: Normal positioniert mit margin-top -->
       <!-- Für Mobile: Am unteren Rand fixiert ohne margin -->

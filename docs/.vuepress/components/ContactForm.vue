@@ -7,7 +7,7 @@
       <img
           src="/images/portrait/ulf-gebhardt.jpg"
           alt="Ulf Gebhardt"
-          class="rounded-lg shadow-md w-full h-auto mb-6"
+          class="rounded-lg shadow-md w-97 h-auto mb-6"
       />
     </div>
 
