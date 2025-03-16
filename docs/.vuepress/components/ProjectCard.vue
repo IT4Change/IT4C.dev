@@ -8,7 +8,7 @@
         <span
             v-for="tag in tags"
             :key="tag"
-            class="tag px-3 py-1 bg-green-100 rounded-full text-sm"
+            class="tag px-3 py-1 rounded-full text-sm"
         >
           {{ tag }}
         </span>
@@ -29,6 +29,7 @@ defineProps<{
 
 <style>
 .tag {
+  color: var(--highlight-color);
   background: var(--highlight-color-light);
 }
 </style>

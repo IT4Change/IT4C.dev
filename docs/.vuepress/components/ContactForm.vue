@@ -16,10 +16,10 @@
       <h3 class="mb-4">Telefon</h3>
       <div class="flex-col gap-2 mb-8">
         <p class="flex items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2 text-green-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg xmlns="http://www.w3.org/2000/svg" class="phone-number h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
           </svg>
-          <a href="tel:+4915784841600" class="text-green-700 hover:underline">+49 15784841600</a>
+          <a href="tel:+4915784841600" class="phone-number hover:!underline">+49 15784841600</a>
         </p>
       </div>
 
@@ -150,3 +150,9 @@ const handleSubmit = async () => {
   }
 }
 </script>
+
+<style>
+.phone-number {
+  color: var(--highlight-color);
+}
+</style>
