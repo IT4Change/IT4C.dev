@@ -145,14 +145,14 @@ layout: BlankLayout
       description="Ocelot.social ist eine Open-Source Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok"
       image="./images/projects/ocelot-newsfeed.png"
       :tags="['Social Media']"
-      href="/projekte/ocelot.social"
+      href="/projekte/ocelot.social.html"
     />
     <ProjectCard
       title="DreamMall.earth"
       description="DreamMall.earth ist eine Video & Projekt Management Plattform,"
       image="./images/projects/dreammall.png"
       :tags="['Video-Konferenz', 'Projekt Management']"
-      href="/projekte/dreammall"
+      href="/projekte/dreammall.html"
     />
   </div>
 </ContentSection>
