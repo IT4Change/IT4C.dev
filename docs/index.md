@@ -96,44 +96,44 @@ layout: BlankLayout
     <TeamMember
       name="Hannes"
       role="Backend"
-      profileUrl="/team/hannes-heine.html"
-      image="/images/portrait/hannes-heine.jpg"
+      profileUrl="./team/hannes-heine.html"
+      image="./images/portrait/hannes-heine.jpg"
     />
     <TeamMember
       name="Mathias"
       role="Testing"
-      profileUrl="/team/mathias-lenz.html"
-      image="/images/portrait/ml-portrait.jpg"
+      profileUrl="./team/mathias-lenz.html"
+      image="./images/portrait/ml-portrait.jpg"
     />
     <TeamMember
       name="Max"
       role="Frontend"
       profileUrl="/team/maximilian-harz.html"
-      image="/images/portrait/max.jpg"
+      image="./images/portrait/max.jpg"
     />
     <TeamMember
       name="Moriz"
       role="Backend"
       profileUrl="/team/moriz-wahl.html"
-      image="/images/portrait/moriz-wahl.jpg"
+      image="./images/portrait/moriz-wahl.jpg"
     />
     <TeamMember
       name="Sebastian"
       role="Frontend"
-      profileUrl="/team/sebastian-stein.html"
-      image="/images/portrait/sebastian-stein.jpg"
+      profileUrl="./team/sebastian-stein.html"
+      image="./images/portrait/sebastian-stein.jpg"
     />
     <TeamMember
       name="Ulf"
       role="Backend, Hosting"
-      profileUrl="/team/ulf-gebhardt.html"
-      image="/images/portrait/ulf-gebhardt.jpg"
+      profileUrl="./team/ulf-gebhardt.html"
+      image="./images/portrait/ulf-gebhardt.jpg"
     />
     <TeamMember
       name="Wolfgang"
       role="Backend"
-      profileUrl="/team/wolfgang-huss.html"
-      image="/images/portrait/Wolfgang_Huss.jpeg"
+      profileUrl="./team/wolfgang-huss.html"
+      image="./images/portrait/Wolfgang_Huss.jpeg"
     />
   </div>
 </ContentSection>
@@ -143,14 +143,14 @@ layout: BlankLayout
     <ProjectCard
       title="Ocelot.Social"
       description="Ocelot.social ist eine Open-Source Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok"
-      image="images/projects/ocelot-newsfeed.png"
+      image="./images/projects/ocelot-newsfeed.png"
       :tags="['Social Media']"
       href="/projekte/ocelot.social"
     />
     <ProjectCard
       title="DreamMall.earth"
       description="DreamMall.earth ist eine Video & Projekt Management Plattform,"
-      image="/images/projects/dreammall.png"
+      image="./images/projects/dreammall.png"
       :tags="['Video-Konferenz', 'Projekt Management']"
       href="/projekte/dreammall"
     />

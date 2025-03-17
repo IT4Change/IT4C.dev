@@ -1,7 +1,7 @@
 <!-- textlint-disable write-good -->
 # Sebastian Stein
 
-![Bild – Sebastian Stein](../images/portrait/sebastian-stein.jpg)
+![Bild – Sebastian Stein](/images/portrait/sebastian-stein.jpg)
 
 
 Mit Begeisterung bringe ich Ideen zum Leben und finde es faszinierend, wenn Projekte Gestalt annehmen und Wirklichkeit werden.

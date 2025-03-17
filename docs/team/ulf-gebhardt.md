@@ -1,6 +1,6 @@
 # Ulf Gebhardt
 
-![Ulf Gebhardt](../images/portrait/ulf-gebhardt.jpg)
+![Ulf Gebhardt](/images/portrait/ulf-gebhardt.jpg)
 
 Ulf ist ein Softwareentwickler durch und durch. Er hat mit 12 Jahren angefangen zu programmieren und ist dabei geblieben. <!-- textlint-disable max-comma -->Er weiß um die Möglichkeiten, die Software und Hardware zu bieten haben, und ist die Person, an die man sich wendet, wenn es Zeit ist, eine neue Bibliothek einzubinden oder einen Algorithmus zu implementieren. <!-- textlint-enable max-comma -->
 
