@@ -1,7 +1,7 @@
 <!-- textlint-disable write-good -->
 # Maximilian Harz
 
-![Bild – Maximilian Harz](../images/portrait/max.jpg)
+![Bild – Maximilian Harz](/images/portrait/max.jpg)
 
 Seit meiner Jugend fasziniert mich die Möglichkeit, die eigene Gedankenwelt im Computer zum Leben zu erwecken. Meine ersten Hobbyprojekte waren private Webseiten und Browserspiele. Nach einem Informatikstudium an der Uni Saarbrücken war ich in verschiedenen Konstellationen als Softwareentwickler im Webbereich aktiv, z.B. als Frontend Engineer für die browser-native Blockchain Nimiq oder als technisch verantwortlicher Co-Founder einer leider nicht mehr existenten Second-Hand-Plattform.
 
