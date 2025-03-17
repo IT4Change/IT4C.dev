@@ -1,7 +1,7 @@
 <!-- textlint-disable write-good -->
 # Wolfgang Huß
 
-![Bild – Wolfgang Huß](../images/portrait/Wolfgang_Huss.jpeg)
+![Bild – Wolfgang Huß](/images/portrait/Wolfgang_Huss.jpeg)
 
 Seit meinem 14. Lebensjahr, also seit Anfang 1983, beschäftige ich mich nun schon mit Programmierung.
 Dabei bin ich durch mehrere Phasen interessanter technologischer Veränderungen gegangen und habe die neuen Technologien hauptsächlich autodidaktisch und in Pairing-Sitzungen erlernt.

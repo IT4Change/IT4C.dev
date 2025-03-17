@@ -1,6 +1,6 @@
 # Mathias 
 
-![Mathias](../images/portrait/ml-portrait.jpg)
+![Mathias](/images/portrait/ml-portrait.jpg)
 
 Verwurzelt im DIY Werken und Interesse an Sprache, Mustern und menschlichen Verbindungen.
 Während der Schulzeit unternahm ich erste autodidaktische Schritte in Richtung Computersysteme und Programmierung.

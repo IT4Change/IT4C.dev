@@ -1,6 +1,6 @@
 # Moriz Wahl
 
-![Moriz Wahl](../images/portrait/moriz-wahl.jpg)
+![Moriz Wahl](/images/portrait/moriz-wahl.jpg)
 
 Als ich 8 Jahre alt war, bekam ich einen ZX81. Seitdem hat meine
 Faszination für das Programmieren nie aufgehört.

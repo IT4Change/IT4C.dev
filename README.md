@@ -90,6 +90,10 @@ vi /etc/nginx/http.d/default.conf
 #     #error_log $LOG_PATH/nginx-error.backend.hook.log warn;
 # }
 
+# The github payload is quite big sometimes, hence those two lines can prevent an reoccurring error message on nginx
+# client_body_buffer_size     10M;
+# client_max_body_size        10M;
+
 # for the backend install pm2
 npm install pm2 -g
 

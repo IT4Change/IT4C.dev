@@ -2,7 +2,7 @@
 
 ## Präsentation
 
-![Hannes Heine](../images/portrait/hannes-heine.jpg)
+![Hannes Heine](/images/portrait/hannes-heine.jpg)
 
 Ich bin in Deutschland geboren und in Frankreich aufgewachsen, daher spreche ich beide Sprachen fließend. In meiner Freizeit spiele ich gerne Videospiele, mache Reiki und alle Arten von Sport.
 Als Kind war ich, abgesehen von meinem Interesse für Sport, immer sehr gut in den Naturwissenschaften. In der 10. Klasse stieß ich auf das Programmieren, die Anfangszeit war so aufregend, dass ich den Eindruck hatte, ich könnte mit einem kleinen Gerät zaubern. Das hat mich so sehr begeistert, dass ich nach meinem Abitur 2008 3 Jahre in der schönen Stadt Toulouse studiert habe (Mathematik, Mechanik und Informatik).
