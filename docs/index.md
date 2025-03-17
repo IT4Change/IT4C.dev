@@ -138,7 +138,7 @@ layout: BlankLayout
   </div>
 </ContentSection>
 
-<ContentSection id="referenzen" title="Referenzen">
+<ContentSection id="projekte" title="Projekte">
   <div class="grid md:grid-cols-2 gap-8">
     <ProjectCard
       title="Ocelot.Social"
