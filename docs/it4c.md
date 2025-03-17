@@ -28,7 +28,7 @@ Einige Projekte, auf die wir stolz sind:
 - [Mathias Lenz](./team/mathias-lenz.md)
 - [Maximilian Harz](./team/maximilian-harz.md)
 - [Moriz Wahl](./team/moriz-wahl.md)
-- [Sebastian Stein](./people/sebastian-stein.md)
+- [Sebastian Stein](./team/sebastian-stein.md)
 - [Ulf Gebhardt](./team/ulf-gebhardt.md)
 - [Wolfgang Huß](./team/wolfgang-huss.md)
 
