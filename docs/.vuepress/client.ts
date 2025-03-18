@@ -8,6 +8,7 @@ import ProcessStep from './components/ProcessStep.vue'
 import ProjectCard from './components/ProjectCard.vue'
 import ServiceCard from './components/ServiceCard.vue'
 import TeamMember from './components/TeamMember.vue'
+import CaptionedImage from './components/CaptionedImage.vue'
 
 export default defineClientConfig({
   enhance({ app }) {
@@ -18,7 +19,7 @@ export default defineClientConfig({
     app.component('ProjectCard', ProjectCard)
     app.component('TeamMember', TeamMember)
     app.component('ServiceCard', ServiceCard)
-
+    app.component('CaptionedImage', CaptionedImage)
   },
   setup() {
     setupTransparentNavbar({ type: "homepage" });

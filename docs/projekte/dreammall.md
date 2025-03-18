@@ -6,6 +6,10 @@
 
 Das zentrale Element des Projektes ist eine *Sternenkarte*, welche die einzelnen Akteure und Projekte an einen fiktiven Sternenhimmel projiziert. Jeder Nutzer kann in Austausch mit Anderen gehen, in dem er seinen Raum öffnet und andere dazu einläd. Ein Raum ist eine Videokonferenz mit Chatfunktion, Bildschirmfreigabe, gemeinsamen Notizen, Whiteboard, Unterräumen und Vielem mehr.
 
+<br/>
+
+<CaptionedImage src="/images/projects/dreammall-starmap.png" caption="Bild: Die Sternenkarte von DreamMall" width="500px"/>
+
 Das Projekt befindet sich noch in Entwicklung.
 
 Für die Zukunft sind weitere Features zur Unterstützung der DreamMall Akteure bei Kommunikation und Projektumsetzung angedacht, z.B. 
@@ -16,7 +20,6 @@ Für die Zukunft sind weitere Features zur Unterstützung der DreamMall Akteure 
 Mehr Infos auf [DreamMall.earth](https://dreammall.earth) und [GitHub](https://github.com/dreammall-earth/dreammall.earth).
 
 ## Techstack
-
 *DreamMall.earth* basiert auf der *Node.js*-Technologie. Es kommen *Vue*, *Vike*, *Vuetify*, *Apollo*, *GraphQL* und *Prisma* zum Einsatz. Die Video Konferenzen werden mit *BigBlueButton* realisiert.
 
 Für die konzeptionelle Arbeit an dem Projekt kommt *Figma* zum Einsatz.
