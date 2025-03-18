@@ -149,7 +149,7 @@ layout: BlankLayout
     />
     <ProjectCard
       title="DreamMall.earth"
-      description="DreamMall.earth ist eine Video & Projekt Management Plattform,"
+      description="DreamMall.earth ist eine Video & Projekt Management Plattform"
       image="./images/projects/dreammall.png"
       :tags="['Video-Konferenz', 'Projekt Management']"
       href="/projekte/dreammall.html"
