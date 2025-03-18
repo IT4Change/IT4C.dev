@@ -1,13 +1,16 @@
 # Ocelot.Social
-
-![Ocelot.Social](/images/projects/ocelot-newsfeed.png)
+![Ocelot.Social](/images/projects/ocelot.png)
 
 Dieses Projekt begann unter dem Namen Human Connection.
 Die Idee war, eine Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok zu schaffen, bei der die Nutzer nicht das Produkt sind.
 Nach der Schließung des Netzwerks von Human Connection wurde die Open-Source-Software weiterentwickelt.
 
 *Ocelot.social* kann durch beliebige Betreiber auf eigenen Servern gehostet, mit eigenem Branding und zu eignen Nutzungsbedingungen angeboten werden.
-Es kann individuell konfiguriert werden und ist skalierbar sowie erweiterbar, .
+Es kann individuell konfiguriert werden und ist skalierbar sowie erweiterbar.
+
+<br/>
+
+<CaptionedImage src="/images/projects/ocelot-newsfeed.png" caption="Bild: Ein Newsfeed in Ocelot.social" width="500px"/>
 
 Teste die [Demoversion](https://ocelot.social/de/get-started/).
 

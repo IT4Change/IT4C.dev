@@ -44,7 +44,7 @@ export default hopeTheme({
           link: '/projekte/democracy.app'
         },
         {
-          text: 'Ocelot-Social',
+          text: 'Ocelot.Social',
           link: '/projekte/ocelot.social'
         },
         {

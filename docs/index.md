@@ -143,7 +143,7 @@ layout: BlankLayout
     <ProjectCard
       title="Ocelot.Social"
       description="Ocelot.social ist eine Open-Source Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok"
-      image="./images/projects/ocelot-newsfeed.png"
+      image="./images/projects/ocelot.png"
       :tags="['Social Media']"
       href="/projekte/ocelot.social.html"
     />
