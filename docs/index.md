@@ -190,23 +190,6 @@ layout: BlankLayout
   <ContactForm />
 </ContentSection>
 
-
-<style>
-  @import "tailwindcss";
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', sans-serif !important;
-  }
-  
-  .font-montserrat {
-    font-family: 'Montserrat', sans-serif !important;
-  }
-
-  .font-sourcesans {
-    font-family: 'Source Sans 3', sans-serif !important;
-  }
-</style>
-
 <style lang="scss">
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
