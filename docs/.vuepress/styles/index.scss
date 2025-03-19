@@ -24,4 +24,11 @@ h1, h2 {
   max-width: var(--content-width);
   margin: 0 auto;
   padding: 0 2.5rem;
+
+  @media (max-width: 768px) {
+    padding: 0 1.75rem;
+  }
+  @media (max-width: 400px) {
+    padding: 0 1rem;
+  }
 }

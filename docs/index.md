@@ -28,8 +28,14 @@ layout: BlankLayout
        style="height: 70vh;">
   </div>
 
+  <!-- Mobile gradient -->
+  <div class="absolute left-0 right-0 bottom-0 sm:hidden" 
+       style="height: 80vh; background-image: linear-gradient(to top, #22596c 70%, transparent 100%);">
+  </div>
+
+
   <!-- Content area -->
-  <div class="absolute inset-0 flex flex-col md:justify-start md:pt-45 justify-end pb-16">
+  <div class="absolute inset-0 flex flex-col md:justify-start md:pt-45 justify-end pb-8 md:pb-16">
     <div class="content-width mx-auto px-4 md:px-6">
       <!-- Für Desktop: Normal positioniert mit margin-top -->
       <!-- Für Mobile: Am unteren Rand fixiert ohne margin -->
@@ -37,12 +43,12 @@ layout: BlankLayout
         <div
           role="heading" 
           aria-level="1"
-          class="text-3xl md:text-4xl lg:text-5xl mb-6 text-white font-montserrat leading-tight text-shadow"
+          class="text-3xl md:text-4xl lg:text-5xl mb-6 text-white text-center sm:text-left font-montserrat leading-tight text-shadow"
         >
           Software­entwicklung für eine bessere Welt
         </div>
         <p 
-          class="text-xl md:text-2xl text-white font-sourcesans mb-8 max-w-2xl text-shadow-sm"
+          class="text-xl md:text-2xl text-white text-center sm:text-left font-sourcesans mb-8 max-w-2xl text-shadow-sm"
         >
           Wir sind Softwareentwickler, die deine alternative Vision verstehen und umsetzen. Mit technischer Expertise und persönlicher Betreuung unterstützen wir Projekte, die Positives bewirken.
         </p>
