@@ -80,7 +80,7 @@
           <button
               type="submit"
               :disabled="isSubmitting"
-              class="bg-green-700 text-white py-2 px-6 rounded-md hover:bg-green-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:highlight focus:ring-offset-2 disabled:bg-green-300 disabled:cursor-not-allowed"
+              class="text-white py-2 px-6 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:highlight focus:ring-offset-2"
           >
             <span v-if="isSubmitting">Wird gesendet...</span>
             <span v-else>Nachricht senden</span>
@@ -157,5 +157,11 @@ const handleSubmit = async () => {
 }
 .focus\:highlight:focus {
   --tw-ring-color: var(--highlight-color);
+}
+button {
+  background-color: var(--highlight-color);
+  &:hover {
+    background-color: color-mix(in srgb, var(--highlight-color), black 15%);
+  }
 }
 </style>
