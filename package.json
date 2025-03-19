@@ -25,6 +25,7 @@
     "@vuepress/bundler-vite": "^2.0.0-rc.20",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.82",
     "http-server": "^14.1.1",
+    "sass-embedded": "^1.86.0",
     "tailwindcss": "^4.0.5",
     "textlint": "^14.5.0",
     "textlint-filter-rule-comments": "^1.2.2",
