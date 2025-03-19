@@ -24,16 +24,16 @@
       </div>
 
       <h3 class="mb-4">Nachricht</h3>
-      <form class="space-y-4" @submit.prevent="handleSubmit">
-        <div v-if="submitSuccess" class="p-3 bg-green-100 text-green-700 rounded-md mb-4">
+      <form @submit.prevent="handleSubmit">
+        <div v-if="submitSuccess" class="my-4 p-3 bg-green-100 text-green-700 rounded-md mb-4">
           Deine Nachricht wurde erfolgreich gesendet. Vielen Dank!
         </div>
 
-        <div v-if="submitError" class="p-3 bg-red-100 text-red-700 rounded-md mb-4">
+        <div v-if="submitError" class="my-4 p-3 bg-red-100 text-red-700 rounded-md mb-4">
           {{ submitError }}
         </div>
 
-        <div>
+        <div class="my-4">
           <input
               type="text"
               id="name"
@@ -42,30 +42,30 @@
               required
               minlength="2"
               maxlength="35"
-              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
           >
         </div>
-        <div>
+        <div class="my-4">
           <input
               type="email"
               id="email"
               v-model="form.email"
               placeholder="E-Mail"
               required
-              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
           >
         </div>
-        <div>
+        <div class="my-4">
           <input
               type="tel"
               id="phone"
               v-model="form.phone"
               placeholder="Telefon"
               minlength="8"
-              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
           >
         </div>
-        <div>
+        <div class="my-4">
           <textarea
               id="message"
               v-model="form.message"
@@ -73,14 +73,14 @@
               placeholder="Ihre Nachricht"
               required
               minlength="5"
-              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
           ></textarea>
         </div>
-        <div class="flex justify-end">
+        <div class="my-4 flex justify-end">
           <button
               type="submit"
               :disabled="isSubmitting"
-              class="bg-green-700 text-white py-2 px-6 rounded-md hover:bg-green-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2 disabled:bg-green-300 disabled:cursor-not-allowed"
+              class="bg-green-700 text-white py-2 px-6 rounded-md hover:bg-green-600 transition-colors duration-200 focus:outline-none focus:ring-2 focus:highlight focus:ring-offset-2 disabled:bg-green-300 disabled:cursor-not-allowed"
           >
             <span v-if="isSubmitting">Wird gesendet...</span>
             <span v-else>Nachricht senden</span>
@@ -154,5 +154,8 @@ const handleSubmit = async () => {
 <style>
 .phone-number {
   color: var(--highlight-color);
+}
+.focus\:highlight:focus {
+  --tw-ring-color: var(--highlight-color);
 }
 </style>
