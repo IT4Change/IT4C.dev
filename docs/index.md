@@ -91,7 +91,7 @@ layout: BlankLayout
 </ContentSection>
 
 <ContentSection id="team" title="Team & Werte" backgroundColor="bg-gray-50">
-  <p>Wir glauben an die Kraft der Technologie für positiven Wandel. Unser diverses Team verbindet technische Expertise mit nachhaltigem Denken und sozialer Verantwortung.</p>
+  <p>Wir glauben an die Kraft von Technologie für positiven Wandel. Unser Team verbindet technische Expertise mit nachhaltigem Denken und sozialer Verantwortung.</p>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
     <TeamMember
       name="Hannes"
