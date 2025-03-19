@@ -12,8 +12,23 @@ export default {
 </script>
 
 <style>
-@import "tailwindcss/theme.css";
-@import "tailwindcss/utilities.css";
+@layer theme, base, components, utilities;
+
+@import "tailwindcss/theme.css" layer(theme);
+@import "tailwindcss/preflight.css" layer(base);
+@import "tailwindcss/utilities.css" layer(utilities);
+
+/* Conflicts with vuepress */
+@layer base {
+  /* sidebar */
+  * {
+    box-sizing: content-box;
+  }
+  /* Menu Icon */
+  img, svg, video, canvas, audio, iframe, embed, object {
+    display: inline;
+  }
+}
 
 .blank-layout {
   --content-width: 1160px;
