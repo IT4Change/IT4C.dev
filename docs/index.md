@@ -28,7 +28,7 @@ layout: BlankLayout
        style="height: 70vh;">
   </div>
 
-  <!-- Mobile gradient -->
+  <!-- XS Mobile gradient -->
   <div class="absolute left-0 right-0 bottom-0 sm:hidden" 
        style="height: 80vh; background-image: linear-gradient(to top, #22596c 70%, transparent 100%);">
   </div>
