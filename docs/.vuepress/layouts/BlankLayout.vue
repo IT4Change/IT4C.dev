@@ -18,6 +18,8 @@ export default {
 @import "tailwindcss/preflight.css" layer(base);
 @import "tailwindcss/utilities.css" layer(utilities);
 
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+
 /* Conflicts with vuepress */
 @layer base {
   .vp-sidebar {

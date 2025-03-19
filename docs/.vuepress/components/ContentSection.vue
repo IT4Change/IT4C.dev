@@ -19,7 +19,7 @@ export default {
     },
     backgroundColor: {
       type: String,
-      default: 'bg-white'
+      default: 'bg-white dark:bg-gray-900'
     },
     id: {
       type: String,
