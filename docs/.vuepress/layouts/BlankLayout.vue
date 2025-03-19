@@ -20,12 +20,10 @@ export default {
 
 /* Conflicts with vuepress */
 @layer base {
-  /* sidebar */
-  * {
+  .vp-sidebar {
     box-sizing: content-box;
   }
-  /* Menu Icon */
-  img, svg, video, canvas, audio, iframe, embed, object {
+  .vp-nav-logo {
     display: inline;
   }
 }
