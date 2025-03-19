@@ -1,7 +1,7 @@
 <template>
   <a :href="href">
     <div class="border border-gray-300 rounded-lg p-6">
-      <img :src="image" :alt="title" class="rounded-lg mb-4 w-full h-48 object-cover">
+      <img :src="image" :alt="title" class="rounded-lg mb-4 w-full h-auto object-contain">
       <h3 class="text-xl font-semibold mb-2">{{ title }}</h3>
       <p class="text-gray-600 mb-4">{{ description }}</p>
       <div class="flex flex-wrap gap-2">
