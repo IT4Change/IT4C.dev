@@ -17,7 +17,7 @@ export default hopeTheme({
     { text: 'Kontakt', link: '/kontakt' },
     {
       text: 'Github',
-      link: 'https://github.com/IT4Change'
+      link: 'https://github.com/IT4Change',
     },
   ],
   sidebar: [
@@ -30,10 +30,7 @@ export default hopeTheme({
       text: 'IT4C',
       link: '/it4c',
       collapsible: false,
-      children: [
-        '/historie',
-        '/kontakt'
-      ]
+      children: ['/historie', '/kontakt'],
     },
     {
       text: 'Projekte',
@@ -41,21 +38,21 @@ export default hopeTheme({
       children: [
         {
           text: 'DEMOCRACY App',
-          link: '/projekte/democracy.app'
+          link: '/projekte/democracy.app',
         },
         {
           text: 'Ocelot.Social',
-          link: '/projekte/ocelot.social'
+          link: '/projekte/ocelot.social',
         },
         {
           text: 'Gradido Software',
-          link: '/projekte/gradido'
+          link: '/projekte/gradido',
         },
         {
           text: 'DreamMall.earth',
-          link: '/projekte/dreammall'
+          link: '/projekte/dreammall',
         },
-      ]
+      ],
     },
     {
       text: 'Team',
@@ -68,13 +65,13 @@ export default hopeTheme({
         '/team/moriz-wahl',
         '/team/sebastian-stein',
         '/team/ulf-gebhardt',
-        '/team/wolfgang-huss'
-      ]
+        '/team/wolfgang-huss',
+      ],
     },
   ],
   plugins: {
     slimsearch: {
-      indexContent: true
+      indexContent: true,
     },
   },
 })

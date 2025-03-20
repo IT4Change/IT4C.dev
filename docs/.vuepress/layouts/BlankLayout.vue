@@ -7,16 +7,16 @@
 
 <script>
 export default {
-  name: 'BlankLayout'
+  name: 'BlankLayout',
 }
 </script>
 
 <style>
 @layer theme, base, components, utilities;
 
-@import "tailwindcss/theme.css" layer(theme);
-@import "tailwindcss/preflight.css" layer(base);
-@import "tailwindcss/utilities.css" layer(utilities);
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/preflight.css' layer(base);
+@import 'tailwindcss/utilities.css' layer(utilities);
 
 @custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
 
@@ -51,11 +51,17 @@ export default {
   --content-width: 1160px;
 }
 
-.blank-layout h1, .blank-layout h2, .blank-layout h3, .blank-layout h4, .blank-layout h5, .blank-layout h6 {
-    font-family: var(--font-family-heading);
-  }
+.blank-layout h1,
+.blank-layout h2,
+.blank-layout h3,
+.blank-layout h4,
+.blank-layout h5,
+.blank-layout h6 {
+  font-family: var(--font-family-heading);
+}
 
-.blank-layout h1, .blank-layout h2 {
+.blank-layout h1,
+.blank-layout h2 {
   border-bottom: none;
   padding-bottom: 2rem;
   font-weight: bold;

@@ -1,6 +1,7 @@
 <template>
   <p class="text-gray-600 dark:text-gray-300 mb-8">
-    Wir freuen uns auf Ihre Nachricht. Als Ansprechpartner steht Ihnen <strong>Ulf Gebhardt</strong> für Ihre Fragen gerne zur Verfügung.
+    Wir freuen uns auf Ihre Nachricht. Als Ansprechpartner steht Ihnen
+    <strong>Ulf Gebhardt</strong> für Ihre Fragen gerne zur Verfügung.
   </p>
 
   <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
@@ -10,14 +11,12 @@
         src="/images/portrait/ulf-gebhardt.jpg"
         alt="Ulf Gebhardt"
         class="rounded-lg shadow-md w-97 h-auto mb-6"
-      >
+      />
     </div>
 
     <!-- Right side: Contact form - takes 3/5 of space -->
     <div class="md:col-span-3">
-      <h3 class="mb-4">
-        Telefon
-      </h3>
+      <h3 class="mb-4">Telefon</h3>
       <div class="flex-col gap-2 mb-8">
         <p class="flex items-center">
           <svg
@@ -34,28 +33,17 @@
               d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
             />
           </svg>
-          <a
-            href="tel:+4915784841600"
-            class="phone-number hover:!underline"
-          >+49 15784841600</a>
+          <a href="tel:+4915784841600" class="phone-number hover:!underline">+49 15784841600</a>
         </p>
       </div>
 
-      <h3 class="mb-4">
-        Nachricht
-      </h3>
+      <h3 class="mb-4">Nachricht</h3>
       <form @submit.prevent="handleSubmit">
-        <div
-          v-if="submitSuccess"
-          class="my-4 p-3 bg-green-100 text-green-700 rounded-md mb-4"
-        >
+        <div v-if="submitSuccess" class="my-4 p-3 bg-green-100 text-green-700 rounded-md mb-4">
           Deine Nachricht wurde erfolgreich gesendet. Vielen Dank!
         </div>
 
-        <div
-          v-if="submitError"
-          class="my-4 p-3 bg-red-100 text-red-700 rounded-md mb-4"
-        >
+        <div v-if="submitError" class="my-4 p-3 bg-red-100 text-red-700 rounded-md mb-4">
           {{ submitError }}
         </div>
 
@@ -69,7 +57,7 @@
             minlength="2"
             maxlength="35"
             class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
-          >
+          />
         </div>
         <div class="my-4">
           <input
@@ -79,7 +67,7 @@
             placeholder="E-Mail"
             required
             class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
-          >
+          />
         </div>
         <div class="my-4">
           <input
@@ -89,7 +77,7 @@
             placeholder="Telefon"
             minlength="8"
             class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
-          >
+          />
         </div>
         <div class="my-4">
           <textarea
@@ -124,7 +112,7 @@ const form = reactive({
   name: '',
   email: '',
   phone: '',
-  message: ''
+  message: '',
 })
 
 const isSubmitting = ref(false)
@@ -139,17 +127,17 @@ const handleSubmit = async () => {
     const response = await fetch('/api/mail', {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/json',
       },
       body: JSON.stringify({
         name: form.name,
         email: form.email,
         telephone: form.phone || undefined, // Send undefined if empty to match optional schema
-        text: form.message
-      })
+        text: form.message,
+      }),
     })
 
-    if(response.status !== 200){
+    if (response.status !== 200) {
       throw new Error('Bei der Kommunikation mit dem Server ist ein Fehler aufgetreten.')
     }
     const result = await response.json()
@@ -168,9 +156,9 @@ const handleSubmit = async () => {
     setTimeout(() => {
       submitSuccess.value = false
     }, 5000) // Hide success message after 5 seconds
-
   } catch (error) {
-    submitError.value = error instanceof Error ? error.message : 'Ein unbekannter Fehler ist aufgetreten'
+    submitError.value =
+      error instanceof Error ? error.message : 'Ein unbekannter Fehler ist aufgetreten'
   } finally {
     isSubmitting.value = false
   }

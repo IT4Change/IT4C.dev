@@ -1,5 +1,5 @@
 import { defineClientConfig } from 'vuepress/client'
-import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
+import { setupTransparentNavbar } from 'vuepress-theme-hope/presets/transparentNavbar.js'
 import BlankLayout from './layouts/BlankLayout.vue'
 import ContactForm from './components/ContactForm.vue'
 import ContentSection from './components/ContentSection.vue'
@@ -22,11 +22,11 @@ export default defineClientConfig({
     app.component('CaptionedImage', CaptionedImage)
   },
   setup() {
-    setupTransparentNavbar({ type: "homepage" });
+    setupTransparentNavbar({ type: 'homepage' })
   },
   // You can override or add layouts here
   layouts: {
     // For example, here we change the default layout of vuepress-theme-hope to layouts/Layout.vue
     BlankLayout,
-  }
+  },
 })

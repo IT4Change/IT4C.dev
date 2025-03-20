@@ -1,15 +1,19 @@
-import eslint from '@eslint/js';
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended';
-import eslintPluginVue from 'eslint-plugin-vue';
-import globals from 'globals';
-import typescriptEslint from 'typescript-eslint';
+import eslint from '@eslint/js'
+import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
+import eslintPluginVue from 'eslint-plugin-vue'
+import globals from 'globals'
+import typescriptEslint from 'typescript-eslint'
 
 export default typescriptEslint.config(
-  { ignores: ['coverage',
-                    'backend',
-                    'docs/.vuepress/.cache',
-                    'docs/.vuepress/.temp',
-                    'docs/.vuepress/dist'] },
+  {
+    ignores: [
+      'coverage',
+      'backend',
+      'docs/.vuepress/.cache',
+      'docs/.vuepress/.temp',
+      'docs/.vuepress/dist',
+    ],
+  },
   {
     extends: [
       eslint.configs.recommended,
@@ -30,4 +34,4 @@ export default typescriptEslint.config(
     },
   },
   eslintPluginPrettierRecommended,
-);
+)

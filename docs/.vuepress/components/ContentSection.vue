@@ -1,8 +1,5 @@
 <template>
-  <section
-    :id="id"
-    :class="[backgroundColor]"
-  >
+  <section :id="id" :class="[backgroundColor]">
     <div class="content-width">
       <div class="py-16">
         <h1>{{ title }}</h1>
@@ -18,16 +15,16 @@ export default {
   props: {
     title: {
       type: String,
-      required: true
+      required: true,
     },
     backgroundColor: {
       type: String,
-      default: 'bg-white dark:bg-gray-900'
+      default: 'bg-white dark:bg-gray-900',
     },
     id: {
       type: String,
-      default: ''
-    }
-  }
+      default: '',
+    },
+  },
 }
 </script>
