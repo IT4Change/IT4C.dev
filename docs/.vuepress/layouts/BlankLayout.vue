@@ -28,17 +28,24 @@ export default {
   .vp-nav-logo {
     display: inline;
   }
+  .theme-hope-content ul{
+    list-style: unset;
+  }
+  .theme-hope-content figure{
+    margin: inherit;
+    padding: inherit;
+  }
 }
 
 .blank-layout {
   --content-width: 1160px;
 }
 
-.blank-layout h1, h2, h3, h4, h5, h6 {
+.blank-layout h1, .blank-layout h2, .blank-layout h3, .blank-layout h4, .blank-layout h5, .blank-layout h6 {
     font-family: var(--font-family-heading);
   }
 
-.blank-layout h1, h2 {
+.blank-layout h1, .blank-layout h2 {
   border-bottom: none;
   padding-bottom: 2rem;
   font-weight: bold;
