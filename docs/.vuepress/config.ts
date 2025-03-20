@@ -11,10 +11,8 @@ export default defineUserConfig({
   theme,
   bundler: viteBundler({
     viteOptions: {
-      plugins: [
-        tailwindcss(),
-      ]
-    }
+      plugins: [tailwindcss()],
+    },
   }),
   plugins: [
     Imagemin({

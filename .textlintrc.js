@@ -2,10 +2,10 @@ module.exports = {
   rules: {
     'no-todo': true,
     'no-start-duplicated-conjunction': {
-      interval : 2, // interval of sentences
+      interval: 2, // interval of sentences
     },
     'max-comma': {
-      max : 4,
+      max: 4,
     },
     /*'no-dead-link': {
       checkRelative: true,
@@ -30,9 +30,9 @@ module.exports = {
     },
     'write-good': {
       passive: false,
-      thereIs: false
+      thereIs: false,
     },
-    'apostrophe': true,
+    apostrophe: true,
   },
   filters: {
     comments: true,

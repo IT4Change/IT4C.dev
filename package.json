@@ -7,7 +7,9 @@
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
     "dev-prod": "npm run build && http-server ./docs/.vuepress/dist",
-    "test": "textlint \"*.md\" \"docs/**/*.md\""
+    "test": "npm run test:lint:textlint && npm run test:lint:eslint",
+    "test:lint:eslint": "eslint",
+    "test:lint:textlint": "textlint \"*.md\" \"docs/**/*.md\""
   },
   "repository": {
     "type": "git",
@@ -24,7 +26,13 @@
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.20",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.82",
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-vue": "^10.0.0",
+    "globals": "^16.0.0",
     "http-server": "^14.1.1",
+    "prettier": "3.5.3",
     "sass-embedded": "^1.86.0",
     "tailwindcss": "^4.0.5",
     "textlint": "^14.5.0",
@@ -41,6 +49,7 @@
     "textlint-rule-no-zero-width-spaces": "^1.0.1",
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-write-good": "^2.0.0",
+    "typescript-eslint": "^8.27.0",
     "vuepress": "^2.0.0-rc.20",
     "vuepress-plugin-imagemin": "^0.1.2",
     "vuepress-theme-hope": "^2.0.0-rc.74"
