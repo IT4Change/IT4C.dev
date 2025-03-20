@@ -1,7 +1,7 @@
 <template>
   <div class="theme-container blank-layout">
     <Content />
-    <Footer />
+    <VPFooter />
   </div>
 </template>
 
