@@ -4,9 +4,9 @@ layout: BlankLayout
 
 <section class="full-width-section h-screen relative">
   <!-- Desktop background image -->
-  <img 
-    src="/images/hero-bg-desktop.jpg" 
-    alt="Softwareentwicklung für eine bessere Welt" 
+  <img
+    src="/images/hero-bg-desktop.jpg"
+    alt="Softwareentwicklung für eine bessere Welt"
     class="w-full h-screen object-cover hidden md:block"
   />
 
@@ -24,12 +24,12 @@ layout: BlankLayout
   </div>
 
   <!-- Mobile gradient -->
-  <div class="absolute left-0 right-0 bottom-0 md:hidden bg-gradient-to-t from-[#22596c]/100 via-[#22596c]/100 via-[#22596c]/90 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/100 dark:via-[#22596c]/90 dark:to-transparent" 
+  <div class="absolute left-0 right-0 bottom-0 md:hidden bg-gradient-to-t from-[#22596c]/100 via-[#22596c]/100 via-[#22596c]/90 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/100 dark:via-[#22596c]/90 dark:to-transparent"
        style="height: 70vh;">
   </div>
 
   <!-- XS Mobile gradient -->
-  <div class="absolute left-0 right-0 bottom-0 sm:hidden" 
+  <div class="absolute left-0 right-0 bottom-0 sm:hidden"
        style="height: 80vh; background-image: linear-gradient(to top, #22596c 70%, transparent 100%);">
   </div>
 
@@ -41,26 +41,26 @@ layout: BlankLayout
       <!-- Für Mobile: Am unteren Rand fixiert ohne margin -->
       <div class="w-full md:w-3/5 lg:w-1/2 z-10 md:mt-0 relative">
         <div
-          role="heading" 
+          role="heading"
           aria-level="1"
           class="text-3xl md:text-4xl lg:text-5xl mb-6 text-white text-center sm:text-left font-montserrat leading-tight text-shadow"
         >
           Software­entwicklung für eine bessere Welt
         </div>
-        <p 
+        <p
           class="text-xl md:text-2xl text-white text-center sm:text-left font-sourcesans mb-8 max-w-2xl text-shadow-sm"
         >
           Wir sind Softwareentwickler, die deine alternative Vision verstehen und umsetzen. Mit technischer Expertise und persönlicher Betreuung unterstützen wir Projekte, die Positives bewirken.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
-          <a 
-            href="#kontakt" 
+          <a
+            href="#kontakt"
             class="hero-button hero-button-primary px-6 py-3 bg-[#ececec] !text-black rounded-full font-medium text-center shadow-md no-underline relative overflow-hidden"
           >
             <span class="relative z-10">Projekt starten</span>
           </a>
-          <a 
-            href="#leistungen" 
+          <a
+            href="#leistungen"
             class="hero-button hero-button-secondary px-6 py-3 bg-black/20 !text-white rounded-full font-medium text-center border border-white shadow-md no-underline relative overflow-hidden"
           >
             <span class="relative z-10">Unsere Leistungen</span>
@@ -96,7 +96,7 @@ layout: BlankLayout
   </div>
 </ContentSection>
 
-<ContentSection id="team" title="Team & Werte" backgroundColor="bg-gray-50">
+<ContentSection id="team" title="Team & Werte" backgroundColor="bg-gray-50 dark:bg-gray-800">
   <p>Wir glauben an die Kraft von Technologie für positiven Wandel. Unser Team verbindet technische Expertise mit nachhaltigem Denken und sozialer Verantwortung.</p>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
     <TeamMember
@@ -163,7 +163,7 @@ layout: BlankLayout
   </div>
 </ContentSection>
 
-<ContentSection id="prozess" title="Unser Prozess" backgroundColor="bg-gray-50">
+<ContentSection id="prozess" title="Unser Prozess" backgroundColor="bg-gray-50 dark:bg-gray-800">
   <ProcessStep
     number="1"
     title="Kennenlernen & Vision"
@@ -193,7 +193,7 @@ layout: BlankLayout
 <style lang="scss">
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-    
+
     &-sm {
       text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
     }
@@ -209,7 +209,7 @@ layout: BlankLayout
 
     &-button {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
-      
+
       &:hover {
         transform: translateY(-3px);
         box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);

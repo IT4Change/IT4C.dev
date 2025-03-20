@@ -17,10 +17,10 @@
       </div>
     </div>
 
-    <h4 class="font-semibold text-gray-900 transition-colors duration-200 group-hover:text-gray-600">
+    <h4 class="font-semibold text-gray-900 dark:text-gray-50 transition-colors duration-200 group-hover:text-gray-600 group-hover:dark:text-gray-300">
       {{ name }}
     </h4>
-    <p class="text-sm text-gray-600">{{ role }}</p>
+    <p class="text-sm text-gray-600 dark:text-gray-300">{{ role }}</p>
   </a>
 </template>
 
