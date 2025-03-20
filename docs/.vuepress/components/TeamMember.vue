@@ -12,8 +12,9 @@
               group-hover:scale-[1.05]"
       >
       <!-- Overlay mit highlight-color-light Variable -->
-      <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[115%] h-[115%]
-                  rounded-full overlay-bg opacity-0 group-hover:opacity-25 transition-opacity duration-200">
+      <div
+          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[115%] h-[115%]
+          rounded-full overlay-bg opacity-0 group-hover:opacity-25 transition-opacity duration-200">
       </div>
     </div>
 

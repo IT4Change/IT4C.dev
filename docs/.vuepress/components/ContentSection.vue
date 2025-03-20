@@ -1,9 +1,12 @@
 <template>
-  <section :id="id" :class="[backgroundColor]">
+  <section
+    :id="id"
+    :class="[backgroundColor]"
+  >
     <div class="content-width">
       <div class="py-16">
         <h1>{{ title }}</h1>
-        <slot></slot>
+        <slot />
       </div>
     </div>
   </section>

@@ -1,86 +1,112 @@
 <template>
-  <p class="text-gray-600 dark:text-gray-300 mb-8">Wir freuen uns auf Ihre Nachricht. Als Ansprechpartner steht Ihnen <strong>Ulf Gebhardt</strong> für Ihre Fragen gerne zur Verfügung.</p>
+  <p class="text-gray-600 dark:text-gray-300 mb-8">
+    Wir freuen uns auf Ihre Nachricht. Als Ansprechpartner steht Ihnen <strong>Ulf Gebhardt</strong> für Ihre Fragen gerne zur Verfügung.
+  </p>
 
   <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
     <!-- Left side: Portrait - takes 2/5 of space -->
     <div class="flex flex-col items-center md:items-start md:self-start md:col-span-2">
       <img
-          src="/images/portrait/ulf-gebhardt.jpg"
-          alt="Ulf Gebhardt"
-          class="rounded-lg shadow-md w-97 h-auto mb-6"
-      />
+        src="/images/portrait/ulf-gebhardt.jpg"
+        alt="Ulf Gebhardt"
+        class="rounded-lg shadow-md w-97 h-auto mb-6"
+      >
     </div>
 
     <!-- Right side: Contact form - takes 3/5 of space -->
     <div class="md:col-span-3">
-      <h3 class="mb-4">Telefon</h3>
+      <h3 class="mb-4">
+        Telefon
+      </h3>
       <div class="flex-col gap-2 mb-8">
         <p class="flex items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" class="phone-number h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="phone-number h-5 w-5 mr-2"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+            />
           </svg>
-          <a href="tel:+4915784841600" class="phone-number hover:!underline">+49 15784841600</a>
+          <a
+            href="tel:+4915784841600"
+            class="phone-number hover:!underline"
+          >+49 15784841600</a>
         </p>
       </div>
 
-      <h3 class="mb-4">Nachricht</h3>
+      <h3 class="mb-4">
+        Nachricht
+      </h3>
       <form @submit.prevent="handleSubmit">
-        <div v-if="submitSuccess" class="my-4 p-3 bg-green-100 text-green-700 rounded-md mb-4">
+        <div
+          v-if="submitSuccess"
+          class="my-4 p-3 bg-green-100 text-green-700 rounded-md mb-4"
+        >
           Deine Nachricht wurde erfolgreich gesendet. Vielen Dank!
         </div>
 
-        <div v-if="submitError" class="my-4 p-3 bg-red-100 text-red-700 rounded-md mb-4">
+        <div
+          v-if="submitError"
+          class="my-4 p-3 bg-red-100 text-red-700 rounded-md mb-4"
+        >
           {{ submitError }}
         </div>
 
         <div class="my-4">
           <input
-              type="text"
-              id="name"
-              v-model="form.name"
-              placeholder="Name"
-              required
-              minlength="2"
-              maxlength="35"
-              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
+            id="name"
+            v-model="form.name"
+            type="text"
+            placeholder="Name"
+            required
+            minlength="2"
+            maxlength="35"
+            class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
           >
         </div>
         <div class="my-4">
           <input
-              type="email"
-              id="email"
-              v-model="form.email"
-              placeholder="E-Mail"
-              required
-              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
+            id="email"
+            v-model="form.email"
+            type="email"
+            placeholder="E-Mail"
+            required
+            class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
           >
         </div>
         <div class="my-4">
           <input
-              type="tel"
-              id="phone"
-              v-model="form.phone"
-              placeholder="Telefon"
-              minlength="8"
-              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
+            id="phone"
+            v-model="form.phone"
+            type="tel"
+            placeholder="Telefon"
+            minlength="8"
+            class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
           >
         </div>
         <div class="my-4">
           <textarea
-              id="message"
-              v-model="form.message"
-              rows="4"
-              placeholder="Ihre Nachricht"
-              required
-              minlength="5"
-              class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
-          ></textarea>
+            id="message"
+            v-model="form.message"
+            rows="4"
+            placeholder="Ihre Nachricht"
+            required
+            minlength="5"
+            class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
+          />
         </div>
         <div class="my-4 flex justify-end">
           <button
-              type="submit"
-              :disabled="isSubmitting"
-              class="text-white py-2 px-6 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:highlight focus:ring-offset-2"
+            type="submit"
+            :disabled="isSubmitting"
+            class="text-white py-2 px-6 rounded-md transition-colors duration-200 focus:outline-none focus:ring-2 focus:highlight focus:ring-offset-2"
           >
             <span v-if="isSubmitting">Wird gesendet...</span>
             <span v-else>Nachricht senden</span>
