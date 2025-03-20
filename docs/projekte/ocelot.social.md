@@ -10,7 +10,7 @@ Es kann individuell konfiguriert werden und ist skalierbar sowie erweiterbar.
 
 <br/>
 
-<CaptionedImage src="/images/projects/ocelot-newsfeed.png" caption="Bild: Ein Newsfeed in Ocelot.social" width="500px"/>
+<CaptionedImage src="/images/projects/ocelot-newsfeed.png" caption="Bild: Ein Newsfeed in Ocelot.social"/>
 
 Teste die [Demoversion](https://ocelot.social/de/get-started/).
 

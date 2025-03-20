@@ -8,7 +8,7 @@ Das zentrale Element des Projektes ist eine *Sternenkarte*, welche die einzelnen
 
 <br/>
 
-<CaptionedImage src="/images/projects/dreammall-starmap.png" caption="Bild: Die Sternenkarte von DreamMall" width="500px"/>
+<CaptionedImage src="/images/projects/dreammall-starmap.png" caption="Bild: Die Sternenkarte von DreamMall"/>
 
 Das Projekt befindet sich noch in Entwicklung.
 
