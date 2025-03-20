@@ -28,10 +28,20 @@ export default {
   .vp-nav-logo {
     display: inline;
   }
-  .theme-hope-content ul{
-    list-style: unset;
+  .theme-hope-content p {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
   }
-  .theme-hope-content figure{
+  .theme-hope-content ul {
+    list-style: unset;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+  }
+  .theme-hope-content figure {
     margin: inherit;
     padding: inherit;
   }
