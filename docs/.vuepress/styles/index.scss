@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600&display=swap');
 
 :root {
-  --content-width: 1160px;
-
   --font-family: 'Source Sans 3', sans-serif;
   --font-family-heading: 'Montserrat', sans-serif;
 
@@ -11,24 +9,12 @@
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-family-heading);
+  font-family: 'Montserrat', sans-serif !important;
+}
+.font-montserrat {
+  font-family: 'Montserrat', sans-serif !important;
 }
 
-h1, h2 {
-  border-bottom: none;
-  padding-bottom: 2rem;
-  font-weight: bold;
-}
-
-.content-width {
-  max-width: var(--content-width);
-  margin: 0 auto;
-  padding: 0 2.5rem;
-
-  @media (max-width: 768px) {
-    padding: 0 1.75rem;
-  }
-  @media (max-width: 400px) {
-    padding: 0 1rem;
-  }
+.font-sourcesans {
+  font-family: 'Source Sans 3', sans-serif !important;
 }
