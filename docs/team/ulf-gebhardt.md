@@ -89,7 +89,7 @@ Ulf hat mit den folgenden Programmiersprachen gearbeitet:
 
 ### Frameworks & Technologien
 
-Da die IT immer komplexer wird, ist es wichtig, mit welchen Frameworks man vertraut ist. Im Folgenden finden Sie eine unvollständige Liste von Ulfs Framework- und Technologiekenntnissen:
+Da die IT immer komplexer wird, ist es wichtig, mit welchen Frameworks man vertraut ist. Im Folgenden findest du eine unvollständige Liste von Ulfs Framework- und Technologiekenntnissen:
 
 #### Für Javascript:
 - [Node](https://github.com/nodejs/node)
