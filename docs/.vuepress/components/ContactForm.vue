@@ -6,7 +6,9 @@
 
   <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
     <!-- Left side: Portrait - takes 2/5 of space -->
-    <div class="flex flex-col items-center md:items-end md:self-start md:col-span-2 md:sticky md:top-8">
+    <div
+      class="flex flex-col items-center md:items-end md:self-start md:col-span-2 md:sticky md:top-8"
+    >
       <img
         src="/images/portrait/ulf-gebhardt.jpg"
         alt="Ulf Gebhardt"
