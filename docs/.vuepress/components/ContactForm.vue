@@ -84,7 +84,7 @@
             id="message"
             v-model="form.message"
             rows="4"
-            placeholder="Ihre Nachricht"
+            placeholder="Deine Nachricht"
             required
             minlength="5"
             class="w-full p-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:highlight focus:border-transparent"
