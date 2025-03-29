@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/IT4Change/IT4C.dev#readme",
   "devDependencies": {
-    "@tailwindcss/vite": "^4.0.15",
+    "@tailwindcss/vite": "^4.0.17",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.20",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.82",
