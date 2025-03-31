@@ -1,7 +1,7 @@
 <template>
   <p class="text-gray-600 dark:text-gray-300 mb-8">
     Wir freuen uns auf deine Nachricht. Als Ansprechpartner steht dir
-    <strong>Ulf Gebhardt</strong> für deine Fragen gerne zur Verfügung.
+    <strong>Ulf Gebhardt</strong> gern für Fragen zur Verfügung.
   </p>
 
   <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
