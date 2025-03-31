@@ -107,7 +107,7 @@ layout: BlankLayout
     />
     <TeamMember
       name="Mathias"
-      role="Testing"
+      role="Testing, Entwicklung"
       profileUrl="./team/mathias-lenz.html"
       image="./images/portrait/ml-portrait.jpg"
     />
