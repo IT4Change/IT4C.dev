@@ -50,7 +50,7 @@ layout: BlankLayout
         <p
           class="text-xl md:text-2xl text-white text-center sm:text-left font-sourcesans mb-8 max-w-2xl text-shadow-sm"
         >
-          Wir sind ein vielseitiges agile arbeitendes Team, das deine alternative Vision verstehen und umsetzen kann.<br>
+          Wir sind ein vielseitiges agil arbeitendes Team, das deine alternative Vision verstehen und umsetzen kann.<br>
           Mit technischer Expertise und persönlicher Betreuung unterstützen wir Projekte, die Positives bewirken.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
