@@ -45,12 +45,13 @@ layout: BlankLayout
           aria-level="1"
           class="text-3xl md:text-4xl lg:text-5xl mb-6 text-white text-center sm:text-left font-montserrat leading-tight text-shadow"
         >
-          Software­entwicklung für eine bessere Welt
+          Software Entwicklung für neue Wege
         </div>
         <p
           class="text-xl md:text-2xl text-white text-center sm:text-left font-sourcesans mb-8 max-w-2xl text-shadow-sm"
         >
-          Wir sind Softwareentwickler, die deine alternative Vision verstehen und umsetzen. Mit technischer Expertise und persönlicher Betreuung unterstützen wir Projekte, die Positives bewirken.
+          Wir sind ein vielseitiges agile arbeitendes Team, das deine alternative Vision verstehen und umsetzen kann.<br>
+          Mit technischer Expertise und persönlicher Betreuung unterstützen wir Projekte, die Positives bewirken.
         </p>
         <div class="flex flex-col sm:flex-row gap-4">
           <a
