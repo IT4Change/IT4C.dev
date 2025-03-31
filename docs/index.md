@@ -125,7 +125,7 @@ layout: BlankLayout
     />
     <TeamMember
       name="Sebastian"
-      role="Frontend"
+      role="Frontend, UX"
       profileUrl="./team/sebastian-stein.html"
       image="./images/portrait/sebastian-stein.jpg"
     />
