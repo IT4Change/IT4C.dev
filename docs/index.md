@@ -75,30 +75,33 @@ layout: BlankLayout
 <ContentSection id="leistungen" title="Leistungen">
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
     <ServiceCard
-      title="Webentwicklung"
-      :items="['Frontend', 'Responsive Design', 'Barrierefreiheit', 'Backend']"
+      title="Web & App Entwicklung"
+      :items="['Responsive Design', 'Frontend', 'Backend', 'Barrierefreiheit', 'Android', 'iOS', 'PWA']"
+    />
+    <ServiceCard
+      title="Social Media Plattformen & interaktive Karten"
+      :items="['Ocelot.social', 'Utopia-Map']"
     />
     <ServiceCard
       title="Hosting"
-      :items="['Wordpress', 'Ocelot.social', 'Zugeschnittene Lösungen', 'Nachhaltige Serverinfrastrukturen']"
-    />
-    <ServiceCard
-      title="Mobile Anwendungen"
-      :items="['Android', 'iOS', 'PWA']"
+      :items="['Zugeschnittene Lösungen', 'Nachhaltige Server Infrastrukturen', 'Wordpress', 'Ocelot.social', 'Utopia-Map', 'OSS Lösungen']"
     />
     <ServiceCard
       title="Beratung & Betreuung"
-      :items="['Systemarchitektur', 'DevOps & Prozessbegleitung', 'Monitoring & Security', 'Technische Konzeption', 'Agiles Projektmanagement', 'Nachhaltigkeitsanalyse']"
+      :items="['Systemarchitektur', 'Technische Konzeption', 'Agiles Projektmanagement' ,'DevOps & Prozessbegleitung', 'Monitoring & Security', 'Nachhaltigkeitsanalyse']"
     />
     <ServiceCard
       title="Software-Entwicklung"
-      :items="['API-Entwicklung', 'Datenbank-Design', 'Performance-Optimierung', 'Deployment-Automatisierung', 'Code-Qualität & Testing']"
+      :items="['API-Entwicklung', 'Datenbank Design', 'Performance Optimierung', 'Deployment Automatisierung', 'Code Qualität & Testing']"
     />
   </div>
 </ContentSection>
 
 <ContentSection id="team" title="Team & Werte" backgroundColor="bg-gray-50 dark:bg-gray-800">
-  <p>Wir glauben an die Kraft von Technologie für positiven Wandel. Unser Team verbindet technische Expertise mit nachhaltigem Denken und sozialer Verantwortung.</p>
+  <p>Wir sind ein Team ganz unterschiedlicher Charaktere mit verschiedenen Fachgebieten und Erfahrungen.
+Entlang [mehrerer OSS Projekte](/historie.html), die neuen Wegen zugewandt sind, haben wir uns gefunden und sind zusammengewachsen.
+<br>
+Unsere gemeinsame Arbeit lehrt uns, neben der technischen Expertise, Kommunikation und Transparenz groß zu schreiben.</p>
   <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-10">
     <TeamMember
       name="Hannes"
