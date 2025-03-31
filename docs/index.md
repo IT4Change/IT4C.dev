@@ -137,7 +137,7 @@ layout: BlankLayout
     />
     <TeamMember
       name="Wolfgang"
-      role="Backend"
+      role="Kommunikation, Entwicklung"
       profileUrl="./team/wolfgang-huss.html"
       image="./images/portrait/Wolfgang_Huss.jpeg"
     />
