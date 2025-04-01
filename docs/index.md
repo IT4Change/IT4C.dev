@@ -131,7 +131,7 @@ layout: BlankLayout
     />
     <TeamMember
       name="Ulf"
-      role="Backend, Hosting"
+      role="Entwicklung, Hosting"
       profileUrl="./team/ulf-gebhardt.html"
       image="./images/portrait/ulf-gebhardt.jpg"
     />
