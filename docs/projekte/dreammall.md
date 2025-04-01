@@ -1,6 +1,5 @@
 # DreamMall.earth
-
-![dreammall.earth](/images/projects/dreammall.png)
+<img src="/images/projects/dreammall.png" alt="DreamMall logo" width="35%" height="auto" style="display: block; margin: 0 auto">
 
 *DreamMall.earth* ist eine Video & Projekt Management Plattform, die als Open-Source-Software für Claudia Siebert und Sabine Laudien entwickelt wird. Das Projekt schafft einen *beweglichen Raum* für Unternehmer und Selbstständige ihre Ideen in die Realität zu tragen und Unterstützung von Gleichgesinnten zu finden.
 
