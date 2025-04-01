@@ -107,7 +107,7 @@ layout: BlankLayout
     />
     <TeamMember
       name="Mathias"
-      role="Testing"
+      role="Testing, Entwicklung"
       profileUrl="./team/mathias-lenz.html"
       image="./images/portrait/ml-portrait.jpg"
     />
@@ -125,19 +125,19 @@ layout: BlankLayout
     />
     <TeamMember
       name="Sebastian"
-      role="Frontend"
+      role="Frontend, UX"
       profileUrl="./team/sebastian-stein.html"
       image="./images/portrait/sebastian-stein.jpg"
     />
     <TeamMember
       name="Ulf"
-      role="Backend, Hosting"
+      role="Entwicklung, Hosting"
       profileUrl="./team/ulf-gebhardt.html"
       image="./images/portrait/ulf-gebhardt.jpg"
     />
     <TeamMember
       name="Wolfgang"
-      role="Backend"
+      role="Kommunikation, Entwicklung"
       profileUrl="./team/wolfgang-huss.html"
       image="./images/portrait/Wolfgang_Huss.jpeg"
     />
