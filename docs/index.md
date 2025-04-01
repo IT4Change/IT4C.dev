@@ -152,14 +152,14 @@ Unsere gemeinsame Arbeit lehrt uns, neben der technischen Expertise, Kommunikati
   <div class="grid md:grid-cols-2 gap-8">
     <ProjectCard
       title="Ocelot.Social"
-      description="Ocelot.social ist eine Open-Source Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok"
+      description="Eine Open Source Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok"
       image="./images/projects/ocelot.png"
       :tags="['Social Media']"
       href="/projekte/ocelot.social.html"
     />
     <ProjectCard
       title="DreamMall.earth"
-      description="DreamMall.earth ist eine Video & Projekt Management Plattform"
+      description="Eine Video- & Projekt-Management-Plattform"
       image="./images/projects/dreammall.png"
       :tags="['Video-Konferenz', 'Projekt Management']"
       href="/projekte/dreammall.html"
