@@ -2,7 +2,7 @@
 
 Ob auf der Suche nach erfahrenen Entwicklern, um deine Geschäftsidee zu implementieren, ein bestehendes Team zu erweitern - oder bei Interesse an Zusammenarbeit: Nimm Kontakt mit uns auf!
 
-Wir sind per [E-Mail](mailto:info@it4c.dev) oder [Mobiltelefon](tel://+4915784841600) erreichbar (Deutsch oder Englisch).
+Wir sind per [E-Mail](mailto:info@it4c.dev) oder [Mobiltelefon](tel:+4915784841600) erreichbar (Deutsch oder Englisch).
 
 ## Für Entwickler
 
