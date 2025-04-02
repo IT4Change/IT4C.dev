@@ -5,18 +5,20 @@
     Wir freuen uns auf deine Nachricht.
   </p>
 
-  <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
-    <!-- Left side: Portrait - takes 2/5 of space -->
-    <div class="flex flex-col items-center md:items-start md:self-start md:col-span-2">
+  <div class="grid grid-cols-1 md:grid-cols-10 gap-8">
+    <!-- Left side: Portrait - takes 3/10 of space -->
+    <div
+      class="flex flex-col items-center md:items-end md:self-start md:col-span-3 md:sticky md:top-8"
+    >
       <img
         src="/images/portrait/ulf-gebhardt.jpg"
         alt="Ulf Gebhardt"
-        class="rounded-lg shadow-md w-97 h-auto mb-6"
+        class="rounded-lg shadow-md w-75 h-auto mb-6"
       />
     </div>
 
-    <!-- Right side: Contact form - takes 3/5 of space -->
-    <div class="md:col-span-3">
+    <!-- Right side: Contact form - takes 7/10 of space -->
+    <div class="md:col-span-7">
       <h3 class="mb-4">Telefon</h3>
       <div class="flex-col gap-2 mb-8">
         <p class="flex items-center">
