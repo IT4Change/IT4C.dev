@@ -28,7 +28,7 @@
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.82",
     "eslint": "^9.24.0",
     "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-prettier": "^5.2.5",
+    "eslint-plugin-prettier": "^5.2.6",
     "eslint-plugin-vue": "^10.0.0",
     "globals": "^16.0.0",
     "http-server": "^14.1.1",
