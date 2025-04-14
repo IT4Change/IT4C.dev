@@ -1,6 +1,7 @@
 # IT4C
 
-**IT Team for Change** (IT4C) ist ein Team von Softwareentwicklern, das gemeinsam Software entwickelt. Unser Fokus liegt auf Out-of-the-Box-Projekten und disruptiver Ziviltechnik, um zum unvermeidlichen Wandel unserer Gesellschaft beizutragen.
+Als **IT Team for Change** ist ein Zusammenschluss von Software Entwicklern und Netzwerkern, die wir gemeinsam Software Projekte umsetzen und in die Anwendung verhelfen.  
+Unser Fokus liegt auf der Anwendung von Open Sorce Software, Out-of-the-Box-Projekten und disruptiver Ziviltechnik, die zum unvermeidlichen Wandel unserer Gesellschaft beitragen können.  
 
 Wir glauben an einen Arbeitsprozess, der genau das richtige Maß an Autorität hat, um vernünftige Entscheidungen zu treffen, uns zu koordinieren und somit unsere Ziele zu erreichen. Die Leitung kann je nach Fachwissen und Verfügbarkeit zwischen den Teammitgliedern wechseln. Außerdem glauben wir, dass jeder, der seine Arbeit gerne macht, effektiver ist, als wenn er dazu gezwungen wird. Wir stellen sicher, dass jedes Mitglied die größtmögliche Freiheit hat, wie es arbeiten möchte.
 
@@ -21,7 +22,7 @@ Einige Projekte, auf die wir stolz sind:
 - [Gradido](./projekte/gradido.md)
 - [DreamMall](./projekte/dreammall.md)
 
-## Mitglieder und Mitarbeiter
+## Team und Mitwirkende
 
 - [Alexander Friedland](./team/alexander-friedland.md)
 - [Hannes Heine](./team/hannes-heine.md)
