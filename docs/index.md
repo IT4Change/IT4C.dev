@@ -6,7 +6,7 @@ layout: BlankLayout
   <!-- Desktop background image -->
   <img
     src="/images/hero-bg-desktop.jpg"
-    alt="Softwareentwicklung für eine bessere Welt"
+    alt="Softwareentwicklung für neue Wege"
     class="w-full h-screen object-cover hidden md:block"
   />
 
@@ -17,7 +17,7 @@ layout: BlankLayout
     <!-- Mobile background image -->
     <img
       src="/images/hero-bg-mobile.jpg"
-      alt="Softwareentwicklung für eine bessere Welt"
+      alt="Softwareentwicklung für neue Wege"
       class="absolute top-0 left-0 w-full h-auto object-cover max-h-none"
       style="min-width: 100%;"
     />
@@ -45,7 +45,7 @@ layout: BlankLayout
           aria-level="1"
           class="text-3xl md:text-4xl lg:text-5xl mb-6 text-white text-center sm:text-left font-montserrat leading-tight text-shadow"
         >
-          Software­entwicklung für eine bessere Welt
+          Software­entwicklung für neue Wege
         </div>
         <p
           class="text-xl md:text-2xl text-white text-center sm:text-left font-sourcesans mb-8 max-w-2xl text-shadow-sm"
