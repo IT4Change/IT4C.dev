@@ -1,7 +1,7 @@
 # Utopia Map
 
 
-**Lass deine Gemeinschaft wachsen – und gestalte dezentrale Netzwerke mit!**
+**Lass deine Gemeinschaft wachsen – und gestalte dezentrale Netzwerke!**
 
 Utopia bietet dir interaktive geografische Karten, die echte Verbindungen stärken und Zusammenarbeit auf Augenhöhe ermöglichen. Unsere Mission: Digitale Werkzeuge für lokale Aktionen zu schaffen, die Menschen und Gemeinschaften dazu befähigen, Verantwortung gemeinsam und selbstbestimmt zu übernehmen.
 
