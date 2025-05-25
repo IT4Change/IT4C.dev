@@ -21,4 +21,4 @@ Für fortgeschrittene Anforderungen kannst du mit unserer [**Utopia UI**](https:
 
 ---
 
-[**Website**](https://utopia-map.org) | [**GitHub**](https://github.com/utopia-os) | [**OpenCollective**](https://opencollective.com/utopia-project) | [**Telegram**](https://t.me/UtopiaMap)  | [**X**](https://x.com/UtopiaMapGame)
+[**Website**](https://utopia-map.org) | [**GitHub**](https://github.com/utopia-os) | [**OpenCollective**](https://opencollective.com/utopia-project) | [**Telegram**](https://t.me/UtopiaMap) | [**X**](https://x.com/UtopiaMapGame)
