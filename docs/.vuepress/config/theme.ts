@@ -52,6 +52,10 @@ export default hopeTheme({
           text: 'DreamMall.earth',
           link: '/projekte/dreammall',
         },
+        {
+          text: 'Utopia Map',
+          link: '/projekte/utopia.map',
+        },
       ],
     },
     {
