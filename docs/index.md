@@ -6,7 +6,7 @@ layout: BlankLayout
   <!-- Desktop background image -->
   <img
     src="/images/hero-bg-desktop.jpg"
-    alt="Softwareentwicklung für eine bessere Welt"
+    alt="Technologie für den gesellschaftlichen Wandel"
     class="w-full h-screen object-cover hidden md:block"
   />
 
@@ -17,7 +17,7 @@ layout: BlankLayout
     <!-- Mobile background image -->
     <img
       src="/images/hero-bg-mobile.jpg"
-      alt="Softwareentwicklung für eine bessere Welt"
+      alt="Technologie für den gesellschaftlichen Wandel"
       class="absolute top-0 left-0 w-full h-auto object-cover max-h-none"
       style="min-width: 100%;"
     />
@@ -45,7 +45,7 @@ layout: BlankLayout
           aria-level="1"
           class="text-3xl md:text-4xl lg:text-5xl mb-6 text-white text-center sm:text-left font-montserrat leading-tight text-shadow"
         >
-          Software­entwicklung für eine bessere Welt
+          IT4C ‒ Technologie für den gesellschaftlichen Wandel
         </div>
         <p
           class="text-xl md:text-2xl text-white text-center sm:text-left font-sourcesans mb-8 max-w-2xl text-shadow-sm"
@@ -72,6 +72,9 @@ layout: BlankLayout
 </section>
 
 <ContentSection id="leistungen" title="Leistungen">
+  <p>
+  In unserem <b>IT Team for Change</b> bündeln wir die Expertise engagierter Persönlichkeiten, die in den nachfolgenden Bereichen engagiert sind.
+  </p>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
     <ServiceCard
       title="Webentwicklung"
