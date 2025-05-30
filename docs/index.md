@@ -160,6 +160,13 @@ layout: BlankLayout
       :tags="['Video-Konferenz', 'Projekt-Management']"
       href="/projekte/dreammall.html"
     />
+    <ProjectCard
+      title="Utopia Map"
+      description="Utopia Map ist eine interaktive Karte, die echte Verbindungen stärkt und Zusammenarbeit auf Augenhöhe ermöglicht"
+      image="./images/projects/utopia-map.png"
+      :tags="['Mapping', 'Gaming']"
+      href="/projekte/utopia.map.html"
+    />
   </div>
 </ContentSection>
 
