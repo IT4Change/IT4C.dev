@@ -73,7 +73,7 @@ layout: BlankLayout
 
 <ContentSection id="leistungen" title="Leistungen">
   <p>
-  In unserem <b>IT Team for Change</b> bündeln wir die Expertise engagierter Persönlichkeiten, die in den nachfolgenden Bereichen engagiert sind.
+  In unserem <b>IT Team for Change</b> bündeln wir die Expertise engagierter Persönlichkeiten, die in den nachfolgenden Bereichen bewandert sind.
   </p>
   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 my-8">
     <ServiceCard
