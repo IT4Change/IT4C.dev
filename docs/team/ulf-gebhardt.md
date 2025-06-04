@@ -49,7 +49,7 @@ Die folgende Liste soll einen Überblick über Ulfs Leben geben:
 | 2020 | | Software-Entwicklung für boxeez.com in Halden(Norwegen) |
 | 2021 | 2022 | Softwareentwicklung & Teamkoordination für [Gradido](../projekte/gradido.md) |
 | 2022 | 2023 | Software-Entwicklung für [yunite.me](https://yunite.org/)
-| 2023 | jetzt | Teamleitung & Software-Entwicklung für [Dreammall.earth](../projekte/dreammall.md) |
+| 2023 | jetzt | Teamleitung & Software-Entwicklung für eine Videoplattform |
 
 ## Reisen
 

@@ -157,16 +157,9 @@ layout: BlankLayout
       href="/projekte/ocelot.social.html"
     />
     <ProjectCard
-      title="DreamMall.earth"
-      description="DreamMall.earth ist eine Video & Projekt Management Plattform"
-      image="./images/projects/dreammall.png"
-      :tags="['Video-Konferenz', 'Projekt Management']"
-      href="/projekte/dreammall.html"
-    />
-    <ProjectCard
       title="Utopia Map"
       description="Utopia Map ist eine interaktive Karte, die echte Verbindungen stärkt und Zusammenarbeit auf Augenhöhe ermöglicht"
-      image="./images/projects/utopia-map.png"
+      image="./images/projects/utopia-map-cropped.png"
       :tags="['Mapping', 'Gaming']"
       href="/projekte/utopia.map.html"
     />
