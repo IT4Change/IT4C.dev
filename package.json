@@ -34,7 +34,7 @@
     "http-server": "^14.1.1",
     "prettier": "3.5.3",
     "sass-embedded": "^1.86.3",
-    "tailwindcss": "^4.1.3",
+    "tailwindcss": "^4.1.10",
     "textlint": "^14.7.2",
     "textlint-filter-rule-comments": "^1.2.2",
     "textlint-rule-apostrophe": "^3.0.0",
