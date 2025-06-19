@@ -79,4 +79,51 @@ export default {
     padding: 0 1rem;
   }
 }
+
+/* iOS Safari specific global fixes */
+@supports (-webkit-touch-callout: none) {
+  html {
+    /* Fix for iOS Safari viewport height issues */
+    height: -webkit-fill-available;
+  }
+
+  body {
+    /* Fix for iOS Safari bounce scrolling */
+    -webkit-overflow-scrolling: touch;
+    /* Prevent zoom on input focus */
+    -webkit-text-size-adjust: 100%;
+    /* Fix for iOS Safari height issues */
+    min-height: -webkit-fill-available;
+  }
+
+  /* Fix for iOS Safari input zoom */
+  input, textarea, select {
+    font-size: 16px !important;
+    -webkit-appearance: none;
+    border-radius: 0;
+  }
+
+  /* Fix for iOS Safari button styling */
+  button, .hero-button {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: transparent;
+    border-radius: 0;
+  }
+}
+
+/* Additional responsive fixes for older iOS versions */
+@media screen and (max-width: 768px) {
+  /* Fix for older iOS Safari transform issues */
+  .hero-section img {
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  /* Prevent horizontal scrolling on older iOS */
+  body {
+    overflow-x: hidden;
+  }
+}
 </style>

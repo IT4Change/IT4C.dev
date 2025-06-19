@@ -2,44 +2,47 @@
 layout: BlankLayout
 ---
 
-<section class="full-width-section h-screen relative">
+<section class="full-width-section hero-section relative">
   <!-- Desktop background image -->
-  <img
-    src="/images/hero-bg-desktop.jpg"
-    alt="Technologie für den gesellschaftlichen Wandel"
-    class="w-full h-screen object-cover hidden md:block"
-  />
+  <picture class="hidden md:block">
+    <source srcset="/images/hero-bg-desktop.webp" type="image/webp">
+    <img
+      src="/images/hero-bg-desktop.jpg"
+      alt="Technologie für den gesellschaftlichen Wandel"
+      class="w-full hero-height object-cover"
+    />
+  </picture>
 
   <!-- Desktop gradient -->
   <div class="absolute inset-0 bg-gradient-to-r from-[#22596c]/100 via-[#22596c]/80 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/80 dark:to-transparent hidden md:block" style="width: 65%;"></div>
 
-  <div class="w-full h-screen md:hidden relative overflow-hidden">
+  <!-- Mobile background container -->
+  <div class="w-full hero-height md:hidden relative overflow-hidden">
     <!-- Mobile background image -->
-    <img
-      src="/images/hero-bg-mobile.jpg"
-      alt="Technologie für den gesellschaftlichen Wandel"
-      class="absolute top-0 left-0 w-full h-auto object-cover max-h-none"
-      style="min-width: 100%;"
-    />
+    <picture class="absolute top-0 left-0 w-full h-full">
+      <source srcset="/images/hero-bg-mobile.webp" type="image/webp">
+      <img
+        src="/images/hero-bg-mobile.jpg"
+        alt="Technologie für den gesellschaftlichen Wandel"
+        class="absolute top-0 left-0 w-full h-full object-cover"
+      />
+    </picture>
   </div>
 
   <!-- Mobile gradient -->
-  <div class="absolute left-0 right-0 bottom-0 md:hidden bg-gradient-to-t from-[#22596c]/100 via-[#22596c]/100 via-[#22596c]/90 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/100 dark:via-[#22596c]/90 dark:to-transparent"
-       style="height: 70vh;">
+  <div class="absolute left-0 right-0 bottom-0 md:hidden bg-gradient-to-t from-[#22596c]/100 via-[#22596c]/100 via-[#22596c]/90 to-transparent dark:from-[#22596c]/100 dark:via-[#22596c]/100 dark:via-[#22596c]/90 dark:to-transparent mobile-gradient">
   </div>
 
   <!-- XS Mobile gradient -->
-  <div class="absolute left-0 right-0 bottom-0 sm:hidden"
-       style="height: 80vh; background-image: linear-gradient(to top, #22596c 70%, transparent 100%);">
+  <div class="absolute left-0 right-0 bottom-0 sm:hidden xs-mobile-gradient">
   </div>
-
 
   <!-- Content area -->
   <div class="absolute inset-0 flex flex-col md:justify-start md:pt-45 justify-end pb-8 md:pb-16">
     <div class="content-width mx-auto px-4 md:px-6">
       <!-- Für Desktop: Normal positioniert mit margin-top -->
       <!-- Für Mobile: Am unteren Rand fixiert ohne margin -->
-      <div class="w-full md:w-3/5 lg:w-1/2 z-10 md:mt-0 relative">
+      <div class="w-full md:w-3/5 lg:w-1/2 z-10 md:mt-0 relative hero-content">
         <div
           role="heading"
           aria-level="1"
@@ -194,6 +197,56 @@ layout: BlankLayout
 </ContentSection>
 
 <style lang="scss">
+  /* iOS Safari specific fixes */
+  .hero-section {
+    /* Fix for iOS Safari viewport height issues */
+    min-height: 100vh;
+    min-height: 100dvh; /* Dynamic viewport height for modern browsers */
+
+    /* iOS Safari specific height fallback */
+    @supports (-webkit-touch-callout: none) {
+      min-height: -webkit-fill-available;
+    }
+  }
+
+  .hero-height {
+    height: 100vh;
+    height: 100dvh; /* Dynamic viewport height for modern browsers */
+
+    /* iOS Safari specific height */
+    @supports (-webkit-touch-callout: none) {
+      height: -webkit-fill-available;
+    }
+  }
+
+  .mobile-gradient {
+    height: 70vh;
+    height: 70dvh;
+
+    @supports (-webkit-touch-callout: none) {
+      height: calc(-webkit-fill-available * 0.7);
+    }
+  }
+
+  .xs-mobile-gradient {
+    height: 80vh;
+    height: 80dvh;
+    background-image: linear-gradient(to top, #22596c 70%, transparent 100%);
+
+    @supports (-webkit-touch-callout: none) {
+      height: calc(-webkit-fill-available * 0.8);
+    }
+  }
+
+  .hero-content {
+    /* Prevent content from being cut off on iOS */
+    padding-bottom: env(safe-area-inset-bottom, 0);
+
+    /* Fix for iOS Safari scrolling issues */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+
   .text-shadow {
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
 
@@ -212,6 +265,9 @@ layout: BlankLayout
 
     &-button {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
+      /* iOS Safari button fix */
+      -webkit-appearance: none;
+      -webkit-tap-highlight-color: transparent;
 
       &:hover {
         transform: translateY(-3px);
@@ -244,6 +300,16 @@ layout: BlankLayout
       &-secondary::after {
         background: radial-gradient(circle, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.2) 70%, rgba(0, 0, 0, 0) 100%);
       }
+    }
+  }
+
+  /* Global iOS Safari fixes */
+  @supports (-webkit-touch-callout: none) {
+    body {
+      /* Fix for iOS Safari bounce scrolling */
+      -webkit-overflow-scrolling: touch;
+      /* Prevent zoom on input focus */
+      -webkit-text-size-adjust: 100%;
     }
   }
 
