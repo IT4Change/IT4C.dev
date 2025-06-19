@@ -97,14 +97,17 @@ export default {
   }
 
   /* Fix for iOS Safari input zoom */
-  input, textarea, select {
+  input,
+  textarea,
+  select {
     font-size: 16px !important;
     -webkit-appearance: none;
     border-radius: 0;
   }
 
   /* Fix for iOS Safari button styling */
-  button, .hero-button {
+  button,
+  .hero-button {
     -webkit-appearance: none;
     -webkit-tap-highlight-color: transparent;
     border-radius: 0;
