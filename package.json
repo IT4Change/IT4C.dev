@@ -24,8 +24,8 @@
   "devDependencies": {
     "@tailwindcss/vite": "^4.1.11",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
-    "@vuepress/bundler-vite": "^2.0.0-rc.20",
-    "@vuepress/plugin-slimsearch": "^2.0.0-rc.82",
+    "@vuepress/bundler-vite": "^2.0.0-rc.24",
+    "@vuepress/plugin-slimsearch": "^2.0.0-rc.112",
     "eslint": "^9.31.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.5.1",
@@ -50,8 +50,8 @@
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-write-good": "^2.0.0",
     "typescript-eslint": "^8.36.0",
-    "vuepress": "^2.0.0-rc.20",
+    "vuepress": "^2.0.0-rc.24",
     "vuepress-plugin-imagemin": "^0.1.2",
-    "vuepress-theme-hope": "^2.0.0-rc.74"
+    "vuepress-theme-hope": "^2.0.0-rc.94"
   }
 }
