@@ -11,7 +11,7 @@
     "url": "git+https://github.com/IT4Change/IT4C.dev.git"
   },
   "scripts": {
-    "start": "node ./build/index.js",
+    "start": "node ./build/src/index.js",
     "build": "tsc",
     "dev": "tsx watch ./src/index.ts",
     "test:unit": "jest",
