@@ -20,8 +20,6 @@
   },
   "devDependencies": {
     "@eslint-community/eslint-plugin-eslint-comments": "^4.4.1",
-    "@types/jest": "^29.5.14",
-    "@types/nodemailer": "^6.4.17",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
     "eslint": "^8.24.0",
@@ -46,6 +44,8 @@
   },
   "dependencies": {
     "@fastify/type-provider-typebox": "^5.1.0",
+    "@types/jest": "^29.5.14",
+    "@types/nodemailer": "^6.4.17",
     "fastify": "^5.2.1",
     "nodemailer": "^6.10.0",
     "ts-dotenv": "^0.9.1"
