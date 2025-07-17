@@ -49,10 +49,6 @@ export default hopeTheme({
           link: '/projekte/gradido',
         },
         {
-          text: 'DreamMall.earth',
-          link: '/projekte/dreammall',
-        },
-        {
           text: 'Utopia Map',
           link: '/projekte/utopia.map',
         },

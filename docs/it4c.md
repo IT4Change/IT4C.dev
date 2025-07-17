@@ -19,7 +19,6 @@ Einige Projekte, auf die wir stolz sind:
   - sender.fm <!-- [sender.fm](./projekte/sender.fm.md) -->
   - Yunite.me <!--[Yunite.me](./projekte/yunite.me.md) -->
 - [Gradido](./projekte/gradido.md)
-- [DreamMall](./projekte/dreammall.md)
 
 ## Mitglieder und Mitarbeiter
 
