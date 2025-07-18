@@ -11,6 +11,16 @@ updates:
     timezone: "Europe/Berlin"
     time: "03:00"
 
+# frontend
+- package-ecosystem: docker
+  open-pull-requests-limit: 99
+  directory: "/"
+  rebase-strategy: "disabled"
+  schedule:
+    interval: weekly
+    day: "saturday"
+    timezone: "Europe/Berlin"
+    time: "03:00"
 - package-ecosystem: npm
   open-pull-requests-limit: 99
   directory: "/"
@@ -29,3 +39,28 @@ updates:
       applies-to: version-updates
       patterns:
         - "*vuepress*"
+
+# backend
+- package-ecosystem: docker
+  open-pull-requests-limit: 99
+  directory: "/backend"
+  rebase-strategy: "disabled"
+  schedule:
+    interval: weekly
+    day: "saturday"
+    timezone: "Europe/Berlin"
+    time: "03:00"
+- package-ecosystem: npm
+  open-pull-requests-limit: 99
+  directory: "/backend/"
+  rebase-strategy: "disabled"
+  schedule:
+    interval: weekly
+    day: "saturday"
+    timezone: "Europe/Berlin"
+    time: "03:00"
+  groups:
+    linting:
+      applies-to: version-updates
+      patterns:
+        - "*textlint*"
