@@ -154,7 +154,7 @@ layout: BlankLayout
   <div class="grid md:grid-cols-2 gap-8">
     <ProjectCard
       title="Ocelot.Social"
-      description="Ocelot.social ist eine Open-Source Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok"
+      description="Eine Open Source Alternative für soziale Netzwerke wie Facebook, Instagram oder TikTok, auch zum selbst Hosten"
       image="./images/projects/ocelot.png"
       :tags="['Social Media']"
       href="/projekte/ocelot.social.html"
