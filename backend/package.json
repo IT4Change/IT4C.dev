@@ -39,7 +39,7 @@
     "eslint-plugin-yml": "^1.18.0",
     "jest": "^30.0.5",
     "ts-jest": "^29.4.1",
-    "tsx": "^4.20.3",
+    "tsx": "^4.20.4",
     "typescript": "^5.9.2"
   },
   "dependencies": {
