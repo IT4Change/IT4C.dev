@@ -13,23 +13,13 @@ module.exports = {
     'plugin:import/typescript',
     // 'plugin:promise/recommended',
     'plugin:security/recommended-legacy',
-    'plugin:react/recommended',
   ],
   parserOptions: {
     ecmaVersion: 'latest',
     parser: '@typescript-eslint/parser',
     sourceType: 'module',
   },
-  plugins: [
-    '@typescript-eslint',
-    'import',
-    'promise',
-    'security',
-    'no-catch-all',
-    'react',
-    'react-hooks',
-    'react-refresh',
-  ],
+  plugins: ['@typescript-eslint', 'import', 'promise', 'security', 'no-catch-all'],
   settings: {
     'import/resolver': {
       typescript: true,
@@ -37,14 +27,8 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx'],
       },
     },
-    react: {
-      version: '18.2.0',
-    },
   },
   rules: {
-    'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks
-    'react-hooks/exhaustive-deps': 'warn', // Checks effect dependencies
-    'react/react-in-jsx-scope': 'off', // Disable requirement for React import
     'no-catch-all/no-catch-all': 'error',
     'no-console': 'error',
     'no-debugger': 'error',
@@ -84,12 +68,7 @@ module.exports = {
       },
     ],
     'import/no-self-import': 'error',
-    'import/no-unresolved': [
-      'error',
-      {
-        ignore: ['react'],
-      },
-    ],
+    'import/no-unresolved': 'error',
     'import/no-useless-path-segments': 'error',
     'import/no-webpack-loader-syntax': 'error',
     'import/consistent-type-specifier-style': 'error',
