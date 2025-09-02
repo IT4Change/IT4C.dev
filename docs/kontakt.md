@@ -10,7 +10,7 @@ Wenn du als Entwickler mit uns arbeiten möchtest, zeige uns gern dein Github Pr
 
 Auch wenn du kein gutes Github-Profil hast oder gerade dein Studium abgeschlossen hast, kannst du uns gerne kontaktieren, wenn du daran interessiert bist, in einer professionellen Entwicklerumgebung zu arbeiten. Wir helfen dir dabei, dich in moderne Arbeitsabläufe, Technologien und das Innenleben eines Remote-Teams einzuarbeiten. Es wäre schön, wenn du IT aus Hingabe, nicht aus der Not heraus machst.
 
-Auch über unseren [Telegram Kanal](https://t.me/+A3XAurSG9ws3NjE6) kann man mit uns in Kontakt treten.
+Auch über unseren [Telegram Kanal](https://t.me/+A3XAurSG9ws3NjE6) oder [Discord](https://discord.gg/bx8kjesmJF) kann man mit uns in Kontakt treten.
 
 ## Für Kunden
 
