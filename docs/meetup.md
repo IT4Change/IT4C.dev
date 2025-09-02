@@ -24,7 +24,9 @@ Die Krönung war aber die Wildwaserfahrt durch den lokalen Canyon. Das Rafting m
 
 ## 2025 - Lichtung an der Geilebachquelle
 
+<!-- textlint-disable common-misspellings -->
 Das dritte IT4C-Treffen fand 2025 in Kassel auf der [Lichtung an der Geilebachquelle](https://www.google.de/maps/place/Lichtung+Geilebachquellgebiet+KuKi+%26+Lichtung+e.V./@51.3358737,9.4004989,17z) statt. Diesmal stand das Treffen unter dem Motto IT4C trifft Utopia; wir haben die beiden Projekte personell zusammengebracht, viele wichtige Akteure der beiden Gruppen kennen sich nun persönlich.
+<!-- textlint-enable common-misspellings -->
 
 Kulturell gab es direkt vor Ort die [Künstler-Nekropole](https://www.google.de/maps/place/K%C3%BCnstler-Nekropole/@51.3358737,9.4004989,17z). Hier sind Künstler in ihren Kunstwerken begraben. Besonderes vor allem der Klangdom, ein Gebäude, das Töne verstärkt. Hier haben wir gemeinsam gesungen. Außerdem haben wir gelernt, was `Abulvenz` ist und festgestellt, dass wir das bereits ganz gut beherrschen.
 
