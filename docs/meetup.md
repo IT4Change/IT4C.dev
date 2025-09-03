@@ -4,9 +4,9 @@ Einmal im Jahr versuchen wir Software-Entwickler uns zu treffen - das **IT4C-Tre
 
 ![](/images/meetup/it4c-meetup.jpg)
 
-## 2021 - Bahra - sächsische Schweiz
+## 2023 - Bahra - sächsische Schweiz
 
-Das erste IT4C-Treffen fand 2021 in [Bahra](https://www.google.de/maps/place/01816+Bad+Gottleuba-Berggie%C3%9Fh%C3%BCbel-Bahra/@50.8666377,14.0020173,16.3z) in der sächsischen Schweiz statt und ging etwa eine Woche. Unsere Gastgeberin Jessi hat ein großen Grundstück mit einem ehemaligen Jugendherberge. Dort haben wir den Garten auf Fordermann gebracht, Werwolf gespielt und uns viel unterhalten. Eine Musiksession mit Gitarrenunterricht gab es auch.
+Das erste IT4C-Treffen fand 2023 in [Bahra](https://www.google.de/maps/place/01816+Bad+Gottleuba-Berggie%C3%9Fh%C3%BCbel-Bahra/@50.8666377,14.0020173,16.3z) in der sächsischen Schweiz statt und ging etwa eine Woche. Unsere Gastgeberin Jessi hat ein großen Grundstück mit einem ehemaligen Jugendherberge. Dort haben wir den Garten auf Fordermann gebracht, Werwolf gespielt und uns viel unterhalten. Eine Musiksession mit Gitarrenunterricht gab es auch.
 
 Als Kulturprogramm haben wir eine Tour durch die sächsiche Schweiz unternommen. Der Besuch in der [Festung Königstein](https://www.google.de/maps/place/K%C3%B6nigstein+Fortress/@50.9190556,14.0547187,17z) war das Highlight. Wir haben aber auch verschiedene Berge erklommen und Felsformationen bestaunen können. Bei den sommerlichen Temperaturen hat das Nacktbaden im eiskalten Bergfluss das ganze dann abgerundet.
 
