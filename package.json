@@ -33,7 +33,7 @@
     "globals": "^16.3.0",
     "http-server": "^14.1.1",
     "prettier": "3.6.2",
-    "sass-embedded": "^1.91.0",
+    "sass-embedded": "^1.92.1",
     "tailwindcss": "^4.1.13",
     "textlint": "^15.2.2",
     "textlint-filter-rule-comments": "^1.2.2",
