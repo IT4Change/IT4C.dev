@@ -30,7 +30,7 @@ export default hopeTheme({
       text: 'IT4C',
       link: '/it4c',
       collapsible: false,
-      children: ['/historie', '/kontakt'],
+      children: ['/historie', '/kontakt', '/meetup'],
     },
     {
       text: 'Projekte',
