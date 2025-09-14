@@ -33,7 +33,7 @@ So gab es auch ein Naturphänomen zu bestaunen in Form einer begehbaren Höhle, 
 Wir sind viel gewandert und habe uns auch einen Tag am Strand gegönnt.
 ![Strand in den Pyrenäen](/images/meetup/2024-strand.jpg)
 
-Besonders schön waren auch die Katharer Burgen in der Umgebung, welche hoch gelegen baulich beeindruckten und mit wunderbarem Weitblick belohnten.
+Besonders schön waren die Katharer Burgen in der Umgebung, welche hoch gelegen waren und baulich beeindruckten. Dort wurden wir als Goody mit einem wunderbaren Weitblick belohnten.
 ![Katharer Burg in den Pyrenäen](/images/meetup/2024-katharerburg.jpg)
 
 Die Krönung war aber die Wildwasserfahrt durch den lokalen Canyon. Das Rafting macht riesigen Spaß und ist ein Erlebnis, das zusammenschweißt.
