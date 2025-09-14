@@ -30,7 +30,7 @@ Da wir uns dort einige Zeit aufgehalten haben, gab es auch ein ausgedehntes Kult
 So gab es auch ein Naturphänomen zu bestaunen in Form einer begehbaren Höhle, die sich wie ein Uhrwerk immer wieder in Zyklen füllt und leert.
 ![Höhle in den Pyrenäen](/images/meetup/2024-hoehle.jpg)
 
-Ein Strandbesuch konnten wir uns auch nicht verkneifen und gewandert sind wir auch viel.
+Wir sind viel gewandert und habe uns auch einen Tag am Strand gegönnt.
 ![Strand in den Pyrenäen](/images/meetup/2024-strand.jpg)
 
 Besonders schön waren auch die Katharer Burgen in der Umgebung, welche hoch gelegen baulich beeindruckten und mit wunderbarem Weitblick belohnten.
