@@ -17,8 +17,6 @@ Zu anderer Gelegenheit haben wir mit dem Redestab geübt, gute Gespräche zu fü
 
 ![Am Lagerfeuer an der Geilebachquelle](/images/meetup/2025-lichtung-geilebach.jpg)
 
-Und natürlich wurde gemeinsam im Klangdom gesungen.
-
 ## 2024 - La Font Blanche - Pyrenäen
 
 Das zweite IT4C-Treffen fand 2024 in La Font Blanche - [Belvis](https://www.google.de/maps/place/11340+Belvis,+France/@42.8572874,2.0592444,14z) in den Pyrenäen statt. Auf etwa 1000 Metern Höhe hat es hier eine wunderschöne Landschaft.
