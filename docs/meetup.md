@@ -42,7 +42,7 @@ Und natürlich wurde gemeinsam gesungen und Trompete gespielt.
 
 ## 2023 - Bahra - sächsische Schweiz
 
-Das erste IT4C-Treffen fand 2023 in [Bahra](https://www.google.de/maps/place/01816+Bad+Gottleuba-Berggie%C3%9Fh%C3%BCbel-Bahra/@50.8666377,14.0020173,16.3z) in der sächsischen Schweiz statt und ging etwa eine Woche. Unsere Gastgeberin Jessi hat ein großen Grundstück mit einem ehemaligen Jugendherberge.
+Das erste IT4C-Treffen fand 2023 in [Bahra](https://www.google.de/maps/place/01816+Bad+Gottleuba-Berggie%C3%9Fh%C3%BCbel-Bahra/@50.8666377,14.0020173,16.3z), in der sächsischen Schweiz, statt und ging etwa eine Woche lang. Unsere Gastgeberin Jessi hat ein großen Grundstück mit einem ehemaligen Jugendherberge, das wir dafür nutzen konnten.
 
 Dort haben wir den Garten als kleines Dankeschön auf Fordermann gebracht und uns ein wenig körperlich betätigt.
 ![Arbeitseinsatz in Bahra I](/images/meetup/2023-arbeitseinsatz-1.jpg)
