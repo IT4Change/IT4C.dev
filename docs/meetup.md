@@ -51,7 +51,7 @@ Dort haben wir den Garten als kleines Dankeschön auf Fordermann gebracht und un
 
 ![Arbeitseinsatz in Bahra II](/images/meetup/2023-arbeitseinsatz-2.jpg)
 
-Es gab aber auch den Arbeitsansatz am Computer:
+Und sogar den Arbeitseinsatz am Computer gab es:
 ![Arbeiten in Bahra](/images/meetup/2023-arbeit.jpg)
 
 
