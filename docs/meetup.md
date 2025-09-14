@@ -10,7 +10,7 @@ Einmal im Jahr versuchen wir Software-Entwickler uns zu treffen - das **IT4C-Tre
 Das dritte IT4C-Treffen fand 2025 in Kassel auf der [Lichtung an der Geilebachquelle](https://www.google.de/maps/place/Lichtung+Geilebachquellgebiet+KuKi+%26+Lichtung+e.V./@51.3358737,9.4004989,17z) statt. Diesmal stand das Treffen unter dem Motto IT4C trifft Utopia; wir haben die beiden Projekte personell zusammengebracht, viele wichtige Akteure der beiden Gruppen kennen sich nun persönlich.
 <!-- textlint-enable common-misspellings -->
 
-Kulturell gab es direkt vor Ort die [Künstler-Nekropole](https://www.google.de/maps/place/K%C3%BCnstler-Nekropole/@51.3358737,9.4004989,17z). Hier sind Künstler in ihren Kunstwerken begraben. Besonderes vor allem der Klangdom, ein Gebäude, das Töne verstärkt. Außerdem haben wir gelernt, was `Abulvenz` ist und festgestellt, dass wir das bereits ganz gut beherrschen.
+Kulturell gab es direkt vor Ort die [Künstler-Nekropole](https://www.google.de/maps/place/K%C3%BCnstler-Nekropole/@51.3358737,9.4004989,17z). Hier sind Künstler in ihren Kunstwerken begraben. Vor allem der Klangdom – wie ein kleines Pantheon – war außergewöhnlich, ein Gebäude, das Töne verstärkt. In ihm haben wir uns tönend und singend ausprobiert und haben unsere Resonanzen – und Disonanzen – erkundet. Außerdem haben wir gelernt, was `Abulvenz` ist und festgestellt, dass wir das bereits ganz gut beherrschen.
 
 Wir hatten darüber hinaus ein DJ, der uns Samstag Abend Musik aufgelegt hat und haben viel gemeinsam um das Lagerfeuer gesessen. Mit dem Redestab haben wir geübt gute Gespräche zu führen und ohne Moderator zu sprechen.
 
