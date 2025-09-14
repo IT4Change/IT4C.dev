@@ -27,7 +27,7 @@ Da wir uns dort einige Zeit aufgehalten haben, gab es auch ein ausgedehntes Kult
 ![Carcassonne I](/images/meetup/2024-carcassonne-1.jpg)
 ![Carcassonne II](/images/meetup/2024-carcassonne-2.jpg)
 
-Es gab allerdings auch Naturphänomen zu bestaunen in form einer begehbaren Höhle, die sicher immer wieder in Zyklen leert und füllt.
+So gab es auch ein Naturphänomen zu bestaunen in Form einer begehbaren Höhle, die sich wie ein Uhrwerk immer wieder in Zyklen füllt und leert.
 ![Höhle in den Pyrenäen](/images/meetup/2024-hoehle.jpg)
 
 Ein Strandbesuch konnten wir uns auch nicht verkneifen und gewandert sind wir auch viel.
