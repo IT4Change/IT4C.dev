@@ -62,7 +62,7 @@ Als Kulturprogramm haben wir eine Tour durch die sächsische Schweiz unternommen
 
 Der Besuch in der [Festung Königstein](https://www.google.de/maps/place/K%C3%B6nigstein+Fortress/@50.9190556,14.0547187,17z) war das Highlight. Wir haben aber auch verschiedene Berge erklommen und Felsformationen bestaunen können. Bei den sommerlichen Temperaturen hat das Nacktbaden im eiskalten Bergfluss das Ganze dann abgerundet.
 
-Es durften auch nicht an sozialen Aspekte fehlen. <!-- eslint-disable write-good -->So<!-- eslint-enable write-good --> haben wir uns besser kennen gelernt durch das Werwolf-Spielen und haben das großartige Essen in Tschechien genossen.
+Es durften auch nicht an sozialen Aspekte fehlen! <!-- eslint-disable write-good -->So<!-- eslint-enable write-good --> haben wir uns besser kennengelernt durch das Werwolf-Spielen, und haben das großartige Essen in Tschechien genossen.
 ![Essen in Bahra](/images/meetup/2023-essen.jpg)
 
 Alles in Allem eine super tolle und runde Sache, ein riesen Spaß!
