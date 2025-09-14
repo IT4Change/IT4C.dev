@@ -1,6 +1,6 @@
 # IT4C Treffen
 
-Einmal im Jahr versuchen wir Software-Entwickler uns zu treffen - das **IT4C-Treffen**. Es bietet eine Gelegenheit die Leute kennen zu lernen, die man sonst nur auf dem Bildschirm sieht oder hört und ein Gefühl für die andere Person zu bekommen. Die gemeinsamen Unternehmungen, die oft nichts mit den üblichen Beschäftigungsfeldern zu tun haben, erlauben es die sonst verborgenen Talente der anderen Persönlichkeiten zu sehen, die sonst verborgen bleiben.
+Einmal im Jahr versuchen wir Software-Entwickler uns zu treffen - das **IT4C-Treffen**. Es bietet eine Gelegenheit die Leute kennen zu lernen, die man sonst nur auf dem Bildschirm sieht oder hört und ein Gefühl für den anderen Menschen zu bekommen. Die gemeinsamen Unternehmungen, die oft nichts mit den üblichen Beschäftigungsfeldern zu tun haben, erlauben es die sonst verborgenen Talente der anderen Persönlichkeiten zu sehen, die sonst verborgen bleiben.
 
 ![](/images/meetup/it4c-meetup.jpg)
 
