@@ -12,7 +12,8 @@ Das dritte IT4C-Treffen fand 2025 in Kassel auf der [Lichtung an der Geilebachqu
 
 Kulturell gab es direkt vor Ort die [Künstler-Nekropole](https://www.google.de/maps/place/K%C3%BCnstler-Nekropole/@51.3358737,9.4004989,17z). Hier sind Künstler in ihren Kunstwerken begraben. Vor allem der Klangdom – wie ein kleines Pantheon – war außergewöhnlich, ein Gebäude, das Töne verstärkt. In ihm haben wir uns tönend und singend ausprobiert und haben unsere Resonanzen – und Disonanzen – erkundet. Außerdem haben wir gelernt, was `Abulvenz` ist und festgestellt, dass wir das bereits ganz gut beherrschen.
 
-Wir hatten darüber hinaus ein DJ, der uns Samstag Abend Musik aufgelegt hat und haben viel gemeinsam um das Lagerfeuer gesessen. Mit dem Redestab haben wir geübt gute Gespräche zu führen und ohne Moderator zu sprechen.
+Ein weiteres Highlight war der DJ, der uns Samstag Abend Musik aufgelegt hat. Manche von uns haben getanzt, die meisten jedoch haben gemeinsam ums Lagerfeuer gesessen, gelauscht und geschnackt.  
+Zu anderer Gelegenheit haben wir mit dem Redestab geübt, gute Gespräche zu führen und ohne Moderator zu sprechen.
 
 ![Am Lagerfeuer an der Geilebachquelle](/images/meetup/2025-lichtung-geilebach.jpg)
 
