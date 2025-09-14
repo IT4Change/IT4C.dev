@@ -55,7 +55,8 @@ Und sogar den Arbeitseinsatz am Computer gab es:
 ![Arbeiten in Bahra](/images/meetup/2023-arbeit.jpg)
 
 
-Werwolf gespielt und uns viel unterhalten. Eine Musiksession mit Gitarrenunterricht gab es auch.
+Mit dem Spiel `Werwölfe von Düsterwald` haben wir uns in eine beängstigende und bedrohliche Welt begeben, in der schwerwiegende Entscheidungen zu fällen waren und manch ein unbescholtener Bürgen unglücklicherweise auf der Strecke blieb, anstatt eines Werwolfs. Wunderbar unterhaltsam.  
+Und eine Gesangs- und Musiksession mit Gitarrenunterricht gab es dann auch noch.
 
 
 Als Kulturprogramm haben wir eine Tour durch die sächsische Schweiz unternommen.
