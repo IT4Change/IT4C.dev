@@ -65,4 +65,4 @@ Der Besuch in der [Festung Königstein](https://www.google.de/maps/place/K%C3%B6
 Es durften auch nicht an sozialen Aspekte fehlen. <!-- eslint-disable write-good -->So<!-- eslint-enable write-good --> haben wir uns besser kennen gelernt durch das Werwolf-Spielen und haben das großartige Essen in Tschechien genossen.
 ![Essen in Bahra](/images/meetup/2023-essen.jpg)
 
-Und natürlich wurde gemeinsam gesungen und Gitarre gespielt.
+Alles in Allem eine super tolle und runde Sache, ein riesen Spaß!
