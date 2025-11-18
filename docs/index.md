@@ -192,7 +192,29 @@ layout: BlankLayout
   />
 </ContentSection>
 
-<ContentSection id="kontakt" title="Kontakt">
+<ContentSection id="mehr-informationen" title="Mehr Informationen">
+  <div class="grid md:grid-cols-2 gap-8">
+    <div>
+      <ul class="space-y-3">
+        <li><a href="/it4c.html" class="text-lg text-blue-600 dark:text-blue-400 hover:underline">Über IT4C</a></li>
+        <li><a href="/meetup.html" class="text-lg text-blue-600 dark:text-blue-400 hover:underline">IT4C Treffen</a></li>
+        <li><a href="/historie.html" class="text-lg text-blue-600 dark:text-blue-400 hover:underline">IT4C Historie</a></li>
+        <li><hr class="border-t border-gray-300 dark:border-gray-600 my-2 w-1/2" /></li>
+        <li><a href="https://busfaktor.org" target="_blank" class="text-lg text-blue-600 dark:text-blue-400 hover:underline">busFaktor() e.V.</a></li>
+        <li><a href="https://webcraft-media.de" target="_blank" class="text-lg text-blue-600 dark:text-blue-400 hover:underline">Webcraft-Media</a></li>
+      </ul>
+    </div>
+    <ProjectCard
+      title="Aktuelles Crowdfunding"
+      description="Einige neue Features für unsere Software werden über Crowdfundings finanziert. Mehr Infos gibt es hier."
+      image="./images/crowdfunding/crowdfunding-ocelot.png"
+      href="https://ocelot.social/de/news/2025-11-05-crowdfunding-feature-pinned-posts-in-groups"
+      target="_blank"
+    />
+  </div>
+</ContentSection>
+
+<ContentSection id="kontakt" title="Kontakt" backgroundColor="bg-gray-50 dark:bg-gray-800">
   <ContactForm />
 </ContentSection>
 
