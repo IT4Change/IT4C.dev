@@ -1,5 +1,5 @@
 <template>
-  <a :href="href">
+  <a :href="href" :target="target">
     <div class="border border-gray-300 rounded-lg p-6">
       <img :src="image" :alt="title" class="rounded-lg mb-4 w-full h-auto object-contain" />
       <h3 class="text-xl font-semibold mb-2">{{ title }}</h3>
@@ -20,6 +20,7 @@ defineProps<{
   image: string
   tags: string[]
   href: string
+  target?: string
 }>()
 </script>
 
