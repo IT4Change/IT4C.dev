@@ -35,7 +35,7 @@
     "eslint-plugin-security": "^3.0.1",
     "eslint-plugin-yml": "^1.19.0",
     "jest": "^30.2.0",
-    "ts-jest": "^29.4.5",
+    "ts-jest": "^29.4.6",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
