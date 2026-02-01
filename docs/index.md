@@ -147,6 +147,12 @@ layout: BlankLayout
       profileUrl="./team/wolfgang-huss.html"
       image="./images/portrait/Wolfgang_Huss.jpeg"
     />
+    <TeamMember
+      name="Anton"
+      role="Fullstack, Architect"
+      profileUrl="/team/anton-tranelis.html"
+      image="./images/portrait/anton-tranelis.png"
+    />
   </div>
 </ContentSection>
 
