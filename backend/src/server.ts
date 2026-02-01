@@ -4,10 +4,11 @@ import { FormatRegistry, Type, TypeBoxValidatorCompiler } from '@fastify/type-pr
 import Fastify from 'fastify'
 import { createTransport } from 'nodemailer'
 
+import type { TypeBoxTypeProvider } from '@fastify/type-provider-typebox'
+
 import { IsEmail } from './formats'
 
 import type { Env } from './env'
-import type { TypeBoxTypeProvider } from '@fastify/type-provider-typebox'
 
 function createServer(env: Env) {
   // Register EMail format
@@ -55,7 +56,7 @@ function createServer(env: Env) {
           subject: util.format(env.EMAIL_SUBJECT, request.body.name),
           text: `${request.body.text}${request.body.telephone ? `\n\nTelephone: ${request.body.telephone}` : ''}`,
         })
-        return reply.status(200).send({ success: true })
+        return await reply.status(200).send({ success: true })
         // eslint-disable-next-line no-catch-all/no-catch-all
       } catch (error) {
         return reply.status(400).send({ success: false, error: error as string })

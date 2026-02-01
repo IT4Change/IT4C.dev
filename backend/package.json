@@ -15,25 +15,14 @@
     "build": "tsc",
     "dev": "tsx watch ./src/index.ts",
     "test:unit": "jest",
-    "test:lint:eslint": "eslint --ext .ts,.tsx,.js,.jsx,.cjs,.mjs,.json,.yml,.yaml --max-warnings 0 .",
+    "test:lint:eslint": "eslint --max-warnings 0 .",
     "update": "npx npm-check-updates"
   },
   "devDependencies": {
-    "@eslint-community/eslint-plugin-eslint-comments": "^4.6.0",
-    "@typescript-eslint/eslint-plugin": "^5.62.0",
-    "@typescript-eslint/parser": "^5.62.0",
-    "eslint": "^8.24.0",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-config-standard": "^17.1.0",
+    "eslint": "^9.39.2",
+    "eslint-config-it4c": "^0.2.0",
     "eslint-import-resolver-typescript": "^4.4.4",
-    "eslint-plugin-import": "^2.32.0",
-    "eslint-plugin-json": "^3.1.0",
-    "eslint-plugin-n": "^16.6.2",
-    "eslint-plugin-no-catch-all": "^1.1.0",
-    "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-promise": "^6.1.1",
-    "eslint-plugin-security": "^3.0.1",
-    "eslint-plugin-yml": "^1.19.1",
+    "typescript-eslint": "^8.54.0",
     "jest": "^30.2.0",
     "ts-jest": "^29.4.6",
     "tsx": "^4.21.0",
@@ -62,7 +51,9 @@
         "statements": 100
       }
     },
-    "modulePathIgnorePatterns": ["<rootDir>/build/"]
+    "modulePathIgnorePatterns": [
+      "<rootDir>/build/"
+    ]
   },
   "imports": {
     "#src/*": "./src/*",

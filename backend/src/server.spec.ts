@@ -1,5 +1,4 @@
-// eslint-disable-next-line import/no-namespace
-import * as nodemailer from 'nodemailer'
+import { createTransport } from 'nodemailer'
 
 import { env } from './env'
 import { createServer } from './server'
@@ -7,7 +6,7 @@ import { createServer } from './server'
 // Mock nodemailer
 jest.mock('nodemailer')
 
-const mockCreateTransport = nodemailer.createTransport as unknown as jest.Mock
+const mockCreateTransport = createTransport as unknown as jest.Mock
 
 const mockSendMail = jest.fn()
 

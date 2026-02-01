@@ -27,7 +27,7 @@ export const schema = {
 
 export type Env = EnvType<typeof schema>
 
-// eslint-disable-next-line import/no-mutable-exports
+// eslint-disable-next-line import-x/no-mutable-exports
 export let env: Env
 
 export function loadEnv(): void {
