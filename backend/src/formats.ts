@@ -58,7 +58,7 @@ export function IsDateTime(value: string, strictTimeZone?: boolean): boolean {
   return dateTime.length === 2 && IsDate(dateTime[0]) && IsTime(dateTime[1], strictTimeZone)
 }
 */
-export function IsEmail(value: string) {
+export function IsEmail(value: string): boolean {
   return EMAIL.test(value)
 }
 /*
