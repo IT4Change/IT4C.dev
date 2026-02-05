@@ -1,10 +1,11 @@
 // eslint-disable-next-line n/no-unpublished-import
-import config from 'eslint-config-it4c'
+import config, { jest } from 'eslint-config-it4c'
 
 export default [
   { ignores: ['node_modules/', 'build/', 'coverage/'] },
 
   ...config,
+  ...jest,
   {
     rules: {
       'import-x/no-relative-parent-imports': ['error', { ignore: ['#src/*', '#root/*'] }],

@@ -4,13 +4,14 @@ import { FormatRegistry, Type, TypeBoxValidatorCompiler } from '@fastify/type-pr
 import Fastify from 'fastify'
 import { createTransport } from 'nodemailer'
 
-import type { ReturnType, TypeBoxTypeProvider } from '@fastify/type-provider-typebox'
+import type { TypeBoxTypeProvider } from '@fastify/type-provider-typebox'
 
 import { IsEmail } from './formats'
 
 import type { Env } from './env'
+import type { FastifyInstance } from 'fastify'
 
-function createServer(env: Env): ReturnType<typeof Fastify> {
+function createServer(env: Env): FastifyInstance {
   // Register EMail format
   FormatRegistry.Set('email', (value) => IsEmail(value))
 
