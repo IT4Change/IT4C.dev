@@ -1,18 +1,22 @@
-import { createTransport } from 'nodemailer'
+import { jest, describe, test, expect, beforeEach } from '@jest/globals'
 
-import { env } from './env'
-import { createServer } from './server'
-
-// Mock nodemailer
-jest.mock('nodemailer')
-
-const mockCreateTransport = createTransport as unknown as jest.Mock
+import type { Env } from './env'
+import type { FastifyInstance } from 'fastify'
 
 const mockSendMail = jest.fn()
 
-mockCreateTransport.mockReturnValue({
-  sendMail: mockSendMail,
-})
+// Mock nodemailer BEFORE importing modules that use it
+jest.unstable_mockModule('nodemailer', () => ({
+  createTransport: jest.fn(() => ({
+    sendMail: mockSendMail,
+  })),
+}))
+
+// Dynamic imports after mock setup
+const { env } = (await import('./env')) as { env: Env }
+const { createServer } = (await import('./server')) as {
+  createServer: (env: Env) => FastifyInstance
+}
 
 const server = createServer(env)
 
@@ -41,6 +45,21 @@ describe('HTTP Server', () => {
       success: false,
       error: 'Bad Request',
     })
+  })
+
+  test('POST /mail with invalid email should return 400 Bad Request', async () => {
+    const response = await server.inject({
+      method: 'POST',
+      url: '/mail',
+      body: {
+        name: 'Peter Lustig',
+        email: 'invalid-email',
+        text: 'This is my request',
+      },
+    })
+
+    expect(response.statusCode).toBe(400)
+    expect(mockSendMail).not.toHaveBeenCalled()
   })
 
   test('POST /mail with body should return 200 Success', async () => {

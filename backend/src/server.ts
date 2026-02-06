@@ -1,6 +1,6 @@
 import util from 'node:util'
 
-import { FormatRegistry, Type, TypeBoxValidatorCompiler } from '@fastify/type-provider-typebox'
+import { Format, Type, TypeBoxValidatorCompiler } from '@fastify/type-provider-typebox'
 import Fastify from 'fastify'
 import { createTransport } from 'nodemailer'
 
@@ -12,7 +12,7 @@ import type { FastifyInstance } from 'fastify'
 
 function createServer(env: Env): FastifyInstance {
   // Register EMail format
-  FormatRegistry.Set('email', (value) => IsEmail(value))
+  Format.Set('email', (value) => IsEmail(value))
 
   // Nodemailer
   const mailService = createTransport({
