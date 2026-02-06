@@ -1,18 +1,17 @@
-import { createTransport } from 'nodemailer'
-
-import { env } from './env'
-import { createServer } from './server'
-
-// Mock nodemailer
-jest.mock('nodemailer')
-
-const mockCreateTransport = createTransport as unknown as jest.Mock
+import { jest, describe, test, expect, beforeEach, beforeAll } from '@jest/globals'
 
 const mockSendMail = jest.fn()
 
-mockCreateTransport.mockReturnValue({
-  sendMail: mockSendMail,
-})
+// Mock nodemailer BEFORE importing modules that use it
+jest.unstable_mockModule('nodemailer', () => ({
+  createTransport: jest.fn(() => ({
+    sendMail: mockSendMail,
+  })),
+}))
+
+// Dynamic imports after mock setup
+const { env } = await import('./env')
+const { createServer } = await import('./server')
 
 const server = createServer(env)
 
