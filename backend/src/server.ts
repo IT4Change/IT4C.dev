@@ -1,6 +1,7 @@
 import util from 'node:util'
 
-import { FormatRegistry, Type, TypeBoxValidatorCompiler } from '@fastify/type-provider-typebox'
+import { Type, TypeBoxValidatorCompiler } from '@fastify/type-provider-typebox'
+import { FormatRegistry } from '@sinclair/typebox'
 import Fastify from 'fastify'
 import { createTransport } from 'nodemailer'
 
