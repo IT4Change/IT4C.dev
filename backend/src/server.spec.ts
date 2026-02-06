@@ -1,4 +1,3 @@
-// eslint-disable-next-line n/no-unpublished-import
 import { jest, describe, test, expect, beforeEach } from '@jest/globals'
 
 import type { Env } from './env'
