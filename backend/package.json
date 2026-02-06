@@ -19,6 +19,7 @@
     "update": "npx npm-check-updates"
   },
   "devDependencies": {
+    "@jest/globals": "^30.2.0",
     "eslint": "^9.39.2",
     "eslint-config-it4c": "^0.8.0",
     "jest": "^30.2.0",
@@ -28,7 +29,6 @@
   },
   "dependencies": {
     "@fastify/type-provider-typebox": "^6.1.0",
-    "@types/jest": "^30.0.0",
     "@types/nodemailer": "^7.0.9",
     "fastify": "^5.7.4",
     "nodemailer": "^8.0.1",
