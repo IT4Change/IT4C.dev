@@ -8,8 +8,9 @@ import { IsEmail } from './formats'
 
 import type { Env } from './env'
 import type { TypeBoxTypeProvider } from '@fastify/type-provider-typebox'
+import type { FastifyInstance } from 'fastify'
 
-function createServer(env: Env) {
+function createServer(env: Env): FastifyInstance {
   // Register EMail format
   FormatRegistry.Set('email', (value) => IsEmail(value))
 
@@ -55,7 +56,7 @@ function createServer(env: Env) {
           subject: util.format(env.EMAIL_SUBJECT, request.body.name),
           text: `${request.body.text}${request.body.telephone ? `\n\nTelephone: ${request.body.telephone}` : ''}`,
         })
-        return reply.status(200).send({ success: true })
+        return await reply.status(200).send({ success: true })
         // eslint-disable-next-line no-catch-all/no-catch-all
       } catch (error) {
         return reply.status(400).send({ success: false, error: error as string })
