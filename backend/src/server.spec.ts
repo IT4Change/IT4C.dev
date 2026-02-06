@@ -1,4 +1,8 @@
-import { jest, describe, test, expect, beforeEach, beforeAll } from '@jest/globals'
+// eslint-disable-next-line n/no-unpublished-import
+import { jest, describe, test, expect, beforeEach } from '@jest/globals'
+
+import type { Env } from './env'
+import type { FastifyInstance } from 'fastify'
 
 const mockSendMail = jest.fn()
 
@@ -10,8 +14,10 @@ jest.unstable_mockModule('nodemailer', () => ({
 }))
 
 // Dynamic imports after mock setup
-const { env } = await import('./env')
-const { createServer } = await import('./server')
+const { env } = (await import('./env')) as { env: Env }
+const { createServer } = (await import('./server')) as {
+  createServer: (env: Env) => FastifyInstance
+}
 
 const server = createServer(env)
 
