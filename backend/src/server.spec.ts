@@ -42,6 +42,21 @@ describe('HTTP Server', () => {
     })
   })
 
+  test('POST /mail with invalid email should return 400 Bad Request', async () => {
+    const response = await server.inject({
+      method: 'POST',
+      url: '/mail',
+      body: {
+        name: 'Peter Lustig',
+        email: 'invalid-email',
+        text: 'This is my request',
+      },
+    })
+
+    expect(response.statusCode).toBe(400)
+    expect(mockSendMail).not.toHaveBeenCalled()
+  })
+
   test('POST /mail with body should return 200 Success', async () => {
     const response = await server.inject({
       method: 'POST',
