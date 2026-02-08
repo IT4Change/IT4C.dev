@@ -31,7 +31,7 @@
     "@types/jest": "^30.0.0",
     "@types/nodemailer": "^7.0.9",
     "fastify": "^5.7.2",
-    "nodemailer": "^7.0.13",
+    "nodemailer": "^8.0.1",
     "ts-dotenv": "^0.9.1"
   },
   "jest": {
