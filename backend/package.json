@@ -14,11 +14,12 @@
     "start": "node ./build/src/index.js",
     "build": "tsc",
     "dev": "tsx watch ./src/index.ts",
-    "test:unit": "jest",
+    "test:unit": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "test:lint:eslint": "eslint --max-warnings 0 .",
     "update": "npx npm-check-updates"
   },
   "devDependencies": {
+    "@jest/globals": "^30.2.0",
     "eslint": "^9.39.2",
     "eslint-config-it4c": "^0.8.0",
     "jest": "^30.2.0",
@@ -27,31 +28,11 @@
     "typescript": "^5.9.3"
   },
   "dependencies": {
-    "@fastify/type-provider-typebox": "^5.2.0",
-    "@types/jest": "^30.0.0",
+    "@fastify/type-provider-typebox": "^6.1.0",
     "@types/nodemailer": "^7.0.9",
     "fastify": "^5.7.4",
     "nodemailer": "^8.0.1",
     "ts-dotenv": "^0.9.1"
-  },
-  "jest": {
-    "preset": "ts-jest",
-    "testEnvironment": "node",
-    "setupFiles": [
-      "./jest/setup.loadEnv.ts"
-    ],
-    "collectCoverage": true,
-    "coverageThreshold": {
-      "global": {
-        "branches": 100,
-        "functions": 100,
-        "lines": 100,
-        "statements": 100
-      }
-    },
-    "modulePathIgnorePatterns": [
-      "<rootDir>/build/"
-    ]
   },
   "imports": {
     "#src/*": "./src/*",
