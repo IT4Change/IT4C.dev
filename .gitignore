@@ -3,4 +3,5 @@
 /docs/.vuepress/dist/
 /docs/.vuepress/.cache/
 /docs/.vuepress/.temp/
+/docs/.vuepress/*.mjs
 /.github/webhooks/hooks.json
