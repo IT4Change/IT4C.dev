@@ -26,7 +26,7 @@ function createServer(env: Env): FastifyInstance {
 
   // Fatify
   const fastify = Fastify({
-    logger: true,
+    logger: env.NODE_ENV !== 'test',
   }).setValidatorCompiler(TypeBoxValidatorCompiler)
 
   // Mail
