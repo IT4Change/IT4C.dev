@@ -6,15 +6,15 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  src: string
-  caption: string
-  width: string
-}>()
+  defineProps<{
+    src: string
+    caption: string
+    width: string
+  }>()
 </script>
 
 <style lang="scss">
-figcaption {
-  font-style: italic;
-}
+  figcaption {
+    font-style: italic;
+  }
 </style>

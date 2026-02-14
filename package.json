@@ -2,13 +2,14 @@
   "name": "it4c.dev",
   "version": "1.0.0",
   "description": "The IT4C.dev website",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "vuepress build docs",
     "dev": "vuepress dev docs",
     "dev-prod": "npm run build && http-server ./docs/.vuepress/dist",
     "test": "npm run test:lint:textlint && npm run test:lint:eslint",
-    "test:lint:eslint": "eslint",
+    "test:lint:eslint": "eslint --max-warnings 0 .",
     "test:lint:textlint": "textlint \"*.md\" \"docs/**/*.md\""
   },
   "repository": {
@@ -27,12 +28,8 @@
     "@vuepress/bundler-vite": "^2.0.0-rc.26",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.121",
     "eslint": "^9.39.2",
-    "eslint-config-prettier": "^10.1.8",
-    "eslint-plugin-prettier": "^5.5.5",
-    "eslint-plugin-vue": "^10.8.0",
-    "globals": "^17.3.0",
+    "eslint-config-it4c": "^0.11.2",
     "http-server": "^14.1.1",
-    "prettier": "3.8.1",
     "sass-embedded": "^1.97.3",
     "tailwindcss": "^4.1.17",
     "textlint": "^15.5.1",
@@ -49,7 +46,6 @@
     "textlint-rule-no-zero-width-spaces": "^1.0.1",
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-write-good": "^2.0.0",
-    "typescript-eslint": "^8.55.0",
     "vuepress": "^2.0.0-rc.26",
     "vuepress-plugin-imagemin": "^0.1.2",
     "vuepress-theme-hope": "^2.0.0-rc.102"

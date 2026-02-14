@@ -1,10 +1,6 @@
-import eslint from '@eslint/js'
-import eslintPluginPrettierRecommended from 'eslint-plugin-prettier/recommended'
-import eslintPluginVue from 'eslint-plugin-vue'
-import globals from 'globals'
-import typescriptEslint from 'typescript-eslint'
+import config, { vue3 } from 'eslint-config-it4c'
 
-export default typescriptEslint.config(
+export default [
   {
     ignores: [
       'coverage',
@@ -12,26 +8,28 @@ export default typescriptEslint.config(
       'docs/.vuepress/.cache',
       'docs/.vuepress/.temp',
       'docs/.vuepress/dist',
+      'docs/.vuepress/*.mjs',
     ],
+  },
+  ...config,
+  ...vue3,
+  {
+    files: ['**/*.cjs'],
+    rules: {
+      'import-x/no-commonjs': 'off',
+    },
   },
   {
-    extends: [
-      eslint.configs.recommended,
-      ...typescriptEslint.configs.recommended,
-      ...eslintPluginVue.configs['flat/recommended'],
-    ],
-    files: ['**/*.{ts,vue}'],
-    languageOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
-      globals: globals.browser,
-      parserOptions: {
-        parser: typescriptEslint.parser,
-      },
-    },
     rules: {
-      // your rules
+      'n/no-unpublished-import': 'off',
+      'import-x/no-extraneous-dependencies': 'off',
     },
   },
-  eslintPluginPrettierRecommended,
-)
+  {
+    files: ['**/*.vue'],
+    rules: {
+      'vue/html-self-closing': ['error', { html: { void: 'any' } }],
+      'vue/singleline-html-element-content-newline': 'off',
+    },
+  },
+]

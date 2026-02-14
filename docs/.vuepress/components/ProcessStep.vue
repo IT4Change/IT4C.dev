@@ -6,22 +6,26 @@
       }}</span>
     </div>
     <div class="col-span-9 pt-0 sm:pt-2">
-      <h3 class="text-xl font-semibold mb-2">{{ title }}</h3>
-      <p class="text-gray-600 dark:text-gray-300">{{ description }}</p>
+      <h3 class="text-xl font-semibold mb-2">
+        {{ title }}
+      </h3>
+      <p class="text-gray-600 dark:text-gray-300">
+        {{ description }}
+      </p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  number: string
-  title: string
-  description: string
-}>()
+  defineProps<{
+    number: string
+    title: string
+    description: string
+  }>()
 </script>
 
 <style>
-.highlight-number {
-  color: var(--highlight-color);
-}
+  .highlight-number {
+    color: var(--highlight-color);
+  }
 </style>

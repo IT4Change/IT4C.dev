@@ -109,76 +109,79 @@
 </template>
 
 <script setup lang="ts">
-import { reactive, ref } from 'vue'
+  import { reactive, ref } from 'vue'
 
-const form = reactive({
-  name: '',
-  email: '',
-  phone: '',
-  message: '',
-})
+  const form = reactive({
+    name: '',
+    email: '',
+    phone: '',
+    message: '',
+  })
 
-const isSubmitting = ref(false)
-const submitSuccess = ref(false)
-const submitError = ref('')
+  const isSubmitting = ref(false)
+  const submitSuccess = ref(false)
+  const submitError = ref('')
 
-const handleSubmit = async () => {
-  try {
-    isSubmitting.value = true
-    submitError.value = ''
+  const handleSubmit = async () => {
+    try {
+      isSubmitting.value = true
+      submitError.value = ''
 
-    const response = await fetch('/api/mail', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        name: form.name,
-        email: form.email,
-        telephone: form.phone || undefined, // Send undefined if empty to match optional schema
-        text: form.message,
-      }),
-    })
+      const response = await fetch('/api/mail', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          telephone: form.phone || undefined, // Send undefined if empty to match optional schema
+          text: form.message,
+        }),
+      })
 
-    if (response.status !== 200) {
-      throw new Error('Bei der Kommunikation mit dem Server ist ein Fehler aufgetreten.')
+      if (response.status !== 200) {
+        throw new Error('Bei der Kommunikation mit dem Server ist ein Fehler aufgetreten.')
+      }
+      const result = await response.json()
+
+      if (!response.ok) {
+        throw new Error(result.error || 'Fehler beim Senden der Nachricht')
+      }
+
+      // Clear form on success
+      form.name = ''
+      form.email = ''
+      form.phone = ''
+      form.message = ''
+
+      submitSuccess.value = true
+      setTimeout(() => {
+        submitSuccess.value = false
+      }, 5000) // Hide success message after 5 seconds
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        submitError.value = error.message
+      } else {
+        throw error
+      }
+    } finally {
+      isSubmitting.value = false
     }
-    const result = await response.json()
-
-    if (!response.ok) {
-      throw new Error(result.error || 'Fehler beim Senden der Nachricht')
-    }
-
-    // Clear form on success
-    form.name = ''
-    form.email = ''
-    form.phone = ''
-    form.message = ''
-
-    submitSuccess.value = true
-    setTimeout(() => {
-      submitSuccess.value = false
-    }, 5000) // Hide success message after 5 seconds
-  } catch (error) {
-    submitError.value =
-      error instanceof Error ? error.message : 'Ein unbekannter Fehler ist aufgetreten'
-  } finally {
-    isSubmitting.value = false
   }
-}
 </script>
 
 <style>
-.phone-number {
-  color: var(--highlight-color);
-}
-.focus\:highlight:focus {
-  --tw-ring-color: var(--highlight-color);
-}
-button {
-  background-color: var(--highlight-color);
-  &:hover {
-    background-color: color-mix(in srgb, var(--highlight-color), black 15%);
+  .phone-number {
+    color: var(--highlight-color);
   }
-}
+  .focus\:highlight:focus {
+    --tw-ring-color: var(--highlight-color);
+  }
+  button {
+    background-color: var(--highlight-color);
+    &:hover {
+      background-color: color-mix(in srgb, var(--highlight-color), black 15%);
+    }
+  }
 </style>

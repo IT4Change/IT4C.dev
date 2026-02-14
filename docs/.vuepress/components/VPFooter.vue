@@ -43,13 +43,13 @@
   </footer>
 </template>
 
-<script>
-export default {
-  name: 'FooterSection',
-  computed: {
-    currentYear() {
-      return new Date().getFullYear()
+<script lang="ts">
+  export default {
+    name: 'FooterSection',
+    computed: {
+      currentYear() {
+        return new Date().getFullYear()
+      },
     },
-  },
-}
+  }
 </script>

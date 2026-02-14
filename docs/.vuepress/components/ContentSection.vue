@@ -9,22 +9,22 @@
   </section>
 </template>
 
-<script>
-export default {
-  name: 'ContentSection',
-  props: {
-    title: {
-      type: String,
-      required: true,
+<script lang="ts">
+  export default {
+    name: 'ContentSection',
+    props: {
+      title: {
+        type: String,
+        required: true,
+      },
+      backgroundColor: {
+        type: String,
+        default: 'bg-white dark:bg-gray-900',
+      },
+      id: {
+        type: String,
+        default: '',
+      },
     },
-    backgroundColor: {
-      type: String,
-      default: 'bg-white dark:bg-gray-900',
-    },
-    id: {
-      type: String,
-      default: '',
-    },
-  },
-}
+  }
 </script>

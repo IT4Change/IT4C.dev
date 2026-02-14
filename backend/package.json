@@ -4,7 +4,7 @@
   "description": "IT4C.dev backend",
   "license": "Apache-2.0",
   "author": "Ulf Gebhardt",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,14 +14,14 @@
     "start": "node ./build/src/index.js",
     "build": "tsc",
     "dev": "tsx watch ./src/index.ts",
-    "test:unit": "NODE_OPTIONS='--experimental-vm-modules' jest",
-    "test:lint:eslint": "eslint --max-warnings 0 .",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "lint": "eslint --max-warnings 0 .",
     "update": "npx npm-check-updates"
   },
   "devDependencies": {
     "@jest/globals": "^30.2.0",
     "eslint": "^9.39.2",
-    "eslint-config-it4c": "^0.10.0",
+    "eslint-config-it4c": "^0.11.2",
     "jest": "^30.2.0",
     "ts-jest": "^29.4.6",
     "tsx": "^4.21.0",

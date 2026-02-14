@@ -13,7 +13,7 @@
       <!-- Overlay mit highlight-color-light Variable -->
       <div
         class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[115%] h-[115%] rounded-full overlay-bg opacity-0 group-hover:opacity-25 transition-opacity duration-200"
-      ></div>
+      />
     </div>
 
     <h4
@@ -26,16 +26,16 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  name: string
-  role: string
-  image: string
-  profileUrl: string
-}>()
+  defineProps<{
+    name: string
+    role: string
+    image: string
+    profileUrl: string
+  }>()
 </script>
 
 <style>
-.overlay-bg {
-  background-color: var(--highlight-color-light);
-}
+  .overlay-bg {
+    background-color: var(--highlight-color-light);
+  }
 </style>

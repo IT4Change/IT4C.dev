@@ -14,19 +14,19 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  title: string
-  description: string
-  image: string
-  tags: string[]
-  href: string
-  target?: string
-}>()
+  defineProps<{
+    title: string
+    description: string
+    image: string
+    tags: string[]
+    href: string
+    target?: string
+  }>()
 </script>
 
 <style>
-.tag {
-  color: var(--highlight-color);
-  background: var(--highlight-color-light);
-}
+  .tag {
+    color: var(--highlight-color);
+    background: var(--highlight-color-light);
+  }
 </style>
