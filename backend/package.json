@@ -4,7 +4,7 @@
   "description": "IT4C.dev backend",
   "license": "Apache-2.0",
   "author": "Ulf Gebhardt",
-  "type": "commonjs",
+  "type": "module",
   "main": "index.js",
   "repository": {
     "type": "git",
