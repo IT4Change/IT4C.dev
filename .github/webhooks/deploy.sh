@@ -40,7 +40,7 @@ cd $BACKEND_ROOT
 pm2 stop $BACKEND_SERVICE
 pm2 delete $BACKEND_SERVICE
 
-npm install --omit=dev
+npm install # --omit=dev
 npm run build
 
 pm2 start 'npm run start' --name $BACKEND_SERVICE
