@@ -8,6 +8,7 @@ export default [
       'docs/.vuepress/.cache',
       'docs/.vuepress/.temp',
       'docs/.vuepress/dist',
+      'docs/.vuepress/*.mjs',
     ],
   },
   ...config,
