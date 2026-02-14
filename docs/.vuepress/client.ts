@@ -25,9 +25,8 @@ export default defineClientConfig({
   setup() {
     setupTransparentNavbar({ type: 'homepage' })
   },
-  // You can override or add layouts here
   layouts: {
-    // For example, here we change the default layout of vuepress-theme-hope to layouts/Layout.vue
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     BlankLayout,
   },
 })

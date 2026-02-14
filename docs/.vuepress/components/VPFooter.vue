@@ -3,9 +3,7 @@
     <div class="content-width mx-auto px-4 md:px-6">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="mb-4 md:mb-0">
-          <p class="text-sm">
-&copy; {{ currentYear }} CC BY IT4C.dev & Autoren
-</p>
+          <p class="text-sm">&copy; {{ currentYear }} CC BY IT4C.dev & Autoren</p>
         </div>
         <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
           <a
@@ -45,7 +43,7 @@
   </footer>
 </template>
 
-<script>
+<script lang="ts">
   export default {
     name: 'FooterSection',
     computed: {

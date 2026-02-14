@@ -19,9 +19,7 @@
 
     <!-- Right side: Contact form - takes 7/10 of space -->
     <div class="md:col-span-7">
-      <h3 class="mb-4">
-Telefon
-</h3>
+      <h3 class="mb-4">Telefon</h3>
       <div class="flex-col gap-2 mb-8">
         <p class="flex items-center">
           <svg
@@ -42,9 +40,7 @@ Telefon
         </p>
       </div>
 
-      <h3 class="mb-4">
-Nachricht
-</h3>
+      <h3 class="mb-4">Nachricht</h3>
       <form @submit.prevent="handleSubmit">
         <div v-if="submitSuccess" class="my-4 p-3 bg-green-100 text-green-700 rounded-md mb-4">
           Deine Nachricht wurde erfolgreich gesendet. Vielen Dank!
@@ -163,9 +159,12 @@ Nachricht
       setTimeout(() => {
         submitSuccess.value = false
       }, 5000) // Hide success message after 5 seconds
-    } catch (error) {
-      submitError.value =
-        error instanceof Error ? error.message : 'Ein unbekannter Fehler ist aufgetreten'
+    } catch (error: unknown) {
+      if (error instanceof Error) {
+        submitError.value = error.message
+      } else {
+        throw error
+      }
     } finally {
       isSubmitting.value = false
     }
