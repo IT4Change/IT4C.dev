@@ -1,4 +1,4 @@
-import { HeadConfig } from 'vuepress'
+import type { HeadConfig } from 'vuepress'
 
 export default {
   title: 'IT4C',

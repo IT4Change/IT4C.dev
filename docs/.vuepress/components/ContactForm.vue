@@ -1,7 +1,7 @@
 <template>
   <p class="text-gray-600 dark:text-gray-300 mb-8">
     Als Ansprechpartner steht dir <strong>Ulf Gebhardt</strong> für deine Fragen gerne zur
-    Verfügung.<br>
+    Verfügung.<br />
     Wir freuen uns auf deine Nachricht.
   </p>
 
@@ -19,7 +19,9 @@
 
     <!-- Right side: Contact form - takes 7/10 of space -->
     <div class="md:col-span-7">
-      <h3 class="mb-4">Telefon</h3>
+      <h3 class="mb-4">
+Telefon
+</h3>
       <div class="flex-col gap-2 mb-8">
         <p class="flex items-center">
           <svg
@@ -40,7 +42,9 @@
         </p>
       </div>
 
-      <h3 class="mb-4">Nachricht</h3>
+      <h3 class="mb-4">
+Nachricht
+</h3>
       <form @submit.prevent="handleSubmit">
         <div v-if="submitSuccess" class="my-4 p-3 bg-green-100 text-green-700 rounded-md mb-4">
           Deine Nachricht wurde erfolgreich gesendet. Vielen Dank!

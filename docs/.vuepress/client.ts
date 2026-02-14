@@ -1,14 +1,15 @@
 import { defineClientConfig } from 'vuepress/client'
 import { setupTransparentNavbar } from 'vuepress-theme-hope/presets/transparentNavbar.js'
-import BlankLayout from './layouts/BlankLayout.vue'
+
+import CaptionedImage from './components/CaptionedImage.vue'
 import ContactForm from './components/ContactForm.vue'
 import ContentSection from './components/ContentSection.vue'
-import VPFooter from './components/VPFooter.vue'
 import ProcessStep from './components/ProcessStep.vue'
 import ProjectCard from './components/ProjectCard.vue'
 import ServiceCard from './components/ServiceCard.vue'
 import TeamMember from './components/TeamMember.vue'
-import CaptionedImage from './components/CaptionedImage.vue'
+import VPFooter from './components/VPFooter.vue'
+import BlankLayout from './layouts/BlankLayout.vue'
 
 export default defineClientConfig({
   enhance({ app }) {

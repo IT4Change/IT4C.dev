@@ -1,9 +1,10 @@
+import tailwindcss from '@tailwindcss/vite'
 import { viteBundler } from '@vuepress/bundler-vite'
-import Imagemin from 'vuepress-plugin-imagemin'
 import { defineUserConfig } from 'vuepress'
+import Imagemin from 'vuepress-plugin-imagemin'
+
 import meta from './config/meta'
 import theme from './config/theme'
-import tailwindcss from '@tailwindcss/vite'
 
 export default defineUserConfig({
   lang: 'de-DE',
