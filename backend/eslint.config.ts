@@ -8,7 +8,7 @@ export default [
     languageOptions: {
       parserOptions: {
         projectService: {
-          allowDefaultProject: ['jest/*.ts', 'src/*.spec.ts', 'src/*.test.ts'],
+          allowDefaultProject: ['jest.config.ts', 'jest/*.ts', 'src/*.spec.ts', 'src/*.test.ts'],
           defaultProject: './tsconfig.eslint.json',
         },
       },
