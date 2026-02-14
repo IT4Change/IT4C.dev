@@ -11,8 +11,8 @@
     "url": "git+https://github.com/IT4Change/IT4C.dev.git"
   },
   "scripts": {
-    "start": "node ./build/src/index.js",
-    "build": "tsc",
+    "start": "node ./build/index.js",
+    "build": "tsup src/index.ts --format esm --clean --out-dir build",
     "dev": "tsx watch ./src/index.ts",
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "lint": "eslint --max-warnings 0 .",
@@ -24,6 +24,7 @@
     "eslint-config-it4c": "^0.11.2",
     "jest": "^30.2.0",
     "ts-jest": "^29.4.6",
+    "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
   },
