@@ -2,6 +2,7 @@
   "name": "it4c.dev",
   "version": "1.0.0",
   "description": "The IT4C.dev website",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "build": "vuepress build docs",
