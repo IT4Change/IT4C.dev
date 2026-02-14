@@ -27,14 +27,8 @@ export default [
   {
     files: ['**/*.vue'],
     rules: {
-      'vue/html-self-closing': [
-        'error',
-        {
-          html: {
-            void: 'any',
-          },
-        },
-      ],
+      'vue/html-self-closing': ['error', { html: { void: 'any' } }],
+      'vue/singleline-html-element-content-newline': 'off',
     },
   },
 ]
