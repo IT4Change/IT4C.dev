@@ -9,7 +9,7 @@
     "dev": "vuepress dev docs",
     "dev-prod": "npm run build && http-server ./docs/.vuepress/dist",
     "test": "npm run test:lint:textlint && npm run test:lint:eslint",
-    "test:lint:eslint": "eslint",
+    "test:lint:eslint": "eslint --max-warnings 0 .",
     "test:lint:textlint": "textlint \"*.md\" \"docs/**/*.md\""
   },
   "repository": {
