@@ -31,5 +31,5 @@ jobs:
       - name: Install Dependencies & Build Library
         run: |
           npm install
-          npm run test:unit
+          npm test
         working-directory: ./backend

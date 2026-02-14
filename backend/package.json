@@ -14,7 +14,7 @@
     "start": "node ./build/src/index.js",
     "build": "tsc",
     "dev": "tsx watch ./src/index.ts",
-    "test:unit": "NODE_OPTIONS='--experimental-vm-modules' jest",
+    "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "lint": "eslint --max-warnings 0 .",
     "update": "npx npm-check-updates"
   },
