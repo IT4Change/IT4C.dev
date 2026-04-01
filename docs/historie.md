@@ -16,7 +16,7 @@ Lasst uns das soziale Netzwerk live auf [stage.ocelot.social](https://stage.ocel
 ## Gradido
 
 Im Jahr 2021 hat sich ein Großteil des Teams dem Projekt [Gradido](https://github.com/gradido/gradido) angeschlossen. Wie immer war unser Scout [Alex](team/alexander-friedland.md) der erste, gefolgt von [Ulf](team/ulf-gebhardt.md), der zu dieser Zeit in Norwegen wohnte. Bald darauf stieß [Moriz](team/moriz-wahl.html) dazu, und im Sommer 2021 kam [Hannes](team/hannes-heine.html) an Bord.
-Als Ulf eine Reise nach Italien antrat, konnte [Wolle](team/wolfgang-huss.md) <!-- textlint-disable write-good--> schließlich<!-- textlint-enable write-good --> überzeugt werden, sich anzuschließen, bald gefolgt von [Mathias](team/mathias-lenz.md).
+Als Ulf eine Reise nach Italien antrat, konnte [Wolle](team/wolfgang-huss.md) <!-- textlint-disable write-good--> schließlich<!-- textlint-enable write-good --> überzeugt werden, sich anzuschließen.
 
 ## Yunite.me
 

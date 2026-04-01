@@ -24,7 +24,6 @@ Einige Projekte, auf die wir stolz sind:
 
 - [Alexander Friedland](./team/alexander-friedland.md)
 - [Hannes Heine](./team/hannes-heine.md)
-- [Mathias Lenz](./team/mathias-lenz.md)
 - [Maximilian Harz](./team/maximilian-harz.md)
 - [Moriz Wahl](./team/moriz-wahl.md)
 - [Sebastian Stein](./team/sebastian-stein.md)
