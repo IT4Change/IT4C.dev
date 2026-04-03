@@ -7,7 +7,6 @@ Alexander Friedland entdeckte das Projekt und arbeitete als Frontend-Entwickler.
 Ulf Gebhardt war der Project Owner und der Dev-Op.
 Moriz Wahl war verantwortlich für das Backend und die Unit-Tests.
 Hannes Heine arbeitete am Backend und war agiler Coach.
-Mathias Lenz erstellte die End-to-End-Testszenarien und den Dev-Op.
 Wolfgang Huß hat ebenfalls am Backend gearbeitet.
 
 ## Techstack

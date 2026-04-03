@@ -112,12 +112,6 @@ layout: BlankLayout
       image="./images/portrait/hannes-heine.jpg"
     />
     <TeamMember
-      name="Mathias"
-      role="Testing, Entwicklung"
-      profileUrl="./team/mathias-lenz.html"
-      image="./images/portrait/ml-portrait.jpg"
-    />
-    <TeamMember
       name="Max"
       role="Frontend"
       profileUrl="/team/maximilian-harz.html"
