@@ -23,7 +23,7 @@
     "eslint": "^10.1.0",
     "eslint-config-it4c": "^0.12.0",
     "jest": "^30.3.0",
-    "ts-jest": "^29.4.6",
+    "ts-jest": "^29.4.9",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
     "typescript": "^5.9.3"
