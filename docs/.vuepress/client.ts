@@ -1,4 +1,5 @@
 import { defineClientConfig } from 'vuepress/client'
+// eslint-disable-next-line import-x/extensions -- the "./presets/*" subpath export maps straight to a file path, so the extension is required
 import { setupTransparentNavbar } from 'vuepress-theme-hope/presets/transparentNavbar.js'
 
 import CaptionedImage from './components/CaptionedImage.vue'
