@@ -4,7 +4,6 @@ updates:
 - package-ecosystem: "github-actions"
   open-pull-requests-limit: 99
   directory: "/"
-  rebase-strategy: "disabled"
   schedule:
     interval: weekly
     day: "saturday"
@@ -15,7 +14,6 @@ updates:
 - package-ecosystem: docker
   open-pull-requests-limit: 99
   directory: "/"
-  rebase-strategy: "disabled"
   schedule:
     interval: weekly
     day: "saturday"
@@ -24,7 +22,6 @@ updates:
 - package-ecosystem: npm
   open-pull-requests-limit: 99
   directory: "/"
-  rebase-strategy: "disabled"
   schedule:
     interval: weekly
     day: "saturday"
@@ -44,7 +41,6 @@ updates:
 - package-ecosystem: docker
   open-pull-requests-limit: 99
   directory: "/backend"
-  rebase-strategy: "disabled"
   schedule:
     interval: weekly
     day: "saturday"
@@ -53,7 +49,6 @@ updates:
 - package-ecosystem: npm
   open-pull-requests-limit: 99
   directory: "/backend/"
-  rebase-strategy: "disabled"
   schedule:
     interval: weekly
     day: "saturday"
