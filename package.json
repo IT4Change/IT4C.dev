@@ -28,7 +28,7 @@
     "@vuepress/bundler-vite": "^2.0.0-rc.30",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.130",
     "eslint": "^10.8.1",
-    "eslint-config-it4c": "^0.12.1",
+    "eslint-config-it4c": "^0.13.0",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.102.0",
     "tailwindcss": "^4.3.3",
