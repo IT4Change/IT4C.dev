@@ -32,7 +32,7 @@
     "@fastify/type-provider-typebox": "^6.1.0",
     "@types/nodemailer": "^8.0.0",
     "fastify": "^5.12.1",
-    "nodemailer": "^9.0.5",
+    "nodemailer": "^9.1.1",
     "ts-dotenv": "^0.9.1"
   },
   "imports": {
