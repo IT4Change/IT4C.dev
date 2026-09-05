@@ -19,7 +19,7 @@
     "update": "npx npm-check-updates"
   },
   "devDependencies": {
-    "@jest/globals": "^30.4.1",
+    "@jest/globals": "^30.5.1",
     "eslint": "^10.9.1",
     "eslint-config-it4c": "^0.13.2",
     "jest": "^30.4.2",
