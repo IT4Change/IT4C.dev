@@ -27,7 +27,7 @@
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "@vuepress/bundler-vite": "^2.0.0-rc.31",
     "@vuepress/plugin-slimsearch": "^2.0.0-rc.134",
-    "eslint": "^10.9.1",
+    "eslint": "^10.11.0",
     "eslint-config-it4c": "^0.13.2",
     "http-server": "^14.1.1",
     "sass-embedded": "^1.103.1",
