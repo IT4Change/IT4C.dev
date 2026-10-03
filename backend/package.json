@@ -16,7 +16,8 @@
     "dev": "tsx watch ./src/index.ts",
     "test": "NODE_OPTIONS='--experimental-vm-modules' jest",
     "lint": "eslint --max-warnings 0 .",
-    "update": "npx npm-check-updates"
+    "update": "npx npm-check-updates",
+    "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
     "@jest/globals": "^30.5.2",
