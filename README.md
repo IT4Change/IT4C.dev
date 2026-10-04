@@ -1,12 +1,12 @@
 # IT4C.dev
 
-This repository contains the [Website](https://www.it4c.dev) utilizing `vuepress` to generate it.
+This repository contains the [Website](https://www.it4c.dev) utilizing `vuepress` to generate it and a small backend handling the contact form.
 
 ## Software requirements
 
 This package requires:
 
-- [nodejs](https://github.com/nodejs/node)
+- [nodejs](https://github.com/nodejs/node) (version pinned in `.tool-versions`)
 - [npm](https://github.com/npm/cli)
 
 On alpine you need to install the following software to get the `vuepress-plugin-imagemin` properly installed:
@@ -17,11 +17,18 @@ apk add autoconf libtool automake build-base nasm libpng-dev
 
 ## Techstack
 
-This package uses:
+Frontend (`/`):
 
-- [vuepress](https://github.com/vuejs/vuepress)
-- [vuepress-theme-book](https://github.com/cyrilf/vuepress-theme-book)
-- [vuepress-build-and-deploy](https://github.com/IT4Change/vuepress-build-and-deploy)
+- [vuepress](https://github.com/vuepress/core) with the vite bundler
+- [vuepress-theme-hope](https://github.com/vuepress-theme-hope/vuepress-theme-hope)
+- [tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+- [vuepress-plugin-imagemin](https://github.com/vuepress/vuepress-plugin-imagemin)
+
+Backend (`/backend`):
+
+- [fastify](https://github.com/fastify/fastify) with [typebox](https://github.com/sinclairzx81/typebox)
+- [nodemailer](https://github.com/nodemailer/nodemailer)
+- [tsup](https://github.com/egoist/tsup), [tsx](https://github.com/privatenumber/tsx) and [jest](https://github.com/jestjs/jest)
 
 ## Usage
 
@@ -49,7 +56,33 @@ Run the tests to ensure everything is working as expected
 
 ```sh
 npm test
+npm run test:lint:typecheck
 ```
+
+### Backend
+
+The backend serves `POST /mail` for the contact form (exposed as `/api/mail` via nginx) and sends the message via SMTP.
+
+```sh
+cd backend
+npm install
+npm run dev        # watch mode
+npm run build      # build into backend/build
+npm start          # run the build
+npm test           # unit tests
+npm run lint
+npm run typecheck
+```
+
+Configure it via environment variables (or a `backend/.env` file):
+
+| Variable         | Default                         |
+|------------------|---------------------------------|
+| `NODE_ENV`       | `development`                   |
+| `PORT`           | `3000`                          |
+| `MAIL_HOST`      | `localhost`                     |
+| `EMAIL_RECEIVER` | `admin@it4c.dev`                |
+| `EMAIL_SUBJECT`  | `[IT4C] Received EMail from %s` |
 
 ## Deploy
 
@@ -128,8 +161,13 @@ For the github webhook configure the following:
 
 ## How it works
 
-This repository utilizes `vuepress-deploy` to automatically deploy the current `master` branch to github pages.
+```mermaid
+flowchart LR
+  PR[PR branch] -->|review & CI| M[master]
+  M -->|push event| W[GitHub webhook]
+  W -->|/hooks/github| D[deploy.sh on the server]
+  D -->|npm run build| F[static files served by nginx]
+  D -->|pm2| B[backend on /api/]
+```
 
-![repo-architecture](./docs/.vuepress/public/images/docs/architecture.png)
-
-A Pullrequest-Review-Workflow is applied to get changes into the `master`. From there on an automatic github workflow script utilizing `vuepress-deploy` is taking over. The vuepress page is built and force-pushed to the `gh-pages` branch, which in turn is then deployed on the github pages infrastructure and bound to the web address [IT4C.dev](https://www.it4c.dev).
+A Pullrequest-Review-Workflow is applied to get changes into `master`; the GitHub workflows lint, typecheck, test and build frontend and backend. On a push to `master` GitHub calls the webhook on the server, which runs `.github/webhooks/deploy.sh`: it pulls the branch, builds the website into a new directory `$DEPLOY_DIR-<git-ref>` and switches the symlink `$DEPLOY_DIR` served by nginx to it, then rebuilds and restarts the backend via `pm2`.
