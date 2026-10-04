@@ -146,6 +146,23 @@ vi /etc/nginx/http.d/default.conf
 #     #access_log $LOG_PATH/nginx-access.api.log hooks_log;
 #     #error_log $LOG_PATH/nginx-error.api.log warn;
 # }
+
+# proxy the current ocelot.social crowdfunding image, so visitors never
+# contact a third party (GDPR) while the image stays up to date
+# proxy_cache_path /var/cache/nginx/ext levels=1 keys_zone=ext:1m max_size=50m inactive=7d; # http context, outside the server block
+# location = /ext/crowdfunding.png {
+#     proxy_pass                    https://ocelot.social/crowdfunding/current.png;
+#     proxy_ssl_server_name         on;
+#     proxy_pass_request_headers    off; # do not forward visitor headers (cookies, user agent, referer)
+#     proxy_set_header              Host ocelot.social;
+#     proxy_hide_header             Set-Cookie;
+#     proxy_cache                   ext;
+#     proxy_cache_valid             200 1h;
+#     proxy_cache_use_stale         error timeout updating http_500 http_502 http_503 http_504;
+#     proxy_cache_background_update on;
+#     proxy_cache_lock              on;
+#     expires                       1h;
+# }
 ```
 
 For the github webhook configure the following:
