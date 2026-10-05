@@ -13,6 +13,16 @@ export default defineUserConfig({
   bundler: viteBundler({
     viteOptions: {
       plugins: [tailwindcss()],
+      server: {
+        // mirrors the nginx proxy in production, see README
+        proxy: {
+          '/ext/crowdfunding.png': {
+            target: 'https://ocelot.social',
+            changeOrigin: true,
+            rewrite: () => '/crowdfunding/current.png',
+          },
+        },
+      },
     },
   }),
   plugins: [

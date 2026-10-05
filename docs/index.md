@@ -205,10 +205,10 @@ layout: BlankLayout
       </ul>
     </div>
     <ProjectCard
-      title="Aktuelles Crowdfunding"
-      description="Einige neue Features für unsere Software werden über Crowdfundings finanziert. Mehr Infos gibt es hier."
-      image="./images/crowdfunding/crowdfunding-feature-chat-for-groups--de.png"
-      href="https://ocelot.social/news/2026-03-03-crowdfunding-feature-chat-for-groups/"
+      title="Crowdfunding für ocelot.social"
+      description="Einige neue Features für unsere Software werden über Crowdfundings finanziert. Hier gibt es die aktuelle Kampagne und den Spendenstand."
+      image="/ext/crowdfunding.png"
+      href="https://ocelot.social/de/crowdfunding/"
       target="_blank"
     />
   </div>
