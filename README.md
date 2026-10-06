@@ -86,7 +86,7 @@ Configure it via environment variables (or a `backend/.env` file):
 
 ## Deploy
 
-You can use the webhook template `webhook.conf.template` and the `deploy.sh` script in `.github/webhooks/` for an automatic deployment from a (github) webhook.
+You can use the webhook template `hooks.json.template` and the `deploy.sh` script in `.github/webhooks/` for an automatic deployment from a (github) webhook. The hook reacts to published GitHub releases and deploys the released tag.
 
 For this to work follow these steps (using alpine):
 
@@ -96,6 +96,7 @@ cp .github/webhooks/hooks.json.template .github/webhooks/hooks.json
 vi .github/webhooks/hooks.json
 # adjust content of .github/webhooks/hooks.json
 # replace all variables accordingly
+# ($PROJECT_ROOT, $DEPLOY_DIR, $WEBHOOK_GITHUB_SECRET)
 
 # copy webhook service file
 cp .github/webhooks/webhook.template /etc/init.d/webhook
@@ -173,7 +174,7 @@ For the github webhook configure the following:
 | Content type                                         | application/json              |
 | Secret                                               | A SECRET                      |
 | SSL verification                                     | Enable SSL verification       |
-| Which events would you like to trigger this webhook? | Send me everything.           |
+| Which events would you like to trigger this webhook? | Let me select individual events → Releases |
 | Active                                               | [x]                           |
 
 ## How it works
@@ -181,10 +182,16 @@ For the github webhook configure the following:
 ```mermaid
 flowchart LR
   PR[PR branch] -->|review & CI| M[master]
-  M -->|push event| W[GitHub webhook]
+  M -->|release-please| R[release PR]
+  R -->|merge| T[GitHub release + tag]
+  T -->|release event| W[GitHub webhook]
   W -->|/hooks/github| D[deploy.sh on the server]
   D -->|npm run build| F[static files served by nginx]
   D -->|pm2| B[backend on /api/]
 ```
 
-A Pullrequest-Review-Workflow is applied to get changes into `master`; the GitHub workflows lint, typecheck, test and build frontend and backend. On a push to `master` GitHub calls the webhook on the server, which runs `.github/webhooks/deploy.sh`: it pulls the branch, builds the website into a new directory `$DEPLOY_DIR-<git-ref>` and switches the symlink `$DEPLOY_DIR` served by nginx to it, then rebuilds and restarts the backend via `pm2`.
+A Pullrequest-Review-Workflow is applied to get changes into `master`; the GitHub workflows lint, typecheck, test and build frontend and backend. Every push to `master` lets [release-please](https://github.com/googleapis/release-please) (`.github/workflows/release.yml`) maintain a release PR, which bumps the version from the conventional commit history and updates `CHANGELOG.md`. Merging that PR creates the tag and publishes a GitHub release.
+
+On a published release GitHub calls the webhook on the server, which runs `.github/webhooks/deploy.sh $DEPLOY_DIR <tag>`: it checks out the tag, builds the website into a new directory `$DEPLOY_DIR-<tag>` and switches the symlink `$DEPLOY_DIR` served by nginx to it, then builds the backend and restarts it via `pm2`. The script aborts on the first error, so a failed build keeps the running backend. Without a tag (`deploy.sh $DEPLOY_DIR`) it deploys the latest `master`, which is useful for a manual deployment on the server.
+
+The release workflow authenticates as the `it4c-release-bot` GitHub App (`vars.RELEASE_APP_ID`, `secrets.RELEASE_APP_PRIVATE_KEY`), so the CI workflows also run on the release PR.

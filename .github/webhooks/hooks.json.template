@@ -2,13 +2,17 @@
     {
       "id": "github",
       "execute-command": "$PROJECT_ROOT/.github/webhooks/deploy.sh",
+      "command-working-directory": "$PROJECT_ROOT",
       "pass-arguments-to-command": [
         {
           "source": "string",
           "name": "$DEPLOY_DIR"
+        },
+        {
+          "source": "payload",
+          "name": "release.tag_name"
         }
       ],
-      "command-working-directory": "$PROJECT_ROOT",
       "trigger-rule": {
         "and": [
           {
@@ -24,10 +28,10 @@
           {
             "match": {
               "type": "value",
-              "value": "refs/heads/$WEBHOOK_GITHUB_BRANCH",
+              "value": "published",
               "parameter": {
                 "source": "payload",
-                "name": "ref"
+                "name": "action"
               }
             }
           }
