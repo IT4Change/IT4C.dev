@@ -1,5 +1,7 @@
 import { jest, describe, test, expect, beforeEach } from '@jest/globals'
 
+import pkg from '#root/package.json' with { type: 'json' }
+
 import type { Env } from './env'
 
 const mockSendMail = jest.fn()
@@ -29,6 +31,16 @@ describe('HTTP Server', () => {
     })
 
     expect(response.statusCode).toBe(404)
+  })
+
+  test('GET /version should return the package version', async () => {
+    const response = await server.inject({
+      method: 'GET',
+      url: '/version',
+    })
+
+    expect(response.statusCode).toBe(200)
+    expect(JSON.parse(response.body)).toEqual({ version: pkg.version })
   })
 
   test('POST /mail without body should return 400 Bad Request', async () => {

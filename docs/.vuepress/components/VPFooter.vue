@@ -3,7 +3,16 @@
     <div class="content-width mx-auto px-4 md:px-6">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <div class="mb-4 md:mb-0">
-          <p class="text-sm">&copy; {{ currentYear }} CC BY IT4C.dev & Autoren</p>
+          <p class="text-sm">
+            &copy; {{ currentYear }} CC BY IT4C.dev & Autoren ·
+            <a
+              :href="`https://github.com/IT4Change/IT4C.dev/releases/tag/v${version}`"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="!text-white hover:!text-gray-300 hover:!underline transition-colors"
+              >v{{ version }}</a
+            >
+          </p>
         </div>
         <div class="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
           <a
@@ -46,6 +55,11 @@
 <script lang="ts">
   export default {
     name: 'FooterSection',
+    data() {
+      return {
+        version: __APP_VERSION__,
+      }
+    },
     computed: {
       currentYear() {
         return new Date().getFullYear()

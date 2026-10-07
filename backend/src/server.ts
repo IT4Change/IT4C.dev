@@ -4,6 +4,8 @@ import { Format, Type, TypeBoxValidatorCompiler } from '@fastify/type-provider-t
 import Fastify from 'fastify'
 import { createTransport } from 'nodemailer'
 
+import pkg from '#root/package.json' with { type: 'json' }
+
 import { IsEmail } from './formats'
 
 import type { Env } from './env'
@@ -62,6 +64,10 @@ function createServer(env: Env): FastifyInstance {
         return reply.status(400).send({ success: false, error: error as string })
       }
     })
+
+  // Version, to verify which release is deployed
+  fastify.get('/version', () => ({ version: pkg.version }))
+
   return fastify
 }
 
