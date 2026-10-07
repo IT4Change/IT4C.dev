@@ -1,6 +1,6 @@
 {
   "name": "it4c.dev",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "The IT4C.dev website",
   "type": "module",
   "main": "index.js",
