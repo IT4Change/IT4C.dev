@@ -195,3 +195,5 @@ A Pullrequest-Review-Workflow is applied to get changes into `master`; the GitHu
 On a published release GitHub calls the webhook on the server, which runs `.github/webhooks/deploy.sh $DEPLOY_DIR <tag>`: it checks out the tag, builds the website into a new directory `$DEPLOY_DIR-<tag>` and switches the symlink `$DEPLOY_DIR` served by nginx to it, then builds the backend and restarts it via `pm2`. The script aborts on the first error, so a failed build keeps the running backend. Without a tag (`deploy.sh $DEPLOY_DIR`) it deploys the latest `master`, which is useful for a manual deployment on the server.
 
 The release workflow authenticates as the `it4c-release-bot` GitHub App (`vars.RELEASE_APP_ID`, `secrets.RELEASE_APP_PRIVATE_KEY`), so the CI workflows also run on the release PR.
+
+To verify a deployment, the footer of the website shows the version of the frontend (linking to its GitHub release) and `https://it4c.dev/api/version` returns the version of the backend.

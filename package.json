@@ -52,5 +52,8 @@
     "vuepress": "^2.0.0-rc.31",
     "vuepress-plugin-imagemin": "^0.1.2",
     "vuepress-theme-hope": "^2.0.0-rc.109"
+  },
+  "imports": {
+    "#root/*": "./*"
   }
 }

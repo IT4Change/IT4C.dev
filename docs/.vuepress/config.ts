@@ -3,6 +3,8 @@ import { viteBundler } from '@vuepress/bundler-vite'
 import { defineUserConfig } from 'vuepress'
 import Imagemin from 'vuepress-plugin-imagemin'
 
+import pkg from '#root/package.json' with { type: 'json' }
+
 import meta from './config/meta'
 import theme from './config/theme'
 
@@ -13,6 +15,10 @@ export default defineUserConfig({
   bundler: viteBundler({
     viteOptions: {
       plugins: [tailwindcss()],
+      // version shown in the footer, bumped by release-please
+      define: {
+        __APP_VERSION__: JSON.stringify(pkg.version),
+      },
       server: {
         // mirrors the nginx proxy in production, see README
         proxy: {
