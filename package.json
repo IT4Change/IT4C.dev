@@ -48,7 +48,7 @@
     "textlint-rule-period-in-list-item": "^1.0.1",
     "textlint-rule-write-good": "^2.0.0",
     "typescript": "~5.9",
-    "vue-tsc": "^3.3.12",
+    "vue-tsc": "^3.3.13",
     "vuepress": "^2.0.0-rc.31",
     "vuepress-plugin-imagemin": "^0.1.2",
     "vuepress-theme-hope": "^2.0.0-rc.109"
