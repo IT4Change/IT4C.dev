@@ -15,7 +15,7 @@
     { "type": "style", "section": "Styles", "hidden": false },
     { "type": "chore", "section": "Miscellaneous Chores", "hidden": false }
   ],
-  "bootstrap-sha": "fd45072aaf2f9c0b4dd004f48ec630afd2adb4ec",
+  "bootstrap-sha": "16751ed6908df91c4a2d1c45fada5216036decfa",
   "packages": {
     ".": {
       "extra-files": [
