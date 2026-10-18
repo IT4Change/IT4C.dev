@@ -6,7 +6,7 @@
           <p class="text-sm">
             &copy; {{ currentYear }} CC BY IT4C.dev & Autoren ·
             <a
-              :href="`https://github.com/IT4Change/IT4C.dev/releases/tag/v${version}`"
+              :href="`https://github.com/IT4Change/IT4C.dev/releases/tag/${releaseTag}`"
               target="_blank"
               rel="noopener noreferrer"
               class="!text-white hover:!text-gray-300 hover:!underline transition-colors"
@@ -58,6 +58,7 @@
     data() {
       return {
         version: __APP_VERSION__,
+        releaseTag: __APP_RELEASE_TAG__,
       }
     },
     computed: {

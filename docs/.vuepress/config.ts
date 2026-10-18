@@ -21,6 +21,8 @@ export default defineUserConfig({
       // version shown in the footer, bumped by release-please
       define: {
         __APP_VERSION__: JSON.stringify(pkg.version),
+        // release-please tags releases as <package name>-v<version>
+        __APP_RELEASE_TAG__: JSON.stringify(`${pkg.name}-v${pkg.version}`),
       },
       server: {
         // mirrors the nginx proxy in production, see README
