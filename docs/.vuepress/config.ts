@@ -15,6 +15,9 @@ export default defineUserConfig({
   bundler: viteBundler({
     viteOptions: {
       plugins: [tailwindcss()],
+      // @vuepress/plugin-slimsearch (rc.137) does not mark @vuepress/search-helper
+      // as ssr.noExternal, so Node tries to import its .css files during SSR.
+      ssr: { noExternal: ['@vuepress/search-helper'] },
       // version shown in the footer, bumped by release-please
       define: {
         __APP_VERSION__: JSON.stringify(pkg.version),
