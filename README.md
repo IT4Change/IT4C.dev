@@ -192,6 +192,8 @@ flowchart LR
 
 A Pullrequest-Review-Workflow is applied to get changes into `master`; the GitHub workflows lint, typecheck, test and build frontend and backend. Every push to `master` lets [release-please](https://github.com/googleapis/release-please) (`.github/workflows/release.yml`) maintain a release PR, which bumps the version from the conventional commit history and updates `CHANGELOG.md`. Merging that PR creates the tag and publishes a GitHub release.
 
+Every commit type the PR title lint accepts shows up in the changelog and extends the release PR — including `build(deps)` from Dependabot, `chore`, `ci` and `test`. release-please hides these types by default; `changelog-sections` in `release-please-config.json` makes them visible.
+
 On a published release GitHub calls the webhook on the server, which runs `.github/webhooks/deploy.sh $DEPLOY_DIR <tag>`: it checks out the tag, builds the website into a new directory `$DEPLOY_DIR-<tag>` and switches the symlink `$DEPLOY_DIR` served by nginx to it, then builds the backend and restarts it via `pm2`. The script aborts on the first error, so a failed build keeps the running backend. Without a tag (`deploy.sh $DEPLOY_DIR`) it deploys the latest `master`, which is useful for a manual deployment on the server.
 
 The release workflow authenticates as the `it4c-release-bot` GitHub App (`vars.RELEASE_APP_ID`, `secrets.RELEASE_APP_PRIVATE_KEY`), so the CI workflows also run on the release PR.
