@@ -32,7 +32,7 @@
   "dependencies": {
     "@fastify/type-provider-typebox": "^6.3.0",
     "@types/nodemailer": "^8.0.2",
-    "fastify": "^5.12.5",
+    "fastify": "^5.12.7",
     "nodemailer": "^10.0.12",
     "ts-dotenv": "^0.9.1"
   },
