@@ -190,7 +190,7 @@ flowchart LR
   D -->|pm2| B[backend on /api/]
 ```
 
-A Pullrequest-Review-Workflow is applied to get changes into `master`; the GitHub workflows lint, typecheck, test and build frontend and backend. Every push to `master` lets [release-please](https://github.com/googleapis/release-please) (`.github/workflows/release.yml`) maintain a release PR, which bumps the version from the conventional commit history and updates `CHANGELOG.md`. Merging that PR creates the tag and publishes a GitHub release.
+A Pullrequest-Review-Workflow is applied to get changes into `master`; the GitHub workflows lint, typecheck, test and build frontend and backend. Every push to `master` lets [release-please](https://github.com/googleapis/release-please) (`.github/workflows/release.yml`) maintain a release PR, which bumps the version from the conventional commit history and updates `CHANGELOG.md`. Merging that PR creates the tag (`it4c.dev-v<version>`, named after `package.json`) and publishes a GitHub release.
 
 Every commit type the PR title lint accepts shows up in the changelog and extends the release PR — including `build(deps)` from Dependabot, `chore`, `ci` and `test`. release-please hides these types by default; `changelog-sections` in `release-please-config.json` makes them visible.
 
