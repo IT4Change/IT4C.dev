@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.1.2](https://github.com/IT4Change/IT4C.dev/compare/it4c.dev-v1.1.1...it4c.dev-v1.1.2) (2026-10-28)
+
+
+### Build System & Dependencies
+
+* **deps-dev:** bump eslint from 10.12.0 to 10.13.0 ([#816](https://github.com/IT4Change/IT4C.dev/issues/816)) ([7b8d21e](https://github.com/IT4Change/IT4C.dev/commit/7b8d21e22f6f2cc14a2d41a911f6c1120a6d66b8))
+* **deps-dev:** bump eslint from 10.12.0 to 10.13.0 in /backend ([#818](https://github.com/IT4Change/IT4C.dev/issues/818)) ([7bb9227](https://github.com/IT4Change/IT4C.dev/commit/7bb9227fd125626858aeda240aa7c3a1ddc95d1c))
+* **deps-dev:** bump eslint-config-it4c from 0.13.2 to 0.14.1 ([#819](https://github.com/IT4Change/IT4C.dev/issues/819)) ([d1f5efb](https://github.com/IT4Change/IT4C.dev/commit/d1f5efb78357c3d06661dbab6806170b334193b1))
+* **deps-dev:** bump eslint-config-it4c in /backend ([#817](https://github.com/IT4Change/IT4C.dev/issues/817)) ([a16b6cd](https://github.com/IT4Change/IT4C.dev/commit/a16b6cdea8cc08f49700efa008349360d628bf5f))
+* **deps-dev:** bump sass-embedded from 1.105.1 to 1.105.2 ([#821](https://github.com/IT4Change/IT4C.dev/issues/821)) ([3d64fe6](https://github.com/IT4Change/IT4C.dev/commit/3d64fe670001986db7030f771cbc150e1306aa34))
+* **deps-dev:** bump ts-jest from 29.4.14 to 29.4.15 in /backend ([#820](https://github.com/IT4Change/IT4C.dev/issues/820)) ([90ae130](https://github.com/IT4Change/IT4C.dev/commit/90ae130a925baa63435c94706783a7add5936d32))
+* **deps-dev:** bump tsup from 8.5.1 to 9.0.0 in /backend ([#822](https://github.com/IT4Change/IT4C.dev/issues/822)) ([b8da113](https://github.com/IT4Change/IT4C.dev/commit/b8da113c25108d822b0a726141840ff120c390a6))
+* **deps:** bump nodemailer from 10.1.1 to 10.1.7 in /backend ([#815](https://github.com/IT4Change/IT4C.dev/issues/815)) ([9be5b8a](https://github.com/IT4Change/IT4C.dev/commit/9be5b8a947e93747d3678922b3e3520b9ae2a1ff))
+
 ## [1.1.1](https://github.com/IT4Change/IT4C.dev/compare/it4c.dev-v1.1.0...it4c.dev-v1.1.1) (2026-10-18)
 
 
