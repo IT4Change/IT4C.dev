@@ -22,7 +22,7 @@
   "devDependencies": {
     "@jest/globals": "^30.5.2",
     "eslint": "^10.13.0",
-    "eslint-config-it4c": "^0.13.2",
+    "eslint-config-it4c": "^0.14.1",
     "jest": "^30.5.2",
     "ts-jest": "^29.4.15",
     "tsup": "^9.0.0",
