@@ -1,5 +1,20 @@
 # Changelog
 
+## [1.1.3](https://github.com/IT4Change/IT4C.dev/compare/it4c.dev-v1.1.2...it4c.dev-v1.1.3) (2026-11-22)
+
+
+### Build System & Dependencies
+
+* **deps-dev:** bump @tailwindcss/vite from 4.3.3 to 4.3.5 ([#835](https://github.com/IT4Change/IT4C.dev/issues/835)) ([d8b384f](https://github.com/IT4Change/IT4C.dev/commit/d8b384f9dd8f4edc4baad30f70000e2d1f5a25ff))
+* **deps-dev:** bump eslint from 10.13.0 to 10.14.0 ([#824](https://github.com/IT4Change/IT4C.dev/issues/824)) ([8cd9188](https://github.com/IT4Change/IT4C.dev/commit/8cd9188a6ad9bae7c80958f515a529d74735858b))
+* **deps-dev:** bump eslint from 10.13.0 to 10.15.0 in /backend ([#838](https://github.com/IT4Change/IT4C.dev/issues/838)) ([90020d0](https://github.com/IT4Change/IT4C.dev/commit/90020d007f76ec0fc4a9c4f92880211c85109c3b))
+* **deps-dev:** bump eslint from 10.14.0 to 10.15.0 ([#841](https://github.com/IT4Change/IT4C.dev/issues/841)) ([d826e9a](https://github.com/IT4Change/IT4C.dev/commit/d826e9a975e1b161ff7c8de541a475871ac30652))
+* **deps-dev:** bump sass-embedded from 1.106.1 to 1.108.1 ([#834](https://github.com/IT4Change/IT4C.dev/issues/834)) ([409b12c](https://github.com/IT4Change/IT4C.dev/commit/409b12cd2fb31d182e0c6f08a154614ca66ba9c2))
+* **deps-dev:** bump the linting group with 2 updates ([#839](https://github.com/IT4Change/IT4C.dev/issues/839)) ([8a13084](https://github.com/IT4Change/IT4C.dev/commit/8a130840f2a6ca2f8c78f97865d01a3321ef26d1))
+* **deps-dev:** bump vue-tsc from 3.3.13 to 3.3.14 ([#831](https://github.com/IT4Change/IT4C.dev/issues/831)) ([4b53f03](https://github.com/IT4Change/IT4C.dev/commit/4b53f033f2091881b42db535b11fd39fd015f541))
+* **deps:** bump fastify from 5.12.7 to 5.12.8 in /backend ([#829](https://github.com/IT4Change/IT4C.dev/issues/829)) ([a02e813](https://github.com/IT4Change/IT4C.dev/commit/a02e813439bfea343529da8695fc0e39f739fea4))
+* **deps:** bump nodemailer from 10.2.1 to 10.6.0 in /backend ([#837](https://github.com/IT4Change/IT4C.dev/issues/837)) ([90b9b36](https://github.com/IT4Change/IT4C.dev/commit/90b9b3670dfda3758568b3608aafe5fd609c67e7))
+
 ## [1.1.2](https://github.com/IT4Change/IT4C.dev/compare/it4c.dev-v1.1.1...it4c.dev-v1.1.2) (2026-10-28)
 
 
